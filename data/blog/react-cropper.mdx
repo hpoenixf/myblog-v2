@@ -1,0 +1,308 @@
+---
+title: 一个基于react的图片裁剪组件
+date: '2017-06-10'
+tags: ['markdown', 'code', 'features']
+draft: false
+---
+开始
+写了一年多vue，感觉碰到了点瓶颈，学习下react找找感觉。刚好最近使用vue写了个基于cropperJS的图片裁剪的组件，便花费了几个晚上的功夫用react再写一遍。代码地址，demo地址
+项目是使用create-react-app来开发的，省去了很多webpack配置的功夫，支持eslint，自动刷新等功能，使用前npm install并npm start即可。推荐同样是新学习react的人也用用看。
+项目写的比较简陋，自定义配置比较差，不过也是完成了裁剪图片的基本功能，希望可以帮助到初学react和想了解裁剪图片组件的朋友。
+组件的结构是这样的。
+
+```javascript
+<!--Cropper-->
+     <div>
+      <ImageUploader handleImgChange={this.handleImgChange} getCropData={this.getCropData}/>
+       <div className="image-principal">
+         <img src={this.state.imageValue} alt="" className="img" ref="img" onLoad={this.setSize}/>
+         <SelectArea ref="selectArea"></SelectArea>
+       </div>
+     </div>
+<!--ImageUploader     -->
+      <form className="image-upload-form" method="post" encType="multipart/form-data" >
+        <input type="file" name="inputOfFile" ref="imgInput" id="imgInput" onChange={this.props.handleImgChange}/>
+        <button onClick={this.props.getCropData}>获取裁剪参数</button>
+      </form>
+<!--SelectArea     -->
+     <div className="select-area" onMouseDown={ this.dragStart} ref="selectArea" >
+       <div className="top-resize" onMouseDown={ event => this.resizeStart(event, 'top')}></div>
+       <div className="right-resize" onMouseDown={ event => this.resizeStart(event, 'right')}></div>
+       <div className="bottom-resize" onMouseDown={ event => this.resizeStart(event, 'bottom')}></div>
+       <div className="left-resize" onMouseDown={ event => this.resizeStart(event, 'left')}></div>
+       <div className="right-bottom-resize" onMouseDown={ event => this.resizeStart(event, 'right')}></div>
+       <div className="left-top-resize" onMouseDown={ event => this.resizeStart(event, 'left')}></div>
+     </div>
+
+```
+
+
+
+
+ImageUploader & Cropper
+ImageUploader主要做的就是上传图片，监听了input的change事件，并调用了父组件Cropper的的handleImgChange方法,该方法设置了绑定到img元素的imageValue，会使得img元素出发load事件。
+
+```javascript
+handleImgChange = e => {
+  let fileReader = new FileReader()
+  fileReader.readAsDataURL(e.target.files[0])
+  fileReader.onload = e => {
+    this.setState({...this.state, imageValue: e.target.result})
+  }
+}
+```
+load事件触发了Cropper的setSize方法，该方法可以设置了图片和裁剪选择框的初始位置和大小。目前裁剪选择框是默认设置是大小为图片的80%，中间显示。
+
+```javascript
+setSize = () => {
+  let img = this.refs.img
+  let widthNum = parseInt(this.props.width, 10)
+  let heightNum = parseInt(this.props.height, 10)
+  this.setState({
+    ...this.state,
+    naturalSize: {
+      width: img.naturalWidth,
+      height: img.naturalHeight
+    }
+  })
+  let imgStyle = img.style
+  imgStyle.height = 'auto'
+  imgStyle.width = 'auto'
+  let principalStyle = ReactDOM.findDOMNode(this.refs.selectArea).parentElement.style
+  const ratio = img.width / img.height
+  // 设置图片大小、位置
+  if (img.width > img.height) {
+    imgStyle.width = principalStyle.width = this.props.width
+    imgStyle.height = principalStyle.height = widthNum / ratio + 'px'
+    principalStyle.marginTop = (widthNum - parseInt(principalStyle.height, 10)) / 2 + 'px'
+    principalStyle.marginLeft = 0
+  } else {
+    imgStyle.height = principalStyle.height = this.props.height
+    imgStyle.width = principalStyle.width = heightNum * ratio + 'px'
+    principalStyle.marginLeft = (heightNum - parseInt(principalStyle.width, 10)) / 2 + 'px'
+    principalStyle.marginTop = 0
+  }
+  // 设置选择框样式
+  let selectAreaStyle = ReactDOM.findDOMNode(this.refs.selectArea).style
+  let principalHeight = parseInt(principalStyle.height, 10)
+  let principalWidth = parseInt(principalStyle.width, 10)
+  if (principalWidth > principalHeight) {
+    selectAreaStyle.top = principalHeight * 0.1 + 'px'
+    selectAreaStyle.width = selectAreaStyle.height = principalHeight * 0.8 + 'px'
+    selectAreaStyle.left = (principalWidth - parseInt(selectAreaStyle.width, 10)) / 2 + 'px'
+  } else {
+    selectAreaStyle.left = principalWidth * 0.1 + 'px'
+    selectAreaStyle.width = selectAreaStyle.height = principalWidth * 0.8 + 'px'
+    selectAreaStyle.top = (principalHeight - parseInt(selectAreaStyle.height, 10)) / 2 + 'px'
+  }
+}
+```
+Cropper上还有一个getCropData方法，方法会打印并返回裁剪参数,
+```javascript
+getCropData = e => {
+  e.preventDefault()
+  let SelectArea = ReactDOM.findDOMNode(this.refs.selectArea).style
+  let a = {
+    width: parseInt(SelectArea.width, 10),
+    height: parseInt(SelectArea.height, 10),
+    left: parseInt(SelectArea.left, 10),
+    top: parseInt(SelectArea.top, 10)
+  }
+  a.radio = this.state.naturalSize.width / a.width
+  console.log(a)
+  return a
+}
+```
+SelectArea
+重新放一遍selectArea的结构。要注意，.top-resize的cursor属性是 n-resize，而和left，right，bottom对应的分别是w-resize，e-resize，s-resize
+```javascript
+<div className="select-area" onMouseDown={ this.dragStart} ref="selectArea" >
+  <div className="top-resize" onMouseDown={ event => this.resizeStart(event, 'top')}></div>
+  <div className="right-resize" onMouseDown={ event => this.resizeStart(event, 'right')}></div>
+  <div className="bottom-resize" onMouseDown={ event => this.resizeStart(event, 'bottom')}></div>
+  <div className="left-resize" onMouseDown={ event => this.resizeStart(event, 'left')}></div>
+  <div className="right-bottom-resize" onMouseDown={ event => this.resizeStart(event, 'right')}></div>
+  <div className="left-top-resize" onMouseDown={ event => this.resizeStart(event, 'left')}></div>
+</div>
+```
+selectArea的state值设为这样，selectArea保存拖拽选择框时的参数，resizeArea保存裁剪选择框时的参数，container为.image-principal元素，el为触发事件时的event.target。
+```javascript
+this.state = {
+  selectArea: null,
+  el: null,
+  container: null,
+  resizeArea: null
+}
+```
+拖拽选择框
+在.select-area按下鼠标，触发mouseDown事件，调用dragStart方法。
+使用method = e => {}的形式可以避免在jsx中使用this.method.bind(this)
+在这个方法中，首先保存按下鼠标时的鼠标位置，裁剪框与图片的相对距离和裁剪框的最大位移距离，接着添加事件监听
+```javascript
+dragStart = e => {
+  const el = e.target
+  const container = this.state.container
+  let selectArea = {
+    posLeft: e.clientX,
+    posTop: e.clientY,
+    left: e.clientX - el.offsetLeft,
+    top: e.clientY - el.offsetTop,
+    maxMoveX: container.offsetWidth - el.offsetWidth,
+    maxMoveY: container.offsetHeight - el.offsetHeight,
+  }
+  this.setState({ ...this.state, selectArea, el})
+  document.addEventListener('mousemove', this.moveBind, false)
+  document.addEventListener('mouseup', this.stopBind, false)
+}
+```
+moveBind和stopBind来自于
+
+this.moveBind = this.move.bind(this)
+this.stopBind = this.stop.bind(this)
+move方法,在鼠标移动中根据记录新的鼠标位置来计算新的相对位置newPosLeft和newPosTop,并控制该值在合理范围内
+```javascript
+move(e) {
+  if (!this.state || !this.state.el || !this.state.selectArea) {
+    return
+  }
+  let selectArea = this.state.selectArea
+  let newPosLeft = e.clientX- selectArea.left
+  let newPosTop = e.clientY - selectArea.top
+  // 控制移动范围
+  if (newPosLeft <= 0) {
+    newPosLeft = 0
+  } else if (newPosLeft > selectArea.maxMoveX) {
+    newPosLeft = selectArea.maxMoveX
+  }
+  if (newPosTop <= 0) {
+    newPosTop = 0
+  } else if (newPosTop > selectArea.maxMoveY) {
+    newPosTop = selectArea.maxMoveY
+  }
+  let elStyle = this.state.el.style
+  elStyle.left = newPosLeft + 'px'
+  elStyle.top = newPosTop + 'px'
+}
+```
+stop方法，移除事件监听，清除state,避免方法错误调用
+
+```javascript
+stop() {
+  document.removeEventListener('mousemove', this.moveBind , false)
+  document.removeEventListener('mousemove', this.resizeBind , false)
+  document.removeEventListener('mouseup', this.stopBind, false)
+  this.setState({...this.state, el: null, resizeArea: null, selectArea: null})
+}
+```
+裁剪选择框
+跟拖拽一样，首先调用resizeStart方法，保存开始裁剪的鼠标位置，裁剪框的尺寸和位置，添加关于resizeBind和stopBind的事件监听，注意，由于react的事件机制特点，需要使用stopPropagation来禁止事件冒泡，事件监听的第三个参数使用false是无效的。
+
+```javascript
+resizeStart = (e, type) => {
+  e.stopPropagation()
+  const el = e.target.parentElement
+  let resizeArea = {
+    posLeft: e.clientX,
+    posTop: e.clientY,
+    width: el.offsetWidth,
+    height: el.offsetHeight,
+    left: parseInt(el.style.left, 10),
+    top: parseInt(el.style.top, 10)
+  }
+  this.setState({ ...this.state, resizeArea, el})
+  this.resizeBind = this.resize.bind(this, type)
+  document.addEventListener('mousemove', this.resizeBind, false)
+  document.addEventListener('mouseup', this.stopBind, false)
+}
+```
+裁剪的方法，将裁剪分为两种情况，一种是右侧，下侧和右下侧的拉伸。另一种是左侧，上侧和左上侧的拉伸。
+第一种情况下，选择框的位置是不会变的，只有尺寸会变，处理起来相对简单。新的尺寸大小为原大小加上当前的鼠标的位置再减去开始拖拽处的鼠标的位置，如果宽度或者高度有一个超标了，则将尺寸设置为刚好到边界的大小。均为超标，设置为新的尺寸。
+第二种情况下，选择框的位置和大小同时会变，要同时控制尺寸和位置不超出边界。
+```javascript
+resize(type, e) {
+  if (!this.state || !this.state.el || !this.state.resizeArea) {
+    return
+  }
+  let container = this.state.container
+  const containerHeight = container.offsetHeight
+  const containerWidth = container.offsetWidth
+  const containerLeft = parseInt(container.style.left || 0, 10)
+  const containerTop = parseInt(container.style.top || 0, 10)
+  let resizeArea = this.state.resizeArea
+  let el = this.state.el
+  let elStyle = el.style
+  if (type === 'right' || type === 'bottom') {
+    let length
+    if (type === 'right') {
+      length = resizeArea.width + e.clientX - resizeArea.posLeft
+    } else {
+      length = resizeArea.height + e.clientY - resizeArea.posTop
+    }
+    if (parseInt(el.style.left, 10) + length > containerWidth || parseInt(el.style.top, 10) + length > containerHeight) {
+      const w = containerWidth - parseInt(el.style.left, 10)
+      const h = containerHeight - parseInt(el.style.top, 10)
+      elStyle.width = elStyle.height = Math.min(w, h) + 'px'
+    } else {
+      elStyle.width = length + 'px'
+      elStyle.height = length + 'px'
+    }
+  } else {
+    let posChange
+    let newPosLeft
+    let newPosTop
+    if (type === 'left') {
+      posChange = resizeArea.posLeft - e.clientX
+    } else {
+      posChange = resizeArea.posTop - e.clientY
+    }
+    newPosLeft = resizeArea.left - posChange
+    // 防止过度缩小
+    if (newPosLeft > resizeArea.left + resizeArea.width) {
+      elStyle.left = resizeArea.left + resizeArea.width + 'px'
+      elStyle.top = resizeArea.top + resizeArea.height + 'px'
+      elStyle.width = elStyle.height = '2px'
+      return
+    }
+    newPosTop = resizeArea.top - posChange
+    // 到达边界
+    if (newPosLeft <= containerLeft || newPosTop < containerTop) {
+      // 让选择框到图片最左边
+      let newPosLeft2 = resizeArea.left -containerLeft
+      // 判断顶部会不会超出边界
+      if (newPosLeft2 < resizeArea.top) {
+        // 未超出边界
+        elStyle.top = resizeArea.top - newPosLeft2 + 'px'
+        elStyle.left = containerLeft + 'px'
+      } else {
+        // 让选择框到达图片顶部
+        elStyle.top = containerTop + 'px'
+        elStyle.left = resizeArea.left + containerTop - resizeArea.top + 'px'
+      }
+    } else {
+      if (newPosLeft < 0) {
+        elStyle.left = 0;
+        elStyle.width = Math.min(resizeArea.width + posChange - newPosLeft, containerWidth) + 'px'
+        elStyle.top = newPosTop - newPosLeft;
+        elStyle.height = Math.min(resizeArea.height + posChange - newPosLeft, containerHeight) + 'px'
+        return;
+      }
+      if (newPosTop < 0) {
+        elStyle.left = newPosLeft - newPosTop;
+        elStyle.width = Math.min(resizeArea.width + posChange - newPosTop, containerWidth) + 'px'
+        elStyle.top = 0;
+        elStyle.height = Math.min(resizeArea.height + posChange - newPosTop, containerHeight) + 'px'
+        return;
+      }
+      elStyle.left = newPosLeft + 'px'
+      elStyle.top = newPosTop + 'px'
+      elStyle.width = resizeArea.width + posChange + 'px'
+      elStyle.height = resizeArea.height + posChange + 'px'
+    }
+  }
+}
+```
+
+
+
+结束
+通过这些组件的编写，感觉想要学好react，需要加深对this和事件模型的了解，这几天在这上面踩了不少的坑。

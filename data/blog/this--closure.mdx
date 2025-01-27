@@ -1,0 +1,212 @@
+---
+title: 一次搞定闭包和this
+date: '2018-03-19'
+tags: ['markdown', 'code', 'features']
+draft: false
+summary: Example of a markdown file with code blocks and syntax highlighting
+---
+
+
+# 执行上下文的过程
+
+## 全局上下文的创建
+
+1. **求 `this`：**
+   在浏览器中，`this` 指向 `window`。
+
+2. **创建全局的词法环境：**
+   负责存储 `let`、`const` 声明的变量和函数。
+
+3. **创建全局变量环境：**
+   负责存储 `var` 声明的变量。
+
+4. **函数被调用时：**
+   - 创建函数的执行上下文，并压入执行栈。
+   - **求 `this`：** 指向调用该函数的对象。
+   - 创建词法环境：记录变量、函数、参数等。
+   - 创建外部环境引用：链接到全局变量或父级函数的词法环境。
+   - 创建变量环境：存储 `var` 声明的变量。
+
+5. **函数执行后：**
+   - 运行代码，分配变量。
+   - 函数执行结束时销毁上下文，并从执行栈中弹出。
+
+---
+
+# 执行上下文
+
+## 什么是执行上下文？
+
+执行上下文是 JS 代码执行的环境。当 JS 执行一段代码时，会创建相应的执行上下文。执行上下文的结构如下：
+
+```javascript
+executionContextObj = {
+    this: 当前上下文的 this 指向,
+    VO: 变量对象,
+    scopeChain: 作用域链 (与闭包相关)
+}
+```
+
+执行上下文的特点
+	1.	单线程：一次只能处理一件事，其他代码排队等待。
+	2.	同步执行：代码按顺序执行。
+	3.	一个全局上下文：始终存在。
+	4.	无限制的函数上下文：每次函数调用都会创建新的上下文。
+	5.	每次函数调用都会创建新的上下文（包括递归调用）。
+
+执行上下文的创建步骤
+
+创建阶段
+	1.	初始化作用域链
+创建当前上下文的作用域链，链接到父级作用域。
+	2.	创建变量对象 (VO)
+	•	初始化 arguments 对象（如果是函数上下文）。
+	•	扫描函数声明，并将其提升。
+	•	扫描变量声明，将变量名添加到 VO，值设为 undefined。
+	3.	求 this
+根据调用方式确定 this 的指向。
+
+执行阶段
+	1.	初始化变量和函数的引用
+将变量赋值，执行函数代码。
+	2.	执行代码
+修改变量对象的值，完成代码逻辑。
+
+this 的指向
+
+判断 this 的指向
+	1.	指向调用对象
+
+	```javascript
+function foo() {
+    console.log(this.a);
+}
+var obj = {
+    a: 2,
+    foo: foo
+};
+obj.foo(); // 输出 2
+
+	```
+		2.	指向全局对象
+```javascript
+	function foo() {
+        console.log(this.a);
+    }
+    var a = 2;
+    foo(); // 输出 2
+    ```
+
+    	3.	使用 new 构造时
+
+    	```javascript
+    	function A() {
+            this.a = 3;
+        }
+        var obj = new A();
+        console.log(obj.a); // 输出 3
+    	```
+	4.	call/apply/bind 改变 this 指向
+    ```javascript
+    var obj = { a: 2 };
+    function foo() {
+        console.log(this.a);
+    }
+    foo.call(obj); // 输出 2
+    ```
+
+    5.	箭头函数
+        箭头函数没有自己的 this，其 this 指向定义时所在上下文的 this。
+    ```javascript
+    var obj = {
+        a: 2,
+        foo: () => {
+            console.log(this.a);
+        }
+    };
+    obj.foo(); // 输出 undefined（因为箭头函数的 this 指向全局）
+    ```
+
+
+    	作用域与作用域链
+
+        作用域
+
+        作用域控制变量和函数的可见性与生命周期，分为：
+        	1.	全局作用域：在代码任何地方都能访问。
+        	•	最外层定义的变量。
+        	•	全局对象的属性。
+        	•	隐式定义的变量（未通过 var 声明直接赋值的变量）。
+        	2.	局部作用域：函数内定义的变量，仅在函数内可见。
+
+        作用域链
+
+        作用域链是用于查找标识符的链式结构，函数定义时会将父级作用域的变量对象保存到其内部属性 [[scope]] 中。
+
+        例子：静态作用域
+
+        ```javascript
+        var s = 3;
+        function a() {
+            console.log(s);
+        }
+        function b() {
+            var s = 6;
+            a();
+        }
+        b(); // 输出 3（静态作用域：在定义时确定作用域）
+        ```
+闭包
+
+什么是闭包？
+
+闭包是可以访问自由变量的函数。自由变量是指未在函数内部声明的变量。
+
+闭包的例子
+
+```javascript
+function a() {
+    var num = 1;
+    function b() {
+        console.log(num++);
+    }
+    return b;
+}
+var c1 = a();
+c1(); // 输出 1
+c1(); // 输出 2
+var c2 = a();
+c2(); // 输出 1
+c2(); // 输出 2
+
+```
+
+闭包的过程
+	1.	执行函数 a 时，创建其变量对象，包含变量 num 和函数 b。
+	2.	函数 b 定义时，保存 a 的变量对象到其 [[scope]] 中。
+	3.	当 c1 调用 b 时，通过作用域链访问 a 的变量对象并修改 num 的值。
+
+	总结：执行上下文过程
+
+    以代码为例：
+
+    ```javascript
+    var scope = "global scope";
+    function checkscope(a) {
+        var scope2 = "local scope";
+    }
+    checkscope(5);
+    ```
+
+    	1.	创建全局上下文
+    创建全局变量对象 globalContext.VO。
+    	2.	创建 checkscope 函数
+    保存全局变量对象到 checkscope 的 [[scope]] 属性。
+    	3.	调用 checkscope 函数
+    	•	创建 checkscope 的执行上下文。
+    	•	复制 [[scope]] 创建作用域链。
+    	•	创建活动对象 AO，包含参数、变量和函数声明。
+    	•	求 this 指向全局对象。
+    	4.	执行函数代码
+    	•	更新活动对象 AO 的值。
+    	•	执行完毕后，从执行上下文栈中弹出。

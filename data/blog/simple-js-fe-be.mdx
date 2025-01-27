@@ -1,0 +1,119 @@
+---
+title: 简单前后端同构
+date: '2018-02-28'
+tags: ['markdown', 'code', 'features']
+draft: false
+summary: Example of a markdown file with code blocks and syntax highlighting
+---
+
+# 什么是前后端同构
+
+明确三个概念：
+- **后端渲染**：指传统的 ASP、Java 或 PHP 的渲染机制。
+- **前端渲染**：指使用 JS 来渲染页面大部分内容，代表是现在流行的 SPA 单页面应用。
+- **同构渲染**：指前后端共用 JS，首次渲染时使用 Node.js 来直出 HTML。
+
+一般来说，同构渲染是介于前后端中的共有部分。
+
+## 为什么需要前后端同构
+
+之前流行前后端分离，现在为什么又要做前后端同构？
+
+原因是现在流行的 SPA 前端单页面应用比较沉重，首次访问需要加载文件较多，第一次加载过慢，用户需要等待前端进行页面渲染。而且不利于 SEO 及缓存，并且有一定的开发门槛。
+
+前后端同构通过复用模板和 JS 文件，让一份代码可以同时运行在服务器和浏览器。首次渲染使用 Node.js 渲染页面，之后使用 SPA 路由跳转。这可以有效减少用户首次访问的等待时间，并且对 SEO 比较友好，也便于缓存。
+
+---
+
+# 项目简介
+
+本前后端同构项目主要分为两个部分：
+1. **基于 koa2 的渲染服务器**
+2. **基于原生 JS 和 zepto 的前端 SPA**
+
+项目的特点：
+- 不使用 Vue 和 React 等框架，门槛低，开发速度快，便于上手，比较轻巧。
+- 核心的 router 部分只有一百行左右的代码。
+- 适用于页面交互较少，变化不频繁的场景下，可以有效提升性能和加载速度。
+
+---
+
+# 前端部分
+
+前端部分的核心是路由部分，具体实现可以基于 `history API` 或 `hash`。网上有很多实现，这次主要讲下架构。
+
+前端部分采用 **MVC 分层结构**。
+
+## Router 层
+
+Router 层主要工作：
+- 创建路由实例
+- 调用路由的 `get` 方法
+- 给特定页面绑定来自 control 层的函数
+
+代码形式如下：
+
+```javascript
+import control from '../control'
+// 路由的构造函数支持传入渲染函数、路由的全局名称、路由跳转前调用的钩子
+router = new Router(render, 'ROUTER', beforeFn)
+router.get('/page/a', control.pageA)
+
+```
+
+Control 层
+
+Control 层主要负责：
+	•	加载与后端共有的渲染模板和渲染数据
+	•	渲染出页面后运行页面函数
+
+```javascript
+let control = {
+  pageA(req, res) {
+    // webpack 的动态加载，代码分割功能
+    import(/* webpackChunkName: "pageA" */'script/pageA').then(module => {
+      // 检测该页面是否已有服务器渲染好，是的话直接运行 module.default
+      // 否则加载模板和数据进行渲染，最后再调用页面函数
+      if (this.needRender(module.default)) {
+        // 加载数据时访问的地址就是当前准备渲染的页面地址，只是加上了 json=1 的参数
+        loadData('pageA').then(data =>
+          res.render(xtpl, data, module.default))
+      }
+    })
+  }
+}
+
+// 捕捉 webpack 热更新，让它只进行相当于页面跳转的操作而不是刷新页面
+if (module.hot) {
+  module.hot.accept(['script/pageA'], () => {
+    control[ROUTER.req.currentControl].call(ROUTER, null, ROUTER.res)
+  })
+}
+```
+
+View 层
+
+View 层即模板，这里使用的是 xtpl 模板，在服务器环境和前端环境下都支持渲染页面。
+
+页面函数形式如下：
+
+```javascript
+export default () => {
+  window.addEventListener('scroll', fn)
+  // 页面函数支持返回一个卸载函数，在页面离开的时候会被调用
+  // 主要用于内存的释放、定时器的清除、事件监听的移除等等
+  return function () {
+    window.removeEventListener('scroll', fn)
+  }
+}
+```
+
+后端部分
+
+后端部分使用 koa2 搭建渲染服务器。
+
+在收到前端传来的页面请求时：
+	1.	向 API 服务器请求数据。
+	2.	识别页面请求是否带有 json=1 的参数：
+	•	如果带有参数：为前端路由跳转时的请求，直接返回数据即可。
+	•	如果没有带参数：加载与前端共用的模板，配合数据进行渲染，发送到浏览器。

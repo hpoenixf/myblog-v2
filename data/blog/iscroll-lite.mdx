@@ -1,0 +1,283 @@
+---
+title: iscroll-lite
+date: '2017-08-12'
+tags: ['markdown', 'code', 'features']
+draft: false
+summary: Example of a markdown file with code blocks and syntax highlighting
+---
+
+
+# 阅读 iScroll-lite 源码的笔记
+
+## 背景
+最近在开发移动端项目时使用了 **iScroll**，踩了不少坑，因此通过阅读源码来深入了解其功能与原理。本次阅读的是 **iScroll-lite**，它包含主要功能，但比完整版少了以下内容：
+- 鼠标滚轮支持
+- 滚动后对齐到特定位置
+- 按键绑定
+- 定制滚动条
+
+---
+
+## 主体结构
+
+以 iScroll 5.2 版本为例，源码结构非常清晰：
+1. **工具函数（前 300 行）**：封装了一些通用工具。
+2. **构造函数 `IScroll`（300-400 行）**：用于配置和初始化。
+3. **原型方法（400-1000 行）**：通过扩展 `IScroll` 的原型，为实例添加各种方法。
+4. **模块化判断**：实现模块化相关逻辑。
+
+---
+
+## 工具函数
+
+### `_prefixStyle`
+用于处理浏览器兼容性问题。
+
+```javascript
+var _vendor = (function () {
+	var vendors = ['t', 'webkitT', 'MozT', 'msT', 'OT'],
+		transform,
+		i = 0,
+		l = vendors.length;
+	for (; i < l; i++) {
+		transform = vendors[i] + 'ransform';
+		if (transform in _elementStyle) return vendors[i].substr(0, vendors[i].length - 1);
+	}
+	return false;
+})();
+
+function _prefixStyle(style) {
+	if (_vendor === false) return false;
+	if (_vendor === '') return style;
+	return _vendor + style.charAt(0).toUpperCase() + style.substr(1);
+}
+```
+能力检测
+
+检测浏览器是否支持特定特性，例如：
+```javascript
+me.extend(me, {
+	hasTransform: _transform !== false,
+	hasPerspective: _prefixStyle('perspective') in _elementStyle,
+	hasTouch: 'ontouchstart' in window,
+	hasPointer: !!(window.PointerEvent || window.MSPointerEvent),
+	hasTransition: _prefixStyle('transition') in _elementStyle
+});
+```
+父元素的位置
+
+计算元素相对于父元素的偏移量：
+```javascript
+me.offset = function (el) {
+	var left = -el.offsetLeft,
+		top = -el.offsetTop;
+	while (el = el.offsetParent) {
+		left -= el.offsetLeft;
+		top -= el.offsetTop;
+	}
+	return {
+		left: left,
+		top: top
+	};
+};
+```
+
+
+
+对事件进行分类
+
+```javascript
+	me.extend(me.eventType = {}, {
+		touchstart: 1,
+		touchmove: 1,
+		touchend: 1,
+...略...
+		MSPointerDown: 3,
+		MSPointerMove: 3,
+		MSPointerUp: 3
+	});
+
+```
+动画处理的函数
+
+```javascript
+me.extend(me.ease = {}, {
+	quadratic: {
+		style: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+		fn: function (k) {
+			return k * ( 2 - k );
+		}
+	},
+	....略....
+});
+```
+tap和click的事件模拟
+
+```javascript
+me.tap = function (e, eventName) {
+	var ev = document.createEvent('Event');
+	ev.initEvent(eventName, true, true);
+	ev.pageX = e.pageX;
+	ev.pageY = e.pageY;
+	e.target.dispatchEvent(ev);
+};
+me.click = function (e) {
+	var target = e.target,
+		ev;
+	if ( !(/(SELECT|INPUT|TEXTAREA)/i).test(target.tagName) ) {
+		// https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/initMouseEvent
+		// initMouseEvent is deprecated.
+		ev = document.createEvent(window.MouseEvent ? 'MouseEvents' : 'Event');
+		ev.initEvent('click', true, true);
+        ...略...
+		target.dispatchEvent(ev);
+	}
+};
+```
+touchAction的设定
+```javascript
+me.getTouchAction = function(eventPassthrough, addPinch) {
+	var touchAction = 'none';
+	if ( eventPassthrough === 'vertical' ) {
+		touchAction = 'pan-y';
+	} else if (eventPassthrough === 'horizontal' ) {
+		touchAction = 'pan-x';
+	}
+	if (addPinch && touchAction != 'none') {
+		// add pinch-zoom support if the browser supports it, but if not (eg. Chrome <55) do nothing
+		touchAction += ' pinch-zoom';
+	}
+	return touchAction;
+};
+```
+元素的位置
+```javascript
+me.getRect = function(el) {
+	if (el instanceof SVGElement) {
+		var rect = el.getBoundingClientRect();
+		return {
+			top : rect.top,
+			left : rect.left,
+			width : rect.width,
+			height : rect.height
+		};
+	} else {
+		return {
+			top : el.offsetTop,
+			left : el.offsetLeft,
+			width : el.offsetWidth,
+			height : el.offsetHeight
+		};
+	}
+};
+```
+构造函数
+先是获取了wrapper和scroller，接着是一些能力检测。
+
+在这里通过eventPassthrough，scrollY，scrollX，freeScroll来配置滚动的方向。只有scrollY是默认为true，其他都是未设定undefined.
+当eventPassthrough的值为vertical时，在垂直方向不使用iscroll的滚动，使用原生的滚动。为horizontal时，则水平方向如此。想要二维自由滚动，不能设置该值。
+```javascript
+this.options.eventPassthrough = this.options.eventPassthrough === true ? 'vertical' : this.options.eventPassthrough;
+this.options.scrollY = this.options.eventPassthrough == 'vertical' ? false : this.options.scrollY;
+this.options.scrollX = this.options.eventPassthrough == 'horizontal' ? false : this.options.scrollX;
+this.options.freeScroll = this.options.freeScroll && !this.options.eventPassthrough;
+```
+接着还有其他属性的设定，最后调用_init,refresh,scrollTo,enable等函数
+
+一些原形上绑定的函数
+_init
+只调用了_initEvents函数
+_initEvents
+在这里根据配置给wrapper或是window加入了鼠标事件，pointer事件和触摸事件，transition事件等事件的监听。这里用到了一种少见的事件绑定方法，在这里事件绑定的第三个参数不是常见的function，而是iscroll对象。而iscroll对象里有一个方法handleEvent,这种方式的好处就是可以传递this
+```javascript
+
+handleEvent: function (e) {
+		switch ( e.type ) {
+			case 'touchstart':
+			case 'pointerdown':
+			case 'MSPointerDown':
+			case 'mousedown':
+				this._start(e);
+				break;
+			case 'touchmove':
+			case 'pointermove':
+			case 'MSPointerMove':
+			case 'mousemove':
+				this._move(e);
+				break;
+            case 'touchend':
+            case 'pointerup':
+            case 'MSPointerUp':
+            case 'mouseup':
+            case 'touchcancel':
+            case 'pointercancel':
+            case 'MSPointerCancel':
+            case 'mousecancel':
+              this._end(e);
+            ...略...
+            }
+        }
+        ```
+refresh
+保存wrapper和scroller的尺寸信息，及wrapper的位置信息。设定最大滚动距离,为负数。
+接着判断是否存在水平滚动或是垂直滚动
+
+this.maxScrollX		= this.wrapperWidth - this.scrollerWidth;
+this.hasHorizontalScroll	= this.options.scrollX && this.maxScrollX < 0;
+如果浏览器支持pointer，使用touchAction来限制wrapper。
+最后调用resetPosition函数来判断是否需要重置位置
+
+_start
+保存事件的类型，如果跟已经保存的事件类型不是同一类，不继续执行函数。
+如果scroller在滚动状态，调用getComputedPosition函数来获取scroller的位置，调用_translate方法让scroller停在当前位置。
+保存当前的位置信息和触发事件的位置信息，设置状态信息
+```javascript
+this.initiated	= utils.eventType[e.type];
+this.moved		= false;
+this.distX		= 0;
+this.distY		= 0;
+this.directionX = 0;
+this.directionY = 0;
+this.directionLocked = 0;
+this.startX    = this.x;
+this.startY    = this.y;
+this.absStartX = this.x;
+this.absStartY = this.y;
+this.pointX    = point.pageX;
+this.pointY    = point.pageY;
+```
+_move
+获取事件的位置信息，对比_start中保存的位置信息，计算偏移值
+```javascript
+var point		= e.touches ? e.touches[0] : e,
+    deltaX		= point.pageX - this.pointX,
+    deltaY		= point.pageY - this.pointY,
+保存新的位置信息，位移信息
+
+this.pointX		= point.pageX;
+   this.pointY		= point.pageY;
+   this.distX		+= deltaX;
+   this.distY		+= deltaY;
+   ```
+如果偏移小于10像素不执行滚动。偏移的大小值和设定来根据判断滚动的方向。最后调用_translate函数来滚动
+
+_translate
+根据设定，修改滚动条中的transform的值或是修改left和top的值来进行具体的滚动，保存信息到this.x和this.y
+```javascript
+if ( this.options.useTransform ) {
+	this.scrollerStyle[utils.style.transform] = 'translate(' + x + 'px,' + y + 'px)' + this.translateZ;
+} else {
+	x = Math.round(x);
+	y = Math.round(y);
+	this.scrollerStyle.left = x + 'px';
+	this.scrollerStyle.top = y + 'px';
+}
+```
+_end
+让scroller滚动到整数位置，根据位移和触发事件的时间的情况，摸你tap事件、click事件或是执行flick事件或调用scrollTO函数进行惯性滚动。
+
+scrollTo
+主要是选择动画效果，调用__translate或是_animate来进行滚动
+
+_animate
+根据所选的动画效果，在每一个requestAnimationFrame下调用_translate函数
