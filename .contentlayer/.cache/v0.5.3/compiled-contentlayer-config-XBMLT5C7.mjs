@@ -28,9 +28,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 var require_siteMetadata = __commonJS({
   "data/siteMetadata.js"(exports, module) {
     var siteMetadata2 = {
-      title: "Next.js Starter Blog",
-      author: "Tails Azimuth",
-      headerTitle: "TailwindBlog",
+      title: "hpoenixf's Blog",
+      author: "hpoenixf",
+      headerTitle: "hpoenixf's Blog",
       description: "A blog created with Next.js and Tailwind.css",
       language: "en-us",
       theme: "system",
@@ -314,4 +314,4 @@ export {
   Blog,
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-6L4ONLEQ.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-XBMLT5C7.mjs.map

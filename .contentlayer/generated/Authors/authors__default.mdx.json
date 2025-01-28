@@ -1,15 +1,13 @@
 {
-  "name": "Tails Azimuth",
+  "name": "hpoenixf",
   "avatar": "/static/images/avatar.png",
-  "occupation": "Professor of Atmospheric Science",
-  "company": "Stanford University",
-  "email": "address@yoursite.com",
-  "twitter": "https://twitter.com/Twitter",
-  "linkedin": "https://www.linkedin.com",
-  "github": "https://github.com",
+  "occupation": "Frontend engineer",
+  "company": "Yipitdata",
+  "email": "hpoenixf@foxmail.com",
+  "github": "https://github.com/hpoenixf",
   "body": {
-    "raw": "\nTails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.\n\nHe leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.\n",
-    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var w=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var s in t)n(e,s,{get:t[s],enumerable:!0})},o=(e,t,s,r)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!g.call(e,a)&&a!==s&&n(e,a,{get:()=>t[a],enumerable:!(r=p(t,a))||r.enumerable});return e};var v=(e,t,s)=>(s=e!=null?d(f(e)):{},o(t||!e||!e.__esModule?n(s,\"default\",{value:e,enumerable:!0}):s,e)),b=e=>o(n({},\"__esModule\",{value:!0}),e);var l=w((q,c)=>{c.exports=_jsx_runtime});var _={};x(_,{default:()=>m,frontmatter:()=>y});var i=v(l()),y={name:\"Tails Azimuth\",avatar:\"/static/images/avatar.png\",occupation:\"Professor of Atmospheric Science\",company:\"Stanford University\",email:\"address@yoursite.com\",twitter:\"https://twitter.com/Twitter\",linkedin:\"https://www.linkedin.com\",github:\"https://github.com\"};function u(e){let t={p:\"p\",...e.components};return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(t.p,{children:\"Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.\"}),(0,i.jsx)(t.p,{children:\"He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.\"}),(0,i.jsx)(t.p,{children:\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.\"})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,i.jsx)(t,{...e,children:(0,i.jsx)(u,{...e})}):u(e)}return b(_);})();\n;return Component;"
+    "raw": "\n2016年起从事前端开发，曾就职于阿里、腾讯",
+    "code": "var Component=(()=>{var u=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var l=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),_=(t,n)=>{for(var e in n)a(t,e,{get:n[e],enumerable:!0})},c=(t,n,e,r)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!g.call(t,o)&&o!==e&&a(t,o,{get:()=>n[o],enumerable:!(r=f(n,o))||r.enumerable});return t};var j=(t,n,e)=>(e=t!=null?u(d(t)):{},c(n||!t||!t.__esModule?a(e,\"default\",{value:t,enumerable:!0}):e,t)),M=t=>c(a({},\"__esModule\",{value:!0}),t);var p=l((C,m)=>{m.exports=_jsx_runtime});var v={};_(v,{default:()=>x,frontmatter:()=>b});var i=j(p()),b={name:\"hpoenixf\",avatar:\"/static/images/avatar.png\",occupation:\"Frontend engineer\",company:\"Yipitdata\",email:\"hpoenixf@foxmail.com\",github:\"https://github.com/hpoenixf\"};function s(t){let n={p:\"p\",...t.components};return(0,i.jsx)(n.p,{children:\"2016\\u5E74\\u8D77\\u4ECE\\u4E8B\\u524D\\u7AEF\\u5F00\\u53D1\\uFF0C\\u66FE\\u5C31\\u804C\\u4E8E\\u963F\\u91CC\\u3001\\u817E\\u8BAF\"})}function x(t={}){let{wrapper:n}=t.components||{};return n?(0,i.jsx)(n,{...t,children:(0,i.jsx)(s,{...t})}):s(t)}return M(v);})();\n;return Component;"
   },
   "_id": "authors/default.mdx",
   "_raw": {
@@ -22,9 +20,9 @@
   "type": "Authors",
   "readingTime": {
     "text": "1 min read",
-    "minutes": 0.45,
-    "time": 27000,
-    "words": 90
+    "minutes": 0.085,
+    "time": 5100,
+    "words": 17
   },
   "slug": "default",
   "path": "authors/default",

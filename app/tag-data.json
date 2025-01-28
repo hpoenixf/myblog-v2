@@ -1,8 +1,18 @@
 {
-  "multi-author": 1,
-  "next-js": 1,
-  "feature": 1,
-  "markdown": 1,
-  "code": 1,
-  "features": 1
+  "interaction-design": 8,
+  "ux": 8,
+  "product-design": 8,
+  "error-monitoring": 1,
+  "frontend": 4,
+  "performance": 1,
+  "frame-sync": 1,
+  "game-development": 1,
+  "networking": 1,
+  "sdk": 1,
+  "development": 1,
+  "best-practices": 1,
+  "interview": 1,
+  "career": 2,
+  "web-development": 2,
+  "performance-optimization": 1
 }
