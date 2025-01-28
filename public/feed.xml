@@ -27,7 +27,7 @@
     <description>本文探讨了编写优秀 SDK 的关键原则和方法，从用户体验出发分析如何让 SDK 更好用、更易维护和扩展。</description>
     <pubDate>Wed, 26 Jan 2022 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>sdk</category><category>development</category><category>best practices</category>
+    <category>最佳实践</category>
   </item>
 
   <item>
@@ -37,7 +37,7 @@
     <description>小程序原理简述。</description>
     <pubDate>Wed, 26 Jan 2022 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>interaction design</category><category>ux</category><category>product design</category>
+    <category>简述</category>
   </item>
 
   <item>
@@ -47,7 +47,7 @@
     <description>本文介绍帧同步的原理、优缺点、开发中的实现以及常见问题与解决方法。</description>
     <pubDate>Sun, 26 Dec 2021 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>frame sync</category><category>game development</category><category>networking</category>
+    <category>网络</category>
   </item>
 
   <item>
@@ -57,7 +57,7 @@
     <description>https和网络安全知识点</description>
     <pubDate>Sun, 26 Jul 2020 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>interaction design</category><category>ux</category><category>product design</category>
+    <category>网络</category>
   </item>
 
   <item>
@@ -67,7 +67,7 @@
     <description>探讨错误信息的收集方法，包括可能的错误来源、需要记录的信息及如何实现监控。</description>
     <pubDate>Fri, 26 Jun 2020 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>error monitoring</category><category>frontend</category><category>performance</category>
+    
   </item>
 
   <item>
@@ -77,7 +77,7 @@
     undefined
     <pubDate>Fri, 26 Jun 2020 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>interaction design</category><category>ux</category><category>product design</category>
+    <category>读书笔记</category>
   </item>
 
   <item>
@@ -87,7 +87,7 @@
     undefined
     <pubDate>Fri, 26 Jun 2020 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>interaction design</category><category>ux</category><category>product design</category>
+    <category>面试</category>
   </item>
 
   <item>
@@ -97,7 +97,7 @@
     <description>阅读《About Face》后整理的交互设计核心内容与启发。</description>
     <pubDate>Fri, 26 Jun 2020 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>interaction design</category><category>ux</category><category>product design</category>
+    <category>读书笔记</category>
   </item>
 
   <item>
@@ -107,7 +107,7 @@
     undefined
     <pubDate>Sun, 03 May 2020 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>interaction design</category><category>ux</category><category>product design</category>
+    
   </item>
 
   <item>
@@ -117,7 +117,7 @@
     <description>分享从页面访问前到页面运行时的性能优化方法与实践。</description>
     <pubDate>Tue, 28 Apr 2020 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>performance optimization</category><category>web development</category><category>frontend</category>
+    <category>优化</category><category>性能优化</category>
   </item>
 
   <item>
@@ -127,17 +127,17 @@
     <description>阅读《About Face》后整理的交互设计核心内容与启发。</description>
     <pubDate>Thu, 26 Mar 2020 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>interaction design</category><category>ux</category><category>product design</category>
+    <category>读书笔记</category>
   </item>
 
   <item>
-    <guid>https://hpoenixf.com//blog/pmbok</guid>
+    <guid>https://hpoenixf.com//blog/pmbok-note</guid>
     <title>PMPBOK读书笔记</title>
-    <link>https://hpoenixf.com//blog/pmbok</link>
+    <link>https://hpoenixf.com//blog/pmbok-note</link>
     undefined
     <pubDate>Wed, 04 Mar 2020 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>interaction design</category><category>ux</category><category>product design</category>
+    <category>读书笔记</category>
   </item>
 
   <item>
@@ -157,7 +157,7 @@
     <description>《代码整洁之道》和《编写可维护代码的艺术》的总结与整合</description>
     <pubDate>Sun, 10 Nov 2019 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    
+    <category>读书笔记</category>
   </item>
 
   <item>
@@ -187,7 +187,7 @@
     <description>探讨前端工程师的定义、发展及未来的机会。</description>
     <pubDate>Wed, 18 Apr 2018 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>frontend</category><category>career</category><category>web development</category>
+    <category>职业</category>
   </item>
 
   <item>
@@ -197,7 +197,7 @@
     <description>CDN和DNS知识</description>
     <pubDate>Tue, 10 Apr 2018 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    
+    <category>网络</category>
   </item>
 
   <item>
@@ -207,13 +207,13 @@
     <description>分享近期面试经历，包括面试流程、常见问题及个人总结。</description>
     <pubDate>Sun, 25 Mar 2018 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>frontend</category><category>interview</category><category>career</category>
+    <category>面试</category>
   </item>
 
   <item>
-    <guid>https://hpoenixf.com//blog/this--closure</guid>
+    <guid>https://hpoenixf.com//blog/this-closure</guid>
     <title>一次搞定闭包和this</title>
-    <link>https://hpoenixf.com//blog/this--closure</link>
+    <link>https://hpoenixf.com//blog/this-closure</link>
     undefined
     <pubDate>Mon, 19 Mar 2018 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
@@ -227,7 +227,7 @@
     undefined
     <pubDate>Mon, 19 Mar 2018 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    
+    <category>职业</category>
   </item>
 
   <item>
@@ -237,17 +237,7 @@
     <description>http 状态码</description>
     <pubDate>Fri, 09 Mar 2018 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    
-  </item>
-
-  <item>
-    <guid>https://hpoenixf.com//blog/fe-performance</guid>
-    <title>前端性能优化</title>
-    <link>https://hpoenixf.com//blog/fe-performance</link>
-    undefined
-    <pubDate>Wed, 07 Mar 2018 00:00:00 GMT</pubDate>
-    <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    
+    <category>网络</category>
   </item>
 
   <item>
@@ -257,7 +247,7 @@
     undefined
     <pubDate>Wed, 28 Feb 2018 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    
+    <category>项目</category>
   </item>
 
   <item>
@@ -267,7 +257,7 @@
     undefined
     <pubDate>Mon, 01 Jan 2018 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    
+    <category>项目</category>
   </item>
 
   <item>
@@ -277,7 +267,7 @@
     undefined
     <pubDate>Sat, 12 Aug 2017 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    
+    <category>项目</category>
   </item>
 
   <item>
@@ -287,7 +277,7 @@
     undefined
     <pubDate>Mon, 03 Jul 2017 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    
+    <category>读书笔记</category>
   </item>
 
   <item>
@@ -297,7 +287,7 @@
     undefined
     <pubDate>Sun, 25 Jun 2017 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    
+    <category>读书笔记</category>
   </item>
 
   <item>
@@ -307,7 +297,7 @@
     undefined
     <pubDate>Sat, 10 Jun 2017 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    
+    <category>项目</category>
   </item>
 
   <item>
@@ -327,7 +317,7 @@
     undefined
     <pubDate>Sun, 04 Jun 2017 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    
+    <category>读书笔记</category>
   </item>
 
     </channel>

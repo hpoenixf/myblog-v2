@@ -11,7 +11,6 @@ import blog__dataLogMdx from './blog__data-log.mdx.json' with { type: 'json' }
 import blog__designEverdayNoteMdx from './blog__design-everday-note.mdx.json' with { type: 'json' }
 import blog__feDesignMdx from './blog__fe-design.mdx.json' with { type: 'json' }
 import blog__feKnowledgeMdx from './blog__fe-knowledge.mdx.json' with { type: 'json' }
-import blog__fePerformanceMdx from './blog__fe-performance.mdx.json' with { type: 'json' }
 import blog__feSystemDesignImproveMdx from './blog__fe-system-design-improve.mdx.json' with { type: 'json' }
 import blog__frameSyncMdx from './blog__frame-sync.mdx.json' with { type: 'json' }
 import blog__goodSdkMdx from './blog__good-sdk.mdx.json' with { type: 'json' }
@@ -25,12 +24,12 @@ import blog__my_2024Mdx from './blog__my-2024.mdx.json' with { type: 'json' }
 import blog__myFeViewMdx from './blog__my-fe-view.mdx.json' with { type: 'json' }
 import blog__netMdx from './blog__net.mdx.json' with { type: 'json' }
 import blog__performanceBeforeMdx from './blog__performance-before.mdx.json' with { type: 'json' }
-import blog__pmbokMdx from './blog__pmbok.mdx.json' with { type: 'json' }
+import blog__pmbokNoteMdx from './blog__pmbok-note.mdx.json' with { type: 'json' }
 import blog__pyramidRincipleNoteMdx from './blog__pyramid-rinciple-note.mdx.json' with { type: 'json' }
 import blog__reactCropperMdx from './blog__react-cropper.mdx.json' with { type: 'json' }
 import blog__simpleJsFeBeMdx from './blog__simple-js-fe-be.mdx.json' with { type: 'json' }
 import blog__simpleVirtualDomMdx from './blog__simple-virtual-dom.mdx.json' with { type: 'json' }
-import blog__thisClosureMdx from './blog__this--closure.mdx.json' with { type: 'json' }
+import blog__thisClosureMdx from './blog__this-closure.mdx.json' with { type: 'json' }
 import blog__whyFeMdx from './blog__why-fe.mdx.json' with { type: 'json' }
 
-export const allBlogs = [blog__2yFeReviewMdx, blog__aboutfaceNoteMdx, blog__beautyCodeMdx, blog__cdnDnsMdx, blog__cleanCodeNoteMdx, blog__codeCompleteNodeMdx, blog__codeCompleteNode2Mdx, blog__dataLogMdx, blog__designEverdayNoteMdx, blog__feDesignMdx, blog__feKnowledgeMdx, blog__fePerformanceMdx, blog__feSystemDesignImproveMdx, blog__frameSyncMdx, blog__goodSdkMdx, blog__httpStatusCodeMdx, blog__interviewFor_2yMdx, blog__iscrollLiteMdx, blog__miniprogramMdx, blog__my_2018Mdx, blog__my_2019Mdx, blog__my_2024Mdx, blog__myFeViewMdx, blog__netMdx, blog__performanceBeforeMdx, blog__pmbokMdx, blog__pyramidRincipleNoteMdx, blog__reactCropperMdx, blog__simpleJsFeBeMdx, blog__simpleVirtualDomMdx, blog__thisClosureMdx, blog__whyFeMdx]
+export const allBlogs = [blog__2yFeReviewMdx, blog__aboutfaceNoteMdx, blog__beautyCodeMdx, blog__cdnDnsMdx, blog__cleanCodeNoteMdx, blog__codeCompleteNodeMdx, blog__codeCompleteNode2Mdx, blog__dataLogMdx, blog__designEverdayNoteMdx, blog__feDesignMdx, blog__feKnowledgeMdx, blog__feSystemDesignImproveMdx, blog__frameSyncMdx, blog__goodSdkMdx, blog__httpStatusCodeMdx, blog__interviewFor_2yMdx, blog__iscrollLiteMdx, blog__miniprogramMdx, blog__my_2018Mdx, blog__my_2019Mdx, blog__my_2024Mdx, blog__myFeViewMdx, blog__netMdx, blog__performanceBeforeMdx, blog__pmbokNoteMdx, blog__pyramidRincipleNoteMdx, blog__reactCropperMdx, blog__simpleJsFeBeMdx, blog__simpleVirtualDomMdx, blog__thisClosureMdx, blog__whyFeMdx]
