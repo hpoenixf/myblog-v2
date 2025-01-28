@@ -21,6 +21,7 @@ import blog__iscrollLiteMdx from './blog__iscroll-lite.mdx.json' with { type: 'j
 import blog__miniprogramMdx from './blog__miniprogram.mdx.json' with { type: 'json' }
 import blog__my_2018Mdx from './blog__my-2018.mdx.json' with { type: 'json' }
 import blog__my_2019Mdx from './blog__my-2019.mdx.json' with { type: 'json' }
+import blog__my_2024Mdx from './blog__my-2024.mdx.json' with { type: 'json' }
 import blog__myFeViewMdx from './blog__my-fe-view.mdx.json' with { type: 'json' }
 import blog__netMdx from './blog__net.mdx.json' with { type: 'json' }
 import blog__performanceBeforeMdx from './blog__performance-before.mdx.json' with { type: 'json' }
@@ -32,4 +33,4 @@ import blog__simpleVirtualDomMdx from './blog__simple-virtual-dom.mdx.json' with
 import blog__thisClosureMdx from './blog__this--closure.mdx.json' with { type: 'json' }
 import blog__whyFeMdx from './blog__why-fe.mdx.json' with { type: 'json' }
 
-export const allBlogs = [blog__2yFeReviewMdx, blog__aboutfaceNoteMdx, blog__beautyCodeMdx, blog__cdnDnsMdx, blog__cleanCodeNoteMdx, blog__codeCompleteNodeMdx, blog__codeCompleteNode2Mdx, blog__dataLogMdx, blog__designEverdayNoteMdx, blog__feDesignMdx, blog__feKnowledgeMdx, blog__fePerformanceMdx, blog__feSystemDesignImproveMdx, blog__frameSyncMdx, blog__goodSdkMdx, blog__httpStatusCodeMdx, blog__interviewFor_2yMdx, blog__iscrollLiteMdx, blog__miniprogramMdx, blog__my_2018Mdx, blog__my_2019Mdx, blog__myFeViewMdx, blog__netMdx, blog__performanceBeforeMdx, blog__pmbokMdx, blog__pyramidRincipleNoteMdx, blog__reactCropperMdx, blog__simpleJsFeBeMdx, blog__simpleVirtualDomMdx, blog__thisClosureMdx, blog__whyFeMdx]
+export const allBlogs = [blog__2yFeReviewMdx, blog__aboutfaceNoteMdx, blog__beautyCodeMdx, blog__cdnDnsMdx, blog__cleanCodeNoteMdx, blog__codeCompleteNodeMdx, blog__codeCompleteNode2Mdx, blog__dataLogMdx, blog__designEverdayNoteMdx, blog__feDesignMdx, blog__feKnowledgeMdx, blog__fePerformanceMdx, blog__feSystemDesignImproveMdx, blog__frameSyncMdx, blog__goodSdkMdx, blog__httpStatusCodeMdx, blog__interviewFor_2yMdx, blog__iscrollLiteMdx, blog__miniprogramMdx, blog__my_2018Mdx, blog__my_2019Mdx, blog__my_2024Mdx, blog__myFeViewMdx, blog__netMdx, blog__performanceBeforeMdx, blog__pmbokMdx, blog__pyramidRincipleNoteMdx, blog__reactCropperMdx, blog__simpleJsFeBeMdx, blog__simpleVirtualDomMdx, blog__thisClosureMdx, blog__whyFeMdx]

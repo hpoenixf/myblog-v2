@@ -1,0 +1,84 @@
+{
+  "title": "我的2024",
+  "date": "2025-01-28T00:00:00.000Z",
+  "tags": [
+    "年度回顾",
+    "回顾"
+  ],
+  "draft": false,
+  "summary": "精彩的一年",
+  "body": {
+    "raw": "\n用2024总结作为新博客的第一篇文章吧！\n\n从各个方面来简单讲讲2024年做了什么\n\n## 旅游\n\n由于有怀宝宝的计划，在最后的相对自由的时光，去了不少地方，首先是期待已久的日本，接着是贵阳、洛阳、郑州、南京、山西、上海，然后再加上考研时去的长春，也是走了小半个中国了。\n\n这里最推荐的是山西，是一个人去的，去了临汾、运城、太原。看了独一无二的小西天，补充来各种古建知识，看了各种博物馆如青铜器博物馆、壁画博物馆，知识满满。感觉2月去的日本都有不少建筑因为缺乏相应知识而不能很好的欣赏\n\n## 成长\n\n### 考研\n23年中了解到非全日研究生的情况，经过了几个月的准备，在23年底参加初试，24年三月参加复试并通过，9月开始成为一个研究生了！虽然帮助可能不是很大，但还是弥补了不少关于学历上的遗憾，认识了有趣的同学\n\n### 软考\n24年了解到软考可以评对应的职称，再加上自己之前一直对项目管理相关的知识比较感兴趣，就考了系统集成项目管理工程师。虽然只是中级，但东西还是挺多的。每天准备一小时左右，大概两个月的时间，低空擦线通过。\n\n### 英语\n年末准备换工作，这次希望去外企、外资银行之类的地方，对英文有较高的要求。自认为英语读写属于还可以的程度，但应对面试需要的听说还是有点恐惧。这时应用来gpt的高级语音模式来进行对话，让它来充当模拟面试官，跟它每天聊半小时，口语提升了不少。也对自己有了一定的自信\n\n## 技术\n\n整体上技术并没有太多的进步，感觉自己在公司主要做的组件库，已经碰到了一个瓶颈期。年初了解来一下vite，升级来组件库并在团队宣讲了一下。\n\n关于新技术，简单看了下headless ui，学了一下zustand，翻了一下nextjs和tailwind，在新公司有相应的应用场景，希望能顺利用上吧\n\n\n## 阅读\n\n在微信读书上读了一些比较不错的书，这里简单分享一下，有机会做一下读书笔记。《程序员的README》，《梁思成林微因建筑艺术二十讲》，《底层逻辑》，《搞定系统设计》\n\n## 总结\n\n24年是各种尝试和收获的一年，尝试去了各种地方，提升了学历、英语、项目管理能力，希望25年可以继续学习，尝试，拥有一些不一样的体验吧！",
+    "code": "var Component=(()=>{var p=Object.create;var h=Object.defineProperty;var w=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var v=(l,e)=>()=>(e||l((e={exports:{}}).exports,e),e.exports),u=(l,e)=>{for(var n in e)h(l,n,{get:e[n],enumerable:!0})},i=(l,e,n,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of m(e))!g.call(l,r)&&r!==n&&h(l,r,{get:()=>e[r],enumerable:!(t=w(e,r))||t.enumerable});return l};var N=(l,e,n)=>(n=l!=null?p(x(l)):{},i(e||!l||!l.__esModule?h(n,\"default\",{value:l,enumerable:!0}):n,l)),f=l=>i(h({},\"__esModule\",{value:!0}),l);var c=v((C,d)=>{d.exports=_jsx_runtime});var k={};u(k,{default:()=>o,frontmatter:()=>M});var a=N(c()),M={title:\"\\u6211\\u76842024\",date:\"2025-01-28\",tags:[\"\\u5E74\\u5EA6\\u56DE\\u987E\",\"\\u56DE\\u987E\"],draft:!1,summary:\"\\u7CBE\\u5F69\\u7684\\u4E00\\u5E74\"};function s(l){let e={a:\"a\",h2:\"h2\",h3:\"h3\",p:\"p\",path:\"path\",span:\"span\",svg:\"svg\",...l.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.p,{children:\"\\u75282024\\u603B\\u7ED3\\u4F5C\\u4E3A\\u65B0\\u535A\\u5BA2\\u7684\\u7B2C\\u4E00\\u7BC7\\u6587\\u7AE0\\u5427\\uFF01\"}),(0,a.jsx)(e.p,{children:\"\\u4ECE\\u5404\\u4E2A\\u65B9\\u9762\\u6765\\u7B80\\u5355\\u8BB2\\u8BB22024\\u5E74\\u505A\\u4E86\\u4EC0\\u4E48\"}),(0,a.jsxs)(e.h2,{className:\"content-header\",id:\"\\u65C5\\u6E38\",children:[(0,a.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#\\u65C5\\u6E38\",tabIndex:\"-1\",children:(0,a.jsx)(a.Fragment,{children:(0,a.jsx)(e.span,{className:\"content-header-link\",children:(0,a.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,a.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,a.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u65C5\\u6E38\"]}),(0,a.jsx)(e.p,{children:\"\\u7531\\u4E8E\\u6709\\u6000\\u5B9D\\u5B9D\\u7684\\u8BA1\\u5212\\uFF0C\\u5728\\u6700\\u540E\\u7684\\u76F8\\u5BF9\\u81EA\\u7531\\u7684\\u65F6\\u5149\\uFF0C\\u53BB\\u4E86\\u4E0D\\u5C11\\u5730\\u65B9\\uFF0C\\u9996\\u5148\\u662F\\u671F\\u5F85\\u5DF2\\u4E45\\u7684\\u65E5\\u672C\\uFF0C\\u63A5\\u7740\\u662F\\u8D35\\u9633\\u3001\\u6D1B\\u9633\\u3001\\u90D1\\u5DDE\\u3001\\u5357\\u4EAC\\u3001\\u5C71\\u897F\\u3001\\u4E0A\\u6D77\\uFF0C\\u7136\\u540E\\u518D\\u52A0\\u4E0A\\u8003\\u7814\\u65F6\\u53BB\\u7684\\u957F\\u6625\\uFF0C\\u4E5F\\u662F\\u8D70\\u4E86\\u5C0F\\u534A\\u4E2A\\u4E2D\\u56FD\\u4E86\\u3002\"}),(0,a.jsx)(e.p,{children:\"\\u8FD9\\u91CC\\u6700\\u63A8\\u8350\\u7684\\u662F\\u5C71\\u897F\\uFF0C\\u662F\\u4E00\\u4E2A\\u4EBA\\u53BB\\u7684\\uFF0C\\u53BB\\u4E86\\u4E34\\u6C7E\\u3001\\u8FD0\\u57CE\\u3001\\u592A\\u539F\\u3002\\u770B\\u4E86\\u72EC\\u4E00\\u65E0\\u4E8C\\u7684\\u5C0F\\u897F\\u5929\\uFF0C\\u8865\\u5145\\u6765\\u5404\\u79CD\\u53E4\\u5EFA\\u77E5\\u8BC6\\uFF0C\\u770B\\u4E86\\u5404\\u79CD\\u535A\\u7269\\u9986\\u5982\\u9752\\u94DC\\u5668\\u535A\\u7269\\u9986\\u3001\\u58C1\\u753B\\u535A\\u7269\\u9986\\uFF0C\\u77E5\\u8BC6\\u6EE1\\u6EE1\\u3002\\u611F\\u89C92\\u6708\\u53BB\\u7684\\u65E5\\u672C\\u90FD\\u6709\\u4E0D\\u5C11\\u5EFA\\u7B51\\u56E0\\u4E3A\\u7F3A\\u4E4F\\u76F8\\u5E94\\u77E5\\u8BC6\\u800C\\u4E0D\\u80FD\\u5F88\\u597D\\u7684\\u6B23\\u8D4F\"}),(0,a.jsxs)(e.h2,{className:\"content-header\",id:\"\\u6210\\u957F\",children:[(0,a.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#\\u6210\\u957F\",tabIndex:\"-1\",children:(0,a.jsx)(a.Fragment,{children:(0,a.jsx)(e.span,{className:\"content-header-link\",children:(0,a.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,a.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,a.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u6210\\u957F\"]}),(0,a.jsxs)(e.h3,{className:\"content-header\",id:\"\\u8003\\u7814\",children:[(0,a.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#\\u8003\\u7814\",tabIndex:\"-1\",children:(0,a.jsx)(a.Fragment,{children:(0,a.jsx)(e.span,{className:\"content-header-link\",children:(0,a.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,a.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,a.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u8003\\u7814\"]}),(0,a.jsx)(e.p,{children:\"23\\u5E74\\u4E2D\\u4E86\\u89E3\\u5230\\u975E\\u5168\\u65E5\\u7814\\u7A76\\u751F\\u7684\\u60C5\\u51B5\\uFF0C\\u7ECF\\u8FC7\\u4E86\\u51E0\\u4E2A\\u6708\\u7684\\u51C6\\u5907\\uFF0C\\u572823\\u5E74\\u5E95\\u53C2\\u52A0\\u521D\\u8BD5\\uFF0C24\\u5E74\\u4E09\\u6708\\u53C2\\u52A0\\u590D\\u8BD5\\u5E76\\u901A\\u8FC7\\uFF0C9\\u6708\\u5F00\\u59CB\\u6210\\u4E3A\\u4E00\\u4E2A\\u7814\\u7A76\\u751F\\u4E86\\uFF01\\u867D\\u7136\\u5E2E\\u52A9\\u53EF\\u80FD\\u4E0D\\u662F\\u5F88\\u5927\\uFF0C\\u4F46\\u8FD8\\u662F\\u5F25\\u8865\\u4E86\\u4E0D\\u5C11\\u5173\\u4E8E\\u5B66\\u5386\\u4E0A\\u7684\\u9057\\u61BE\\uFF0C\\u8BA4\\u8BC6\\u4E86\\u6709\\u8DA3\\u7684\\u540C\\u5B66\"}),(0,a.jsxs)(e.h3,{className:\"content-header\",id:\"\\u8F6F\\u8003\",children:[(0,a.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#\\u8F6F\\u8003\",tabIndex:\"-1\",children:(0,a.jsx)(a.Fragment,{children:(0,a.jsx)(e.span,{className:\"content-header-link\",children:(0,a.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,a.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,a.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u8F6F\\u8003\"]}),(0,a.jsx)(e.p,{children:\"24\\u5E74\\u4E86\\u89E3\\u5230\\u8F6F\\u8003\\u53EF\\u4EE5\\u8BC4\\u5BF9\\u5E94\\u7684\\u804C\\u79F0\\uFF0C\\u518D\\u52A0\\u4E0A\\u81EA\\u5DF1\\u4E4B\\u524D\\u4E00\\u76F4\\u5BF9\\u9879\\u76EE\\u7BA1\\u7406\\u76F8\\u5173\\u7684\\u77E5\\u8BC6\\u6BD4\\u8F83\\u611F\\u5174\\u8DA3\\uFF0C\\u5C31\\u8003\\u4E86\\u7CFB\\u7EDF\\u96C6\\u6210\\u9879\\u76EE\\u7BA1\\u7406\\u5DE5\\u7A0B\\u5E08\\u3002\\u867D\\u7136\\u53EA\\u662F\\u4E2D\\u7EA7\\uFF0C\\u4F46\\u4E1C\\u897F\\u8FD8\\u662F\\u633A\\u591A\\u7684\\u3002\\u6BCF\\u5929\\u51C6\\u5907\\u4E00\\u5C0F\\u65F6\\u5DE6\\u53F3\\uFF0C\\u5927\\u6982\\u4E24\\u4E2A\\u6708\\u7684\\u65F6\\u95F4\\uFF0C\\u4F4E\\u7A7A\\u64E6\\u7EBF\\u901A\\u8FC7\\u3002\"}),(0,a.jsxs)(e.h3,{className:\"content-header\",id:\"\\u82F1\\u8BED\",children:[(0,a.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#\\u82F1\\u8BED\",tabIndex:\"-1\",children:(0,a.jsx)(a.Fragment,{children:(0,a.jsx)(e.span,{className:\"content-header-link\",children:(0,a.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,a.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,a.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u82F1\\u8BED\"]}),(0,a.jsx)(e.p,{children:\"\\u5E74\\u672B\\u51C6\\u5907\\u6362\\u5DE5\\u4F5C\\uFF0C\\u8FD9\\u6B21\\u5E0C\\u671B\\u53BB\\u5916\\u4F01\\u3001\\u5916\\u8D44\\u94F6\\u884C\\u4E4B\\u7C7B\\u7684\\u5730\\u65B9\\uFF0C\\u5BF9\\u82F1\\u6587\\u6709\\u8F83\\u9AD8\\u7684\\u8981\\u6C42\\u3002\\u81EA\\u8BA4\\u4E3A\\u82F1\\u8BED\\u8BFB\\u5199\\u5C5E\\u4E8E\\u8FD8\\u53EF\\u4EE5\\u7684\\u7A0B\\u5EA6\\uFF0C\\u4F46\\u5E94\\u5BF9\\u9762\\u8BD5\\u9700\\u8981\\u7684\\u542C\\u8BF4\\u8FD8\\u662F\\u6709\\u70B9\\u6050\\u60E7\\u3002\\u8FD9\\u65F6\\u5E94\\u7528\\u6765gpt\\u7684\\u9AD8\\u7EA7\\u8BED\\u97F3\\u6A21\\u5F0F\\u6765\\u8FDB\\u884C\\u5BF9\\u8BDD\\uFF0C\\u8BA9\\u5B83\\u6765\\u5145\\u5F53\\u6A21\\u62DF\\u9762\\u8BD5\\u5B98\\uFF0C\\u8DDF\\u5B83\\u6BCF\\u5929\\u804A\\u534A\\u5C0F\\u65F6\\uFF0C\\u53E3\\u8BED\\u63D0\\u5347\\u4E86\\u4E0D\\u5C11\\u3002\\u4E5F\\u5BF9\\u81EA\\u5DF1\\u6709\\u4E86\\u4E00\\u5B9A\\u7684\\u81EA\\u4FE1\"}),(0,a.jsxs)(e.h2,{className:\"content-header\",id:\"\\u6280\\u672F\",children:[(0,a.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#\\u6280\\u672F\",tabIndex:\"-1\",children:(0,a.jsx)(a.Fragment,{children:(0,a.jsx)(e.span,{className:\"content-header-link\",children:(0,a.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,a.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,a.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u6280\\u672F\"]}),(0,a.jsx)(e.p,{children:\"\\u6574\\u4F53\\u4E0A\\u6280\\u672F\\u5E76\\u6CA1\\u6709\\u592A\\u591A\\u7684\\u8FDB\\u6B65\\uFF0C\\u611F\\u89C9\\u81EA\\u5DF1\\u5728\\u516C\\u53F8\\u4E3B\\u8981\\u505A\\u7684\\u7EC4\\u4EF6\\u5E93\\uFF0C\\u5DF2\\u7ECF\\u78B0\\u5230\\u4E86\\u4E00\\u4E2A\\u74F6\\u9888\\u671F\\u3002\\u5E74\\u521D\\u4E86\\u89E3\\u6765\\u4E00\\u4E0Bvite\\uFF0C\\u5347\\u7EA7\\u6765\\u7EC4\\u4EF6\\u5E93\\u5E76\\u5728\\u56E2\\u961F\\u5BA3\\u8BB2\\u4E86\\u4E00\\u4E0B\\u3002\"}),(0,a.jsx)(e.p,{children:\"\\u5173\\u4E8E\\u65B0\\u6280\\u672F\\uFF0C\\u7B80\\u5355\\u770B\\u4E86\\u4E0Bheadless ui\\uFF0C\\u5B66\\u4E86\\u4E00\\u4E0Bzustand\\uFF0C\\u7FFB\\u4E86\\u4E00\\u4E0Bnextjs\\u548Ctailwind\\uFF0C\\u5728\\u65B0\\u516C\\u53F8\\u6709\\u76F8\\u5E94\\u7684\\u5E94\\u7528\\u573A\\u666F\\uFF0C\\u5E0C\\u671B\\u80FD\\u987A\\u5229\\u7528\\u4E0A\\u5427\"}),(0,a.jsxs)(e.h2,{className:\"content-header\",id:\"\\u9605\\u8BFB\",children:[(0,a.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#\\u9605\\u8BFB\",tabIndex:\"-1\",children:(0,a.jsx)(a.Fragment,{children:(0,a.jsx)(e.span,{className:\"content-header-link\",children:(0,a.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,a.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,a.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u9605\\u8BFB\"]}),(0,a.jsx)(e.p,{children:\"\\u5728\\u5FAE\\u4FE1\\u8BFB\\u4E66\\u4E0A\\u8BFB\\u4E86\\u4E00\\u4E9B\\u6BD4\\u8F83\\u4E0D\\u9519\\u7684\\u4E66\\uFF0C\\u8FD9\\u91CC\\u7B80\\u5355\\u5206\\u4EAB\\u4E00\\u4E0B\\uFF0C\\u6709\\u673A\\u4F1A\\u505A\\u4E00\\u4E0B\\u8BFB\\u4E66\\u7B14\\u8BB0\\u3002\\u300A\\u7A0B\\u5E8F\\u5458\\u7684README\\u300B\\uFF0C\\u300A\\u6881\\u601D\\u6210\\u6797\\u5FAE\\u56E0\\u5EFA\\u7B51\\u827A\\u672F\\u4E8C\\u5341\\u8BB2\\u300B\\uFF0C\\u300A\\u5E95\\u5C42\\u903B\\u8F91\\u300B\\uFF0C\\u300A\\u641E\\u5B9A\\u7CFB\\u7EDF\\u8BBE\\u8BA1\\u300B\"}),(0,a.jsxs)(e.h2,{className:\"content-header\",id:\"\\u603B\\u7ED3\",children:[(0,a.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#\\u603B\\u7ED3\",tabIndex:\"-1\",children:(0,a.jsx)(a.Fragment,{children:(0,a.jsx)(e.span,{className:\"content-header-link\",children:(0,a.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,a.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,a.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u603B\\u7ED3\"]}),(0,a.jsx)(e.p,{children:\"24\\u5E74\\u662F\\u5404\\u79CD\\u5C1D\\u8BD5\\u548C\\u6536\\u83B7\\u7684\\u4E00\\u5E74\\uFF0C\\u5C1D\\u8BD5\\u53BB\\u4E86\\u5404\\u79CD\\u5730\\u65B9\\uFF0C\\u63D0\\u5347\\u4E86\\u5B66\\u5386\\u3001\\u82F1\\u8BED\\u3001\\u9879\\u76EE\\u7BA1\\u7406\\u80FD\\u529B\\uFF0C\\u5E0C\\u671B25\\u5E74\\u53EF\\u4EE5\\u7EE7\\u7EED\\u5B66\\u4E60\\uFF0C\\u5C1D\\u8BD5\\uFF0C\\u62E5\\u6709\\u4E00\\u4E9B\\u4E0D\\u4E00\\u6837\\u7684\\u4F53\\u9A8C\\u5427\\uFF01\"})]})}function o(l={}){let{wrapper:e}=l.components||{};return e?(0,a.jsx)(e,{...l,children:(0,a.jsx)(s,{...l})}):s(l)}return f(k);})();\n;return Component;"
+  },
+  "_id": "blog/my-2024.mdx",
+  "_raw": {
+    "sourceFilePath": "blog/my-2024.mdx",
+    "sourceFileName": "my-2024.mdx",
+    "sourceFileDir": "blog",
+    "contentType": "mdx",
+    "flattenedPath": "blog/my-2024"
+  },
+  "type": "Blog",
+  "readingTime": {
+    "text": "4 min read",
+    "minutes": 3.675,
+    "time": 220500,
+    "words": 735
+  },
+  "slug": "my-2024",
+  "path": "blog/my-2024",
+  "filePath": "blog/my-2024.mdx",
+  "toc": [
+    {
+      "value": "旅游",
+      "url": "#旅游",
+      "depth": 2
+    },
+    {
+      "value": "成长",
+      "url": "#成长",
+      "depth": 2
+    },
+    {
+      "value": "考研",
+      "url": "#考研",
+      "depth": 3
+    },
+    {
+      "value": "软考",
+      "url": "#软考",
+      "depth": 3
+    },
+    {
+      "value": "英语",
+      "url": "#英语",
+      "depth": 3
+    },
+    {
+      "value": "技术",
+      "url": "#技术",
+      "depth": 2
+    },
+    {
+      "value": "阅读",
+      "url": "#阅读",
+      "depth": 2
+    },
+    {
+      "value": "总结",
+      "url": "#总结",
+      "depth": 2
+    }
+  ],
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "我的2024",
+    "datePublished": "2025-01-28T00:00:00.000Z",
+    "dateModified": "2025-01-28T00:00:00.000Z",
+    "description": "精彩的一年",
+    "image": "/static/images/twitter-card.png",
+    "url": "https://hpoenixf.com//blog/my-2024"
+  }
+}

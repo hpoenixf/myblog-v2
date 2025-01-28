@@ -2847,6 +2847,60 @@
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
+    "blog/my-2024.mdx": {
+      "document": {
+        "title": "我的2024",
+        "date": "2022-01-26T00:00:00.000Z",
+        "tags": [
+          "年度回顾",
+          "回顾"
+        ],
+        "draft": false,
+        "summary": "精彩的一年",
+        "body": {
+          "raw": "\n用2024总结作为博客\n##",
+          "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var _=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var p=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),j=(t,n)=>{for(var r in n)s(t,r,{get:n[r],enumerable:!0})},c=(t,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of _(n))!l.call(t,o)&&o!==r&&s(t,o,{get:()=>n[o],enumerable:!(a=f(n,o))||a.enumerable});return t};var g=(t,n,r)=>(r=t!=null?d(h(t)):{},c(n||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),M=t=>c(s({},\"__esModule\",{value:!0}),t);var x=p((F,m)=>{m.exports=_jsx_runtime});var C={};j(C,{default:()=>u,frontmatter:()=>y});var e=g(x()),y={title:\"\\u6211\\u76842024\",date:\"2022-01-26\",tags:[\"\\u5E74\\u5EA6\\u56DE\\u987E\",\"\\u56DE\\u987E\"],draft:!1,summary:\"\\u7CBE\\u5F69\\u7684\\u4E00\\u5E74\"};function i(t){let n={h2:\"h2\",p:\"p\",...t.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.p,{children:\"\\u75282024\\u603B\\u7ED3\\u4F5C\\u4E3A\\u535A\\u5BA2\"}),(0,e.jsx)(n.h2,{})]})}function u(t={}){let{wrapper:n}=t.components||{};return n?(0,e.jsx)(n,{...t,children:(0,e.jsx)(i,{...t})}):i(t)}return M(C);})();\n;return Component;"
+        },
+        "_id": "blog/my-2024.mdx",
+        "_raw": {
+          "sourceFilePath": "blog/my-2024.mdx",
+          "sourceFileName": "my-2024.mdx",
+          "sourceFileDir": "blog",
+          "contentType": "mdx",
+          "flattenedPath": "blog/my-2024"
+        },
+        "type": "Blog",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.04,
+          "time": 2400,
+          "words": 8
+        },
+        "slug": "my-2024",
+        "path": "blog/my-2024",
+        "filePath": "blog/my-2024.mdx",
+        "toc": [
+          {
+            "value": "",
+            "url": "#",
+            "depth": 2
+          }
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "我的2024",
+          "datePublished": "2022-01-26T00:00:00.000Z",
+          "dateModified": "2022-01-26T00:00:00.000Z",
+          "description": "精彩的一年",
+          "image": "/static/images/twitter-card.png",
+          "url": "https://tailwind-nextjs-starter-blog.vercel.app/blog/my-2024"
+        }
+      },
+      "documentHash": "1738051593988",
+      "hasWarnings": false,
+      "documentTypeName": "Blog"
+    },
     "blog/my-fe-view.mdx": {
       "document": {
         "title": "前端工程师的定义与未来",
@@ -3814,60 +3868,6 @@
         }
       },
       "documentHash": "1737982916437",
-      "hasWarnings": false,
-      "documentTypeName": "Blog"
-    },
-    "blog/my-2024.mdx": {
-      "document": {
-        "title": "我的2024",
-        "date": "2022-01-26T00:00:00.000Z",
-        "tags": [
-          "年度回顾",
-          "回顾"
-        ],
-        "draft": false,
-        "summary": "精彩的一年",
-        "body": {
-          "raw": "\n用2024总结作为博客\n##",
-          "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var _=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var p=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),j=(t,n)=>{for(var r in n)s(t,r,{get:n[r],enumerable:!0})},c=(t,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of _(n))!l.call(t,o)&&o!==r&&s(t,o,{get:()=>n[o],enumerable:!(a=f(n,o))||a.enumerable});return t};var g=(t,n,r)=>(r=t!=null?d(h(t)):{},c(n||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),M=t=>c(s({},\"__esModule\",{value:!0}),t);var x=p((F,m)=>{m.exports=_jsx_runtime});var C={};j(C,{default:()=>u,frontmatter:()=>y});var e=g(x()),y={title:\"\\u6211\\u76842024\",date:\"2022-01-26\",tags:[\"\\u5E74\\u5EA6\\u56DE\\u987E\",\"\\u56DE\\u987E\"],draft:!1,summary:\"\\u7CBE\\u5F69\\u7684\\u4E00\\u5E74\"};function i(t){let n={h2:\"h2\",p:\"p\",...t.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.p,{children:\"\\u75282024\\u603B\\u7ED3\\u4F5C\\u4E3A\\u535A\\u5BA2\"}),(0,e.jsx)(n.h2,{})]})}function u(t={}){let{wrapper:n}=t.components||{};return n?(0,e.jsx)(n,{...t,children:(0,e.jsx)(i,{...t})}):i(t)}return M(C);})();\n;return Component;"
-        },
-        "_id": "blog/my-2024.mdx",
-        "_raw": {
-          "sourceFilePath": "blog/my-2024.mdx",
-          "sourceFileName": "my-2024.mdx",
-          "sourceFileDir": "blog",
-          "contentType": "mdx",
-          "flattenedPath": "blog/my-2024"
-        },
-        "type": "Blog",
-        "readingTime": {
-          "text": "1 min read",
-          "minutes": 0.04,
-          "time": 2400,
-          "words": 8
-        },
-        "slug": "my-2024",
-        "path": "blog/my-2024",
-        "filePath": "blog/my-2024.mdx",
-        "toc": [
-          {
-            "value": "",
-            "url": "#",
-            "depth": 2
-          }
-        ],
-        "structuredData": {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "我的2024",
-          "datePublished": "2022-01-26T00:00:00.000Z",
-          "dateModified": "2022-01-26T00:00:00.000Z",
-          "description": "精彩的一年",
-          "image": "/static/images/twitter-card.png",
-          "url": "https://tailwind-nextjs-starter-blog.vercel.app/blog/my-2024"
-        }
-      },
-      "documentHash": "1738051593988",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     }

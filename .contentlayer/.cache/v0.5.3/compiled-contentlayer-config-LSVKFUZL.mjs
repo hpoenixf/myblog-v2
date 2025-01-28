@@ -31,17 +31,17 @@ var require_siteMetadata = __commonJS({
       title: "hpoenixf's Blog",
       author: "hpoenixf",
       headerTitle: "hpoenixf's Blog",
-      description: "A blog created with Next.js and Tailwind.css",
+      description: "\u8BB0\u5F55\u4E2A\u4EBA\u6210\u957F\uFF0C\u6280\u672F\u5206\u4EAB\u548C\u601D\u8003",
       language: "en-us",
       theme: "system",
       // system, dark or light
-      siteUrl: "https://tailwind-nextjs-starter-blog.vercel.app",
-      siteRepo: "https://github.com/timlrx/tailwind-nextjs-starter-blog",
+      siteUrl: "https://hpoenixf.com/",
+      siteRepo: "https://github.com/hpoenixf/myblog-v2",
       siteLogo: `${process.env.BASE_PATH || ""}/static/images/logo.png`,
       socialBanner: `${process.env.BASE_PATH || ""}/static/images/twitter-card.png`,
       mastodon: "https://mastodon.social/@mastodonuser",
-      email: "address@yoursite.com",
-      github: "https://github.com",
+      email: "hpoenixf@foxmail.com",
+      github: "https://github.com/hpoenixf",
       x: "https://twitter.com/x",
       // twitter: 'https://twitter.com/Twitter',
       facebook: "https://facebook.com",
@@ -314,4 +314,4 @@ export {
   Blog,
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-XBMLT5C7.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-LSVKFUZL.mjs.map

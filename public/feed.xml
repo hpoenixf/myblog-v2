@@ -2,321 +2,331 @@
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       <title>hpoenixf&#39;s Blog</title>
-      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
-      <description>A blog created with Next.js and Tailwind.css</description>
+      <link>https://hpoenixf.com//blog</link>
+      <description>记录个人成长，技术分享和思考</description>
       <language>en-us</language>
-      <managingEditor>address@yoursite.com (hpoenixf)</managingEditor>
-      <webMaster>address@yoursite.com (hpoenixf)</webMaster>
-      <lastBuildDate>Wed, 26 Jan 2022 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
+      <managingEditor>hpoenixf@foxmail.com (hpoenixf)</managingEditor>
+      <webMaster>hpoenixf@foxmail.com (hpoenixf)</webMaster>
+      <lastBuildDate>Tue, 28 Jan 2025 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://hpoenixf.com//feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/good-sdk</guid>
+    <guid>https://hpoenixf.com//blog/my-2024</guid>
+    <title>我的2024</title>
+    <link>https://hpoenixf.com//blog/my-2024</link>
+    <description>精彩的一年</description>
+    <pubDate>Tue, 28 Jan 2025 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>年度回顾</category><category>回顾</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/good-sdk</guid>
     <title>如何编写一个优秀的 SDK</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/good-sdk</link>
+    <link>https://hpoenixf.com//blog/good-sdk</link>
     <description>本文探讨了编写优秀 SDK 的关键原则和方法，从用户体验出发分析如何让 SDK 更好用、更易维护和扩展。</description>
     <pubDate>Wed, 26 Jan 2022 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     <category>sdk</category><category>development</category><category>best practices</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/miniprogram</guid>
+    <guid>https://hpoenixf.com//blog/miniprogram</guid>
     <title>小程序原理简述</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/miniprogram</link>
+    <link>https://hpoenixf.com//blog/miniprogram</link>
     <description>小程序原理简述。</description>
     <pubDate>Wed, 26 Jan 2022 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     <category>interaction design</category><category>ux</category><category>product design</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/frame-sync</guid>
+    <guid>https://hpoenixf.com//blog/frame-sync</guid>
     <title>帧同步技术简介与开发实践</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/frame-sync</link>
+    <link>https://hpoenixf.com//blog/frame-sync</link>
     <description>本文介绍帧同步的原理、优缺点、开发中的实现以及常见问题与解决方法。</description>
     <pubDate>Sun, 26 Dec 2021 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     <category>frame sync</category><category>game development</category><category>networking</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/net</guid>
+    <guid>https://hpoenixf.com//blog/net</guid>
     <title>https &amp; 网络安全</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/net</link>
+    <link>https://hpoenixf.com//blog/net</link>
     <description>https和网络安全知识点</description>
     <pubDate>Sun, 26 Jul 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     <category>interaction design</category><category>ux</category><category>product design</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/data-log</guid>
+    <guid>https://hpoenixf.com//blog/data-log</guid>
     <title>错误信息监控与收集指南</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/data-log</link>
+    <link>https://hpoenixf.com//blog/data-log</link>
     <description>探讨错误信息的收集方法，包括可能的错误来源、需要记录的信息及如何实现监控。</description>
     <pubDate>Fri, 26 Jun 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     <category>error monitoring</category><category>frontend</category><category>performance</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/design-everday-note</guid>
+    <guid>https://hpoenixf.com//blog/design-everday-note</guid>
     <title>设计心理学读书笔记</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/design-everday-note</link>
+    <link>https://hpoenixf.com//blog/design-everday-note</link>
     undefined
     <pubDate>Fri, 26 Jun 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     <category>interaction design</category><category>ux</category><category>product design</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/fe-system-design-improve</guid>
+    <guid>https://hpoenixf.com//blog/fe-system-design-improve</guid>
     <title>前端系统设计与优化</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/fe-system-design-improve</link>
+    <link>https://hpoenixf.com//blog/fe-system-design-improve</link>
     undefined
     <pubDate>Fri, 26 Jun 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     <category>interaction design</category><category>ux</category><category>product design</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/pyramid-rinciple-note</guid>
+    <guid>https://hpoenixf.com//blog/pyramid-rinciple-note</guid>
     <title>金字塔原理读书笔记</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/pyramid-rinciple-note</link>
+    <link>https://hpoenixf.com//blog/pyramid-rinciple-note</link>
     <description>阅读《About Face》后整理的交互设计核心内容与启发。</description>
     <pubDate>Fri, 26 Jun 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     <category>interaction design</category><category>ux</category><category>product design</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/fe-design</guid>
+    <guid>https://hpoenixf.com//blog/fe-design</guid>
     <title>前端系分文档</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/fe-design</link>
+    <link>https://hpoenixf.com//blog/fe-design</link>
     undefined
     <pubDate>Sun, 03 May 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     <category>interaction design</category><category>ux</category><category>product design</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/performance-before</guid>
+    <guid>https://hpoenixf.com//blog/performance-before</guid>
     <title>从负一步开始的性能优化</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/performance-before</link>
+    <link>https://hpoenixf.com//blog/performance-before</link>
     <description>分享从页面访问前到页面运行时的性能优化方法与实践。</description>
     <pubDate>Tue, 28 Apr 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     <category>performance optimization</category><category>web development</category><category>frontend</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/aboutface-note</guid>
+    <guid>https://hpoenixf.com//blog/aboutface-note</guid>
     <title>《About Face》交互设计精髓笔记</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/aboutface-note</link>
+    <link>https://hpoenixf.com//blog/aboutface-note</link>
     <description>阅读《About Face》后整理的交互设计核心内容与启发。</description>
     <pubDate>Thu, 26 Mar 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     <category>interaction design</category><category>ux</category><category>product design</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/pmbok</guid>
+    <guid>https://hpoenixf.com//blog/pmbok</guid>
     <title>PMPBOK读书笔记</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/pmbok</link>
+    <link>https://hpoenixf.com//blog/pmbok</link>
     undefined
     <pubDate>Wed, 04 Mar 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     <category>interaction design</category><category>ux</category><category>product design</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/my-2019</guid>
+    <guid>https://hpoenixf.com//blog/my-2019</guid>
     <title>我的2019</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/my-2019</link>
+    <link>https://hpoenixf.com//blog/my-2019</link>
     undefined
     <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
-    
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>年度回顾</category><category>回顾</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/beauty-code</guid>
+    <guid>https://hpoenixf.com//blog/beauty-code</guid>
     <title>如何写漂亮的代码</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/beauty-code</link>
+    <link>https://hpoenixf.com//blog/beauty-code</link>
     <description>《代码整洁之道》和《编写可维护代码的艺术》的总结与整合</description>
     <pubDate>Sun, 10 Nov 2019 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/my-2018</guid>
+    <guid>https://hpoenixf.com//blog/my-2018</guid>
     <title>我的2018</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/my-2018</link>
+    <link>https://hpoenixf.com//blog/my-2018</link>
     undefined
     <pubDate>Thu, 06 Dec 2018 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
-    
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>年度回顾</category><category>回顾</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/fe-knowledge</guid>
+    <guid>https://hpoenixf.com//blog/fe-knowledge</guid>
     <title>前端除了 JS、HTML、CSS，还需要掌握哪些知识？</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/fe-knowledge</link>
+    <link>https://hpoenixf.com//blog/fe-knowledge</link>
     undefined
     <pubDate>Wed, 25 Apr 2018 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/my-fe-view</guid>
+    <guid>https://hpoenixf.com//blog/my-fe-view</guid>
     <title>前端工程师的定义与未来</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/my-fe-view</link>
+    <link>https://hpoenixf.com//blog/my-fe-view</link>
     <description>探讨前端工程师的定义、发展及未来的机会。</description>
     <pubDate>Wed, 18 Apr 2018 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     <category>frontend</category><category>career</category><category>web development</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/cdn-dns</guid>
+    <guid>https://hpoenixf.com//blog/cdn-dns</guid>
     <title>cdn和dns</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/cdn-dns</link>
+    <link>https://hpoenixf.com//blog/cdn-dns</link>
     <description>CDN和DNS知识</description>
     <pubDate>Tue, 10 Apr 2018 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/interview-for-2y</guid>
+    <guid>https://hpoenixf.com//blog/interview-for-2y</guid>
     <title>我的前端面试经验分享</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/interview-for-2y</link>
+    <link>https://hpoenixf.com//blog/interview-for-2y</link>
     <description>分享近期面试经历，包括面试流程、常见问题及个人总结。</description>
     <pubDate>Sun, 25 Mar 2018 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     <category>frontend</category><category>interview</category><category>career</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/this--closure</guid>
+    <guid>https://hpoenixf.com//blog/this--closure</guid>
     <title>一次搞定闭包和this</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/this--closure</link>
+    <link>https://hpoenixf.com//blog/this--closure</link>
     undefined
     <pubDate>Mon, 19 Mar 2018 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/why-fe</guid>
+    <guid>https://hpoenixf.com//blog/why-fe</guid>
     <title>为什么想要成为前端工程师</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/why-fe</link>
+    <link>https://hpoenixf.com//blog/why-fe</link>
     undefined
     <pubDate>Mon, 19 Mar 2018 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/http-status-code</guid>
+    <guid>https://hpoenixf.com//blog/http-status-code</guid>
     <title>http状态码</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/http-status-code</link>
+    <link>https://hpoenixf.com//blog/http-status-code</link>
     <description>http 状态码</description>
     <pubDate>Fri, 09 Mar 2018 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/fe-performance</guid>
+    <guid>https://hpoenixf.com//blog/fe-performance</guid>
     <title>前端性能优化</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/fe-performance</link>
+    <link>https://hpoenixf.com//blog/fe-performance</link>
     undefined
     <pubDate>Wed, 07 Mar 2018 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/simple-js-fe-be</guid>
+    <guid>https://hpoenixf.com//blog/simple-js-fe-be</guid>
     <title>简单前后端同构</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/simple-js-fe-be</link>
+    <link>https://hpoenixf.com//blog/simple-js-fe-be</link>
     undefined
     <pubDate>Wed, 28 Feb 2018 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/simple-virtual-dom</guid>
+    <guid>https://hpoenixf.com//blog/simple-virtual-dom</guid>
     <title>simple-virtual-dom</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/simple-virtual-dom</link>
+    <link>https://hpoenixf.com//blog/simple-virtual-dom</link>
     undefined
     <pubDate>Mon, 01 Jan 2018 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/iscroll-lite</guid>
+    <guid>https://hpoenixf.com//blog/iscroll-lite</guid>
     <title>iscroll-lite</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/iscroll-lite</link>
+    <link>https://hpoenixf.com//blog/iscroll-lite</link>
     undefined
     <pubDate>Sat, 12 Aug 2017 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/code-complete-node2</guid>
+    <guid>https://hpoenixf.com//blog/code-complete-node2</guid>
     <title>代码大全读书笔记2</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/code-complete-node2</link>
+    <link>https://hpoenixf.com//blog/code-complete-node2</link>
     undefined
     <pubDate>Mon, 03 Jul 2017 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/code-complete-node</guid>
+    <guid>https://hpoenixf.com//blog/code-complete-node</guid>
     <title>代码大全读书笔记</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/code-complete-node</link>
+    <link>https://hpoenixf.com//blog/code-complete-node</link>
     undefined
     <pubDate>Sun, 25 Jun 2017 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/react-cropper</guid>
+    <guid>https://hpoenixf.com//blog/react-cropper</guid>
     <title>一个基于react的图片裁剪组件</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/react-cropper</link>
+    <link>https://hpoenixf.com//blog/react-cropper</link>
     undefined
     <pubDate>Sat, 10 Jun 2017 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2y-fe-review</guid>
+    <guid>https://hpoenixf.com//blog/2y-fe-review</guid>
     <title>两年回顾</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2y-fe-review</link>
+    <link>https://hpoenixf.com//blog/2y-fe-review</link>
     <description>前端入行两年回顾</description>
     <pubDate>Sun, 04 Jun 2017 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
-    
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>年度回顾</category><category>回顾</category>
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/clean-code-note</guid>
+    <guid>https://hpoenixf.com//blog/clean-code-note</guid>
     <title>代码整洁之道读书笔记</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/clean-code-note</link>
+    <link>https://hpoenixf.com//blog/clean-code-note</link>
     undefined
     <pubDate>Sun, 04 Jun 2017 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (hpoenixf)</author>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
     
   </item>
 
