@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>hpoenixf@foxmail.com (hpoenixf)</managingEditor>
       <webMaster>hpoenixf@foxmail.com (hpoenixf)</webMaster>
-      <lastBuildDate>Wed, 29 Jan 2025 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 30 Jan 2025 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://hpoenixf.com//feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://hpoenixf.com//blog/design-quality-assurance</guid>
+    <title>从组件库到用户体验一致性保障体系</title>
+    <link>https://hpoenixf.com//blog/design-quality-assurance</link>
+    <description>我研发了一套用户体验一致性保障体系。在提升了业务指标的同时，减少了工作量</description>
+    <pubDate>Thu, 30 Jan 2025 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>设计</category><category>项目</category>
+  </item>
+
   <item>
     <guid>https://hpoenixf.com//blog/foreign-company-interview</guid>
     <title>外企面试准备及过程</title>
