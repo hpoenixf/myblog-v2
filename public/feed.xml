@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>hpoenixf@foxmail.com (hpoenixf)</managingEditor>
       <webMaster>hpoenixf@foxmail.com (hpoenixf)</webMaster>
-      <lastBuildDate>Thu, 30 Jan 2025 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 31 Jan 2025 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://hpoenixf.com//feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://hpoenixf.com//blog/design-pdca-data</guid>
+    <title>用PDCA与数据驱动决策来提升体验一致性</title>
+    <link>https://hpoenixf.com//blog/design-pdca-data</link>
+    <description>使用 PDCA 和数据驱动，让项目推动更有章法</description>
+    <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>设计</category><category>项目</category>
+  </item>
+
   <item>
     <guid>https://hpoenixf.com//blog/design-quality-assurance</guid>
     <title>从组件库到用户体验一致性保障体系</title>
