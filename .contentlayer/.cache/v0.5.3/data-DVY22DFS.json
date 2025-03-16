@@ -3202,6 +3202,70 @@
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
+    "blog/my-child.mdx": {
+      "document": {
+        "title": "第一次做爸爸",
+        "date": "2025-03-15T16:00:00.000Z",
+        "tags": [],
+        "draft": false,
+        "body": {
+          "raw": "\n2025年 3 月 5 日 23点 32分，我的第一个孩子出生了，到现在已经十来天，简单记录一下\n\n## 临生产\n\n由于老婆有甲状腺带来心跳过快，为了避免影响到宝宝，在 39周时进行了催产\n\n催产显示打针，然后水球，过程是比较痛苦的，在这里也感谢前海人寿医院的医生，尽可能帮助老婆顺产，让她可以很好的恢复。\n\n看着老婆生产的过程，感觉不管是怀孕的过程，还是生产的过程，父亲对一个新生命的诞生，贡献的确不多，完全不能跟母亲相提并论。生命是最大的奇迹，母亲才是最伟大的奇迹师。\n\n\n## 留院\n\n宝宝刚生下来，我们都没泡奶的经验和工具。还在产房的我们看着刚生下来肚子饿的宝宝在一边哭，然后护士和医生在忙着另一边的生产，需要我们等着才能回去病房。虽然知道有灰色脂肪，前三天的宝宝不吃不喝也没事，但心里还是有点焦虑。\n\n终于回到单人病房，当时已经是凌晨两点，医院有护工，可以帮我们喂奶，这一刻，夜间，天使，守护的母亲等形象具象化了。\n\n由于护工是多对一的，因此，每两三小时宝宝哭的时候，都要打电话喊护工过来看看是要换尿布还是喂奶，是很难休息好的。在这几天也是坐的背都弯不下来，紧急去楼下的中医推拿科治疗一下。\n\n## 月子中心\n\n两三天后顺利出院，来到月子中心，一下子惬意起来，有全职一对一月嫂帮忙看着，晚上拉上玻璃门可以顺利睡整觉，宝宝的作息也逐渐规律，十二点喂一顿，三点喂一顿，六点喂一顿，理论上只要起来一次就差不多了。\n\n## 感悟\n\n之前一直觉得生娃会给自己带来束缚，没有机会去探索没体验过的东西，但在看着孩子的时候，发现自己可以陪着孩子重新认识，接触世界，这何尝不是一种独特的体验呢？\n\n看着宝宝的脸，我想着，2025年生的你，大概率可以看到看到 22世纪，而我就有一点难度了。但愿你可以健康，幸福的走到那一天，见识世界的美好。\n\n",
+          "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var w=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),u=(n,a)=>{for(var l in a)t(n,l,{get:a[l],enumerable:!0})},c=(n,a,l,h)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of w(a))!g.call(n,r)&&r!==l&&t(n,r,{get:()=>a[r],enumerable:!(h=m(a,r))||h.enumerable});return n};var v=(n,a,l)=>(l=n!=null?p(x(n)):{},c(a||!n||!n.__esModule?t(l,\"default\",{value:n,enumerable:!0}):l,n)),N=n=>c(t({},\"__esModule\",{value:!0}),n);var d=f((_,i)=>{i.exports=_jsx_runtime});var k={};u(k,{default:()=>o,frontmatter:()=>M});var e=v(d()),M={title:\"\\u7B2C\\u4E00\\u6B21\\u505A\\u7238\\u7238\",date:\"2025-03-016\",draft:!1};function s(n){let a={a:\"a\",h2:\"h2\",p:\"p\",path:\"path\",span:\"span\",svg:\"svg\",...n.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(a.p,{children:\"2025\\u5E74 3 \\u6708 5 \\u65E5 23\\u70B9 32\\u5206\\uFF0C\\u6211\\u7684\\u7B2C\\u4E00\\u4E2A\\u5B69\\u5B50\\u51FA\\u751F\\u4E86\\uFF0C\\u5230\\u73B0\\u5728\\u5DF2\\u7ECF\\u5341\\u6765\\u5929\\uFF0C\\u7B80\\u5355\\u8BB0\\u5F55\\u4E00\\u4E0B\"}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"\\u4E34\\u751F\\u4EA7\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#\\u4E34\\u751F\\u4EA7\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u4E34\\u751F\\u4EA7\"]}),(0,e.jsx)(a.p,{children:\"\\u7531\\u4E8E\\u8001\\u5A46\\u6709\\u7532\\u72B6\\u817A\\u5E26\\u6765\\u5FC3\\u8DF3\\u8FC7\\u5FEB\\uFF0C\\u4E3A\\u4E86\\u907F\\u514D\\u5F71\\u54CD\\u5230\\u5B9D\\u5B9D\\uFF0C\\u5728 39\\u5468\\u65F6\\u8FDB\\u884C\\u4E86\\u50AC\\u4EA7\"}),(0,e.jsx)(a.p,{children:\"\\u50AC\\u4EA7\\u663E\\u793A\\u6253\\u9488\\uFF0C\\u7136\\u540E\\u6C34\\u7403\\uFF0C\\u8FC7\\u7A0B\\u662F\\u6BD4\\u8F83\\u75DB\\u82E6\\u7684\\uFF0C\\u5728\\u8FD9\\u91CC\\u4E5F\\u611F\\u8C22\\u524D\\u6D77\\u4EBA\\u5BFF\\u533B\\u9662\\u7684\\u533B\\u751F\\uFF0C\\u5C3D\\u53EF\\u80FD\\u5E2E\\u52A9\\u8001\\u5A46\\u987A\\u4EA7\\uFF0C\\u8BA9\\u5979\\u53EF\\u4EE5\\u5F88\\u597D\\u7684\\u6062\\u590D\\u3002\"}),(0,e.jsx)(a.p,{children:\"\\u770B\\u7740\\u8001\\u5A46\\u751F\\u4EA7\\u7684\\u8FC7\\u7A0B\\uFF0C\\u611F\\u89C9\\u4E0D\\u7BA1\\u662F\\u6000\\u5B55\\u7684\\u8FC7\\u7A0B\\uFF0C\\u8FD8\\u662F\\u751F\\u4EA7\\u7684\\u8FC7\\u7A0B\\uFF0C\\u7236\\u4EB2\\u5BF9\\u4E00\\u4E2A\\u65B0\\u751F\\u547D\\u7684\\u8BDE\\u751F\\uFF0C\\u8D21\\u732E\\u7684\\u786E\\u4E0D\\u591A\\uFF0C\\u5B8C\\u5168\\u4E0D\\u80FD\\u8DDF\\u6BCD\\u4EB2\\u76F8\\u63D0\\u5E76\\u8BBA\\u3002\\u751F\\u547D\\u662F\\u6700\\u5927\\u7684\\u5947\\u8FF9\\uFF0C\\u6BCD\\u4EB2\\u624D\\u662F\\u6700\\u4F1F\\u5927\\u7684\\u5947\\u8FF9\\u5E08\\u3002\"}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"\\u7559\\u9662\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#\\u7559\\u9662\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u7559\\u9662\"]}),(0,e.jsx)(a.p,{children:\"\\u5B9D\\u5B9D\\u521A\\u751F\\u4E0B\\u6765\\uFF0C\\u6211\\u4EEC\\u90FD\\u6CA1\\u6CE1\\u5976\\u7684\\u7ECF\\u9A8C\\u548C\\u5DE5\\u5177\\u3002\\u8FD8\\u5728\\u4EA7\\u623F\\u7684\\u6211\\u4EEC\\u770B\\u7740\\u521A\\u751F\\u4E0B\\u6765\\u809A\\u5B50\\u997F\\u7684\\u5B9D\\u5B9D\\u5728\\u4E00\\u8FB9\\u54ED\\uFF0C\\u7136\\u540E\\u62A4\\u58EB\\u548C\\u533B\\u751F\\u5728\\u5FD9\\u7740\\u53E6\\u4E00\\u8FB9\\u7684\\u751F\\u4EA7\\uFF0C\\u9700\\u8981\\u6211\\u4EEC\\u7B49\\u7740\\u624D\\u80FD\\u56DE\\u53BB\\u75C5\\u623F\\u3002\\u867D\\u7136\\u77E5\\u9053\\u6709\\u7070\\u8272\\u8102\\u80AA\\uFF0C\\u524D\\u4E09\\u5929\\u7684\\u5B9D\\u5B9D\\u4E0D\\u5403\\u4E0D\\u559D\\u4E5F\\u6CA1\\u4E8B\\uFF0C\\u4F46\\u5FC3\\u91CC\\u8FD8\\u662F\\u6709\\u70B9\\u7126\\u8651\\u3002\"}),(0,e.jsx)(a.p,{children:\"\\u7EC8\\u4E8E\\u56DE\\u5230\\u5355\\u4EBA\\u75C5\\u623F\\uFF0C\\u5F53\\u65F6\\u5DF2\\u7ECF\\u662F\\u51CC\\u6668\\u4E24\\u70B9\\uFF0C\\u533B\\u9662\\u6709\\u62A4\\u5DE5\\uFF0C\\u53EF\\u4EE5\\u5E2E\\u6211\\u4EEC\\u5582\\u5976\\uFF0C\\u8FD9\\u4E00\\u523B\\uFF0C\\u591C\\u95F4\\uFF0C\\u5929\\u4F7F\\uFF0C\\u5B88\\u62A4\\u7684\\u6BCD\\u4EB2\\u7B49\\u5F62\\u8C61\\u5177\\u8C61\\u5316\\u4E86\\u3002\"}),(0,e.jsx)(a.p,{children:\"\\u7531\\u4E8E\\u62A4\\u5DE5\\u662F\\u591A\\u5BF9\\u4E00\\u7684\\uFF0C\\u56E0\\u6B64\\uFF0C\\u6BCF\\u4E24\\u4E09\\u5C0F\\u65F6\\u5B9D\\u5B9D\\u54ED\\u7684\\u65F6\\u5019\\uFF0C\\u90FD\\u8981\\u6253\\u7535\\u8BDD\\u558A\\u62A4\\u5DE5\\u8FC7\\u6765\\u770B\\u770B\\u662F\\u8981\\u6362\\u5C3F\\u5E03\\u8FD8\\u662F\\u5582\\u5976\\uFF0C\\u662F\\u5F88\\u96BE\\u4F11\\u606F\\u597D\\u7684\\u3002\\u5728\\u8FD9\\u51E0\\u5929\\u4E5F\\u662F\\u5750\\u7684\\u80CC\\u90FD\\u5F2F\\u4E0D\\u4E0B\\u6765\\uFF0C\\u7D27\\u6025\\u53BB\\u697C\\u4E0B\\u7684\\u4E2D\\u533B\\u63A8\\u62FF\\u79D1\\u6CBB\\u7597\\u4E00\\u4E0B\\u3002\"}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"\\u6708\\u5B50\\u4E2D\\u5FC3\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#\\u6708\\u5B50\\u4E2D\\u5FC3\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u6708\\u5B50\\u4E2D\\u5FC3\"]}),(0,e.jsx)(a.p,{children:\"\\u4E24\\u4E09\\u5929\\u540E\\u987A\\u5229\\u51FA\\u9662\\uFF0C\\u6765\\u5230\\u6708\\u5B50\\u4E2D\\u5FC3\\uFF0C\\u4E00\\u4E0B\\u5B50\\u60EC\\u610F\\u8D77\\u6765\\uFF0C\\u6709\\u5168\\u804C\\u4E00\\u5BF9\\u4E00\\u6708\\u5AC2\\u5E2E\\u5FD9\\u770B\\u7740\\uFF0C\\u665A\\u4E0A\\u62C9\\u4E0A\\u73BB\\u7483\\u95E8\\u53EF\\u4EE5\\u987A\\u5229\\u7761\\u6574\\u89C9\\uFF0C\\u5B9D\\u5B9D\\u7684\\u4F5C\\u606F\\u4E5F\\u9010\\u6E10\\u89C4\\u5F8B\\uFF0C\\u5341\\u4E8C\\u70B9\\u5582\\u4E00\\u987F\\uFF0C\\u4E09\\u70B9\\u5582\\u4E00\\u987F\\uFF0C\\u516D\\u70B9\\u5582\\u4E00\\u987F\\uFF0C\\u7406\\u8BBA\\u4E0A\\u53EA\\u8981\\u8D77\\u6765\\u4E00\\u6B21\\u5C31\\u5DEE\\u4E0D\\u591A\\u4E86\\u3002\"}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"\\u611F\\u609F\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#\\u611F\\u609F\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u611F\\u609F\"]}),(0,e.jsx)(a.p,{children:\"\\u4E4B\\u524D\\u4E00\\u76F4\\u89C9\\u5F97\\u751F\\u5A03\\u4F1A\\u7ED9\\u81EA\\u5DF1\\u5E26\\u6765\\u675F\\u7F1A\\uFF0C\\u6CA1\\u6709\\u673A\\u4F1A\\u53BB\\u63A2\\u7D22\\u6CA1\\u4F53\\u9A8C\\u8FC7\\u7684\\u4E1C\\u897F\\uFF0C\\u4F46\\u5728\\u770B\\u7740\\u5B69\\u5B50\\u7684\\u65F6\\u5019\\uFF0C\\u53D1\\u73B0\\u81EA\\u5DF1\\u53EF\\u4EE5\\u966A\\u7740\\u5B69\\u5B50\\u91CD\\u65B0\\u8BA4\\u8BC6\\uFF0C\\u63A5\\u89E6\\u4E16\\u754C\\uFF0C\\u8FD9\\u4F55\\u5C1D\\u4E0D\\u662F\\u4E00\\u79CD\\u72EC\\u7279\\u7684\\u4F53\\u9A8C\\u5462\\uFF1F\"}),(0,e.jsx)(a.p,{children:\"\\u770B\\u7740\\u5B9D\\u5B9D\\u7684\\u8138\\uFF0C\\u6211\\u60F3\\u7740\\uFF0C2025\\u5E74\\u751F\\u7684\\u4F60\\uFF0C\\u5927\\u6982\\u7387\\u53EF\\u4EE5\\u770B\\u5230\\u770B\\u5230 22\\u4E16\\u7EAA\\uFF0C\\u800C\\u6211\\u5C31\\u6709\\u4E00\\u70B9\\u96BE\\u5EA6\\u4E86\\u3002\\u4F46\\u613F\\u4F60\\u53EF\\u4EE5\\u5065\\u5EB7\\uFF0C\\u5E78\\u798F\\u7684\\u8D70\\u5230\\u90A3\\u4E00\\u5929\\uFF0C\\u89C1\\u8BC6\\u4E16\\u754C\\u7684\\u7F8E\\u597D\\u3002\"})]})}function o(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(s,{...n})}):s(n)}return N(k);})();\n;return Component;"
+        },
+        "_id": "blog/my-child.mdx",
+        "_raw": {
+          "sourceFilePath": "blog/my-child.mdx",
+          "sourceFileName": "my-child.mdx",
+          "sourceFileDir": "blog",
+          "contentType": "mdx",
+          "flattenedPath": "blog/my-child"
+        },
+        "type": "Blog",
+        "readingTime": {
+          "text": "4 min read",
+          "minutes": 3.21,
+          "time": 192600,
+          "words": 642
+        },
+        "slug": "my-child",
+        "path": "blog/my-child",
+        "filePath": "blog/my-child.mdx",
+        "toc": [
+          {
+            "value": "临生产",
+            "url": "#临生产",
+            "depth": 2
+          },
+          {
+            "value": "留院",
+            "url": "#留院",
+            "depth": 2
+          },
+          {
+            "value": "月子中心",
+            "url": "#月子中心",
+            "depth": 2
+          },
+          {
+            "value": "感悟",
+            "url": "#感悟",
+            "depth": 2
+          }
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "第一次做爸爸",
+          "datePublished": "2025-03-15T16:00:00.000Z",
+          "dateModified": "2025-03-15T16:00:00.000Z",
+          "image": "/static/images/twitter-card.png",
+          "url": "https://hpoenixf.com//blog/my-child"
+        }
+      },
+      "documentHash": "1742136006652",
+      "hasWarnings": false,
+      "documentTypeName": "Blog"
+    },
     "blog/my-fe-view.mdx": {
       "document": {
         "title": "前端工程师的定义与未来",

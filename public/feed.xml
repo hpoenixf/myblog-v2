@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>hpoenixf@foxmail.com (hpoenixf)</managingEditor>
       <webMaster>hpoenixf@foxmail.com (hpoenixf)</webMaster>
-      <lastBuildDate>Fri, 31 Jan 2025 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 15 Mar 2025 16:00:00 GMT</lastBuildDate>
       <atom:link href="https://hpoenixf.com//feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://hpoenixf.com//blog/my-child</guid>
+    <title>第一次做爸爸</title>
+    <link>https://hpoenixf.com//blog/my-child</link>
+    undefined
+    <pubDate>Sat, 15 Mar 2025 16:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    
+  </item>
+
   <item>
     <guid>https://hpoenixf.com//blog/design-pdca-data</guid>
     <title>用PDCA与数据驱动决策来提升体验一致性</title>
