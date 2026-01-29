@@ -1,0 +1,74 @@
+{
+  "title": "我的 2025",
+  "date": "2026-01-01T00:00:00.000Z",
+  "tags": [
+    "年度回顾",
+    "回顾"
+  ],
+  "draft": false,
+  "summary": " 2025，我的变化与收获",
+  "body": {
+    "raw": "\n2025 年对我来说也是相当大变化的一年，下面分开讲讲\n\n### 为人父母\n\n我的女儿小珍珠出生了，第一次做人父亲，挑战很大，收获很大，感谢家人的支持\n\n\n### 外企工作\n\n离开了阿里来到了外企，外企的人性化果然不是吹的，六点关电脑，无限年假，居家办公，不 pua 的领导。也学到了很多新知识，nextjs，tailwind都是第一次使用。\n可惜的是，由于相关法规，我们公司受影响很大，不知道还能呆多久\n\n### 理财投资\n\n有了很多个人时间后，我开始琢磨折腾各种东西，重点学习了投资知识，目前的收获是分散投资，弄明白自己买的基金底层到底是什么，目前的规划:\n\n10%黄金，30% 红利低波，30% 纳斯达克，10% AI+量化， 10% 全球投资，5% 债券，剩下的是现金，争取能 8% 的年化收入，如果我有 200W 可以用于投资，那么上班就可以成为可选项了\n\n### 营养补剂\n\n开始研究补剂，目前有吃鱼油，维生素 D, 复合维生素，辅酶 q10，氨糖，镁，二甲双胍\n\n### 出游\n\n今年没有怎么出游，刚生玩宝宝去了一趟福州+厦门，比较适合 citywalk 和休闲，年底特种兵一个人去了一趟北京，六七天把能玩的都玩了，还是相当值得的\n\n### 运动\n\n去玩北京后发现自己体力和耐力还可以，把日常五公里的跑步升级一下，计划 26 年完成两三场半马，争取一场全马",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var w=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var u=(l,a)=>()=>(a||l((a={exports:{}}).exports,a),a.exports),v=(l,a)=>{for(var n in a)t(l,n,{get:a[n],enumerable:!0})},i=(l,a,n,h)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of m(a))!g.call(l,r)&&r!==n&&t(l,r,{get:()=>a[r],enumerable:!(h=w(a,r))||h.enumerable});return l};var f=(l,a,n)=>(n=l!=null?p(x(l)):{},i(a||!l||!l.__esModule?t(n,\"default\",{value:l,enumerable:!0}):n,l)),N=l=>i(t({},\"__esModule\",{value:!0}),l);var c=u((C,d)=>{d.exports=_jsx_runtime});var k={};v(k,{default:()=>o,frontmatter:()=>M});var e=f(c()),M={title:\"\\u6211\\u7684 2025\",date:\"2026-01-01\",tags:[\"\\u5E74\\u5EA6\\u56DE\\u987E\",\"\\u56DE\\u987E\"],summary:\" 2025\\uFF0C\\u6211\\u7684\\u53D8\\u5316\\u4E0E\\u6536\\u83B7\",draft:!1};function s(l){let a={a:\"a\",h3:\"h3\",p:\"p\",path:\"path\",span:\"span\",svg:\"svg\",...l.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(a.p,{children:\"2025 \\u5E74\\u5BF9\\u6211\\u6765\\u8BF4\\u4E5F\\u662F\\u76F8\\u5F53\\u5927\\u53D8\\u5316\\u7684\\u4E00\\u5E74\\uFF0C\\u4E0B\\u9762\\u5206\\u5F00\\u8BB2\\u8BB2\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"\\u4E3A\\u4EBA\\u7236\\u6BCD\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#\\u4E3A\\u4EBA\\u7236\\u6BCD\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u4E3A\\u4EBA\\u7236\\u6BCD\"]}),(0,e.jsx)(a.p,{children:\"\\u6211\\u7684\\u5973\\u513F\\u5C0F\\u73CD\\u73E0\\u51FA\\u751F\\u4E86\\uFF0C\\u7B2C\\u4E00\\u6B21\\u505A\\u4EBA\\u7236\\u4EB2\\uFF0C\\u6311\\u6218\\u5F88\\u5927\\uFF0C\\u6536\\u83B7\\u5F88\\u5927\\uFF0C\\u611F\\u8C22\\u5BB6\\u4EBA\\u7684\\u652F\\u6301\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"\\u5916\\u4F01\\u5DE5\\u4F5C\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#\\u5916\\u4F01\\u5DE5\\u4F5C\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u5916\\u4F01\\u5DE5\\u4F5C\"]}),(0,e.jsx)(a.p,{children:\"\\u79BB\\u5F00\\u4E86\\u963F\\u91CC\\u6765\\u5230\\u4E86\\u5916\\u4F01\\uFF0C\\u5916\\u4F01\\u7684\\u4EBA\\u6027\\u5316\\u679C\\u7136\\u4E0D\\u662F\\u5439\\u7684\\uFF0C\\u516D\\u70B9\\u5173\\u7535\\u8111\\uFF0C\\u65E0\\u9650\\u5E74\\u5047\\uFF0C\\u5C45\\u5BB6\\u529E\\u516C\\uFF0C\\u4E0D pua \\u7684\\u9886\\u5BFC\\u3002\\u4E5F\\u5B66\\u5230\\u4E86\\u5F88\\u591A\\u65B0\\u77E5\\u8BC6\\uFF0Cnextjs\\uFF0Ctailwind\\u90FD\\u662F\\u7B2C\\u4E00\\u6B21\\u4F7F\\u7528\\u3002 \\u53EF\\u60DC\\u7684\\u662F\\uFF0C\\u7531\\u4E8E\\u76F8\\u5173\\u6CD5\\u89C4\\uFF0C\\u6211\\u4EEC\\u516C\\u53F8\\u53D7\\u5F71\\u54CD\\u5F88\\u5927\\uFF0C\\u4E0D\\u77E5\\u9053\\u8FD8\\u80FD\\u5446\\u591A\\u4E45\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"\\u7406\\u8D22\\u6295\\u8D44\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#\\u7406\\u8D22\\u6295\\u8D44\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u7406\\u8D22\\u6295\\u8D44\"]}),(0,e.jsx)(a.p,{children:\"\\u6709\\u4E86\\u5F88\\u591A\\u4E2A\\u4EBA\\u65F6\\u95F4\\u540E\\uFF0C\\u6211\\u5F00\\u59CB\\u7422\\u78E8\\u6298\\u817E\\u5404\\u79CD\\u4E1C\\u897F\\uFF0C\\u91CD\\u70B9\\u5B66\\u4E60\\u4E86\\u6295\\u8D44\\u77E5\\u8BC6\\uFF0C\\u76EE\\u524D\\u7684\\u6536\\u83B7\\u662F\\u5206\\u6563\\u6295\\u8D44\\uFF0C\\u5F04\\u660E\\u767D\\u81EA\\u5DF1\\u4E70\\u7684\\u57FA\\u91D1\\u5E95\\u5C42\\u5230\\u5E95\\u662F\\u4EC0\\u4E48\\uFF0C\\u76EE\\u524D\\u7684\\u89C4\\u5212:\"}),(0,e.jsx)(a.p,{children:\"10%\\u9EC4\\u91D1\\uFF0C30% \\u7EA2\\u5229\\u4F4E\\u6CE2\\uFF0C30% \\u7EB3\\u65AF\\u8FBE\\u514B\\uFF0C10% AI+\\u91CF\\u5316\\uFF0C 10% \\u5168\\u7403\\u6295\\u8D44\\uFF0C5% \\u503A\\u5238\\uFF0C\\u5269\\u4E0B\\u7684\\u662F\\u73B0\\u91D1\\uFF0C\\u4E89\\u53D6\\u80FD 8% \\u7684\\u5E74\\u5316\\u6536\\u5165\\uFF0C\\u5982\\u679C\\u6211\\u6709 200W \\u53EF\\u4EE5\\u7528\\u4E8E\\u6295\\u8D44\\uFF0C\\u90A3\\u4E48\\u4E0A\\u73ED\\u5C31\\u53EF\\u4EE5\\u6210\\u4E3A\\u53EF\\u9009\\u9879\\u4E86\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"\\u8425\\u517B\\u8865\\u5242\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#\\u8425\\u517B\\u8865\\u5242\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u8425\\u517B\\u8865\\u5242\"]}),(0,e.jsx)(a.p,{children:\"\\u5F00\\u59CB\\u7814\\u7A76\\u8865\\u5242\\uFF0C\\u76EE\\u524D\\u6709\\u5403\\u9C7C\\u6CB9\\uFF0C\\u7EF4\\u751F\\u7D20 D, \\u590D\\u5408\\u7EF4\\u751F\\u7D20\\uFF0C\\u8F85\\u9176 q10\\uFF0C\\u6C28\\u7CD6\\uFF0C\\u9541\\uFF0C\\u4E8C\\u7532\\u53CC\\u80CD\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"\\u51FA\\u6E38\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#\\u51FA\\u6E38\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u51FA\\u6E38\"]}),(0,e.jsx)(a.p,{children:\"\\u4ECA\\u5E74\\u6CA1\\u6709\\u600E\\u4E48\\u51FA\\u6E38\\uFF0C\\u521A\\u751F\\u73A9\\u5B9D\\u5B9D\\u53BB\\u4E86\\u4E00\\u8D9F\\u798F\\u5DDE+\\u53A6\\u95E8\\uFF0C\\u6BD4\\u8F83\\u9002\\u5408 citywalk \\u548C\\u4F11\\u95F2\\uFF0C\\u5E74\\u5E95\\u7279\\u79CD\\u5175\\u4E00\\u4E2A\\u4EBA\\u53BB\\u4E86\\u4E00\\u8D9F\\u5317\\u4EAC\\uFF0C\\u516D\\u4E03\\u5929\\u628A\\u80FD\\u73A9\\u7684\\u90FD\\u73A9\\u4E86\\uFF0C\\u8FD8\\u662F\\u76F8\\u5F53\\u503C\\u5F97\\u7684\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"\\u8FD0\\u52A8\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#\\u8FD0\\u52A8\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"\\u8FD0\\u52A8\"]}),(0,e.jsx)(a.p,{children:\"\\u53BB\\u73A9\\u5317\\u4EAC\\u540E\\u53D1\\u73B0\\u81EA\\u5DF1\\u4F53\\u529B\\u548C\\u8010\\u529B\\u8FD8\\u53EF\\u4EE5\\uFF0C\\u628A\\u65E5\\u5E38\\u4E94\\u516C\\u91CC\\u7684\\u8DD1\\u6B65\\u5347\\u7EA7\\u4E00\\u4E0B\\uFF0C\\u8BA1\\u5212 26 \\u5E74\\u5B8C\\u6210\\u4E24\\u4E09\\u573A\\u534A\\u9A6C\\uFF0C\\u4E89\\u53D6\\u4E00\\u573A\\u5168\\u9A6C\"})]})}function o(l={}){let{wrapper:a}=l.components||{};return a?(0,e.jsx)(a,{...l,children:(0,e.jsx)(s,{...l})}):s(l)}return N(k);})();\n;return Component;"
+  },
+  "_id": "blog/my-2025.mdx",
+  "_raw": {
+    "sourceFilePath": "blog/my-2025.mdx",
+    "sourceFileName": "my-2025.mdx",
+    "sourceFileDir": "blog",
+    "contentType": "mdx",
+    "flattenedPath": "blog/my-2025"
+  },
+  "type": "Blog",
+  "readingTime": {
+    "text": "3 min read",
+    "minutes": 2.1,
+    "time": 126000,
+    "words": 420
+  },
+  "slug": "my-2025",
+  "path": "blog/my-2025",
+  "filePath": "blog/my-2025.mdx",
+  "toc": [
+    {
+      "value": "为人父母",
+      "url": "#为人父母",
+      "depth": 3
+    },
+    {
+      "value": "外企工作",
+      "url": "#外企工作",
+      "depth": 3
+    },
+    {
+      "value": "理财投资",
+      "url": "#理财投资",
+      "depth": 3
+    },
+    {
+      "value": "营养补剂",
+      "url": "#营养补剂",
+      "depth": 3
+    },
+    {
+      "value": "出游",
+      "url": "#出游",
+      "depth": 3
+    },
+    {
+      "value": "运动",
+      "url": "#运动",
+      "depth": 3
+    }
+  ],
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "我的 2025",
+    "datePublished": "2026-01-01T00:00:00.000Z",
+    "dateModified": "2026-01-01T00:00:00.000Z",
+    "description": " 2025，我的变化与收获",
+    "image": "/static/images/twitter-card.png",
+    "url": "https://hpoenixf.com//blog/my-2025"
+  }
+}
