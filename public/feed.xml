@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>hpoenixf@foxmail.com (hpoenixf)</managingEditor>
       <webMaster>hpoenixf@foxmail.com (hpoenixf)</webMaster>
-      <lastBuildDate>Tue, 21 Apr 2026 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 30 Apr 2026 16:00:00 GMT</lastBuildDate>
       <atom:link href="https://hpoenixf.com//feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://hpoenixf.com//blog/requirement-with-ai</guid>
+    <title>一天上线一个高不确定性需求：状态矩阵 + E2E 让前端交付不返工</title>
+    <link>https://hpoenixf.com//blog/requirement-with-ai</link>
+    <description>一天上线一个高不确定性需求：状态矩阵 + E2E 让前端交付不返工</description>
+    <pubDate>Thu, 30 Apr 2026 16:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    
+  </item>
+
   <item>
     <guid>https://hpoenixf.com//blog/my-first-skill</guid>
     <title>我的第一个复杂 Skill</title>
@@ -18,6 +28,16 @@
     <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
     <category>人工智能</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/first-skill</guid>
+    <title>skills 折腾记</title>
+    <link>https://hpoenixf.com//blog/first-skill</link>
+    <description>这两周我一直在折腾几个 Skill，踩了不少坑，想把过程和经验分享出来。</description>
+    <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    
   </item>
 
   <item>
