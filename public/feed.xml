@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>hpoenixf@foxmail.com (hpoenixf)</managingEditor>
       <webMaster>hpoenixf@foxmail.com (hpoenixf)</webMaster>
-      <lastBuildDate>Thu, 30 Apr 2026 16:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 22 Sep 2026 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://hpoenixf.com//feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://hpoenixf.com//blog/runtime-model-protocol-boundary-agent-article-v2</guid>
+    <title>别再让模型当状态机：一次 Agent 协议减负实践</title>
+    <link>https://hpoenixf.com//blog/runtime-model-protocol-boundary-agent-article-v2</link>
+    undefined
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/runtime-natural-language-boundary-article-v2</guid>
+    <title>Agent 写正则来实现规则 ≈ 踩坑</title>
+    <link>https://hpoenixf.com//blog/runtime-natural-language-boundary-article-v2</link>
+    undefined
+    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    
+  </item>
+
   <item>
     <guid>https://hpoenixf.com//blog/requirement-with-ai</guid>
     <title>一天上线一个高不确定性需求：状态矩阵 + E2E 让前端交付不返工</title>
