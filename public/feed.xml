@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>hpoenixf@foxmail.com (hpoenixf)</managingEditor>
       <webMaster>hpoenixf@foxmail.com (hpoenixf)</webMaster>
-      <lastBuildDate>Tue, 22 Sep 2026 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 25 Sep 2026 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://hpoenixf.com//feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://hpoenixf.com//blog/agent-failure-is-a-boundary-problem</guid>
+    <title>别再把 Agent 失败都算给模型：一次从粗错误码到失败链的排查</title>
+    <link>https://hpoenixf.com//blog/agent-failure-is-a-boundary-problem</link>
+    undefined
+    <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/honest-agent-evaluation</guid>
+    <title>大模型有返回等于 Agent 成功运行吗？</title>
+    <link>https://hpoenixf.com//blog/honest-agent-evaluation</link>
+    undefined
+    <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/partial-is-not-complete</guid>
+    <title>MCP返回了 50 条数据，模型只看到了 20 条：一次 Agent 静默截断排查</title>
+    <link>https://hpoenixf.com//blog/partial-is-not-complete</link>
+    undefined
+    <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>agent</category>
+  </item>
+
   <item>
     <guid>https://hpoenixf.com//blog/runtime-model-protocol-boundary-agent-article-v2</guid>
     <title>别再让模型当状态机：一次 Agent 协议减负实践</title>
@@ -17,7 +47,7 @@
     undefined
     <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    
+    <category>agent</category>
   </item>
 
   <item>
@@ -27,7 +57,7 @@
     undefined
     <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    
+    <category>agent</category>
   </item>
 
   <item>
