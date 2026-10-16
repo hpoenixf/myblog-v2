@@ -1,10 +1,12 @@
 ---
-title: MCP返回了 50 条数据，模型只看到了 20 条：一次 Agent 静默截断排查
-date: '2026-09-25'
-tags: ['agent']
+title: '源端有 50 条，模型只看到了 20 条：一次 Agent 静默截断排查'
+date: '2026-09-06'
+tags: ['ETF Agent', 'agent']
 draft: false
+summary: '工具结果如何在过滤、投影和容量限制中被静默截断，以及如何让不完整事实可见。'
 ---
 
+# 源端有 50 条，模型只看到了 20 条：一次 Agent 静默截断排查
 
 有一类 Agent 问题特别难排查。
 
@@ -61,6 +63,18 @@ LLM 总结或转述
 ```
 
 问题发生在 LLM 之前。
+
+```mermaid
+graph TD
+AuthoritySource --> ReadAndFilter
+ReadAndFilter --> CapacityLimit
+CapacityLimit --> ActualModelInput
+ActualModelInput --> ModelAnswer
+CapacityLimit --> CoverageState
+CoverageState --> ModelAnswer
+```
+
+覆盖状态要和正文一起保留。下游只知道“读到 20 条”，却不知道源端还有 30 条时，流畅的总结也掩盖不了输入缺口。
 
 源端有 50 条，但中间层有一个条目上限，只取了 20 条。
 
@@ -164,7 +178,7 @@ byteComplete = true
 
 例如：
 
-- 用户当前 37 个持仓；
+- 用户当前持仓集合；
 - 数据库查询结果 120 条；
 - 一份文档里的 16 个章节；
 - 某个 API 分页任务应该读取 8 页。
@@ -175,7 +189,7 @@ byteComplete = true
 
 这才是本文主要解决的问题。
 
-37 个持仓是不是全部进入了后续链路？
+这批持仓是不是全部进入了后续链路？
 
 120 条记录有没有只拿到前 100 条？
 

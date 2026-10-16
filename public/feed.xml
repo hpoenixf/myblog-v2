@@ -7,57 +7,257 @@
       <language>en-us</language>
       <managingEditor>hpoenixf@foxmail.com (hpoenixf)</managingEditor>
       <webMaster>hpoenixf@foxmail.com (hpoenixf)</webMaster>
-      <lastBuildDate>Fri, 25 Sep 2026 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 16 Oct 2026 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://hpoenixf.com//feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://hpoenixf.com//blog/agent-failure-is-a-boundary-problem</guid>
-    <title>别再把 Agent 失败都算给模型：一次从粗错误码到失败链的排查</title>
-    <link>https://hpoenixf.com//blog/agent-failure-is-a-boundary-problem</link>
-    undefined
-    <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    <guid>https://hpoenixf.com//blog/023-agent-publication-governance-retrospective</guid>
+    <title>Agent 发布治理为什么做了两次？问题不只是校验太严格</title>
+    <link>https://hpoenixf.com//blog/023-agent-publication-governance-retrospective</link>
+    <description>两轮发布治理如何发现重复拒绝路径，并把正文处置权收回既有发布模块。</description>
+    <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>agent</category>
+    <category>ETF Agent</category>
   </item>
 
   <item>
-    <guid>https://hpoenixf.com//blog/honest-agent-evaluation</guid>
-    <title>大模型有返回等于 Agent 成功运行吗？</title>
-    <link>https://hpoenixf.com//blog/honest-agent-evaluation</link>
-    undefined
-    <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    <guid>https://hpoenixf.com//blog/021-agent-web-research-from-search-to-deep-reading</guid>
+    <title>从“搜得到”到“读得下去”：我们怎样让 Agent 学会浏览网页</title>
+    <link>https://hpoenixf.com//blog/021-agent-web-research-from-search-to-deep-reading</link>
+    <description>从搜索、页面阅读到引用，回看 Agent 网页研究能力如何逐步形成。</description>
+    <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>agent</category>
+    <category>ETF Agent</category>
   </item>
 
   <item>
-    <guid>https://hpoenixf.com//blog/partial-is-not-complete</guid>
-    <title>MCP返回了 50 条数据，模型只看到了 20 条：一次 Agent 静默截断排查</title>
-    <link>https://hpoenixf.com//blog/partial-is-not-complete</link>
-    undefined
-    <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    <guid>https://hpoenixf.com//blog/022-agent-entry-from-intent-to-direct-research</guid>
+    <title>为什么我们把 Agent 的 Entry 越做越简单？</title>
+    <link>https://hpoenixf.com//blog/022-agent-entry-from-intent-to-direct-research</link>
+    <description>从 Intent 与 Planner 到 Direct / Research，回看 Agent 入口决策的简化过程。</description>
+    <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>agent</category>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/019-agent-answer-publication</guid>
+    <title>Agent 已经生成答案，为什么还需要一个独立的发布系统？</title>
+    <link>https://hpoenixf.com//blog/019-agent-answer-publication</link>
+    <description>答案生成后，独立发布层如何处理校验、预览、持久化、修订与恢复。</description>
+    <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/020-agent-extension-host-smartphone</guid>
+    <title>Agent 扩展如何接入 Host：插件生命周期与运行时边界</title>
+    <link>https://hpoenixf.com//blog/020-agent-extension-host-smartphone</link>
+    <description>Extension Host 如何承接插件的来源校验、生命周期、工具和有状态副作用。</description>
+    <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/agent-progressive-answer-coherence</guid>
+    <title>Agent 的渐进式回答：怎样保持研究过程连贯</title>
+    <link>https://hpoenixf.com//blog/agent-progressive-answer-coherence</link>
+    <description>渐进式回答如何保持正文上下文、精确修订与来源提示，让研究过程更连贯。</description>
+    <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/agent-tool-lifecycle-and-model-input</guid>
+    <title>从工具调用到模型输入：把 Agent 的观测链路接起来</title>
+    <link>https://hpoenixf.com//blog/agent-tool-lifecycle-and-model-input</link>
+    <description>连接工具执行记录与实际模型输入，定位结果在调用、投影和上下文传递中的变化。</description>
+    <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/adaptive-research-python-workbench</guid>
+    <title>从工具调用到自适应研究：让 Agent 边查、边算、边调整</title>
+    <link>https://hpoenixf.com//blog/adaptive-research-python-workbench</link>
+    <description>研究 Agent 如何依据新证据调整问题，并将工具结果交给 Python 继续分析。</description>
+    <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/tool-results-outside-model-context</guid>
+    <title>工具查到的数据，为什么不一定要给大模型看？</title>
+    <link>https://hpoenixf.com//blog/tool-results-outside-model-context</link>
+    <description>工具取得的结果如何保存并按需读取，而不必全部塞进模型当前上下文。</description>
+    <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/017-prompt-to-answer-six-layer-panorama</guid>
+    <title>一句“帮我看看组合”，怎样走过 ETF Agent 的六层系统</title>
+    <link>https://hpoenixf.com//blog/017-prompt-to-answer-six-layer-panorama</link>
+    <description>沿一次组合研究，串起问题入口、研究取证、答案交付与后续追问的六层职责。</description>
+    <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/mcp-market-responsibility-retrospective</guid>
+    <title>一个金融数据 MCP，为什么长成了研究决策系统</title>
+    <link>https://hpoenixf.com//blog/mcp-market-responsibility-retrospective</link>
+    <description>金融数据 MCP 如何从统一接入层膨胀为决策层，以及如何回收越界职责。</description>
+    <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/ai-citations-do-not-prove-reliability</guid>
+    <title>为什么 AI 明明有很多引用，回答还是不够可靠？</title>
+    <link>https://hpoenixf.com//blog/ai-citations-do-not-prove-reliability</link>
+    <description>拆开来源真实性、引用支持和回答相关性，说明引用数量不能代表答案可靠。</description>
+    <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/agent-model-runtime-mcp-skill-boundaries</guid>
+    <title>从让模型少想一点，到让 Runtime 少管一点：重新理解 Agent、Runtime、MCP 与 Skill 的分工</title>
+    <link>https://hpoenixf.com//blog/agent-model-runtime-mcp-skill-boundaries</link>
+    <description>梳理模型、Runtime、MCP 与 Skill 的职责边界，以及工程减负过程中的取舍。</description>
+    <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/agent-runtime-constraint-governance-v2</guid>
+    <title>Agent 查了很多资料，为什么还是交不出答案？</title>
+    <link>https://hpoenixf.com//blog/agent-runtime-constraint-governance-v2</link>
+    <description>研究任务怎样协调预算、能力、资源句柄和收尾空间，避免有过程却交不出答案。</description>
+    <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
   </item>
 
   <item>
     <guid>https://hpoenixf.com//blog/runtime-model-protocol-boundary-agent-article-v2</guid>
     <title>别再让模型当状态机：一次 Agent 协议减负实践</title>
     <link>https://hpoenixf.com//blog/runtime-model-protocol-boundary-agent-article-v2</link>
-    undefined
-    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <description>回看 Agent 如何减少由模型维护的运行时状态协议，同时保留 Host 的事实权威。</description>
+    <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>agent</category>
+    <category>ETF Agent</category>
   </item>
 
   <item>
     <guid>https://hpoenixf.com//blog/runtime-natural-language-boundary-article-v2</guid>
-    <title>Agent 写正则来实现规则 ≈ 踩坑</title>
+    <title>Runtime 不知道的，不要因为能写一个规则，就假装它知道</title>
     <link>https://hpoenixf.com//blog/runtime-natural-language-boundary-article-v2</link>
-    undefined
-    <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    <description>确定性代码为何不等于客观判断，以及如何避免让自由文本规则获得语义权威。</description>
+    <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
     <author>hpoenixf@foxmail.com (hpoenixf)</author>
-    <category>agent</category>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/agent-failure-is-a-boundary-problem</guid>
+    <title>别再把 Agent 失败都算给模型：一次从粗错误码到失败链的排查</title>
+    <link>https://hpoenixf.com//blog/agent-failure-is-a-boundary-problem</link>
+    <description>把“没拿到答案”拆成可定位的失败阶段，避免把所有问题都归咎于模型。</description>
+    <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category><category>agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/010-agent-first-brakes</guid>
+    <title>010 一个 Agent 为什么必须先装刹车</title>
+    <link>https://hpoenixf.com//blog/010-agent-first-brakes</link>
+    <description>投资 Agent 如何把账本、数据、模型建议与执行权限分开，建立可靠的系统边界。</description>
+    <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/011-model-understands-code-authorizes</guid>
+    <title>011 模型会理解，代码才授权</title>
+    <link>https://hpoenixf.com//blog/011-model-understands-code-authorizes</link>
+    <description>模型负责理解意图，Host 依据真实授权和能力决定系统可以做什么。</description>
+    <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/honest-agent-evaluation</guid>
+    <title>大模型有返回等于 Agent 成功运行吗？</title>
+    <link>https://hpoenixf.com//blog/honest-agent-evaluation</link>
+    <description>区分候选答案、服务端发送、客户端展示和任务完成，避免把局部成功当成整体通过。</description>
+    <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category><category>agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/honest-agent-failure-semantics</guid>
+    <title>别让兜底回答伪装成功：流式 Agent 的阶段预算、失败终态与安全恢复</title>
+    <link>https://hpoenixf.com//blog/honest-agent-failure-semantics</link>
+    <description>流式 Agent 如何记录阶段预算与失败终态，并从合法检查点安全恢复。</description>
+    <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/green-tests-can-lie</guid>
+    <title>绿了，但并不是真的：如何让测试无法伪造生产边界</title>
+    <link>https://hpoenixf.com//blog/green-tests-can-lie</link>
+    <description>测试替身、真实依赖与全量验证分别能证明什么，如何识别看似通过的假绿。</description>
+    <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/partial-is-not-complete</guid>
+    <title>源端有 50 条，模型只看到了 20 条：一次 Agent 静默截断排查</title>
+    <link>https://hpoenixf.com//blog/partial-is-not-complete</link>
+    <description>工具结果如何在过滤、投影和容量限制中被静默截断，以及如何让不完整事实可见。</description>
+    <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category><category>agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/unavailable-is-correct</guid>
+    <title>数据过期后，Agent 应该怎样刷新，而不是反复重试？</title>
+    <link>https://hpoenixf.com//blog/unavailable-is-correct</link>
+    <description>来源拒绝或证据过期时，如何限定刷新范围、去重并原子发布新证据。</description>
+    <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
+  </item>
+
+  <item>
+    <guid>https://hpoenixf.com//blog/001-one-week-4-billion-tokens-etf-investment-agent</guid>
+    <title>一个 ETF 投资助手，为什么先变成了工程问题</title>
+    <link>https://hpoenixf.com//blog/001-one-week-4-billion-tokens-etf-investment-agent</link>
+    <description>从个人基金查询工具出发，回看研究 Agent 为何逐步需要清晰的证据、授权与执行边界。</description>
+    <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+    <author>hpoenixf@foxmail.com (hpoenixf)</author>
+    <category>ETF Agent</category>
   </item>
 
   <item>
