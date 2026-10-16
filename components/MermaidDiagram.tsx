@@ -37,7 +37,11 @@ export default function MermaidDiagram({ chart }: { chart: string }) {
   if (!svg) {
     return (
       <figure className="my-6 overflow-x-auto rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-900">
-        {failed && <figcaption className="mb-2 text-sm text-red-600">图表渲染失败，显示 Mermaid 源码。</figcaption>}
+        {failed && (
+          <figcaption className="mb-2 text-sm text-red-600">
+            图表渲染失败，显示 Mermaid 源码。
+          </figcaption>
+        )}
         <pre className="m-0 whitespace-pre-wrap bg-transparent p-0 text-sm text-gray-800 dark:text-gray-200">
           <code>{chart}</code>
         </pre>
