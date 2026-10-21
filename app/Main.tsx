@@ -18,20 +18,31 @@ export default function Home({ posts }) {
               Agent 工程专题 · 从前端交互到系统架构
             </h2>
             <p className="text-sm leading-6 text-gray-600 dark:text-gray-300">
-              面向第一次访问的读者：下列公开工程文章解释 Agent 怎样运行、怎样验证交付，
-              以及 Coding Agent 怎样参与长期研发。完整产品源码并未在文集中公开。
+              公开文章覆盖 Agent 运行机制、系统架构与 AI 辅助研发，完整产品源码未公开。
             </p>
             <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm font-medium">
-              <Link href="https://hpoenixf.github.io/eff-agent-article/modules" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+              <Link
+                href="https://hpoenixf.github.io/eff-agent-article/modules"
+                className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              >
                 Agent 具体机制 ↗
               </Link>
-              <Link href="https://hpoenixf.github.io/eff-agent-article/thinking" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+              <Link
+                href="https://hpoenixf.github.io/eff-agent-article/thinking"
+                className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              >
                 架构与系统思维 ↗
               </Link>
-              <Link href="https://hpoenixf.github.io/eff-agent-article/engineering" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+              <Link
+                href="https://hpoenixf.github.io/eff-agent-article/engineering"
+                className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              >
                 AI 辅助研发 ↗
               </Link>
-              <Link href="/about" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+              <Link
+                href="/about"
+                className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              >
                 作者与阅读路径 ↗
               </Link>
             </div>
