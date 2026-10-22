@@ -13,6 +13,7 @@ import PostBanner from '@/layouts/PostBanner'
 import { Metadata } from 'next'
 import siteMetadata from '@/data/siteMetadata'
 import { notFound } from 'next/navigation'
+import { isUnmergedPost } from 'lib/blog-visibility.mjs'
 
 const defaultLayout = 'PostLayout'
 const layouts = {
@@ -52,6 +53,10 @@ export async function generateMetadata(props: {
   return {
     title: post.title,
     description: post.summary,
+    alternates: {
+      canonical: post.canonicalUrl || new URL(`blog/${post.slug}`, siteMetadata.siteUrl).toString(),
+    },
+    robots: post.mergedInto ? { index: false, follow: true } : undefined,
     openGraph: {
       title: post.title,
       description: post.summary,
@@ -81,14 +86,15 @@ export default async function Page(props: { params: Promise<{ slug: string[] }> 
   const params = await props.params
   const slug = decodeURI(params.slug.join('/'))
   // Filter out drafts in production
-  const sortedCoreContents = allCoreContent(sortPosts(allBlogs))
-  const postIndex = sortedCoreContents.findIndex((p) => p.slug === slug)
-  if (postIndex === -1) {
+  const publishedCoreContents = allCoreContent(sortPosts(allBlogs))
+  if (!publishedCoreContents.some((p) => p.slug === slug)) {
     return notFound()
   }
 
-  const prev = sortedCoreContents[postIndex + 1]
-  const next = sortedCoreContents[postIndex - 1]
+  const sortedCoreContents = publishedCoreContents.filter(isUnmergedPost)
+  const postIndex = sortedCoreContents.findIndex((p) => p.slug === slug)
+  const prev = postIndex >= 0 ? sortedCoreContents[postIndex + 1] : undefined
+  const next = postIndex >= 0 ? sortedCoreContents[postIndex - 1] : undefined
   const post = allBlogs.find((p) => p.slug === slug) as Blog
   const authorList = post?.authors || ['default']
   const authorDetails = authorList.map((author) => {

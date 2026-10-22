@@ -6,6 +6,7 @@ import siteMetadata from '../data/siteMetadata.js'
 // import tagData from '../app/tag-data.json' assert { type: 'json' }
 import { allBlogs } from '../.contentlayer/generated/index.mjs'
 import { sortPosts } from 'pliny/utils/contentlayer.js'
+import { isUnmergedPost } from '../lib/blog-visibility.mjs'
 
 const outputFolder = process.env.EXPORT ? 'out' : 'public'
 
@@ -38,7 +39,7 @@ const generateRss = (config, posts, page = 'feed.xml') => `
 `
 
 async function generateRSS(config, allBlogs, page = 'feed.xml') {
-  const publishPosts = allBlogs.filter((post) => post.draft !== true)
+  const publishPosts = allBlogs.filter((post) => post.draft !== true && isUnmergedPost(post))
   // RSS for blog post
   if (publishPosts.length > 0) {
     const rss = generateRss(config, sortPosts(publishPosts))
