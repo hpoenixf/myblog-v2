@@ -3,8 +3,12 @@
 **前端工程、AI Agent 应用与系统架构的实践笔记。**
 
 - [阅读博客](https://hpoenixf.com/) · [作者简介](https://hpoenixf.com/about)
-- [ETF Agent Engineering Notes：49 篇公开工程文章](https://hpoenixf.github.io/eff-agent-article/) · [GitHub 文集源码](https://github.com/hpoenixf/eff-agent-article)
+- [ETF Agent Engineering Notes：55 篇公开工程文章](https://hpoenixf.github.io/eff-agent-article/) · [GitHub 文集源码](https://github.com/hpoenixf/eff-agent-article)
 - [AI Agent 研发工程实践](https://hpoenixf.github.io/eff-agent-article/engineering) · [金融科技 × Agent 专题](https://hpoenixf.github.io/eff-agent-article/fintech)
+
+## 新增机制精讲（2026-10-24）
+
+[HIL：用户回复怎样接回原研究](https://hpoenixf.com/blog/agent-durable-human-interaction-response-adoption) · [时间语义：今天与市场 Session](https://hpoenixf.com/blog/agent-temporal-semantics-market-calendar) · [Shadow Credits：请求、Token 与已知用量](https://hpoenixf.com/blog/agent-personal-credits-shadow-accounting)。三篇共享既有工程案例与严格验收限定；博客维护中文正文，阅读站另提供完整英文版。
 
 ## 从哪里开始阅读
 
