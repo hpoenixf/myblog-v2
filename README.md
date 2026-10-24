@@ -3,8 +3,12 @@
 **前端工程、AI Agent 应用与系统架构的实践笔记。**
 
 - [阅读博客](https://hpoenixf.com/) · [作者简介](https://hpoenixf.com/about)
-- [ETF Agent Engineering Notes：55 篇公开工程文章](https://hpoenixf.github.io/eff-agent-article/) · [GitHub 文集源码](https://github.com/hpoenixf/eff-agent-article)
+- [ETF Agent Engineering Notes：57 篇公开工程文章](https://hpoenixf.github.io/eff-agent-article/) · [GitHub 文集源码](https://github.com/hpoenixf/eff-agent-article)
 - [AI Agent 研发工程实践](https://hpoenixf.github.io/eff-agent-article/engineering) · [金融科技 × Agent 专题](https://hpoenixf.github.io/eff-agent-article/fintech)
+
+## 新增 Owner 专文：持久控制与共享容量（2026-10-24）
+
+[A08：Stop 指令为什么不能直接执行](https://hpoenixf.com/blog/agent-control-events-durable-owner-adoption) · [A30：HTTP 200 后为什么还要排队](https://hpoenixf.com/blog/agent-provider-admission-capacity-lease)。中文博客与阅读站原文一致，阅读站另有完整英文版；A32 目录职责深化在既有 Provider 文章，A27 继续保留真实效果证据缺口。
 
 ## 新增机制精讲（2026-10-24）
 
