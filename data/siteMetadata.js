@@ -3,7 +3,7 @@ const siteMetadata = {
   title: "hpoenixf's Blog",
   author: 'hpoenixf',
   headerTitle: "hpoenixf's Blog",
-  description: '记录前端工程、AI Agent 应用与系统架构、AI 辅助研发，以及个人成长',
+  description: '专注金融科技与 AI Agent 的研发工程师，记录 Agent 应用与系统架构、AI 辅助研发，以及个人成长',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://hpoenixf.com/',

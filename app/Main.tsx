@@ -32,10 +32,10 @@ export default function Home({ posts }) {
           </section>
           <div className="space-y-3 rounded-lg border border-gray-200 p-5 dark:border-gray-700">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
-              Agent 工程专题 · 从前端交互到系统架构
+              金融科技与 Agent 工程专题
             </h2>
             <p className="text-sm leading-6 text-gray-600 dark:text-gray-300">
-              公开文章覆盖 Agent 运行机制、系统架构与 AI 辅助研发，完整产品源码未公开。
+              从金融场景中的真实研发问题出发，记录 Agent 运行机制、系统架构与 AI 辅助研发，完整产品源码未公开。
             </p>
             <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm font-medium">
               <Link
