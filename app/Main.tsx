@@ -13,6 +13,23 @@ export default function Home({ posts }) {
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
           </p>
+          <section
+            aria-label="联系与合作"
+            className="rounded-lg border border-gray-200 bg-gray-50 p-4 dark:border-gray-700 dark:bg-gray-900"
+          >
+            <h2 className="mb-2 text-base font-semibold text-gray-900 dark:text-gray-100">
+              联系与合作
+            </h2>
+            <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-700 dark:text-gray-300">
+              <a
+                href={`mailto:${siteMetadata.email}`}
+                className="font-medium text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              >
+                邮箱：{siteMetadata.email}
+              </a>
+              <span>微信：hpoenixf0510</span>
+            </div>
+          </section>
           <div className="space-y-3 rounded-lg border border-gray-200 p-5 dark:border-gray-700">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
               Agent 工程专题 · 从前端交互到系统架构
