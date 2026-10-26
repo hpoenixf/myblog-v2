@@ -35,7 +35,7 @@ export default function Home({ posts }) {
               金融科技与 Agent 工程专题
             </h2>
             <p className="text-sm leading-6 text-gray-600 dark:text-gray-300">
-              从金融场景中的真实研发问题出发，记录 Agent 运行机制、系统架构与 AI 辅助研发，完整产品源码未公开。
+              围绕金融科技场景，记录 Agent 机制、系统架构与 AI 辅助研发。完整产品源码未公开。
             </p>
             <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm font-medium">
               <Link
