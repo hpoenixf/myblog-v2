@@ -12,9 +12,7 @@ export default function Footer() {
           <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={6} />
         </div>
         <address className="mb-4 rounded-lg border border-gray-200 px-5 py-3 text-center not-italic dark:border-gray-700">
-          <p className="mb-1 text-sm font-semibold text-gray-900 dark:text-gray-100">
-            联系与合作
-          </p>
+          <p className="mb-1 text-sm font-semibold text-gray-900 dark:text-gray-100">联系与合作</p>
           <div className="flex flex-wrap justify-center gap-x-5 gap-y-1 text-sm text-gray-600 dark:text-gray-300">
             <a
               href={`mailto:${siteMetadata.email}`}
