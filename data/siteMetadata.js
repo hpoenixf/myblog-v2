@@ -11,7 +11,7 @@ const siteMetadata = {
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'hpeonixf@foxmail.com',
+  email: 'hpoenixf@foxmail.com',
   github: 'https://github.com/hpoenixf',
   x: 'https://twitter.com/x',
   // twitter: 'https://twitter.com/Twitter',
