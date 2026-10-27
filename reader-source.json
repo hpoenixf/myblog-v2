@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "48626bf15cd8e8ee1a5220ded9d1f72a13a3f81d",
+  "commit": "52174974e53de27a42f7714d12519976912ca37f",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -23,6 +23,10 @@
     {
       "path": "articles/031-fintech-data-time-and-reproducible-numbers.md",
       "sha256": "d4cfa2cb58f726dc4e548eccd679fba5493853ffcdae415e98c19955542ae0e2"
+    },
+    {
+      "path": "articles/agent-background-research-collaborative-experience.md",
+      "sha256": "38f00cfb2eb3b21392df743f2bc1c9d0f900decca56c0e9c7371219275aa7cb1"
     },
     {
       "path": "articles/agent-control-events-durable-owner-adoption.md",
@@ -127,6 +131,10 @@
     {
       "path": "en/articles/031-fintech-data-time-and-reproducible-numbers.md",
       "sha256": "2646c3bb385a7dc6ac7a4b00baa31c36e66d3bcbc39cf4a4f95c52efb2976fe4"
+    },
+    {
+      "path": "en/articles/agent-background-research-collaborative-experience.md",
+      "sha256": "714695859b4bb24904f9cc7a41ae9ab4c97b8c46467862cd85a5cda3272a1e0d"
     },
     {
       "path": "en/articles/agent-control-events-durable-owner-adoption.md",
