@@ -57,6 +57,7 @@ jobs:
           ref: ${{ steps.reader.outputs.commit }}
           path: reader-src
           persist-credentials: false
+          fetch-depth: 0  # required by VitePress lastUpdated and git-dated RSS
       - name: Verify checked-out reader source
         run: node scripts/reader-release.mjs source reader-src
       - name: Build and mount ETF Agent reader
@@ -75,6 +76,10 @@ jobs:
           grep -q 'home-overview' out/eff-agent-article/index.html
           grep -q 'home-overview' out/eff-agent-article/en/index.html
           test -s out/eff-agent-article/sitemap.xml
+          test -s out/eff-agent-article/feed.xml
+          test -s out/eff-agent-article/en/feed.xml
+          grep -q 'github.com/hpoenixf/open-etf-agent' out/eff-agent-article/index.html
+          grep -q 'github.com/hpoenixf/open-etf-agent' out/eff-agent-article/en/index.html
           test -s out/eff-agent-article/articles/022-agent-entry-from-intent-to-direct-research.html
           test -s out/eff-agent-article/visuals/owner-architecture/index.html
           grep -q 'https://hpoenixf.com/eff-agent-article/articles/022-agent-entry-from-intent-to-direct-research' out/eff-agent-article/articles/022-agent-entry-from-intent-to-direct-research.html
