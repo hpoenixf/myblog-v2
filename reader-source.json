@@ -1,9 +1,13 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "fb7c776874e71d689212c6fc3c4f0efde598fa81",
+  "commit": "b6933089d87ef2ee0c946d2f088fc099c5b037aa",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
+    {
+      "path": "articles/019-agent-answer-publication.md",
+      "sha256": "6f194e252767b2ad5b8bbb5ebb7aaa701516aa1cdb11bec8686a0b52c9b0ef6d"
+    },
     {
       "path": "articles/020-agent-extension-host-smartphone.md",
       "sha256": "2bbe1bb79712507208ab4d8a5aeed6ddaa21457560292222bc44064a08787f21"
