@@ -13,6 +13,12 @@ const release = {
 }
 const html = (path) =>
   `<html><head><link rel="canonical" href="${baseUrl}${path.replace(/\.md$/, '')}"></head><body>Public code ${path}</body></html>`
+const homepages = [
+  { path: 'index.md', htmlPath: 'index.html', url: baseUrl },
+  { path: 'en/index.md', htmlPath: 'en/index.html', url: baseUrl + 'en/' },
+]
+const homepageHtml = (page) =>
+  `<html><head><link rel="canonical" href="${page.url}"></head><body>Home for ${page.path}</body></html>`
 const receipt = () => ({
   schemaVersion: 1,
   repository: release.repository,
@@ -25,12 +31,20 @@ const receipt = () => ({
     htmlPath: file.path.replace(/\.md$/, '.html'),
     htmlSha256: digest(html(file.path)),
   })),
+  homepages: homepages.map((page) => ({
+    path: page.path,
+    sourceSha256: digest(page.path),
+    htmlPath: page.htmlPath,
+    htmlSha256: digest(homepageHtml(page)),
+  })),
 })
 const fetcher =
-  (record = receipt(), body = html, code = 200) =>
+  (record = receipt(), body = html, code = 200, homeBody = homepageHtml) =>
   async (url) => {
     if (url === baseUrl + 'reader-release.json')
       return new Response(JSON.stringify(record), { status: code })
+    const homepage = homepages.find((page) => url === page.url)
+    if (homepage) return new Response(homeBody(homepage), { status: code })
     const path = paths.find((path) => url === baseUrl + path.replace(/\.md$/, ''))
     assert.ok(path, 'Only canonical clean URLs should be fetched')
     return new Response(body(path), { status: code })
@@ -56,6 +70,8 @@ test('canonical check rejects github.io and wrong article identity', () => {
   assert.throws(() =>
     checkCanonical(html(paths[0]).replace('hpoenixf.com', 'hpoenixf.github.io'), paths[0])
   )
+  for (const homepage of homepages) checkCanonical(homepageHtml(homepage), homepage.path)
+  assert.throws(() => checkCanonical(homepageHtml(homepages[0]), 'en/index.md'))
 })
 
 test('each language is verified against its exact public HTML bytes', async () => {
@@ -71,6 +87,25 @@ test('200 with an old body fails even when release receipt is current', async ()
       ),
     }),
     /Stale public body/
+  )
+})
+
+test('a stale homepage fails even when every article body matches', async () => {
+  await assert.rejects(
+    verifyPublic(release, {
+      fetcher: fetcher(receipt(), html, 200, (page) =>
+        page.path === 'index.md'
+          ? homepageHtml(page).replace('Home for', 'Previous homepage')
+          : homepageHtml(page)
+      ),
+    }),
+    /Stale public homepage/
+  )
+  const missingHomepage = receipt()
+  missingHomepage.homepages.pop()
+  await assert.rejects(
+    verifyPublic(release, { fetcher: fetcher(missingHomepage) }),
+    /Missing homepage receipts/
   )
 })
 
@@ -110,5 +145,5 @@ test('retry can converge to a current deployment without changing the expected r
     fetcher: async (...args) => (++requests === 1 ? new Response('{}') : good(...args)),
   })
   assert.equal(result.sourceCommit, release.commit)
-  assert.equal(requests, 4)
+  assert.equal(requests, 6)
 })

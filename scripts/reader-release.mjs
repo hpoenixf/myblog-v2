@@ -10,6 +10,10 @@ const baseUrl = 'https://hpoenixf.com/eff-agent-article/'
 const sha = /^[a-f0-9]{40}$/
 const hash = /^[a-f0-9]{64}$/
 const articlePath = /^(?:en\/)?articles\/[a-z0-9][a-z0-9-]*\.md$/
+const homepageFiles = [
+  { path: 'index.md', htmlPath: 'index.html', url: baseUrl },
+  { path: 'en/index.md', htmlPath: 'en/index.html', url: baseUrl + 'en/' },
+]
 export const digest = (bytes) => createHash('sha256').update(bytes).digest('hex')
 const head = (root) =>
   execFileSync('git', ['-C', root, 'rev-parse', 'HEAD'], { encoding: 'utf8' }).trim()
@@ -63,7 +67,9 @@ export async function checkSource(root, release) {
 }
 
 export function checkCanonical(html, path) {
-  const expected = baseUrl + path.replace(/\.md$/, '')
+  const expected =
+    homepageFiles.find((entry) => entry.path === path)?.url ??
+    baseUrl + path.replace(/\.md$/, '')
   const links = html.match(/<link\b[^>]*>/g) ?? []
   assert.ok(
     links.some(
@@ -83,6 +89,22 @@ export async function stampRelease(root, output, release, blogCommit) {
     checkCanonical(bytes.toString('utf8'), file.path)
     files.push({ path: file.path, sourceSha256: file.sha256, htmlPath, htmlSha256: digest(bytes) })
   }
+  // Pages are part of the release too; green article checks alone did not
+  // catch a stale reader homepage after PR #49.
+  const homepages = []
+  for (const homepage of homepageFiles) {
+    const source = await readFile(resolve(root, homepage.path))
+    const committed = execFileSync('git', ['-C', root, 'show', `${release.commit}:${homepage.path}`])
+    assert.ok(source.equals(committed), `Uncommitted homepage: ${homepage.path}`)
+    const html = await readFile(resolve(output, homepage.htmlPath))
+    checkCanonical(html.toString('utf8'), homepage.path)
+    homepages.push({
+      path: homepage.path,
+      sourceSha256: digest(source),
+      htmlPath: homepage.htmlPath,
+      htmlSha256: digest(html),
+    })
+  }
   const receipt = {
     schemaVersion: 1,
     repository,
@@ -90,6 +112,7 @@ export async function stampRelease(root, output, release, blogCommit) {
     sourceCommit: release.commit,
     blogCommit,
     files,
+    homepages,
   }
   await writeFile(resolve(output, 'reader-release.json'), JSON.stringify(receipt, null, 2) + '\n')
   return receipt
@@ -139,6 +162,18 @@ export async function verifyPublic(
         const bytes = await get(baseUrl + source.path.replace(/\.md$/, ''))
         assert.equal(digest(bytes), file.htmlSha256, `Stale public body: ${source.path}`)
         checkCanonical(bytes.toString('utf8'), source.path)
+      }
+      assert.equal(receipt.homepages?.length, homepageFiles.length, 'Missing homepage receipts')
+      for (const homepage of homepageFiles) {
+        const page = receipt.homepages.find((entry) => entry.path === homepage.path)
+        assert.ok(page, `Missing homepage: ${homepage.path}`)
+        assert.match(page.sourceSha256, hash)
+        assert.equal(page.htmlPath, homepage.htmlPath)
+        assert.match(page.htmlSha256, hash)
+        // Verify the exact public root and /en/ that readers visit.
+        const bytes = await get(homepage.url)
+        assert.equal(digest(bytes), page.htmlSha256, `Stale public homepage: ${homepage.path}`)
+        checkCanonical(bytes.toString('utf8'), homepage.path)
       }
       return receipt
     } catch (error) {

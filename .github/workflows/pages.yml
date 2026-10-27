@@ -70,6 +70,10 @@ jobs:
           mkdir -p out/eff-agent-article
           cp -R reader-src/.vitepress/dist/. out/eff-agent-article/
           test -s out/eff-agent-article/index.html
+          test -s out/eff-agent-article/en/index.html
+          # The reviewed homepage must be SSR-rendered in both languages, not just present as client code.
+          grep -q 'home-overview' out/eff-agent-article/index.html
+          grep -q 'home-overview' out/eff-agent-article/en/index.html
           test -s out/eff-agent-article/sitemap.xml
           test -s out/eff-agent-article/articles/022-agent-entry-from-intent-to-direct-research.html
           test -s out/eff-agent-article/visuals/owner-architecture/index.html
