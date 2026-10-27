@@ -9,7 +9,10 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: `${siteMetadata.siteUrl}/sitemap.xml`,
+    sitemap: [
+      `${siteMetadata.siteUrl}/sitemap.xml`,
+      `${siteMetadata.siteUrl}/eff-agent-article/sitemap.xml`,
+    ],
     host: siteMetadata.siteUrl,
   }
 }
