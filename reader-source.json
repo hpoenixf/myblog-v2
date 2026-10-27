@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "b6933089d87ef2ee0c946d2f088fc099c5b037aa",
+  "commit": "2c84da1d8f19f04d5e58151fb388193a17fc6cf6",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -17,12 +17,36 @@
       "sha256": "680e7f433460ff7b85fbf721aa8f4a4d069ac01e3a0d28f4184d7f93d82c3a49"
     },
     {
+      "path": "articles/030-fintech-from-research-to-investment-advice.md",
+      "sha256": "16146342fe0b333c1ab57003d6e9c0711efe58102cfc9ebf913ad6b31b531396"
+    },
+    {
+      "path": "articles/031-fintech-data-time-and-reproducible-numbers.md",
+      "sha256": "d4cfa2cb58f726dc4e548eccd679fba5493853ffcdae415e98c19955542ae0e2"
+    },
+    {
       "path": "articles/agent-control-events-durable-owner-adoption.md",
       "sha256": "ae662617a589b49d4bc5a80b93f917727df905417bd809b52e7ce4537b7b47e5"
     },
     {
+      "path": "articles/agent-differentiated-evolution-contracts.md",
+      "sha256": "55b78f60ac48060e6106e4f14505768bc88a17b41e51362388a325e70fed4ac5"
+    },
+    {
+      "path": "articles/agent-failure-is-a-boundary-problem.md",
+      "sha256": "1b45c468bf215f7b112eccfae3d5fdfa1c6ffe57a8f92fd667e92980d736e2dd"
+    },
+    {
       "path": "articles/agent-main-run-context-compaction.md",
       "sha256": "8036edcc12214b6bead670e36c6ff870fa7e5000d81484d32ccf378d363a6816"
+    },
+    {
+      "path": "articles/agent-model-runtime-mcp-skill-boundaries.md",
+      "sha256": "cb16323ba28aaa726f1d51adf72e78b56dc78ba5cfc63ded3e252f6034e6d2d9"
+    },
+    {
+      "path": "articles/agent-weekly-thesis-history-continuous-research.md",
+      "sha256": "8e7d698640bb6a43831eef10dd0b647c069d322f789e3a993dfd70799b5c37f4"
     },
     {
       "path": "articles/ai-citations-do-not-prove-reliability.md",
@@ -41,8 +65,20 @@
       "sha256": "fc55942e016857b6efd20007afc0aac8600248dc167416b5c97530a2aa740af7"
     },
     {
+      "path": "articles/financial-agent-trustworthy-evidence-chain.md",
+      "sha256": "7cb2dbed6d7579dfa893357ef970257cb5333d98b0f983680c8cf7088230e568"
+    },
+    {
+      "path": "articles/investment-perspectives-and-thesis-falsification.md",
+      "sha256": "9ce2d8dff1e6c4075f52d63b09982c79872cf3324b28ebe865e12c05a95627ae"
+    },
+    {
       "path": "articles/mcp-host-from-discovery-to-consumption.md",
       "sha256": "5945e15de5afd598437b3c79dd1aaf4f63e6af5e98d63ebc17ddb54f065a1c00"
+    },
+    {
+      "path": "articles/mcp-market-responsibility-retrospective.md",
+      "sha256": "5ec7f3a23a7590699ddd0cf7287e01e76da195f9579c2b01989c3fe1fbf944d3"
     },
     {
       "path": "articles/tool-results-outside-model-context.md",
@@ -57,12 +93,36 @@
       "sha256": "e44e07e4dd4a9a456dd9f82eefc5eed4d8c1fdbeb82b038af2ac5a7c2746fc88"
     },
     {
+      "path": "en/articles/030-fintech-from-research-to-investment-advice.md",
+      "sha256": "5b74277b165fb54ea1c11e2de6bd966b1fbf41103cb9bc0b74d2ad1723ce6d37"
+    },
+    {
+      "path": "en/articles/031-fintech-data-time-and-reproducible-numbers.md",
+      "sha256": "2646c3bb385a7dc6ac7a4b00baa31c36e66d3bcbc39cf4a4f95c52efb2976fe4"
+    },
+    {
       "path": "en/articles/agent-control-events-durable-owner-adoption.md",
       "sha256": "af38007534341cf207b4aa26dd2bb214db1ac429888cf076b529a689ca626d5d"
     },
     {
+      "path": "en/articles/agent-differentiated-evolution-contracts.md",
+      "sha256": "fba0290e02a3406dd2089f28ab73ad22b63deb34d8340f472920cd325c374e0f"
+    },
+    {
+      "path": "en/articles/agent-failure-is-a-boundary-problem.md",
+      "sha256": "259da01ba0648dec02b5b9e358233a96704cc7f53e0ffde5245ea619459bf916"
+    },
+    {
       "path": "en/articles/agent-main-run-context-compaction.md",
       "sha256": "d000b431fd7c2a29922364805d8b55d5e783f3827aa6ce4015e04932651394c1"
+    },
+    {
+      "path": "en/articles/agent-model-runtime-mcp-skill-boundaries.md",
+      "sha256": "524df58586c838f12a8cd2aa78d291b238d7d786910d636589f243c8b30e60ab"
+    },
+    {
+      "path": "en/articles/agent-weekly-thesis-history-continuous-research.md",
+      "sha256": "1e4f4aff6cac4d431254060be81a5ea4a50abe3a402c7121040beb54c8c65107"
     },
     {
       "path": "en/articles/ai-citations-do-not-prove-reliability.md",
@@ -81,8 +141,16 @@
       "sha256": "825b5484540fdff6f617f38d643f36ebc0e0fb8337d2afb19114f579ec6d2ab0"
     },
     {
+      "path": "en/articles/investment-perspectives-and-thesis-falsification.md",
+      "sha256": "8365acf619a97f8117f84f49ca1cbceffa7e28af62047765b7495a19965254d3"
+    },
+    {
       "path": "en/articles/mcp-host-from-discovery-to-consumption.md",
       "sha256": "d8e314943bbab1b969cbbcd15ea9f84a87e010eaf7dad104b58566edbb6d2d0f"
+    },
+    {
+      "path": "en/articles/mcp-market-responsibility-retrospective.md",
+      "sha256": "1a1ea89757441cc8ef0fa0a71dae062785dffc538214e187da0cc95515937301"
     },
     {
       "path": "en/articles/tool-results-outside-model-context.md",
