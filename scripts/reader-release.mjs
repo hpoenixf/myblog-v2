@@ -68,8 +68,7 @@ export async function checkSource(root, release) {
 
 export function checkCanonical(html, path) {
   const expected =
-    homepageFiles.find((entry) => entry.path === path)?.url ??
-    baseUrl + path.replace(/\.md$/, '')
+    homepageFiles.find((entry) => entry.path === path)?.url ?? baseUrl + path.replace(/\.md$/, '')
   const links = html.match(/<link\b[^>]*>/g) ?? []
   assert.ok(
     links.some(
@@ -94,7 +93,12 @@ export async function stampRelease(root, output, release, blogCommit) {
   const homepages = []
   for (const homepage of homepageFiles) {
     const source = await readFile(resolve(root, homepage.path))
-    const committed = execFileSync('git', ['-C', root, 'show', `${release.commit}:${homepage.path}`])
+    const committed = execFileSync('git', [
+      '-C',
+      root,
+      'show',
+      `${release.commit}:${homepage.path}`,
+    ])
     assert.ok(source.equals(committed), `Uncommitted homepage: ${homepage.path}`)
     const html = await readFile(resolve(output, homepage.htmlPath))
     checkCanonical(html.toString('utf8'), homepage.path)
