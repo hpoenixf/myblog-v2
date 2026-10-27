@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "repository": "hpoenixf/eff-agent-article",
+  "commit": "463b77f54b40797497e7fac73e2b95f730e29ddb",
+  "baseUrl": "https://hpoenixf.com/eff-agent-article/",
+  "files": [
+    {
+      "path": "articles/026-agent-memory-forget-durable-effects.md",
+      "sha256": "680e7f433460ff7b85fbf721aa8f4a4d069ac01e3a0d28f4184d7f93d82c3a49"
+    },
+    {
+      "path": "articles/agent-main-run-context-compaction.md",
+      "sha256": "8036edcc12214b6bead670e36c6ff870fa7e5000d81484d32ccf378d363a6816"
+    },
+    {
+      "path": "articles/mcp-host-from-discovery-to-consumption.md",
+      "sha256": "5945e15de5afd598437b3c79dd1aaf4f63e6af5e98d63ebc17ddb54f065a1c00"
+    },
+    {
+      "path": "articles/tool-results-outside-model-context.md",
+      "sha256": "ade1d457f1a74a28f8872fa22526f7ef41a230642286e3c987911c92536c2032"
+    },
+    {
+      "path": "en/articles/026-agent-memory-forget-durable-effects.md",
+      "sha256": "e44e07e4dd4a9a456dd9f82eefc5eed4d8c1fdbeb82b038af2ac5a7c2746fc88"
+    },
+    {
+      "path": "en/articles/agent-main-run-context-compaction.md",
+      "sha256": "d000b431fd7c2a29922364805d8b55d5e783f3827aa6ce4015e04932651394c1"
+    },
+    {
+      "path": "en/articles/mcp-host-from-discovery-to-consumption.md",
+      "sha256": "d8e314943bbab1b969cbbcd15ea9f84a87e010eaf7dad104b58566edbb6d2d0f"
+    },
+    {
+      "path": "en/articles/tool-results-outside-model-context.md",
+      "sha256": "6a3a8d1895410d8196f7bed6e97be280a26f6f64b2bdad3208ffc58e96fb70bc"
+    }
+  ]
+}

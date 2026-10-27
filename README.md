@@ -47,6 +47,17 @@ pnpm build
 
 `hpoenixf.com` 的 GitHub Pages 发布源是本博客仓库；独立的 [ETF Agent 阅读站](https://github.com/hpoenixf/eff-agent-article) 仍维护 VitePress 源码和独立 Pages 入口。阅读站在本博客的发布流程中额外构建，并复制进 `out/eff-agent-article/`，因此正文统一从 `https://hpoenixf.com/eff-agent-article/` 阅读。VitePress 的 `base` 保持 `/eff-agent-article/`。
 
-本博客在主干更新时立即重建两套静态产物，也可通过 `GitHub Pages` 工作流的 `workflow_dispatch` 手动刷新。定时工作流每 6 小时重新取得阅读站主干（GitHub 定时任务可能延迟），以免文章仓库提交以后自定义域名长期停留在旧版本。不依赖跨仓库写入 token。发布前检查目录、双语索引、页面构建、首篇关键文章的 canonical 与架构图册文件；`robots.txt` 同时公布博客和阅读站的 sitemap。
+所有公开正文只有一条发布链：`eff-agent-article` 的已审核提交 → 本仓库 `reader-source.json` → 本仓库 Pages → `https://hpoenixf.com/eff-agent-article/`。博客 push 和手动重跑都只消费锁定的完整 commit SHA；不再定时跟随浮动 `main`，也不创建跨仓库 token。文章仓库的 Pages 只保留兼容跳转，不再发布另一份正文。
 
-**发布一致性说明：** 两个仓库的工作流并非原子部署；`eff-agent-article` 的独立 Pages 可以先更新，`hpoenixf.com/eff-agent-article` 在本博客再次部署后才会同步。以博客工作流的成功部署与页面实际访问为准，不以文章仓库中的 commit 推断新域名已经更新。
+发布者先提交并核对文章源，再在本仓库根目录执行：
+
+```bash
+node scripts/reader-release.mjs prepare /path/to/article-checkout articles/<slug>.md en/articles/<slug>.md
+node --test scripts/reader-release.test.mjs
+```
+
+`prepare` 检查选定文件与该 checkout 的已提交字节相同，并写入 source commit、规范域名和逐语言正文 SHA-256；它只准备本地发布锁。将已审核的 `reader-source.json` 非强制提交到本仓库 `main` 后才触发正式发布。并行发布前重新读取两仓库分支，保留已有改动，不将 pin 降级到旧源。
+
+构建先核对 source commit 和文件摘要，再进行目录、双语、静态构建与 canonical 检查，最后生成公开的 [`reader-release.json`](https://hpoenixf.com/eff-agent-article/reader-release.json)。该回执只包含公开源码版本、博客版本和选定中英页面的源文件/HTML 摘要，不含本地路径、令牌或内部日志。部署后 workflow 读取**新域名的实际 clean URL 正文**并逐页匹配 HTML SHA-256；返回 200、文章 repo CI 成功或回执单独存在，都不算正文同步成功。
+
+手动验收：`node scripts/reader-release.mjs verify`。CDN 尚未更新时保持待验证，不能把旧版页面标成完成。需要回滚时走相同发布锁提交与正文验收，不改 DNS、Pages 管理设置或凭据。`robots.txt` 同时公布博客和阅读站的 sitemap。
