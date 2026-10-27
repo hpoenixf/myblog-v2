@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "c096a0bc63b8cc45fd783c0a6322a4ce86cf4da2",
+  "commit": "33068b21bc223d963e7230b5616c07958542b1f7",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -311,6 +311,14 @@
     {
       "path": "en/articles/agent-tool-lifecycle-and-model-input.md",
       "sha256": "ff8dec3dfb8253eaf455354c6d39c98f43cf57400df87ae6bcd12392fd6522e8"
+    },
+    {
+      "path": "articles/etf-assistant-engineering-origins.md",
+      "sha256": "b74d533006abcd86e75ae2ee42fab9c7afd3d0734faed68517302d888c58cf0b"
+    },
+    {
+      "path": "en/articles/etf-assistant-engineering-origins.md",
+      "sha256": "d4b94c3226f1a4bbed8ceb043b9b997d8174273352c8bb9d416377cf115ea473"
     }
   ]
 }
