@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "8cb0be8619967c06fa12a76928618f2c8286a85c",
+  "commit": "4d31feed89099401cd4904264e70a665b44074b9",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -106,7 +106,7 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "dec2bc53fb868db06166fd160da69c06c1bc2856e9e09f618a8dc9f3bf9ee3c2"
+      "sha256": "8c76222d97d5acd724b3eaa6a02bdb9fcbaaae9914f5c4b173a13ec02bd1a612"
     },
     {
       "path": "articles/portfolio-mcp-readonly-investment-data.md",
@@ -214,7 +214,7 @@
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "f2d29d188dad1c239a8ae2ff62024bf6a047e9a54a734c82d0c54c1b682b0e99"
+      "sha256": "922d2cdd11894c51afcb4dbf543307e9f734ec16d1a2ace05de6cc7a8c8a8103"
     },
     {
       "path": "en/articles/tool-results-outside-model-context.md",
@@ -231,6 +231,14 @@
     {
       "path": "en/articles/financial-agent-system-panorama.md",
       "sha256": "19ab93e0594126b26ab2cf392a43fc144be14fa3c6a88aa53ea7eabd19f8271c"
+    },
+    {
+      "path": "articles/agent-autonomous-scheduled-research.md",
+      "sha256": "7dc1a2c45ccfc2b7de4e5311fd8f6587202bd012d411f31d12a75a4bc767b29a"
+    },
+    {
+      "path": "en/articles/agent-autonomous-scheduled-research.md",
+      "sha256": "e0c57ef6e5c618bf72dc3f580803b722ab79c3cee6a819decd559c1b18f5cad1"
     }
   ]
 }
