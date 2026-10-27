@@ -42,3 +42,11 @@ pnpm build
 阅读站点与文章库独立维护：博客按时间线浏览，[Engineering Notes](https://github.com/hpoenixf/eff-agent-article) 按模块机制、系统架构和研发实践组织可连续阅读的专题。
 
 文章合并后，旧稿保留短阅读指引，并在 frontmatter 用 `mergedInto` 指向主稿 slug、`canonicalUrl` 指向主稿地址。旧 URL 继续生成并标记 `noindex, follow`，同时退出首页、列表、搜索、标签计数、RSS、sitemap 和前后篇导航；`draft` 仍按原有规则处理未发布文章。
+
+## ETF Agent 阅读站在自定义域名下的发布
+
+`hpoenixf.com` 的 GitHub Pages 发布源是本博客仓库；独立的 [ETF Agent 阅读站](https://github.com/hpoenixf/eff-agent-article) 仍维护 VitePress 源码和独立 Pages 入口。阅读站在本博客的发布流程中额外构建，并复制进 `out/eff-agent-article/`，因此正文统一从 `https://hpoenixf.com/eff-agent-article/` 阅读。VitePress 的 `base` 保持 `/eff-agent-article/`。
+
+本博客在主干更新时立即重建两套静态产物，也可通过 `GitHub Pages` 工作流的 `workflow_dispatch` 手动刷新。定时工作流每 6 小时重新取得阅读站主干（GitHub 定时任务可能延迟），以免文章仓库提交以后自定义域名长期停留在旧版本。不依赖跨仓库写入 token。发布前检查目录、双语索引、页面构建、首篇关键文章的 canonical 与架构图册文件；`robots.txt` 同时公布博客和阅读站的 sitemap。
+
+**发布一致性说明：** 两个仓库的工作流并非原子部署；`eff-agent-article` 的独立 Pages 可以先更新，`hpoenixf.com/eff-agent-article` 在本博客再次部署后才会同步。以博客工作流的成功部署与页面实际访问为准，不以文章仓库中的 commit 推断新域名已经更新。

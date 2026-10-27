@@ -5,6 +5,9 @@ on:
   push:
     branches: main
   workflow_dispatch:
+  # Keep the custom-domain reading site current without cross-repository secrets.
+  schedule:
+    - cron: '17 */6 * * *'
 
 permissions:
   contents: read
@@ -43,6 +46,30 @@ jobs:
           EXPORT: 1
           UNOPTIMIZED: 1
           BASE_PATH: ${{ steps.configurepages.outputs.base_path }}
+      # hpoenixf.com is served by this Pages deployment, not by the article repo.
+      # Include the independent VitePress site as a real subdirectory before upload.
+      - name: Checkout ETF Agent reader
+        uses: actions/checkout@v4
+        with:
+          repository: hpoenixf/eff-agent-article
+          ref: main
+          path: reader-src
+          persist-credentials: false
+      - name: Build and mount ETF Agent reader
+        run: |
+          cd reader-src
+          npm install --no-audit --no-fund
+          npm run check:catalog
+          npm run docs:build
+          cp -R visuals .vitepress/dist/visuals
+          cd ..
+          mkdir -p out/eff-agent-article
+          cp -R reader-src/.vitepress/dist/. out/eff-agent-article/
+          test -s out/eff-agent-article/index.html
+          test -s out/eff-agent-article/sitemap.xml
+          test -s out/eff-agent-article/articles/022-agent-entry-from-intent-to-direct-research.html
+          test -s out/eff-agent-article/visuals/owner-architecture/index.html
+          grep -q 'https://hpoenixf.com/eff-agent-article/articles/022-agent-entry-from-intent-to-direct-research' out/eff-agent-article/articles/022-agent-entry-from-intent-to-direct-research.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
