@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "3f34d5689dd14ba5d4ab65b20cc1584d78b521ba",
+  "commit": "c096a0bc63b8cc45fd783c0a6322a4ce86cf4da2",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -226,11 +226,11 @@
     },
     {
       "path": "articles/financial-agent-system-panorama.md",
-      "sha256": "4da8d8af5be2a82641b3d9e81d245e3983ab3e819c4d1236f5eb54887b7fbb29"
+      "sha256": "54345b67fbf81835be91e4de14d1e50dee71d5ad4bc4ed807bbd6d3133433aa0"
     },
     {
       "path": "en/articles/financial-agent-system-panorama.md",
-      "sha256": "19ab93e0594126b26ab2cf392a43fc144be14fa3c6a88aa53ea7eabd19f8271c"
+      "sha256": "b19cc96aecc3920cde99c361afb0ab56c8963200fd26cbce12b0561081738d5d"
     },
     {
       "path": "articles/agent-autonomous-scheduled-research.md",
