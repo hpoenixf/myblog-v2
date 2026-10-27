@@ -45,6 +45,14 @@
       "sha256": "cb16323ba28aaa726f1d51adf72e78b56dc78ba5cfc63ded3e252f6034e6d2d9"
     },
     {
+      "path": "articles/agent-provider-failover-without-resetting-the-run.md",
+      "sha256": "ff91978bb51fb004ee43344dea46495b68af7108c452446f58348d4c285a594c"
+    },
+    {
+      "path": "articles/agent-subagent-context-specialization.md",
+      "sha256": "3a59cac04b50bd428527a2735d7558aedac9d5ce562c6a1fbedee9b457aee975"
+    },
+    {
       "path": "articles/agent-weekly-thesis-history-continuous-research.md",
       "sha256": "8e7d698640bb6a43831eef10dd0b647c069d322f789e3a993dfd70799b5c37f4"
     },
@@ -55,6 +63,10 @@
     {
       "path": "articles/ai-coding-judgment-and-verification.md",
       "sha256": "935bf64e9e098477cc6cb63feb27023df1135d2f5eac8eba30e357b42fe2ada4"
+    },
+    {
+      "path": "articles/bounded-bull-bear-peer-dialogue.md",
+      "sha256": "d20484eeea1cb2103784a2ee3cda03d372d47bd1dccc96fc0fcfe1e25fa98532"
     },
     {
       "path": "articles/code-cheaper-systems-harder-to-evolve.md",
@@ -81,12 +93,24 @@
       "sha256": "5ec7f3a23a7590699ddd0cf7287e01e76da195f9579c2b01989c3fe1fbf944d3"
     },
     {
+      "path": "articles/multi-layer-agent-collaboration-outlook.md",
+      "sha256": "be319e7e4912020714c5f9104f3ac625ae6407514651744b35690799a2d5d394"
+    },
+    {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
       "sha256": "dec2bc53fb868db06166fd160da69c06c1bc2856e9e09f618a8dc9f3bf9ee3c2"
     },
     {
+      "path": "articles/portfolio-mcp-readonly-investment-data.md",
+      "sha256": "332fc73f9edfa49e29d79b38701e1007fb5aab52fe73d41d853425551cd02813"
+    },
+    {
       "path": "articles/tool-results-outside-model-context.md",
       "sha256": "ade1d457f1a74a28f8872fa22526f7ef41a230642286e3c987911c92536c2032"
+    },
+    {
+      "path": "articles/unavailable-is-correct.md",
+      "sha256": "97dfe640973a0071d97a6387293ceba640d31f959429ca576e2170f83ee6eead"
     },
     {
       "path": "en/articles/020-agent-extension-host-smartphone.md",
@@ -125,6 +149,14 @@
       "sha256": "524df58586c838f12a8cd2aa78d291b238d7d786910d636589f243c8b30e60ab"
     },
     {
+      "path": "en/articles/agent-provider-failover-without-resetting-the-run.md",
+      "sha256": "b50db3cc755fdf139528aa09f232e61c9a87650201ce220628a127c082b29855"
+    },
+    {
+      "path": "en/articles/agent-subagent-context-specialization.md",
+      "sha256": "ebfdb3cf154de6e4c3f7109ddb35d8588abadb5cf6e898c3d668b5faeb875347"
+    },
+    {
       "path": "en/articles/agent-weekly-thesis-history-continuous-research.md",
       "sha256": "1e4f4aff6cac4d431254060be81a5ea4a50abe3a402c7121040beb54c8c65107"
     },
@@ -135,6 +167,10 @@
     {
       "path": "en/articles/ai-coding-judgment-and-verification.md",
       "sha256": "ff2af1a4dc84d3af219c7cdc5c6d31a4f1dca2aea178ab29ae0cd35c2b95993d"
+    },
+    {
+      "path": "en/articles/bounded-bull-bear-peer-dialogue.md",
+      "sha256": "18b9886a690e47b3c0a2ddf78472af8b93e49a9103b909782af2138246d5ee0c"
     },
     {
       "path": "en/articles/code-cheaper-systems-harder-to-evolve.md",
@@ -157,12 +193,20 @@
       "sha256": "1a1ea89757441cc8ef0fa0a71dae062785dffc538214e187da0cc95515937301"
     },
     {
+      "path": "en/articles/multi-layer-agent-collaboration-outlook.md",
+      "sha256": "9bd0a5b2a62224c155d78b69001bddbd4f35346bd222cefb27aa8a62d6c289ae"
+    },
+    {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
       "sha256": "f2d29d188dad1c239a8ae2ff62024bf6a047e9a54a734c82d0c54c1b682b0e99"
     },
     {
       "path": "en/articles/tool-results-outside-model-context.md",
       "sha256": "6a3a8d1895410d8196f7bed6e97be280a26f6f64b2bdad3208ffc58e96fb70bc"
+    },
+    {
+      "path": "en/articles/unavailable-is-correct.md",
+      "sha256": "9a11e10cf6b3975c03173c26a5c0ae77dc9fd42be612e2e8996e23f998d16f1d"
     }
   ]
 }
