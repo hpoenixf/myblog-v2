@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "f5fd11184c76ce3007197a08793407021740fe52",
+  "commit": "fb7c776874e71d689212c6fc3c4f0efde598fa81",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -19,6 +19,22 @@
     {
       "path": "articles/agent-main-run-context-compaction.md",
       "sha256": "8036edcc12214b6bead670e36c6ff870fa7e5000d81484d32ccf378d363a6816"
+    },
+    {
+      "path": "articles/ai-citations-do-not-prove-reliability.md",
+      "sha256": "2044570022cb7a0e89862b4e21394e0130d62d3806ee120f9e99acb1d3e39725"
+    },
+    {
+      "path": "articles/ai-coding-judgment-and-verification.md",
+      "sha256": "935bf64e9e098477cc6cb63feb27023df1135d2f5eac8eba30e357b42fe2ada4"
+    },
+    {
+      "path": "articles/code-cheaper-systems-harder-to-evolve.md",
+      "sha256": "afac9ebb7472feaebb87b907bfe46201b7470c6046a3f453e7f60e4f77a30d18"
+    },
+    {
+      "path": "articles/financial-agent-python-result-consumption.md",
+      "sha256": "fc55942e016857b6efd20007afc0aac8600248dc167416b5c97530a2aa740af7"
     },
     {
       "path": "articles/mcp-host-from-discovery-to-consumption.md",
@@ -43,6 +59,22 @@
     {
       "path": "en/articles/agent-main-run-context-compaction.md",
       "sha256": "d000b431fd7c2a29922364805d8b55d5e783f3827aa6ce4015e04932651394c1"
+    },
+    {
+      "path": "en/articles/ai-citations-do-not-prove-reliability.md",
+      "sha256": "807a48bb715cc37b04ca59604cf410f9f0be13cb62eaa66d423222fb3b7e3aa5"
+    },
+    {
+      "path": "en/articles/ai-coding-judgment-and-verification.md",
+      "sha256": "ff2af1a4dc84d3af219c7cdc5c6d31a4f1dca2aea178ab29ae0cd35c2b95993d"
+    },
+    {
+      "path": "en/articles/code-cheaper-systems-harder-to-evolve.md",
+      "sha256": "1de87e5d05390872e4f31f94abda8e59702734845dd3773441f39f2c741f8164"
+    },
+    {
+      "path": "en/articles/financial-agent-python-result-consumption.md",
+      "sha256": "825b5484540fdff6f617f38d643f36ebc0e0fb8337d2afb19114f579ec6d2ab0"
     },
     {
       "path": "en/articles/mcp-host-from-discovery-to-consumption.md",
