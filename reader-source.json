@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "0d7441f24a6c3a6ba806a3dd4f7efd0d66dcc086",
+  "commit": "96fe23a527e77c4c87eac6a5ba56b6ba4778d50c",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "path": "articles/agent-model-runtime-mcp-skill-boundaries.md",
-      "sha256": "cb16323ba28aaa726f1d51adf72e78b56dc78ba5cfc63ded3e252f6034e6d2d9"
+      "sha256": "f50d89c2cd52c9ed95df2962a0eaa2e6eb1b26225946079c966da8e9fce9415b"
     },
     {
       "path": "articles/agent-provider-failover-without-resetting-the-run.md",
@@ -83,6 +83,10 @@
     {
       "path": "articles/financial-agent-trustworthy-evidence-chain.md",
       "sha256": "7cb2dbed6d7579dfa893357ef970257cb5333d98b0f983680c8cf7088230e568"
+    },
+    {
+      "path": "articles/honest-agent-evaluation.md",
+      "sha256": "bc515aa813a4acc7cb13f3c5545aa5e7eb207c6894f8dbf62017586a09423a69"
     },
     {
       "path": "articles/investment-perspectives-and-thesis-falsification.md",
@@ -154,7 +158,7 @@
     },
     {
       "path": "en/articles/agent-model-runtime-mcp-skill-boundaries.md",
-      "sha256": "524df58586c838f12a8cd2aa78d291b238d7d786910d636589f243c8b30e60ab"
+      "sha256": "b96ab7bf0f34415cd54a84cee67cc27ebde3f0f32a0436b841382772291e99f5"
     },
     {
       "path": "en/articles/agent-provider-failover-without-resetting-the-run.md",
@@ -178,7 +182,7 @@
     },
     {
       "path": "en/articles/bounded-bull-bear-peer-dialogue.md",
-      "sha256": "18b9886a690e47b3c0a2ddf78472af8b93e49a9103b909782af2138246d5ee0c"
+      "sha256": "d488f2a9d5031d8da362f73d5cc6d352a7cedd7e296f2b3da5d63391aaedb1eb"
     },
     {
       "path": "en/articles/code-cheaper-systems-harder-to-evolve.md",
@@ -187,6 +191,10 @@
     {
       "path": "en/articles/financial-agent-python-result-consumption.md",
       "sha256": "825b5484540fdff6f617f38d643f36ebc0e0fb8337d2afb19114f579ec6d2ab0"
+    },
+    {
+      "path": "en/articles/honest-agent-evaluation.md",
+      "sha256": "49b1b75727965bc8d9f4bd538aa719ebee9a1101fc0cd72408f6f49dace2528f"
     },
     {
       "path": "en/articles/investment-perspectives-and-thesis-falsification.md",
