@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "be9771dff1519abeb48097984f287114b2045325",
+  "commit": "bc4377f2292758e707f798e104e9b521668f1451",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -81,6 +81,10 @@
       "sha256": "5ec7f3a23a7590699ddd0cf7287e01e76da195f9579c2b01989c3fe1fbf944d3"
     },
     {
+      "path": "articles/open-etf-agent-v01-first-readable-report.md",
+      "sha256": "dec2bc53fb868db06166fd160da69c06c1bc2856e9e09f618a8dc9f3bf9ee3c2"
+    },
+    {
       "path": "articles/tool-results-outside-model-context.md",
       "sha256": "ade1d457f1a74a28f8872fa22526f7ef41a230642286e3c987911c92536c2032"
     },
@@ -151,6 +155,10 @@
     {
       "path": "en/articles/mcp-market-responsibility-retrospective.md",
       "sha256": "1a1ea89757441cc8ef0fa0a71dae062785dffc538214e187da0cc95515937301"
+    },
+    {
+      "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
+      "sha256": "f2d29d188dad1c239a8ae2ff62024bf6a047e9a54a734c82d0c54c1b682b0e99"
     },
     {
       "path": "en/articles/tool-results-outside-model-context.md",
