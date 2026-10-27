@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "5f53039d0fed2932ff85e20b9a52af0db7b40e5a",
+  "commit": "8cb0be8619967c06fa12a76928618f2c8286a85c",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -223,6 +223,14 @@
     {
       "path": "en/articles/unavailable-is-correct.md",
       "sha256": "9a11e10cf6b3975c03173c26a5c0ae77dc9fd42be612e2e8996e23f998d16f1d"
+    },
+    {
+      "path": "articles/financial-agent-system-panorama.md",
+      "sha256": "7b42653276c795691012fd40582c2eb91cf0b2814d00277b08350c4acec966db"
+    },
+    {
+      "path": "en/articles/financial-agent-system-panorama.md",
+      "sha256": "5da2714c3e2d1b9c656609a7f3a07bb918821d3a585019b7641d6b460520c70f"
     }
   ]
 }
