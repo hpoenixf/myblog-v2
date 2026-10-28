@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "9ac8372a11c24dd41cae9fa4fe34107603da3f53",
+  "commit": "4db842f501d1db39cbfa66548e6de3ad3a3138a9",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -174,7 +174,7 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "f0f9a4a8fa6f12b2916c0e2d4bee974de60e9bfd68aeb792fbd01308589b0d0f"
+      "sha256": "038444a5ee653852f2143cabf420bfb60353192e7c7a4a403ab09e0584e77d7b"
     },
     {
       "path": "articles/portfolio-mcp-readonly-investment-data.md",
@@ -374,7 +374,7 @@
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "143f0ffd061af43667f856fda6ed1f294b54bb3f130dfd380d82836043a94bbd"
+      "sha256": "e6a81500dfa864b40ac046f1c0d1664dfb9fa63f0821f2254dee7119056b6848"
     },
     {
       "path": "en/articles/portfolio-mcp-readonly-investment-data.md",
