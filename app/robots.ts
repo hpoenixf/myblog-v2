@@ -4,15 +4,16 @@ import siteMetadata from '@/data/siteMetadata'
 export const dynamic = 'force-static'
 
 export default function robots(): MetadataRoute.Robots {
+  const siteUrl = siteMetadata.siteUrl.replace(/\/+$/, '')
   return {
     rules: {
       userAgent: '*',
       allow: '/',
     },
     sitemap: [
-      `${siteMetadata.siteUrl}/sitemap.xml`,
-      `${siteMetadata.siteUrl}/eff-agent-article/sitemap.xml`,
+      `${siteUrl}/sitemap.xml`,
+      `${siteUrl}/eff-agent-article/sitemap.xml`,
     ],
-    host: siteMetadata.siteUrl,
+    host: siteUrl,
   }
 }

@@ -39,7 +39,7 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-
       - run: pnpm install --frozen-lockfile
       - name: Test reader release contract
-        run: node --test scripts/reader-release.test.mjs
+        run: node --test scripts/reader-release.test.mjs scripts/check-tag-export.test.mjs scripts/site-analytics.test.mjs scripts/site-analytics-integration.test.mjs
       - name: Resolve immutable reader release
         id: reader
         run: echo "commit=$(node scripts/reader-release.mjs pin)" >> "$GITHUB_OUTPUT"
@@ -48,6 +48,8 @@ jobs:
           EXPORT: 1
           UNOPTIMIZED: 1
           BASE_PATH: ${{ steps.configurepages.outputs.base_path }}
+      - name: Verify tag export URLs and pagination
+        run: node scripts/check-tag-export.mjs out
       # hpoenixf.com is served by this Pages deployment, not by the article repo.
       # Include the independent VitePress site as a real subdirectory before upload.
       - name: Checkout ETF Agent reader
@@ -63,6 +65,7 @@ jobs:
       - name: Build and mount ETF Agent reader
         run: |
           cd reader-src
+          node --test scripts/site-analytics.test.mjs scripts/site-analytics-integration.test.mjs
           PUPPETEER_SKIP_DOWNLOAD=1 npm install --no-audit --no-fund
           npm run check:catalog
           npm run docs:build
