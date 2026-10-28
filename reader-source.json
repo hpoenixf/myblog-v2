@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "9ae3fbfa25c19225b76f9b22ca68f9729fd72ca4",
+  "commit": "cf258cc899fc4102a90cde1ef5a89ae946728ccd",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -170,7 +170,7 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "5d22036a012a7bcc4e59686dc3f6b66daf22ab07b0cd9f322a0a34ad7f2b7ed1"
+      "sha256": "290d2fd2f168a19269357075957c853499863e21e1e77985fd287a8ae30789ed"
     },
     {
       "path": "articles/portfolio-mcp-readonly-investment-data.md",
@@ -366,7 +366,7 @@
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "ddf2965c8ec3aff3ae7260e515283ec5c4a873b2c7bdc567d20a5f2972fb3801"
+      "sha256": "7426eccfee7ecce55a8a1915ff71cdff2b89498d36491c1ec0c28e00581e2f5e"
     },
     {
       "path": "en/articles/portfolio-mcp-readonly-investment-data.md",
@@ -379,6 +379,14 @@
     {
       "path": "en/articles/unavailable-is-correct.md",
       "sha256": "9a11e10cf6b3975c03173c26a5c0ae77dc9fd42be612e2e8996e23f998d16f1d"
+    },
+    {
+      "path": "articles/open-etf-agent-v010-system-design.md",
+      "sha256": "7f3bc84172a063fbe76713a2f8ffd160f8e3bd86244e5cb7023c356b39035707"
+    },
+    {
+      "path": "en/articles/open-etf-agent-v010-system-design.md",
+      "sha256": "64e547ba34a0e60c96c09fec5bdcc00890f08a89e51e3a6cfc3e86d02f8060eb"
     }
   ]
 }
