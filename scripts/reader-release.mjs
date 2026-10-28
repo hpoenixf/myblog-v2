@@ -1,3 +1,4 @@
+import { fromHtmlIsomorphic } from 'hast-util-from-html-isomorphic'
 import assert from 'node:assert/strict'
 import { createHash } from 'node:crypto'
 import { execFileSync } from 'node:child_process'
@@ -14,6 +15,41 @@ const homepageFiles = [
   { path: 'index.md', htmlPath: 'index.html', url: baseUrl },
   { path: 'en/index.md', htmlPath: 'en/index.html', url: baseUrl + 'en/' },
 ]
+const topicPages = [
+  { path: 'open-etf-agent.md', htmlPath: 'open-etf-agent.html', url: baseUrl + 'open-etf-agent' },
+  { path: 'en/open-etf-agent.md', htmlPath: 'en/open-etf-agent.html', url: baseUrl + 'en/open-etf-agent' },
+]
+function activeElements(html, tagName) {
+  const result = []
+  function visit(node) {
+    if (node.type === 'element') {
+      if (['script', 'style', 'template', 'noscript'].includes(node.tagName)) return
+      if (node.tagName === tagName) result.push(node.properties ?? {})
+    }
+    for (const child of node.children ?? []) visit(child)
+  }
+  visit(fromHtmlIsomorphic(html))
+  return result
+}
+export function checkTopicHtml(html, path) {
+  const links = activeElements(html, 'link')
+  const hasRel = (link, rel) => Array.isArray(link.rel) && link.rel.includes(rel)
+  const canonical = links.filter(link => hasRel(link, 'canonical'))
+  assert.equal(canonical.length, 1, `Expected one topic canonical: ${path}`)
+  assert.equal(canonical[0].href, baseUrl + path.replace(/\.md$/, ''), `Wrong topic canonical: ${path}`)
+  for (const [language, url] of [['zh-CN', topicPages[0].url], ['en', topicPages[1].url]]) {
+    assert.ok(links.some(link => hasRel(link, 'alternate') &&
+      link.hrefLang === language && link.href === url),
+      `Missing topic hreflang ${language}: ${path}`)
+  }
+}
+export function checkTopicEntry(html, path) {
+  const anchors = activeElements(html, 'a')
+  for (const target of ['/eff-agent-article/en/open-etf-agent', '/eff-agent-article/open-etf-agent?lang=zh']) {
+    assert.ok(anchors.some(anchor => anchor.href === target),
+      `Missing homepage topic entry ${target}: ${path}`)
+  }
+}
 export const digest = (bytes) => createHash('sha256').update(bytes).digest('hex')
 const head = (root) =>
   execFileSync('git', ['-C', root, 'rev-parse', 'HEAD'], { encoding: 'utf8' }).trim()
@@ -102,12 +138,22 @@ export async function stampRelease(root, output, release, blogCommit) {
     assert.ok(source.equals(committed), `Uncommitted homepage: ${homepage.path}`)
     const html = await readFile(resolve(output, homepage.htmlPath))
     checkCanonical(html.toString('utf8'), homepage.path)
+    checkTopicEntry(html.toString('utf8'), homepage.path)
     homepages.push({
       path: homepage.path,
       sourceSha256: digest(source),
       htmlPath: homepage.htmlPath,
       htmlSha256: digest(html),
     })
+  }
+  const topics = []
+  for (const page of topicPages) {
+    const source = await readFile(resolve(root, page.path))
+    const committed = execFileSync('git', ['-C', root, 'show', `${release.commit}:${page.path}`])
+    assert.ok(source.equals(committed), `Uncommitted topic: ${page.path}`)
+    const html = await readFile(resolve(output, page.htmlPath))
+    checkTopicHtml(html.toString('utf8'), page.path)
+    topics.push({ path: page.path, sourceSha256: digest(source), htmlPath: page.htmlPath, htmlSha256: digest(html) })
   }
   const receipt = {
     schemaVersion: 1,
@@ -117,6 +163,7 @@ export async function stampRelease(root, output, release, blogCommit) {
     blogCommit,
     files,
     homepages,
+    topics,
   }
   await writeFile(resolve(output, 'reader-release.json'), JSON.stringify(receipt, null, 2) + '\n')
   return receipt
@@ -178,6 +225,18 @@ export async function verifyPublic(
         const bytes = await get(homepage.url)
         assert.equal(digest(bytes), page.htmlSha256, `Stale public homepage: ${homepage.path}`)
         checkCanonical(bytes.toString('utf8'), homepage.path)
+        checkTopicEntry(bytes.toString('utf8'), homepage.path)
+      }
+      assert.equal(receipt.topics?.length, topicPages.length, 'Missing topic receipts')
+      for (const topic of topicPages) {
+        const page = receipt.topics.find(entry => entry.path === topic.path)
+        assert.ok(page, `Missing topic: ${topic.path}`)
+        assert.match(page.sourceSha256, hash)
+        assert.equal(page.htmlPath, topic.htmlPath)
+        assert.match(page.htmlSha256, hash)
+        const bytes = await get(topic.url)
+        assert.equal(digest(bytes), page.htmlSha256, `Stale public topic: ${topic.path}`)
+        checkTopicHtml(bytes.toString('utf8'), topic.path)
       }
       return receipt
     } catch (error) {

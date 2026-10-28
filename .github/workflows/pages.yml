@@ -20,11 +20,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Test reader release contract
-        run: node --test scripts/reader-release.test.mjs
-      - name: Resolve immutable reader release
-        id: reader
-        run: echo "commit=$(node scripts/reader-release.mjs pin)" >> "$GITHUB_OUTPUT"
       - uses: pnpm/action-setup@v4
         with:
           version: 10.33.0
@@ -43,6 +38,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-
       - run: pnpm install --frozen-lockfile
+      - name: Test reader release contract
+        run: node --test scripts/reader-release.test.mjs
+      - name: Resolve immutable reader release
+        id: reader
+        run: echo "commit=$(node scripts/reader-release.mjs pin)" >> "$GITHUB_OUTPUT"
       - run: pnpm build
         env:
           EXPORT: 1
@@ -105,6 +105,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22.12.0'
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.0
+          run_install: false
+      - run: pnpm install --frozen-lockfile
       - id: deployment
         uses: actions/deploy-pages@v4
       - name: Verify exact article bodies on the canonical domain
