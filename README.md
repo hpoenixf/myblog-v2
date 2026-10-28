@@ -6,6 +6,10 @@
 - [ETF Agent Engineering Notes：73 篇公开工程文章](https://hpoenixf.com/eff-agent-article/) · [GitHub 文集源码](https://github.com/hpoenixf/eff-agent-article)
 - [AI Agent 研发工程实践](https://hpoenixf.com/eff-agent-article/engineering) · [金融科技 × Agent 专题](https://hpoenixf.com/eff-agent-article/fintech)
 
+## 原则文章原址精修（2026-10-28）
+
+[代码为什么越来越难升级](https://hpoenixf.com/eff-agent-article/articles/code-cheaper-systems-harder-to-evolve)、[局部优化怎样变成系统进步](https://hpoenixf.com/eff-agent-article/articles/local-improvement-is-not-system-progress)、[稳定什么与改变什么](https://hpoenixf.com/eff-agent-article/articles/agent-differentiated-evolution-contracts)、[旧测试怎样演进](https://hpoenixf.com/eff-agent-article/articles/test-lifecycle-refactoring-retirement-and-spec)分别采用报表图表、图片识别、工单分派与头像格式教学场景，完整中英文同批更新；已有两篇中文博客正文同步，首次发布日期保留。
+
 ## 新增研发方法文章（2026-10-28）
 
 [测试比实现还多之后：怎样让文档、代码和测试一起向前](https://hpoenixf.com/eff-agent-article/articles/docs-code-tests-evolve-together) · [完整英文版](https://hpoenixf.com/eff-agent-article/en/articles/docs-code-tests-evolve-together)。保留真实项目统计，以订单导出教学案例讲清规范、实现、旧测试和用户结果怎样随需求共同演进。

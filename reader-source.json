@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "d9d4bcbe7548cf0cca8c60614639df87a452010a",
+  "commit": "173f601a8f44b255067ae0f5bb7328b23d292ae3",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "path": "articles/agent-differentiated-evolution-contracts.md",
-      "sha256": "55b78f60ac48060e6106e4f14505768bc88a17b41e51362388a325e70fed4ac5"
+      "sha256": "96cabb67cbc1aace6178fb61ec8d75aa7fd5c24e645b16a090754ff5d45f1dfe"
     },
     {
       "path": "articles/agent-disconnect-is-not-crash-recovery-contract.md",
@@ -134,7 +134,7 @@
     },
     {
       "path": "articles/code-cheaper-systems-harder-to-evolve.md",
-      "sha256": "afac9ebb7472feaebb87b907bfe46201b7470c6046a3f453e7f60e4f77a30d18"
+      "sha256": "490ee6e1cf630ad98b88fdbcb0ab8d8c7f7a7fbbe16ad6b915d09704ed1e8285"
     },
     {
       "path": "articles/etf-assistant-engineering-origins.md",
@@ -258,7 +258,7 @@
     },
     {
       "path": "en/articles/agent-differentiated-evolution-contracts.md",
-      "sha256": "fba0290e02a3406dd2089f28ab73ad22b63deb34d8340f472920cd325c374e0f"
+      "sha256": "fa0dd58af575ee46620c4eb16b628f898ab0a42f661b6979f0dff8f4d246858f"
     },
     {
       "path": "en/articles/agent-disconnect-is-not-crash-recovery-contract.md",
@@ -338,7 +338,7 @@
     },
     {
       "path": "en/articles/code-cheaper-systems-harder-to-evolve.md",
-      "sha256": "61cdf8989f28f488fbeaf7116435b47d485946271ba8b19d9183414dc49faf49"
+      "sha256": "9b8ea3618e57bf216b22ea208c5afa9b56753e910b4d055f72fb20d0fd878e2f"
     },
     {
       "path": "en/articles/etf-assistant-engineering-origins.md",
@@ -435,6 +435,22 @@
     {
       "path": "en/articles/docs-code-tests-evolve-together.md",
       "sha256": "9afa2233a610157d0a32a05bc4770038a17b8be8acfe1efcacc08647a32890c6"
+    },
+    {
+      "path": "articles/local-improvement-is-not-system-progress.md",
+      "sha256": "a0ff23ffda3070a9269323c23c105eb88cf9c03873c5173ab2a5300be9b72ea0"
+    },
+    {
+      "path": "articles/test-lifecycle-refactoring-retirement-and-spec.md",
+      "sha256": "5ebfd627b9c530531e1c28a1e9280ecdf9e54998c15a9a95983643360dd4e4d0"
+    },
+    {
+      "path": "en/articles/local-improvement-is-not-system-progress.md",
+      "sha256": "5c74c303e759dd8d6e78d27fe0f450022d4ae0c8a5519e09c6dc3eac2237f409"
+    },
+    {
+      "path": "en/articles/test-lifecycle-refactoring-retirement-and-spec.md",
+      "sha256": "724e099599c31bb8d91c92b69fcd11e27bca19346eeebeb724151b3d3952b83e"
     }
   ]
 }
