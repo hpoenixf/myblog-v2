@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "81690e9425184ab1b15940f349f44186ee8755d0",
+  "commit": "7a1adb148d5cc1bd9c1d000cd9d90ff024a878ee",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -387,6 +387,14 @@
     {
       "path": "en/articles/open-etf-agent-v010-system-design.md",
       "sha256": "64e547ba34a0e60c96c09fec5bdcc00890f08a89e51e3a6cfc3e86d02f8060eb"
+    },
+    {
+      "path": "articles/one-report-nine-architecture-judgments.md",
+      "sha256": "5c2398712e000103f9de2a64905412abfd437b617a01fb4748945427765daabf"
+    },
+    {
+      "path": "en/articles/one-report-nine-architecture-judgments.md",
+      "sha256": "a397c0db2d0b2eef3f7c2f2bef8530fb3da9ffb55e6d1d980d11eb71cd3b8562"
     }
   ]
 }
