@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "7a1adb148d5cc1bd9c1d000cd9d90ff024a878ee",
+  "commit": "1a32a73262e1814f14b45f61e8b8043e77fff4c1",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -390,11 +390,11 @@
     },
     {
       "path": "articles/one-report-nine-architecture-judgments.md",
-      "sha256": "5c2398712e000103f9de2a64905412abfd437b617a01fb4748945427765daabf"
+      "sha256": "79a17d3da47c7c604de909f93a3074a3b1a2dcd6dbd781f4e3b50de718d476f3"
     },
     {
       "path": "en/articles/one-report-nine-architecture-judgments.md",
-      "sha256": "a397c0db2d0b2eef3f7c2f2bef8530fb3da9ffb55e6d1d980d11eb71cd3b8562"
+      "sha256": "56584128965c978bea4654805fa409282682085033264e2129c372fea9930737"
     },
     {
       "path": "articles/agent-engineering-suite.md",
