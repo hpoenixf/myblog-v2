@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-label="采用与价值：两组观察，一起支持决策"><rect width="1200" height="680" rx="24" fill="#f5f7fb"/><style>text{font-family:Noto Sans CJK SC, sans-serif;fill:#17263d}.title{font-size:32px;font-weight:700}.sub{font-size:18px;fill:#53647b}.head{font-size:23px;font-weight:700}.body{font-size:19px}.label{font-size:17px;fill:#53647b}</style><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 Z" fill="#3d6b9a"/></marker></defs>
+<text x="48" y="60" class="title">采用与价值：两组观察，一起支持决策</text>
+<text x="48" y="95" class="sub">从覆盖情况到业务与工程变化，再回到迁移、资源和公共能力</text>
+<rect x="48" y="155" width="520" height="180" rx="16" fill="#eaf2ff" stroke="#d6e0ed"/>
+<text x="70" y="193" class="head">采用有没有推进？</text>
+<text x="70" y="231" class="body">Figma 共享组件覆盖率</text>
+<text x="70" y="261" class="body">线上组件扫描与真实使用埋点</text>
+<text x="70" y="291" class="body">发现未采用区域与迁移需求</text>
+<rect x="632" y="155" width="520" height="180" rx="16" fill="#edf7f4" stroke="#d6e0ed"/>
+<text x="654" y="193" class="head">投入有没有价值？</text>
+<text x="654" y="231" class="body">设计与新页面开发时间</text>
+<text x="654" y="261" class="body">代码体积与页面加载表现</text>
+<text x="654" y="291" class="body">关联观察业务指标变化</text>
+<rect x="260" y="430" width="680" height="150" rx="16" fill="#fff" stroke="#d6e0ed"/>
+<text x="282" y="468" class="head">下一轮改进与协作</text>
+<text x="282" y="506" class="body">完善共享能力 · 安排渐进迁移</text>
+<text x="282" y="536" class="body">争取产品支持 · 协调研发与测试资源</text>
+<path d="M308,335 L440,420" stroke="#3d6b9a" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<path d="M892,335 L760,420" stroke="#3d6b9a" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<path d="M260,505 L80,505 L80,350" fill="none" stroke="#3d6b9a" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#a)"/>
+<text x="48" y="635" class="label">业务变化与组件采用的关联不是单独因果证明；统计口径应保持明确。</text>
+</svg>

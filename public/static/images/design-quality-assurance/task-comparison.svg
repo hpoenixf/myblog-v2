@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-label="Ant Design 之上，建设业务设计系统"><rect width="1200" height="700" rx="24" fill="#f5f7fb"/><style>text{font-family:Noto Sans CJK SC, sans-serif;fill:#17263d}.title{font-size:32px;font-weight:700}.sub{font-size:18px;fill:#53647b}.head{font-size:23px;font-weight:700}.body{font-size:19px}.label{font-size:17px;fill:#53647b}</style><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 Z" fill="#3d6b9a"/></marker></defs>
+<text x="48" y="60" class="title">Ant Design 之上，建设业务设计系统</text>
+<text x="48" y="95" class="sub">保留成熟的基础 UI 能力，把业务规则与治理放在自己的体系里</text>
+<rect x="48" y="145" width="730" height="120" rx="16" fill="#eaf2ff" stroke="#d6e0ed"/>
+<text x="70" y="183" class="head">解决方案级组合组件</text>
+<text x="70" y="221" class="body">面向场景组织能力，提供可复用的组合方式</text>
+<rect x="48" y="290" width="730" height="120" rx="16" fill="#edf7f4" stroke="#d6e0ed"/>
+<text x="70" y="328" class="head">业务共享组件</text>
+<text x="70" y="366" class="body">沉淀业务共性，承接业务规范与交互规则</text>
+<rect x="48" y="435" width="730" height="120" rx="16" fill="#fff" stroke="#d6e0ed"/>
+<text x="70" y="473" class="head">基础组件 · Button / Input / Modal</text>
+<text x="70" y="511" class="body">利用 Ant Design 的基础 UI 能力，不仅仅更换导出包名</text>
+<rect x="825" y="145" width="327" height="410" rx="16" fill="#fff" stroke="#d6e0ed"/>
+<text x="847" y="183" class="head">贯穿各层的治理</text>
+<text x="847" y="221" class="body">Design Token</text>
+<text x="847" y="251" class="body">CSS Variables</text>
+<text x="847" y="281" class="body"></text>
+<text x="847" y="311" class="body">TypeScript API</text>
+<text x="847" y="341" class="body">自动化测试与版本</text>
+<text x="847" y="371" class="body"></text>
+<text x="847" y="401" class="body">ESLint + CI</text>
+<text x="847" y="431" class="body">文档、示例与培训</text>
+<text x="48" y="624" class="label">分层示意，不表示所有业务必须穿过同一条封装链。</text>
+<text x="48" y="658" class="label">共性进入共享层，真实业务差异留在合适的位置。</text>
+</svg>

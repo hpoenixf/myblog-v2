@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-label="跨六国钱包：把一致性接进工作流程"><rect width="1200" height="650" rx="24" fill="#f5f7fb"/><style>text{font-family:Noto Sans CJK SC, sans-serif;fill:#17263d}.title{font-size:32px;font-weight:700}.sub{font-size:18px;fill:#53647b}.head{font-size:23px;font-weight:700}.body{font-size:19px}.label{font-size:17px;fill:#53647b}</style><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 Z" fill="#3d6b9a"/></marker></defs>
+<text x="48" y="60" class="title">跨六国钱包：把一致性接进工作流程</text>
+<text x="48" y="95" class="sub">共享组件采用可见，业务设计规则可复用，持续改进有资源</text>
+<rect x="48" y="145" width="340" height="160" rx="16" fill="#fff" stroke="#d6e0ed"/>
+<text x="70" y="183" class="head">设计侧 · Figma</text>
+<text x="70" y="221" class="body">全局 / 业务共享 / 私有</text>
+<text x="70" y="251" class="body">共享组件覆盖率与评分</text>
+<rect x="430" y="145" width="340" height="160" rx="16" fill="#fff" stroke="#d6e0ed"/>
+<text x="452" y="183" class="head">研发侧 · Monorepo</text>
+<text x="452" y="221" class="body">基础 / 业务 / 解决方案</text>
+<text x="452" y="251" class="body">类型、测试、版本与 CI</text>
+<rect x="812" y="145" width="340" height="160" rx="16" fill="#fff" stroke="#d6e0ed"/>
+<text x="834" y="183" class="head">线上侧 · Chrome</text>
+<text x="834" y="221" class="body">页面组件覆盖扫描</text>
+<text x="834" y="251" class="body">埋点观察真实使用</text>
+<path d="M388,225 L423,225" stroke="#3d6b9a" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<path d="M770,225 L805,225" stroke="#3d6b9a" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<rect x="210" y="375" width="780" height="160" rx="16" fill="#eaf2ff" stroke="#d6e0ed"/>
+<text x="232" y="413" class="head">共同推进：设计、研发、产品</text>
+<text x="232" y="451" class="body">设计预算与嵌入式前端 · 渐进迁移 · 研发与测试排期</text>
+<text x="232" y="481" class="body">采用进展 + 工程与业务指标，支持下一轮投入</text>
+<path d="M218,305 L218,365" stroke="#3d6b9a" stroke-width="3" fill="none" marker-end="url(#a)" stroke-dasharray="8 6"/>
+<path d="M600,305 L600,365" stroke="#3d6b9a" stroke-width="3" fill="none" marker-end="url(#a)" stroke-dasharray="8 6"/>
+<path d="M982,305 L982,365" stroke="#3d6b9a" stroke-width="3" fill="none" marker-end="url(#a)" stroke-dasharray="8 6"/>
+<text x="48" y="602" class="label">原项目实践示意。覆盖率是采用指标，不代表全面体验质量。</text>
+</svg>
