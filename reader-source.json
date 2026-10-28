@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "178a308e5f800fbfef73b2c8c28b17ca84ce8417",
+  "commit": "d9d4bcbe7548cf0cca8c60614639df87a452010a",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -427,6 +427,14 @@
     {
       "path": "en/articles/027-agent-context-document-history.md",
       "sha256": "d2ed462c623f9a9b675f584a7882e24c711821ebf4601f83f33a3d65d277bb8b"
+    },
+    {
+      "path": "articles/docs-code-tests-evolve-together.md",
+      "sha256": "d92a89b736a84c2256b1879037e63e85fc2bc812d14c1474f21f9ee7d4702d07"
+    },
+    {
+      "path": "en/articles/docs-code-tests-evolve-together.md",
+      "sha256": "9afa2233a610157d0a32a05bc4770038a17b8be8acfe1efcacc08647a32890c6"
     }
   ]
 }

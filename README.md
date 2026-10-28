@@ -3,8 +3,12 @@
 **前端工程、AI Agent 应用与系统架构的实践笔记。**
 
 - [阅读博客](https://hpoenixf.com/) · [作者简介](https://hpoenixf.com/about)
-- [ETF Agent Engineering Notes：62 篇公开工程文章](https://hpoenixf.com/eff-agent-article/) · [GitHub 文集源码](https://github.com/hpoenixf/eff-agent-article)
+- [ETF Agent Engineering Notes：73 篇公开工程文章](https://hpoenixf.com/eff-agent-article/) · [GitHub 文集源码](https://github.com/hpoenixf/eff-agent-article)
 - [AI Agent 研发工程实践](https://hpoenixf.com/eff-agent-article/engineering) · [金融科技 × Agent 专题](https://hpoenixf.com/eff-agent-article/fintech)
+
+## 新增研发方法文章（2026-10-28）
+
+[测试比实现还多之后：怎样让文档、代码和测试一起向前](https://hpoenixf.com/eff-agent-article/articles/docs-code-tests-evolve-together) · [完整英文版](https://hpoenixf.com/eff-agent-article/en/articles/docs-code-tests-evolve-together)。保留真实项目统计，以订单导出教学案例讲清规范、实现、旧测试和用户结果怎样随需求共同演进。
 
 ## 新增工程复盘与架构演进（2026-10-26）
 
