@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "173f601a8f44b255067ae0f5bb7328b23d292ae3",
+  "commit": "efead4b0830d2c49ed1b27dafaa3f6bfba42e9d1",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "d3b279975022a71ba8e6014f85c8ff41fbfd2d169c4ddb9f3165c2c5f2c09eec"
+      "sha256": "63881d31c333eb546076c2d6f52352f6d638648c08f0519c3bc908c3f8d1b2dd"
     },
     {
       "path": "articles/019-agent-answer-publication.md",
@@ -82,7 +82,7 @@
     },
     {
       "path": "articles/agent-model-runtime-mcp-skill-boundaries.md",
-      "sha256": "f50d89c2cd52c9ed95df2962a0eaa2e6eb1b26225946079c966da8e9fce9415b"
+      "sha256": "f240a7861474eedfbee4cf1962951ef6e91689a2766bbd8caed19ad53afbb5c9"
     },
     {
       "path": "articles/agent-multi-ecosystem-hook-execution.md",
@@ -114,7 +114,7 @@
     },
     {
       "path": "articles/agent-veto-authority-and-run-termination.md",
-      "sha256": "47096cd9ea971b2cfd627fc8205e731e5d339c0f1113d38ccbf2c8bf3b84c119"
+      "sha256": "07d8e1eae334d39c458482417769cf12f41a171fe97419d0a11b9101353958ac"
     },
     {
       "path": "articles/agent-weekly-thesis-history-continuous-research.md",
@@ -194,7 +194,7 @@
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "13f4fa78e4f1f887c62e6ec0ea5048251c88cddda4766a2511c39d32b97a4eb5"
+      "sha256": "767a0cf7f192e1923be6c6e2501a23c65480fa95e96be24d9a4315c0dadb5aa3"
     },
     {
       "path": "en/articles/019-agent-answer-publication.md",
@@ -282,7 +282,7 @@
     },
     {
       "path": "en/articles/agent-model-runtime-mcp-skill-boundaries.md",
-      "sha256": "b96ab7bf0f34415cd54a84cee67cc27ebde3f0f32a0436b841382772291e99f5"
+      "sha256": "4bc070dd0956abb7ddd7c9822f0e0c10ab6e627442003a1df30718027a357469"
     },
     {
       "path": "en/articles/agent-multi-ecosystem-hook-execution.md",
@@ -318,7 +318,7 @@
     },
     {
       "path": "en/articles/agent-veto-authority-and-run-termination.md",
-      "sha256": "28bddb958bcfd8faee168ba17f2b7a94dd5ce8ba19e7c2fe4715d00fcdc51b31"
+      "sha256": "32093741981d5ce4cf71f5a90606b6c632a4b48d0c83034feecef70f7f0859ac"
     },
     {
       "path": "en/articles/agent-weekly-thesis-history-continuous-research.md",
@@ -451,6 +451,22 @@
     {
       "path": "en/articles/test-lifecycle-refactoring-retirement-and-spec.md",
       "sha256": "724e099599c31bb8d91c92b69fcd11e27bca19346eeebeb724151b3d3952b83e"
+    },
+    {
+      "path": "articles/etf-agent-model-harness-research-loop.md",
+      "sha256": "98ded97efb904112bfab3ae04c81970cb41facdc34a60eb5c08203fef5802f8f"
+    },
+    {
+      "path": "en/articles/etf-agent-model-harness-research-loop.md",
+      "sha256": "eea36e12238106a8ac5e223d14720472450d549f2fea063d819af801512fba80"
+    },
+    {
+      "path": "articles/runtime-model-protocol-boundary-agent-article-v2.md",
+      "sha256": "20690d4c90dc1e5ad912905aea27bcb9788ba706d0815b79aae462891f0f38bb"
+    },
+    {
+      "path": "en/articles/runtime-model-protocol-boundary-agent-article-v2.md",
+      "sha256": "7e414a0dffbb31a5c02fc459ab8326fb9f2cf3cf96383d4ca0732d647fd8d2bf"
     }
   ]
 }
