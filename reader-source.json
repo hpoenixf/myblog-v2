@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "22ab4e0d314d95e00bd80ffdce2bf347ab5107d5",
+  "commit": "186f497e3b55deb6e35c848da3508fc12fa2a23a",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "path": "articles/026-agent-memory-forget-durable-effects.md",
-      "sha256": "a03f5839c914c17acae6ca8a3e8d86a21bf1300c42f7368be9d2bc1fb7ac73e6"
+      "sha256": "5b2ce9d0a90453a9f26f0d5ad58390654c21006d65e8505c5a3e392988564a3c"
     },
     {
       "path": "articles/030-fintech-from-research-to-investment-advice.md",
@@ -74,7 +74,7 @@
     },
     {
       "path": "articles/agent-main-run-context-compaction.md",
-      "sha256": "4ea6c269afcad19e19e0a4cd94936d9aa8fbd73b4cc88b68ee5481b72e20ec26"
+      "sha256": "8f301d1003eae5981c97e62da505e189e2d953d94fd0c355052c11da2b2740d8"
     },
     {
       "path": "articles/agent-model-capability-presentation-tool-surface.md",
@@ -102,7 +102,7 @@
     },
     {
       "path": "articles/agent-subagent-context-specialization.md",
-      "sha256": "93e99b88291bbfb4dbc501e3385632190965e9326ac6703f38e68c2f84b5f0be"
+      "sha256": "90c26224de4926fae52d5c481cc5f3f07fccae8e07c9f25b5f6d8d0de13fd952"
     },
     {
       "path": "articles/agent-thinking-fast-slow-research-needs.md",
@@ -154,7 +154,7 @@
     },
     {
       "path": "articles/honest-agent-evaluation.md",
-      "sha256": "66792fb389561220c5b51be79467eab49a645d200f7ca2c6432eb47c3a372c4a"
+      "sha256": "f9bfec8f15fcad7d89e81cd89fc461b30090e8ea57a621663e387d0d2186677e"
     },
     {
       "path": "articles/investment-perspectives-and-thesis-falsification.md",
@@ -218,7 +218,7 @@
     },
     {
       "path": "en/articles/026-agent-memory-forget-durable-effects.md",
-      "sha256": "e7d9a2c428439621c1217afc152bd9b4ce41df0251674b6b43d797b0186c1237"
+      "sha256": "3bbc23927ad3df9b05b8b8f2afc672cbac667a7bcc1d7fdc48ce83b13c3ea2bf"
     },
     {
       "path": "en/articles/030-fintech-from-research-to-investment-advice.md",
@@ -274,7 +274,7 @@
     },
     {
       "path": "en/articles/agent-main-run-context-compaction.md",
-      "sha256": "d183b4701fe59b2391b418da78043cdeaec2ea818cb3713129097dea0945b394"
+      "sha256": "d4e14df7706b8378489149d5922218ff7e36bf983d8062c745659fd3f643d5a9"
     },
     {
       "path": "en/articles/agent-model-capability-presentation-tool-surface.md",
@@ -306,7 +306,7 @@
     },
     {
       "path": "en/articles/agent-subagent-context-specialization.md",
-      "sha256": "8045000f373f28518ca3e1913fd7a7820bec0a9de0c7d20e204844699603cb5f"
+      "sha256": "ff26590dfbb898293a20ec40f0665ebe2f55beb870ecb808a659b8088cfc38bd"
     },
     {
       "path": "en/articles/agent-thinking-fast-slow-research-needs.md",
@@ -354,7 +354,7 @@
     },
     {
       "path": "en/articles/honest-agent-evaluation.md",
-      "sha256": "5271ad30683c040df7415c92fcefc0ce210c413b192e0362ab5d8baecbf2da0e"
+      "sha256": "87db1ce733d18f55cdbc776ec0c9e531ecd804fcd41d04d28871cda4776c14e7"
     },
     {
       "path": "en/articles/investment-perspectives-and-thesis-falsification.md",
@@ -390,11 +390,11 @@
     },
     {
       "path": "articles/open-etf-agent-v010-system-design.md",
-      "sha256": "7f3bc84172a063fbe76713a2f8ffd160f8e3bd86244e5cb7023c356b39035707"
+      "sha256": "29b5628bfea31054eaccf9aa10be85c6d52ce41f5b41b8f02b261ca7ccf77567"
     },
     {
       "path": "en/articles/open-etf-agent-v010-system-design.md",
-      "sha256": "64e547ba34a0e60c96c09fec5bdcc00890f08a89e51e3a6cfc3e86d02f8060eb"
+      "sha256": "d5da741209b02bf20f24795427158cda2b70bb3fbe6beb9eda7b50aa4a680dd7"
     },
     {
       "path": "articles/one-report-nine-architecture-judgments.md",
