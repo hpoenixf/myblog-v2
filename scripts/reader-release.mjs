@@ -17,7 +17,11 @@ const homepageFiles = [
 ]
 const topicPages = [
   { path: 'open-etf-agent.md', htmlPath: 'open-etf-agent.html', url: baseUrl + 'open-etf-agent' },
-  { path: 'en/open-etf-agent.md', htmlPath: 'en/open-etf-agent.html', url: baseUrl + 'en/open-etf-agent' },
+  {
+    path: 'en/open-etf-agent.md',
+    htmlPath: 'en/open-etf-agent.html',
+    url: baseUrl + 'en/open-etf-agent',
+  },
 ]
 function activeElements(html, tagName) {
   const result = []
@@ -34,20 +38,35 @@ function activeElements(html, tagName) {
 export function checkTopicHtml(html, path) {
   const links = activeElements(html, 'link')
   const hasRel = (link, rel) => Array.isArray(link.rel) && link.rel.includes(rel)
-  const canonical = links.filter(link => hasRel(link, 'canonical'))
+  const canonical = links.filter((link) => hasRel(link, 'canonical'))
   assert.equal(canonical.length, 1, `Expected one topic canonical: ${path}`)
-  assert.equal(canonical[0].href, baseUrl + path.replace(/\.md$/, ''), `Wrong topic canonical: ${path}`)
-  for (const [language, url] of [['zh-CN', topicPages[0].url], ['en', topicPages[1].url]]) {
-    assert.ok(links.some(link => hasRel(link, 'alternate') &&
-      link.hrefLang === language && link.href === url),
-      `Missing topic hreflang ${language}: ${path}`)
+  assert.equal(
+    canonical[0].href,
+    baseUrl + path.replace(/\.md$/, ''),
+    `Wrong topic canonical: ${path}`
+  )
+  for (const [language, url] of [
+    ['zh-CN', topicPages[0].url],
+    ['en', topicPages[1].url],
+  ]) {
+    assert.ok(
+      links.some(
+        (link) => hasRel(link, 'alternate') && link.hrefLang === language && link.href === url
+      ),
+      `Missing topic hreflang ${language}: ${path}`
+    )
   }
 }
 export function checkTopicEntry(html, path) {
   const anchors = activeElements(html, 'a')
-  for (const target of ['/eff-agent-article/en/open-etf-agent', '/eff-agent-article/open-etf-agent?lang=zh']) {
-    assert.ok(anchors.some(anchor => anchor.href === target),
-      `Missing homepage topic entry ${target}: ${path}`)
+  for (const target of [
+    '/eff-agent-article/en/open-etf-agent',
+    '/eff-agent-article/open-etf-agent?lang=zh',
+  ]) {
+    assert.ok(
+      anchors.some((anchor) => anchor.href === target),
+      `Missing homepage topic entry ${target}: ${path}`
+    )
   }
 }
 export const digest = (bytes) => createHash('sha256').update(bytes).digest('hex')
@@ -153,7 +172,12 @@ export async function stampRelease(root, output, release, blogCommit) {
     assert.ok(source.equals(committed), `Uncommitted topic: ${page.path}`)
     const html = await readFile(resolve(output, page.htmlPath))
     checkTopicHtml(html.toString('utf8'), page.path)
-    topics.push({ path: page.path, sourceSha256: digest(source), htmlPath: page.htmlPath, htmlSha256: digest(html) })
+    topics.push({
+      path: page.path,
+      sourceSha256: digest(source),
+      htmlPath: page.htmlPath,
+      htmlSha256: digest(html),
+    })
   }
   const receipt = {
     schemaVersion: 1,
@@ -229,7 +253,7 @@ export async function verifyPublic(
       }
       assert.equal(receipt.topics?.length, topicPages.length, 'Missing topic receipts')
       for (const topic of topicPages) {
-        const page = receipt.topics.find(entry => entry.path === topic.path)
+        const page = receipt.topics.find((entry) => entry.path === topic.path)
         assert.ok(page, `Missing topic: ${topic.path}`)
         assert.match(page.sourceSha256, hash)
         assert.equal(page.htmlPath, topic.htmlPath)

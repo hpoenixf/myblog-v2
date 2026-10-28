@@ -1,6 +1,13 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { digest, validateRelease, checkCanonical, verifyPublic, checkTopicHtml, checkTopicEntry } from './reader-release.mjs'
+import {
+  digest,
+  validateRelease,
+  checkCanonical,
+  verifyPublic,
+  checkTopicHtml,
+  checkTopicEntry,
+} from './reader-release.mjs'
 
 const baseUrl = 'https://hpoenixf.com/eff-agent-article/'
 const paths = ['articles/example.md', 'en/articles/example.md']
@@ -20,8 +27,11 @@ const homepages = [
 const homepageHtml = (page) =>
   `<html><head><link rel="canonical" href="${page.url}"></head><body>Home for ${page.path}<a href="/eff-agent-article/en/open-etf-agent">English</a><a href="/eff-agent-article/open-etf-agent?lang=zh">中文</a></body></html>`
 const topics = ['open-etf-agent.md', 'en/open-etf-agent.md']
-const topicHtml = (path) => html(path).replace('</head>',
-  `<link rel="alternate" hreflang="zh-CN" href="${baseUrl}open-etf-agent"><link rel="alternate" hreflang="en" href="${baseUrl}en/open-etf-agent"></head>`)
+const topicHtml = (path) =>
+  html(path).replace(
+    '</head>',
+    `<link rel="alternate" hreflang="zh-CN" href="${baseUrl}open-etf-agent"><link rel="alternate" hreflang="en" href="${baseUrl}en/open-etf-agent"></head>`
+  )
 const receipt = () => ({
   schemaVersion: 1,
   repository: release.repository,
@@ -34,7 +44,12 @@ const receipt = () => ({
     htmlPath: file.path.replace(/\.md$/, '.html'),
     htmlSha256: digest(html(file.path)),
   })),
-  topics: topics.map(path => ({path, sourceSha256: digest(path), htmlPath: path.replace(/\.md$/, '.html'), htmlSha256: digest(topicHtml(path))})),
+  topics: topics.map((path) => ({
+    path,
+    sourceSha256: digest(path),
+    htmlPath: path.replace(/\.md$/, '.html'),
+    htmlSha256: digest(topicHtml(path)),
+  })),
   homepages: homepages.map((page) => ({
     path: page.path,
     sourceSha256: digest(page.path),
@@ -49,8 +64,8 @@ const fetcher =
       return new Response(JSON.stringify(record), { status: code })
     const homepage = homepages.find((page) => url === page.url)
     if (homepage) return new Response(homeBody(homepage), { status: code })
-    const topic = topics.find(path => url === baseUrl + path.replace(/\.md$/, ''))
-    if (topic) return new Response(topicBody(topic), {status: code})
+    const topic = topics.find((path) => url === baseUrl + path.replace(/\.md$/, ''))
+    if (topic) return new Response(topicBody(topic), { status: code })
     const path = paths.find((path) => url === baseUrl + path.replace(/\.md$/, ''))
     assert.ok(path, 'Only canonical clean URLs should be fetched')
     return new Response(body(path), { status: code })
@@ -155,34 +170,89 @@ test('retry can converge to a current deployment without changing the expected r
 })
 
 test('topic canonical and bilingual alternates fail closed', () => {
- for (const path of topics) {
-  checkTopicHtml(topicHtml(path), path)
-  assert.throws(() => checkTopicHtml(topicHtml(path).replace('hreflang="en"','hreflang="fr"'),path), /hreflang/)
-  assert.throws(() => checkTopicHtml(topicHtml(path).replace('rel="canonical"','rel="wrong"'),path), /canonical/)
- }
- assert.throws(() => checkTopicEntry('<a href="/open-etf-agent">bad base</a>', 'index.md'), /topic entry/)
+  for (const path of topics) {
+    checkTopicHtml(topicHtml(path), path)
+    assert.throws(
+      () => checkTopicHtml(topicHtml(path).replace('hreflang="en"', 'hreflang="fr"'), path),
+      /hreflang/
+    )
+    assert.throws(
+      () => checkTopicHtml(topicHtml(path).replace('rel="canonical"', 'rel="wrong"'), path),
+      /canonical/
+    )
+  }
+  assert.throws(
+    () => checkTopicEntry('<a href="/open-etf-agent">bad base</a>', 'index.md'),
+    /topic entry/
+  )
 })
 test('missing topic or stale public topic cannot hide behind current article receipts', async () => {
- const missing=receipt(); missing.topics.pop()
- await assert.rejects(verifyPublic(release,{fetcher:fetcher(missing)}), /Missing topic receipts/)
- await assert.rejects(verifyPublic(release,{fetcher:fetcher(receipt(),html,200,homepageHtml,path=>topicHtml(path)+'old')}), /Stale public topic/)
- const noLocale=path=>topicHtml(path).replace('hreflang="en"','hreflang="fr"')
- const r=receipt(); r.topics.forEach(t=>t.htmlSha256=digest(noLocale(t.path)))
- await assert.rejects(verifyPublic(release,{fetcher:fetcher(r,html,200,homepageHtml,noLocale)}), /hreflang/)
+  const missing = receipt()
+  missing.topics.pop()
+  await assert.rejects(
+    verifyPublic(release, { fetcher: fetcher(missing) }),
+    /Missing topic receipts/
+  )
+  await assert.rejects(
+    verifyPublic(release, {
+      fetcher: fetcher(receipt(), html, 200, homepageHtml, (path) => topicHtml(path) + 'old'),
+    }),
+    /Stale public topic/
+  )
+  const noLocale = (path) => topicHtml(path).replace('hreflang="en"', 'hreflang="fr"')
+  const r = receipt()
+  r.topics.forEach((t) => (t.htmlSha256 = digest(noLocale(t.path))))
+  await assert.rejects(
+    verifyPublic(release, { fetcher: fetcher(r, html, 200, homepageHtml, noLocale) }),
+    /hreflang/
+  )
 })
 test('matching homepage receipt still requires actual topic entrance', async () => {
- const body=page=>homepageHtml(page).replace('/eff-agent-article/en/open-etf-agent','/wrong')
- const r=receipt(); r.homepages.forEach(p=>p.htmlSha256=digest(body(homepages.find(h=>h.path===p.path))))
- await assert.rejects(verifyPublic(release,{fetcher:fetcher(r,html,200,body)}), /topic entry/)
+  const body = (page) =>
+    homepageHtml(page).replace('/eff-agent-article/en/open-etf-agent', '/wrong')
+  const r = receipt()
+  r.homepages.forEach(
+    (p) => (p.htmlSha256 = digest(body(homepages.find((h) => h.path === p.path))))
+  )
+  await assert.rejects(
+    verifyPublic(release, { fetcher: fetcher(r, html, 200, body) }),
+    /topic entry/
+  )
 })
 
 test('topic gates reject data attributes and inert markup', () => {
- const page=homepages[0], home=homepageHtml(page), topic=topicHtml(topics[0])
- assert.throws(()=>checkTopicEntry(home.replaceAll('href=', 'data-href='),page.path),/topic entry/)
- assert.throws(()=>checkTopicHtml(topic.replaceAll('hreflang=', 'data-hreflang='),topics[0]),/hreflang/)
- assert.throws(()=>checkTopicHtml(topic.replaceAll('href=', 'data-href='),topics[0]),/canonical/)
- for(const wrap of [text=>'<!--'+text+'-->',text=>'<script>'+text+'</script>',text=>'<template>'+text+'</template>',text=>'<noscript>'+text+'</noscript>']) {
-  assert.throws(()=>checkTopicEntry('<body>'+wrap(home.match(/<a\b[^>]*>.*?<\/a>/g).join(''))+'</body>',page.path),/topic entry/)
-  assert.throws(()=>checkTopicHtml(wrap(topic.match(/<link\b[^>]*>/g).join('')),topics[0]),/canonical/)
- }
+  const page = homepages[0],
+    home = homepageHtml(page),
+    topic = topicHtml(topics[0])
+  assert.throws(
+    () => checkTopicEntry(home.replaceAll('href=', 'data-href='), page.path),
+    /topic entry/
+  )
+  assert.throws(
+    () => checkTopicHtml(topic.replaceAll('hreflang=', 'data-hreflang='), topics[0]),
+    /hreflang/
+  )
+  assert.throws(
+    () => checkTopicHtml(topic.replaceAll('href=', 'data-href='), topics[0]),
+    /canonical/
+  )
+  for (const wrap of [
+    (text) => '<!--' + text + '-->',
+    (text) => '<script>' + text + '</script>',
+    (text) => '<template>' + text + '</template>',
+    (text) => '<noscript>' + text + '</noscript>',
+  ]) {
+    assert.throws(
+      () =>
+        checkTopicEntry(
+          '<body>' + wrap(home.match(/<a\b[^>]*>.*?<\/a>/g).join('')) + '</body>',
+          page.path
+        ),
+      /topic entry/
+    )
+    assert.throws(
+      () => checkTopicHtml(wrap(topic.match(/<link\b[^>]*>/g).join('')), topics[0]),
+      /canonical/
+    )
+  }
 })
