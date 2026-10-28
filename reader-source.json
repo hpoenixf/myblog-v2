@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "8879ed65108cc40ca5dfb394a2703f2d3958f90e",
+  "commit": "10be32c015e22f8c86737f772fb89d49c3b436fc",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -174,7 +174,7 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "2ac9c25d4ad2e7edf3997983c8ebf89ae8516f4cda046e319673189b1862124f"
+      "sha256": "d0b2c168072928c3f2c235094e5f4624a8104bc6a4dc0bdf2f01609455e02eae"
     },
     {
       "path": "articles/portfolio-mcp-readonly-investment-data.md",
@@ -374,7 +374,7 @@
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "2bb6a8e909d85d5748c2d7b125778c10c45f3fb37cbc4df9309d8081894abfd9"
+      "sha256": "be627367a1909058ec35f0b6d03caec60e7fa90a3cf15d1ae4f11d30c18e51cc"
     },
     {
       "path": "en/articles/portfolio-mcp-readonly-investment-data.md",
@@ -475,6 +475,14 @@
     {
       "path": "en/articles/032-ai-development-from-bug-loop-to-task-convergence.md",
       "sha256": "50d1cfb44d822e8e23c537edbbc0e2b9bdef085e8f8dd83d994fe2f51f68d9ae"
+    },
+    {
+      "path": "articles/agent-temporal-semantics-market-calendar.md",
+      "sha256": "18905a383a0bebd47c7e36cb347232d44b487b7e53b551f924a00bb77d1ab241"
+    },
+    {
+      "path": "en/articles/agent-temporal-semantics-market-calendar.md",
+      "sha256": "ce9471769f49aef46530173de383f96c2eb29f3c6dc663fbcecfb067d26ad40d"
     }
   ]
 }
