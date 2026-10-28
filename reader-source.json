@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "664a99bc6d5d46fede1959ba010536583ea60b50",
+  "commit": "22ab4e0d314d95e00bd80ffdce2bf347ab5107d5",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -346,7 +346,7 @@
     },
     {
       "path": "en/articles/financial-agent-python-result-consumption.md",
-      "sha256": "4c2396c6316d1391f523ceedf83416fa7ec18731ebe09c034a54abb6b23dccb9"
+      "sha256": "b07517fc240e8a73450fd9da42b90f5298bd5db50992d95bf9ba94cab6c97c32"
     },
     {
       "path": "en/articles/financial-agent-system-panorama.md",
@@ -366,7 +366,7 @@
     },
     {
       "path": "en/articles/mcp-market-responsibility-retrospective.md",
-      "sha256": "cb18c3cd042b870a8a669414c18f028f76012b5d9bc1c2d4099342e397733eba"
+      "sha256": "3bc4ff92c5a8bd9733f49275a5700f04a360940626e388f057a6a68ed44f40e0"
     },
     {
       "path": "en/articles/multi-layer-agent-collaboration-outlook.md",
