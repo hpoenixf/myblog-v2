@@ -395,6 +395,30 @@
     {
       "path": "en/articles/one-report-nine-architecture-judgments.md",
       "sha256": "a397c0db2d0b2eef3f7c2f2bef8530fb3da9ffb55e6d1d980d11eb71cd3b8562"
+    },
+    {
+      "path": "articles/agent-engineering-suite.md",
+      "sha256": "d9c0fc17e942e28b7b520cdc4e7e35a145050da9026b18d8cb867c0f884bcb36"
+    },
+    {
+      "path": "en/articles/agent-engineering-suite.md",
+      "sha256": "a21ae7a4460b25cf9ddcef1969d9f80920486e1a83892400bdcac26cf17dfbc5"
+    },
+    {
+      "path": "articles/026-agent-spec-evidence-workflow.md",
+      "sha256": "2f8640e53d77e0de4ab41e2082105f5e71a75cd68993e37364a32bf785f7481d"
+    },
+    {
+      "path": "articles/027-agent-context-document-history.md",
+      "sha256": "f2fdf7d7837cddf6aa539fccbaeef6cafaf585d5913a00c8c8f3048f10606835"
+    },
+    {
+      "path": "en/articles/026-agent-spec-evidence-workflow.md",
+      "sha256": "6cc6f8f7b0576c0c981b8a71d2a0597e27f32cc86940932bbb6bfc0b7764e414"
+    },
+    {
+      "path": "en/articles/027-agent-context-document-history.md",
+      "sha256": "d2ed462c623f9a9b675f584a7882e24c711821ebf4601f83f33a3d65d277bb8b"
     }
   ]
 }
