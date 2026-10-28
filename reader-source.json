@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "1a32a73262e1814f14b45f61e8b8043e77fff4c1",
+  "commit": "54865ac47caf85732da74b875f470daeed9005b9",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "8a2cf1e2b73eebbed0cb8a233aded8152ed1fe1833253a36847a88e7a7ffb90e"
+      "sha256": "d3b279975022a71ba8e6014f85c8ff41fbfd2d169c4ddb9f3165c2c5f2c09eec"
     },
     {
       "path": "articles/019-agent-answer-publication.md",
@@ -190,7 +190,7 @@
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "b2c6ee149d4503a595fc733d465e4ca69ac0c6140ceb9abe4b335c90f4d463b5"
+      "sha256": "13f4fa78e4f1f887c62e6ec0ea5048251c88cddda4766a2511c39d32b97a4eb5"
     },
     {
       "path": "en/articles/019-agent-answer-publication.md",
@@ -398,11 +398,11 @@
     },
     {
       "path": "articles/agent-engineering-suite.md",
-      "sha256": "d9c0fc17e942e28b7b520cdc4e7e35a145050da9026b18d8cb867c0f884bcb36"
+      "sha256": "ca4a3c3946944ca01c6f1d409079e3447e5d286b37e4ab3104e81cbd2f1c9e41"
     },
     {
       "path": "en/articles/agent-engineering-suite.md",
-      "sha256": "a21ae7a4460b25cf9ddcef1969d9f80920486e1a83892400bdcac26cf17dfbc5"
+      "sha256": "15e2eadb9264f2bfd2db8c71e990fc117b6a37be61e6a803a3cf76adc881aff6"
     },
     {
       "path": "articles/026-agent-spec-evidence-workflow.md",
