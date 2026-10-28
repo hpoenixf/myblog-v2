@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "10be32c015e22f8c86737f772fb89d49c3b436fc",
+  "commit": "5188e7b9d6e9bcae1e9ea9e0bec6fb04b25fb3e2",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -158,7 +158,7 @@
     },
     {
       "path": "articles/investment-perspectives-and-thesis-falsification.md",
-      "sha256": "9ce2d8dff1e6c4075f52d63b09982c79872cf3324b28ebe865e12c05a95627ae"
+      "sha256": "00352df6137e4ece1e3ff3032d89811a5b7edd331027c4f6be9bc732f6042517"
     },
     {
       "path": "articles/mcp-host-from-discovery-to-consumption.md",
@@ -170,7 +170,7 @@
     },
     {
       "path": "articles/multi-layer-agent-collaboration-outlook.md",
-      "sha256": "be319e7e4912020714c5f9104f3ac625ae6407514651744b35690799a2d5d394"
+      "sha256": "0d061fd3edb92078c05ab5038cb5fdcb12f3aa57cbf7b81e51fdd1c821aea1e2"
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
@@ -358,7 +358,7 @@
     },
     {
       "path": "en/articles/investment-perspectives-and-thesis-falsification.md",
-      "sha256": "8365acf619a97f8117f84f49ca1cbceffa7e28af62047765b7495a19965254d3"
+      "sha256": "a2a06abee11187403550b952472374836d8df3585c03ce32a229a30667051a3d"
     },
     {
       "path": "en/articles/mcp-host-from-discovery-to-consumption.md",
@@ -370,7 +370,7 @@
     },
     {
       "path": "en/articles/multi-layer-agent-collaboration-outlook.md",
-      "sha256": "9bd0a5b2a62224c155d78b69001bddbd4f35346bd222cefb27aa8a62d6c289ae"
+      "sha256": "7157c7d0ecd7e59ee69a72a52ce302fa4861576a998ebabdba8131099101f945"
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
