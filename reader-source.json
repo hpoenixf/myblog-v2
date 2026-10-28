@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "efead4b0830d2c49ed1b27dafaa3f6bfba42e9d1",
+  "commit": "834018d95cbb0656aacba790c661e17ab70f099e",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -66,7 +66,7 @@
     },
     {
       "path": "articles/agent-failure-is-a-boundary-problem.md",
-      "sha256": "62339c14a8dfc2e68a881453ff714c0031015168ac1f1457ba76027d267176cd"
+      "sha256": "44db442cb92459bc0de71e5595ca2b49d7c784b08d24488a2f398edb1b31d206"
     },
     {
       "path": "articles/agent-feedback-facts-not-automatic-learning.md",
@@ -266,7 +266,7 @@
     },
     {
       "path": "en/articles/agent-failure-is-a-boundary-problem.md",
-      "sha256": "592241cc04552118e984dc1df363b7a511929d48cbd9377231abd7b828a80a21"
+      "sha256": "e24822bd6681532a00fdd9808ca39a38fcdaba42529a61ecaebe28bb5fbc44ed"
     },
     {
       "path": "en/articles/agent-feedback-facts-not-automatic-learning.md",
@@ -454,7 +454,7 @@
     },
     {
       "path": "articles/etf-agent-model-harness-research-loop.md",
-      "sha256": "98ded97efb904112bfab3ae04c81970cb41facdc34a60eb5c08203fef5802f8f"
+      "sha256": "a6d3b1023f5a17750e5757ef149f95dc66891445623a761527106b91a1771459"
     },
     {
       "path": "en/articles/etf-agent-model-harness-research-loop.md",
