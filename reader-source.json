@@ -193,10 +193,6 @@
       "sha256": "b2c6ee149d4503a595fc733d465e4ca69ac0c6140ceb9abe4b335c90f4d463b5"
     },
     {
-      "path": "en/articles/017-prompt-to-answer-six-layer-panorama.md",
-      "sha256": "72d467cc9ee3d1b0b2641b0fc59863a2e612c65e7822cc3be1bbb6e5a5f13f10"
-    },
-    {
       "path": "en/articles/019-agent-answer-publication.md",
       "sha256": "15a9bb13fa7f0d22bd20f2cdbb2d8af0f29b5352a1c3132dbd3323204fe07f5b"
     },
