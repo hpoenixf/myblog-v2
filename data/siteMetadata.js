@@ -3,7 +3,7 @@ const siteMetadata = {
   title: "hpoenixf's Blog",
   author: 'hpoenixf',
   headerTitle: "hpoenixf's Blog",
-  description: '专注金融科技与 AI Agent 的研发工程师，记录 Agent 应用与系统架构、AI 辅助研发，以及个人成长',
+  description: '10 年开发经验，5 年金融业务系统研发经验。全栈偏前端，记录 Agent 工程实践、系统架构与 AI 辅助研发',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://hpoenixf.com/',
@@ -29,13 +29,15 @@ const siteMetadata = {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
     // supports Plausible, Simple Analytics, Umami, Posthog or Google Analytics.
-    umamiAnalytics: {
-      // We use an env variable for this site to avoid other users cloning our analytics ID
-      umamiWebsiteId: process.env.NEXT_UMAMI_ID, // e.g. 123e4567-e89b-12d3-a456-426614174000
-      // You may also need to overwrite the script if you're storing data in the US - ex:
-      // src: 'https://us.umami.is/script.js'
-      // Remember to add 'us.umami.is' in `next.config.js` as a permitted domain for the CSP
-    },
+    umamiAnalytics: process.env.NEXT_UMAMI_ID?.trim()
+      ? {
+          // We use an env variable for this site to avoid other users cloning our analytics ID
+          umamiWebsiteId: process.env.NEXT_UMAMI_ID.trim(), // e.g. 123e4567-e89b-12d3-a456-426614174000
+          // You may also need to overwrite the script if you're storing data in the US - ex:
+          // src: 'https://us.umami.is/script.js'
+          // Remember to add 'us.umami.is' in `next.config.js` as a permitted domain for the CSP
+        }
+      : undefined,
     // plausibleAnalytics: {
     //   plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     // If you are hosting your own Plausible.
