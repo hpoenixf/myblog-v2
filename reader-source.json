@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "389ab35a0119215d0e7eb656636794698c97c76b",
+  "commit": "79b37e7c00aa64e452e203bfeafed0e216e6ec9d",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -454,11 +454,11 @@
     },
     {
       "path": "articles/etf-agent-model-harness-research-loop.md",
-      "sha256": "a6d3b1023f5a17750e5757ef149f95dc66891445623a761527106b91a1771459"
+      "sha256": "4cd3dadc9e981d399750a9ab615de81c5f644cc3de4fb2fd2ab2a755f1a8dd62"
     },
     {
       "path": "en/articles/etf-agent-model-harness-research-loop.md",
-      "sha256": "eea36e12238106a8ac5e223d14720472450d549f2fea063d819af801512fba80"
+      "sha256": "1d62cfa0e6d5292eb881ccae09b38cf54779d444d8aceef3529eaabfcc8d32ac"
     },
     {
       "path": "articles/runtime-model-protocol-boundary-agent-article-v2.md",
