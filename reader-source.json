@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "8fcb07f94b72a4ce288ad23d4647c2f1839299be",
+  "commit": "d6a61550e1afc103a03c31a30c51f8be96eb8b8d",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "path": "articles/026-agent-memory-forget-durable-effects.md",
-      "sha256": "5b2ce9d0a90453a9f26f0d5ad58390654c21006d65e8505c5a3e392988564a3c"
+      "sha256": "fafc73716181d993a287a68f3708da1ee5fa4b84bf935b765df070b8b0e8c994"
     },
     {
       "path": "articles/030-fintech-from-research-to-investment-advice.md",
@@ -218,7 +218,7 @@
     },
     {
       "path": "en/articles/026-agent-memory-forget-durable-effects.md",
-      "sha256": "3bbc23927ad3df9b05b8b8f2afc672cbac667a7bcc1d7fdc48ce83b13c3ea2bf"
+      "sha256": "d3151fbeedf3b15ab12aeb669398e96b5ec4846f2b00fcc909d5e36a5e28c2a0"
     },
     {
       "path": "en/articles/030-fintech-from-research-to-investment-advice.md",
