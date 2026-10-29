@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "04e267cf1c6bf10d71fa155edb3dc4b6b9faa79f",
+  "commit": "55c0d8ce919b4da60f0dedc020d0d10f359590a8",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -146,7 +146,7 @@
     },
     {
       "path": "articles/financial-agent-system-panorama.md",
-      "sha256": "54345b67fbf81835be91e4de14d1e50dee71d5ad4bc4ed807bbd6d3133433aa0"
+      "sha256": "e772d32a9473d36504887bb61a4f8564d4f260e4d5b6f92f8639c5a0e094d189"
     },
     {
       "path": "articles/financial-agent-trustworthy-evidence-chain.md",
@@ -190,7 +190,7 @@
     },
     {
       "path": "en/articles/011-model-understands-code-authorizes.md",
-      "sha256": "bf0f42892cdc78a035cf3f71e1c01a7d5c69dca4db9c3980b32f5ba151938b81"
+      "sha256": "ce376693a1065388f667a083199c9cb27c61700e0f35f701aa73ff91e1733437"
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
@@ -350,7 +350,7 @@
     },
     {
       "path": "en/articles/financial-agent-system-panorama.md",
-      "sha256": "b19cc96aecc3920cde99c361afb0ab56c8963200fd26cbce12b0561081738d5d"
+      "sha256": "5c725e8855f1341f46c00a3e2eee778288e75df30af101c07d83cdac91857168"
     },
     {
       "path": "en/articles/honest-agent-evaluation.md",
