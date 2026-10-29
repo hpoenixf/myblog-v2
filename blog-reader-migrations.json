@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "scope": "personal-blog-selection-only",
+  "readerBase": "https://hpoenixf.com/eff-agent-article/",
+  "migrations": [
+    {
+      "slug": "019-agent-answer-publication",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/019-agent-answer-publication"
+    },
+    {
+      "slug": "020-agent-extension-host-smartphone",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/020-agent-extension-host-smartphone"
+    },
+    {
+      "slug": "021-agent-web-research-from-search-to-deep-reading",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/021-agent-web-research-from-search-to-deep-reading"
+    },
+    {
+      "slug": "022-agent-entry-from-intent-to-direct-research",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/022-agent-entry-from-intent-to-direct-research"
+    },
+    {
+      "slug": "024-agent-pdf-from-text-to-evidence",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/024-agent-pdf-from-text-to-evidence"
+    },
+    {
+      "slug": "025-agent-langfuse-from-trace-to-trustworthy-observability",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/025-agent-langfuse-from-trace-to-trustworthy-observability"
+    },
+    {
+      "slug": "adaptive-research-python-workbench",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/adaptive-research-python-workbench"
+    },
+    {
+      "slug": "agent-autonomous-scheduled-research",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/agent-autonomous-scheduled-research"
+    },
+    {
+      "slug": "agent-background-research-collaborative-experience",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/agent-background-research-collaborative-experience"
+    },
+    {
+      "slug": "agent-content-trust-prompt-injection",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/agent-content-trust-prompt-injection"
+    },
+    {
+      "slug": "agent-control-events-durable-owner-adoption",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/agent-control-events-durable-owner-adoption"
+    },
+    {
+      "slug": "agent-durable-human-interaction-response-adoption",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/agent-durable-human-interaction-response-adoption"
+    },
+    {
+      "slug": "agent-main-run-context-compaction",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/agent-main-run-context-compaction"
+    },
+    {
+      "slug": "agent-model-capability-presentation-tool-surface",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/agent-model-capability-presentation-tool-surface"
+    },
+    {
+      "slug": "agent-multi-ecosystem-hook-execution",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/agent-multi-ecosystem-hook-execution"
+    },
+    {
+      "slug": "agent-personal-credits-shadow-accounting",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/agent-personal-credits-shadow-accounting"
+    },
+    {
+      "slug": "agent-progressive-answer-coherence",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/agent-progressive-answer-coherence"
+    },
+    {
+      "slug": "agent-provider-admission-capacity-lease",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/agent-provider-admission-capacity-lease"
+    },
+    {
+      "slug": "agent-subagent-context-specialization",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/agent-subagent-context-specialization"
+    },
+    {
+      "slug": "agent-temporal-semantics-market-calendar",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/agent-temporal-semantics-market-calendar"
+    },
+    {
+      "slug": "agent-tool-lifecycle-and-model-input",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/agent-tool-lifecycle-and-model-input"
+    },
+    {
+      "slug": "financial-agent-python-result-consumption",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/financial-agent-python-result-consumption"
+    },
+    {
+      "slug": "mcp-host-from-discovery-to-consumption",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/mcp-host-from-discovery-to-consumption"
+    },
+    {
+      "slug": "portfolio-mcp-readonly-investment-data",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/portfolio-mcp-readonly-investment-data"
+    },
+    {
+      "slug": "tool-results-outside-model-context",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/tool-results-outside-model-context"
+    },
+    {
+      "slug": "unavailable-is-correct",
+      "readerUrl": "https://hpoenixf.com/eff-agent-article/articles/unavailable-is-correct"
+    }
+  ]
+}

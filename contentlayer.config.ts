@@ -1,3 +1,4 @@
+import { resolveTag } from './lib/tag-taxonomy.mjs'
 import { defineDocumentType, ComputedFields, makeSource } from 'contentlayer2/source-files'
 import { writeFileSync } from 'fs'
 import readingTime from 'reading-time'
@@ -67,8 +68,7 @@ async function createTagCount(allBlogs) {
   const tagCount: Record<string, number> = {}
   allBlogs.forEach((file) => {
     if (isUnmergedPost(file) && file.tags && (!isProduction || file.draft !== true)) {
-      file.tags.forEach((tag) => {
-        const formattedTag = slug(tag)
+      new Set<string>(file.tags.map((tag) => resolveTag(slug(tag)))).forEach((formattedTag) => {
         if (formattedTag in tagCount) {
           tagCount[formattedTag] += 1
         } else {

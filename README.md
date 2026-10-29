@@ -1,42 +1,23 @@
 # hpoenixf's Blog
 
-**前端工程、AI Agent 应用与系统架构的实践笔记。**
+**系统架构、设计原则与架构演进的实践笔记。**
 
-- [阅读博客](https://hpoenixf.com/) · [作者简介](https://hpoenixf.com/about)
-- [ETF Agent Engineering Notes：73 篇公开工程文章](https://hpoenixf.com/eff-agent-article/) · [GitHub 文集源码](https://github.com/hpoenixf/eff-agent-article)
-- [AI Agent 研发工程实践](https://hpoenixf.com/eff-agent-article/engineering) · [金融科技 × Agent 专题](https://hpoenixf.com/eff-agent-article/fintech)
+[阅读个人博客](https://hpoenixf.com/) · [作者简介](https://hpoenixf.com/about) · [完整 Agent 工程阅读站](https://hpoenixf.com/eff-agent-article/)
 
-## 原则文章原址精修（2026-10-28）
+## 从这些问题开始
 
-[代码为什么越来越难升级](https://hpoenixf.com/eff-agent-article/articles/code-cheaper-systems-harder-to-evolve)、[局部优化怎样变成系统进步](https://hpoenixf.com/eff-agent-article/articles/local-improvement-is-not-system-progress)、[稳定什么与改变什么](https://hpoenixf.com/eff-agent-article/articles/agent-differentiated-evolution-contracts)、[旧测试怎样演进](https://hpoenixf.com/eff-agent-article/articles/test-lifecycle-refactoring-retirement-and-spec)分别采用报表图表、图片识别、工单分派与头像格式教学场景，完整中英文同批更新；已有两篇中文博客正文同步，首次发布日期保留。
+- **系统怎样协作？** [一句问题走过六层系统](https://hpoenixf.com/blog/017-prompt-to-answer-six-layer-panorama)、[Model / Runtime / MCP / Skill 的职责](https://hpoenixf.com/blog/agent-model-runtime-mcp-skill-boundaries)。
+- **系统怎样演进？** [代码越来越便宜，系统为什么越来越难升级](https://hpoenixf.com/blog/code-cheaper-systems-harder-to-evolve)、[稳定什么与改变什么](https://hpoenixf.com/blog/agent-differentiated-evolution-contracts)、[一次改动为什么拖住整天](https://hpoenixf.com/blog/agent-runtime-refactor-one-day-blocked)。
+- **怎样判断真正完成？** [测试全绿是否就算成功](https://hpoenixf.com/blog/honest-agent-evaluation)、[局部拒绝与运行终结权](https://hpoenixf.com/blog/agent-veto-authority-and-run-termination)、[文件保存与实际交付](https://hpoenixf.com/blog/agent-html-evolution-challenges)。
+- **怎样设计长期有效的机制？** [跨六国业务设计系统](https://hpoenixf.com/blog/design-quality-assurance)、[金融数据接入层的职责反思](https://hpoenixf.com/blog/mcp-market-responsibility-retrospective)。
 
-## 新增研发方法文章（2026-10-28）
+## 博客精选与完整阅读站
 
-[测试比实现还多之后：怎样让文档、代码和测试一起向前](https://hpoenixf.com/eff-agent-article/articles/docs-code-tests-evolve-together) · [完整英文版](https://hpoenixf.com/eff-agent-article/en/articles/docs-code-tests-evolve-together)。保留真实项目统计，以订单导出教学案例讲清规范、实现、旧测试和用户结果怎样随需求共同演进。
+个人博客的 Agent 新稿聚焦系统架构、原则、架构设计与全景。PDF、时间语义、普通回复、MCP、Hook、压缩等模块细节在[完整阅读站](https://hpoenixf.com/eff-agent-article/)持续维护，不再作为个人博客的独立新稿或目录条目。
 
-## 新增工程复盘与架构演进（2026-10-26）
+已有模块的旧 `/blog/` 地址保留明确迁移页，并指向真实对应正文；它们退出个人博客首页、列表、搜索、标签计数、RSS、sitemap 和前后篇推荐。静态迁移页不是 HTTP 301。旧个人、前端与读书文章保留原文及原有访问方式。
 
-[一个 Subagent 改动，为什么拖住了我们整整一天？](https://hpoenixf.com/blog/agent-runtime-refactor-one-day-blocked) · [Agent 架构如何做到该稳定的稳定，该变化的变化？](https://hpoenixf.com/blog/agent-differentiated-evolution-contracts)。前一篇沿实际证据复盘 Runtime 责任扩散和验证阻塞；后一篇以 Child、Memory、金融计算与 Provider 解释按具体 Interface 制定的演进契约。两篇互链，完整英文版收录于阅读站。
-
-## 新增 Owner 专文：持久控制与共享容量（2026-10-24）
-
-[A08：Stop 指令为什么不能直接执行](https://hpoenixf.com/blog/agent-control-events-durable-owner-adoption) · [A30：HTTP 200 后为什么还要排队](https://hpoenixf.com/blog/agent-provider-admission-capacity-lease)。中文博客与阅读站原文一致，阅读站另有完整英文版；A32 目录职责深化在既有 Provider 文章，A27 继续保留真实效果证据缺口。
-
-## 新增机制精讲（2026-10-24）
-
-[HIL：用户回复怎样接回原研究](https://hpoenixf.com/blog/agent-durable-human-interaction-response-adoption) · [时间语义：今天与市场 Session](https://hpoenixf.com/blog/agent-temporal-semantics-market-calendar) · [Shadow Credits：请求、Token 与已知用量](https://hpoenixf.com/blog/agent-personal-credits-shadow-accounting)。三篇共享既有工程案例与严格验收限定；博客维护中文正文，阅读站另提供完整英文版。
-
-## 从哪里开始阅读
-
-| 关注方向 | 推荐文章 |
-| --- | --- |
-| **前端工程 / AI-native UI** | [想聊就聊：异步后台研究](https://hpoenixf.com/blog/agent-background-research-collaborative-experience)、[Relay 数据建模与缓存问题](https://hpoenixf.com/blog/relay-id-issue)、[体验一致性工程](https://hpoenixf.com/blog/design-quality-assurance)、[Agent 渐进回答与修订](https://hpoenixf.com/eff-agent-article/articles/agent-progressive-answer-coherence) |
-| **Agent 应用开发** | [定时研究](https://hpoenixf.com/blog/agent-autonomous-scheduled-research)、[Main 上下文压缩](https://hpoenixf.com/blog/agent-main-run-context-compaction)、[MCP Host 接入链路](https://hpoenixf.com/blog/mcp-host-from-discovery-to-consumption)、[一次研究怎样穿过六层系统](https://hpoenixf.com/eff-agent-article/articles/017-prompt-to-answer-six-layer-panorama)、[Subagent 协作](https://hpoenixf.com/eff-agent-article/articles/agent-subagent-context-specialization)、[Python 计算与交付](https://hpoenixf.com/eff-agent-article/articles/agent-python-compute-workbench-evolution) |
-| **Agent 系统架构** | [Model / Runtime / MCP / Skill 职责](https://hpoenixf.com/eff-agent-article/articles/agent-model-runtime-mcp-skill-boundaries)、[授权边界](https://hpoenixf.com/eff-agent-article/articles/011-model-understands-code-authorizes)、[Run 终结权](https://hpoenixf.com/eff-agent-article/articles/agent-veto-authority-and-run-termination)、[A34 Tool Surface：工具可见性与真实演进](https://hpoenixf.com/blog/agent-model-capability-presentation-tool-surface)、[A35：Prompt Injection 与内容信任](https://hpoenixf.com/blog/agent-content-trust-prompt-injection)、[多生态 Hook](https://hpoenixf.com/blog/agent-multi-ecosystem-hook-execution)、[代码越来越便宜，为什么系统却越来越难升级？](https://hpoenixf.com/blog/code-cheaper-systems-harder-to-evolve)、[差异化演进契约](https://hpoenixf.com/blog/agent-differentiated-evolution-contracts) |
-| **金融科技 × 投研 Agent** | [只读 Portfolio MCP](https://hpoenixf.com/blog/portfolio-mcp-readonly-investment-data)、[金融 MCP 多供应商建设与复盘](https://hpoenixf.com/blog/mcp-market-responsibility-retrospective)、[Python 执行与投研结论](https://hpoenixf.com/blog/financial-agent-python-result-consumption)、[金融数值的精度与口径](https://hpoenixf.com/blog/031-fintech-data-time-and-reproducible-numbers)、[A35：内容安全与信任](https://hpoenixf.com/blog/agent-content-trust-prompt-injection)、[金融可信工程：合规／安全／可靠／可审查](https://hpoenixf.com/eff-agent-article/fintech) |
-| **用 AI 开发软件** | [Spec 与 Evidence](https://hpoenixf.com/eff-agent-article/articles/026-agent-spec-evidence-workflow)、[周报大 Spec 如何分三期交付](https://hpoenixf.com/blog/agent-weekly-review-staged-delivery)、[文档按需加载、长期记忆与旧知识退出](https://hpoenixf.com/eff-agent-article/articles/027-agent-context-document-history)、[一天的 Runtime 重构复盘](https://hpoenixf.com/blog/agent-runtime-refactor-one-day-blocked) |
-
-以上是公开写作与系统设计案例的阅读路径；**本仓库是博客站点代码，不是 Agent Runtime 的开源实现**。未公开的系统源码、生产指标或内部测试无法仅由文章独立验证。
+[博客选集规则](docs/blog-editorial-policy.md)约束后续同步；[迁移清单](blog-reader-migrations.json)只控制个人博客，不控制完整阅读站。博客托管的 `/eff-agent-article/` 全文与独立发布锁保持完整，不随个人博客选集删减。
 
 ## 本仓库
 

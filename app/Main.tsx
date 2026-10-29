@@ -32,26 +32,26 @@ export default function Home({ posts }) {
           </section>
           <div className="space-y-3 rounded-lg border border-gray-200 p-5 dark:border-gray-700">
             <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
-              金融科技与 Agent 工程专题
+              系统架构与设计原则
             </h2>
             <p className="text-sm leading-6 text-gray-600 dark:text-gray-300">
-              围绕金融科技场景，记录 Agent 机制、系统架构与 AI 辅助研发。完整产品源码未公开。
+              个人博客精选系统架构、设计原则与全景文章；模块机制详解在完整阅读站维护。旧个人与前端文章保留。
             </p>
             <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm font-medium">
               <Link
-                href="https://hpoenixf.github.io/eff-agent-article/modules"
+                href="https://hpoenixf.com/eff-agent-article/modules"
                 className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
               >
-                Agent 具体机制 ↗
+                完整模块阅读站 ↗
               </Link>
               <Link
-                href="https://hpoenixf.github.io/eff-agent-article/thinking"
+                href="https://hpoenixf.com/eff-agent-article/thinking"
                 className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
               >
                 架构与系统思维 ↗
               </Link>
               <Link
-                href="https://hpoenixf.github.io/eff-agent-article/engineering"
+                href="https://hpoenixf.com/eff-agent-article/engineering"
                 className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
               >
                 AI 辅助研发 ↗

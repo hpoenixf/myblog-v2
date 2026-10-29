@@ -3,7 +3,7 @@ name: GitHub Pages
 
 on:
   push:
-    branches: main
+    branches: [main, candidate/blog-curation-20261029]
   workflow_dispatch:
 
 permissions:
@@ -38,8 +38,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-
       - run: pnpm install --frozen-lockfile
+      - name: Check personal blog selection
+        run: node scripts/blog-curation.mjs .
       - name: Test reader release contract
-        run: node --test scripts/reader-release.test.mjs scripts/check-tag-export.test.mjs scripts/site-analytics.test.mjs scripts/site-analytics-integration.test.mjs
+        run: node --test scripts/reader-release.test.mjs scripts/check-tag-export.test.mjs scripts/blog-curation.test.mjs scripts/site-analytics.test.mjs scripts/site-analytics-integration.test.mjs
       - name: Resolve immutable reader release
         id: reader
         run: echo "commit=$(node scripts/reader-release.mjs pin)" >> "$GITHUB_OUTPUT"
@@ -98,6 +100,7 @@ jobs:
 
   # Deployment job
   deploy:
+    if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
