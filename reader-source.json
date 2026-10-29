@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "79b37e7c00aa64e452e203bfeafed0e216e6ec9d",
+  "commit": "d64719ea5b62d4c113a07aa046ab38ab3794dc36",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -82,7 +82,7 @@
     },
     {
       "path": "articles/agent-model-runtime-mcp-skill-boundaries.md",
-      "sha256": "f240a7861474eedfbee4cf1962951ef6e91689a2766bbd8caed19ad53afbb5c9"
+      "sha256": "5d25769bfbc65c65375c2d36fe3340060b375112714c55812ec1d40ee683fbbf"
     },
     {
       "path": "articles/agent-multi-ecosystem-hook-execution.md",
@@ -282,7 +282,7 @@
     },
     {
       "path": "en/articles/agent-model-runtime-mcp-skill-boundaries.md",
-      "sha256": "4bc070dd0956abb7ddd7c9822f0e0c10ab6e627442003a1df30718027a357469"
+      "sha256": "7e1a6f68d030fc33dd02b533d42773aa60e90a30730f7d97dc5f000793258494"
     },
     {
       "path": "en/articles/agent-multi-ecosystem-hook-execution.md",
