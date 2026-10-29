@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "d6a61550e1afc103a03c31a30c51f8be96eb8b8d",
+  "commit": "48621f824987a6dcf752d92fc6fa0958fdae80a2",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -118,7 +118,7 @@
     },
     {
       "path": "articles/agent-weekly-thesis-history-continuous-research.md",
-      "sha256": "8e7d698640bb6a43831eef10dd0b647c069d322f789e3a993dfd70799b5c37f4"
+      "sha256": "91c6db491cf28b900b6a0fe50823ae84cf1c8b257ab863ecc54a5d73237e26c5"
     },
     {
       "path": "articles/ai-citations-do-not-prove-reliability.md",
@@ -322,7 +322,7 @@
     },
     {
       "path": "en/articles/agent-weekly-thesis-history-continuous-research.md",
-      "sha256": "1e4f4aff6cac4d431254060be81a5ea4a50abe3a402c7121040beb54c8c65107"
+      "sha256": "fa0e45292158f213a1e65528e43b3105d97acfafd80fff090daaea481d9f106d"
     },
     {
       "path": "en/articles/ai-citations-do-not-prove-reliability.md",
