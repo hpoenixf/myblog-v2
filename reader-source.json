@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "d64719ea5b62d4c113a07aa046ab38ab3794dc36",
+  "commit": "25c084ed16c8bab76bd4399e93e31e7eb36b87ce",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -158,7 +158,7 @@
     },
     {
       "path": "articles/investment-perspectives-and-thesis-falsification.md",
-      "sha256": "00352df6137e4ece1e3ff3032d89811a5b7edd331027c4f6be9bc732f6042517"
+      "sha256": "f3b8403419a11e31737a5e544252c0015ce6eb850cbea8904e79e5e8e4b3060c"
     },
     {
       "path": "articles/mcp-host-from-discovery-to-consumption.md",
@@ -358,7 +358,7 @@
     },
     {
       "path": "en/articles/investment-perspectives-and-thesis-falsification.md",
-      "sha256": "a2a06abee11187403550b952472374836d8df3585c03ce32a229a30667051a3d"
+      "sha256": "16c12bfcca709ed2717c55b13bc2a0fc4b6a5616179534e9ba01320a26692e46"
     },
     {
       "path": "en/articles/mcp-host-from-discovery-to-consumption.md",
