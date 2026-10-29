@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "5eb5f1a7c5de4737c0c12a1f277f95dae681d33d",
+  "commit": "8fcb07f94b72a4ce288ad23d4647c2f1839299be",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -226,7 +226,7 @@
     },
     {
       "path": "en/articles/031-fintech-data-time-and-reproducible-numbers.md",
-      "sha256": "2646c3bb385a7dc6ac7a4b00baa31c36e66d3bcbc39cf4a4f95c52efb2976fe4"
+      "sha256": "b7bfc1d8d6da3cd233f3835d2d7cfacaf0ddec79f0b16c2b6277b256fbc965c8"
     },
     {
       "path": "en/articles/agent-asynchronous-research-time-bound-delivery.md",
@@ -414,19 +414,19 @@
     },
     {
       "path": "articles/026-agent-spec-evidence-workflow.md",
-      "sha256": "2f8640e53d77e0de4ab41e2082105f5e71a75cd68993e37364a32bf785f7481d"
+      "sha256": "539580b8a52479c75e97e08e316b5b9f48411cf3911e033565f648c6a7b338ef"
     },
     {
       "path": "articles/027-agent-context-document-history.md",
-      "sha256": "f2fdf7d7837cddf6aa539fccbaeef6cafaf585d5913a00c8c8f3048f10606835"
+      "sha256": "88cc376c89fb0166334e96ecc00e17d3653521ecf40fab76c0440708ef152aec"
     },
     {
       "path": "en/articles/026-agent-spec-evidence-workflow.md",
-      "sha256": "6cc6f8f7b0576c0c981b8a71d2a0597e27f32cc86940932bbb6bfc0b7764e414"
+      "sha256": "8807213d16fd49e64ca7272cfb7cb63ff06220234d839ff45e7b9204327982bd"
     },
     {
       "path": "en/articles/027-agent-context-document-history.md",
-      "sha256": "d2ed462c623f9a9b675f584a7882e24c711821ebf4601f83f33a3d65d277bb8b"
+      "sha256": "c72574e6dababf5b48d78b173b77d424afa7e6344a8a47084cd52c06b016f153"
     },
     {
       "path": "articles/docs-code-tests-evolve-together.md",
