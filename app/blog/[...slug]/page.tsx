@@ -120,8 +120,10 @@ export default async function Page(props: { params: Promise<{ slug: string[] }> 
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Layout content={mainContent} authorDetails={authorDetails} next={next} prev={prev}>
-        <MDXLayoutRenderer code={post.body.code} components={components} toc={post.toc} />
-        {post.language?.startsWith('zh') && <WeChatFollow placement="article" />}
+        <div lang={post.language || 'zh-CN'}>
+          <MDXLayoutRenderer code={post.body.code} components={components} toc={post.toc} />
+          {post.language?.startsWith('zh') && <WeChatFollow placement="article" />}
+        </div>
       </Layout>
     </>
   )

@@ -6,7 +6,8 @@ import Image from './Image'
 import CustomLink from './Link'
 import TableWrapper from './TableWrapper'
 import MermaidDiagram from './MermaidDiagram'
-import { Children, isValidElement, type ReactNode } from 'react'
+import DiagramImage from './DiagramImage'
+import { Children, isValidElement, type ReactNode, type ImgHTMLAttributes } from 'react'
 
 type CodeProps = { className?: string; children?: ReactNode }
 
@@ -31,8 +32,18 @@ function MDXPre({ children }: { children?: ReactNode }) {
   return <Pre>{children}</Pre>
 }
 
+function MDXImage(props: ImgHTMLAttributes<HTMLImageElement>) {
+  if (typeof props.src === 'string' && /\.svg(?:[?#]|$)/i.test(props.src)) {
+    return <DiagramImage {...props} />
+  }
+  // Retain historical photographs and non-diagram images unchanged.
+  // eslint-disable-next-line @next/next/no-img-element
+  return <img {...props} />
+}
+
 export const components: MDXComponents = {
   Image,
+  img: MDXImage,
   TOCInline,
   a: CustomLink,
   pre: MDXPre,

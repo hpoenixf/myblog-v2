@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "ad4cdb49a592cd7204a0a5bc4bef410ba79e49df",
+  "commit": "711247922deb47c9df396d29219e47258ec0adcc",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -130,7 +130,7 @@
     },
     {
       "path": "articles/agent-tool-lifecycle-and-model-input.md",
-      "sha256": "124871d83b4751cd3f023ddc1d389260ebb22bbd0c82c2151dc700e0fe30ed9b"
+      "sha256": "cbcc6404c74c4c1a5d38e707364aaa4661ba0bf7890a8f2ff9b2162e6424f57a"
     },
     {
       "path": "articles/agent-veto-authority-and-run-termination.md",
@@ -150,7 +150,7 @@
     },
     {
       "path": "articles/financial-agent-system-panorama.md",
-      "sha256": "f324ca8ab930d23b1624d01d05129ed9a643ea3720e04ea59c3bf58d2daf2e39"
+      "sha256": "449b41e20565ef96746fa841c244fb1b6aa388be2e84c8e3675880a204213d9b"
     },
     {
       "path": "articles/honest-agent-evaluation.md",
@@ -190,7 +190,7 @@
     },
     {
       "path": "en/articles/financial-agent-system-panorama.md",
-      "sha256": "e7ff410a3c3b4d0af495208e04b986b271f88be12da93f5e04a541fda3585c47"
+      "sha256": "57d35ffc93dd0d737f0a28a65fcb9c735172864bd941f3e914c47eb6feb80fc8"
     },
     {
       "path": "articles/agent-in-15-minutes.md",
@@ -274,7 +274,7 @@
     },
     {
       "path": "articles/bounded-bull-bear-peer-dialogue.md",
-      "sha256": "d20484eeea1cb2103784a2ee3cda03d372d47bd1dccc96fc0fcfe1e25fa98532"
+      "sha256": "ee67ae95a38f26d40326697a6ae5d672106a92a8316d567acc42678fbaa52cc1"
     },
     {
       "path": "articles/code-cheaper-systems-harder-to-evolve.md",
@@ -294,7 +294,7 @@
     },
     {
       "path": "articles/financial-agent-trustworthy-evidence-chain.md",
-      "sha256": "7cb2dbed6d7579dfa893357ef970257cb5333d98b0f983680c8cf7088230e568"
+      "sha256": "df4c8d88182cb0755a9723f4e263e84fc9ea0e0559d8de57e177a515ee9b1150"
     },
     {
       "path": "articles/investment-perspectives-and-thesis-falsification.md",
@@ -470,7 +470,7 @@
     },
     {
       "path": "en/articles/agent-tool-lifecycle-and-model-input.md",
-      "sha256": "39eb814406c229514fb883dbad07e36a9f10939e3f11baf01ecde0069b22fe2f"
+      "sha256": "1424215268b38d6bf0741ff9e27772f8bf4bc20d4b24aadc71abf282a91bd96d"
     },
     {
       "path": "en/articles/agent-veto-authority-and-run-termination.md",
@@ -490,7 +490,7 @@
     },
     {
       "path": "en/articles/bounded-bull-bear-peer-dialogue.md",
-      "sha256": "d488f2a9d5031d8da362f73d5cc6d352a7cedd7e296f2b3da5d63391aaedb1eb"
+      "sha256": "91dd8981647dc5585eb5a17d370b848b901842889c46c0fa026bef5ef2fd88a7"
     },
     {
       "path": "en/articles/code-cheaper-systems-harder-to-evolve.md",
