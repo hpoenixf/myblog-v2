@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "9c70077665716ce73eec89d6b27a11669eef3f46",
+  "commit": "5c27fc760c115acce4a8f29f12be0715da239773",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -499,6 +499,14 @@
     {
       "path": "en/articles/agent-article-code-evidence-contract.md",
       "sha256": "1f490021f0792ed82769c77d0b6154c239fc4c6f4adda9c144486dfc4c18ced9"
+    },
+    {
+      "path": "articles/agent-runtime-refactor-one-day-blocked.md",
+      "sha256": "86eca6a9ba1350fc8d953e37cdb03d69ea7d0a9a32bf550091b0290097c10680"
+    },
+    {
+      "path": "en/articles/agent-runtime-refactor-one-day-blocked.md",
+      "sha256": "2d136cac1a5946be8a0cd0ba35d1b4263ed5b4486b9695dcd1dcebc0e2efabdf"
     }
   ]
 }
