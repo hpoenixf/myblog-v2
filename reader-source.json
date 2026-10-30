@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "8c991bbffabb9a8711f4f45f513ca1e09e5ada80",
+  "commit": "cc5822eb9eebbe097ba234132dad1647a55c65c5",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -210,11 +210,11 @@
     },
     {
       "path": "articles/open-etf-agent-v010-system-design.md",
-      "sha256": "a24259314e77d62366ecf97e687e5846bb9381fca21605a0bd3561aba5555559"
+      "sha256": "65624506852785bace08014153ebed531d2d87984316186a572cdaccddc483a5"
     },
     {
       "path": "en/articles/open-etf-agent-v010-system-design.md",
-      "sha256": "cc949f9b6f6e0fc123e6b5b96c7da88e484ec81f86c4ac977065eab5c40b59ea"
+      "sha256": "d2a67ae2bd48e99d1d3c85d03e8db66e1089f9af8aa62d1ffb9d1eeebe91b170"
     },
     {
       "path": "articles/030-fintech-from-research-to-investment-advice.md",
