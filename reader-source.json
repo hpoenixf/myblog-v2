@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "620bdfec0125cc14d95826aca4b462be3493e8c5",
+  "commit": "9d46273da85bddaa6c5c432581c916496edd9cc1",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -174,7 +174,7 @@
     },
     {
       "path": "articles/tool-results-outside-model-context.md",
-      "sha256": "4dbde149e27fefc3f206bfc43860a57758fdff1fb95c400aa73bab81ce1c5949"
+      "sha256": "59e423c8398d9dfc0c17f50b49ac56181646d85d333da1736b28cb433e872f36"
     },
     {
       "path": "articles/unavailable-is-correct.md",
@@ -558,11 +558,19 @@
     },
     {
       "path": "en/articles/tool-results-outside-model-context.md",
-      "sha256": "5a6bcb0402a7d8ba537c2a63c142c742a83b8171fcd20e15bef9d4d271b81cf3"
+      "sha256": "3dee8e9301591041d63c41aceeb3553934d874fa93fa5be497b4949e2a80e94f"
     },
     {
       "path": "en/articles/unavailable-is-correct.md",
       "sha256": "9a11e10cf6b3975c03173c26a5c0ae77dc9fd42be612e2e8996e23f998d16f1d"
+    },
+    {
+      "path": "articles/rag-retrieval-evaluation-evidence.md",
+      "sha256": "c25320f8423b839b482d31a50b6c1bef9d8235b91acfdacc5c41f9b834401b37"
+    },
+    {
+      "path": "en/articles/rag-retrieval-evaluation-evidence.md",
+      "sha256": "40b792f576bb9dbd382939249ee44a8752cb79002740232203d26248f349337e"
     }
   ]
 }
