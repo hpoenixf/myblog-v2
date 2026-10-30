@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "189d5acac1eed554c38690139c650bb909f14b51",
+  "commit": "a7999de9dad03419c1acaa697bb97b3e25d5d379",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -150,7 +150,7 @@
     },
     {
       "path": "articles/financial-agent-system-panorama.md",
-      "sha256": "b94d237ba7be10a6a226485a677930a039c35caf0554363ae4682332180bb8de"
+      "sha256": "0c3a3a552ba0b917afe58ee6b3a4ebcf0743d91ddd29767cee088eb616fdf1c2"
     },
     {
       "path": "articles/honest-agent-evaluation.md",
@@ -190,7 +190,7 @@
     },
     {
       "path": "en/articles/financial-agent-system-panorama.md",
-      "sha256": "f68b64cc86ab87538bb9540f9a94555e95b64445d3533270cc2696b2d4b8958e"
+      "sha256": "7e368d82ffe18fa8c06a68fbb23a7980c63335a6ed59709ddeb6fb1fc0871e42"
     },
     {
       "path": "articles/agent-in-15-minutes.md",
