@@ -215,14 +215,6 @@
     {
       "path": "en/articles/open-etf-agent-v010-system-design.md",
       "sha256": "ae5ebd6cae0c0bb889d7c86b506ec13662ef33f6a63cfc6b146280bb98eb2c8b"
-    },
-    {
-      "path": "articles/agent-loop-to-application.md",
-      "sha256": "c25791f13b927dd2861b1ccbdea96e266beeecef2cc7a6b25ed8313c6290232a"
-    },
-    {
-      "path": "en/articles/agent-loop-to-application.md",
-      "sha256": "c0fd35155e9e6fb8ddcbfd11ea7449bf96610c5af20919fce5aa2d9ee70850fb"
     }
   ]
 }
