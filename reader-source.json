@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "cc5822eb9eebbe097ba234132dad1647a55c65c5",
+  "commit": "620bdfec0125cc14d95826aca4b462be3493e8c5",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "8c2278d932b2e98e2e946dfc8bc6acd460a2a2c72d12b51bd4413d61b2b965e7"
+      "sha256": "457e53edf2869d31829e3b81780cf1332d9e8b746f8b21fd5bc20ee22f370ff3"
     },
     {
       "path": "articles/019-agent-answer-publication.md",
@@ -186,7 +186,7 @@
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "90a5776e1832ce4fddf2b95b340fbf678bc28a91a80c57d60be594eb937ab75e"
+      "sha256": "9f94c1e7731108660137b07eb90d1d11ef00f7266f6e0e9f470e5df76c51dd02"
     },
     {
       "path": "en/articles/financial-agent-system-panorama.md",
@@ -194,27 +194,27 @@
     },
     {
       "path": "articles/agent-in-15-minutes.md",
-      "sha256": "221cbef811f2273e9b3b272f765f83bd05cc23fe14906289e98b6f9036b6c159"
+      "sha256": "dc6bf8aee7070e0149b77d803bf65c925f18ae614854b4044eb915c245eca5ce"
     },
     {
       "path": "en/articles/agent-in-15-minutes.md",
-      "sha256": "d417766e3b2d10a649c9a3c4014068e0031659719c67f3faf116ebe4fe278b60"
+      "sha256": "9aa3e186b006151487b558905f46c22c9eae828255f8b4d7bcd3ed924da016b7"
     },
     {
       "path": "articles/agent-ten-modules.md",
-      "sha256": "f07d15e88a66049475f3a6092dcbdba2bc7cc2e24b2a84c42e876e435effd727"
+      "sha256": "4b804bed66e0fb89a25e0e74de2c4d90064526c4f8ae885c53eb21e09621abca"
     },
     {
       "path": "en/articles/agent-ten-modules.md",
-      "sha256": "b42da83d60c04b2b0b11a219965f552878933cb5c808aca1cddeba24cfbef9fd"
+      "sha256": "4d04dd491d136f10883e810456f9c4b8c659923041bf600f24caa4c86948919a"
     },
     {
       "path": "articles/open-etf-agent-v010-system-design.md",
-      "sha256": "65624506852785bace08014153ebed531d2d87984316186a572cdaccddc483a5"
+      "sha256": "9e21891a94c6b6c6cec79a036879ce4334458e01a7c222ad38206cb7ff8eea7e"
     },
     {
       "path": "en/articles/open-etf-agent-v010-system-design.md",
-      "sha256": "d2a67ae2bd48e99d1d3c85d03e8db66e1089f9af8aa62d1ffb9d1eeebe91b170"
+      "sha256": "1e69010a114b6d0f0efe128eccb32c6971bdeea02574671a95e02c403f3e4566"
     },
     {
       "path": "articles/030-fintech-from-research-to-investment-advice.md",
