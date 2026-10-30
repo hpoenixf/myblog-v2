@@ -6,7 +6,7 @@
 
 ## 从这些问题开始
 
-- **系统怎样协作？** [一句问题走过六层系统](https://hpoenixf.com/blog/017-prompt-to-answer-six-layer-panorama)、[Model / Runtime / MCP / Skill 的职责](https://hpoenixf.com/blog/agent-model-runtime-mcp-skill-boundaries)。
+- **系统怎样协作？** [十五分钟入门 Agent](https://hpoenixf.com/eff-agent-article/articles/agent-in-15-minutes) → [六层调用全景（进阶）](https://hpoenixf.com/eff-agent-article/articles/017-prompt-to-answer-six-layer-panorama-v3)、[Model / Runtime / MCP / Skill 的职责](https://hpoenixf.com/blog/agent-model-runtime-mcp-skill-boundaries)。
 - **系统怎样演进？** [代码越来越便宜，系统为什么越来越难升级](https://hpoenixf.com/blog/code-cheaper-systems-harder-to-evolve)、[稳定什么与改变什么](https://hpoenixf.com/blog/agent-differentiated-evolution-contracts)、[一次改动为什么拖住整天](https://hpoenixf.com/blog/agent-runtime-refactor-one-day-blocked)。
 - **怎样判断真正完成？** [测试全绿是否就算成功](https://hpoenixf.com/blog/honest-agent-evaluation)、[局部拒绝与运行终结权](https://hpoenixf.com/blog/agent-veto-authority-and-run-termination)、[文件保存与实际交付](https://hpoenixf.com/blog/agent-html-evolution-challenges)。
 - **怎样设计长期有效的机制？** [跨六国业务设计系统](https://hpoenixf.com/blog/design-quality-assurance)、[金融数据接入层的职责反思](https://hpoenixf.com/blog/mcp-market-responsibility-retrospective)。
