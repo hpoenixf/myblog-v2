@@ -81,25 +81,25 @@ export default function DiagramImage(props: ImgHTMLAttributes<HTMLImageElement>)
 
   return (
     <span className="article-diagram-image">
-      {/* Native images also support generated SVG blob URLs without an optimization proxy. */}
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        {...props}
-        onClick={(event) => {
-          event.preventDefault()
-          open()
-        }}
-        className={`article-diagram-preview ${props.className || ''}`}
-      />
       <button
         ref={trigger}
         type="button"
-        className="diagram-zoom-trigger"
+        className="block w-full rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+        aria-label={`${t('放大查看图表', 'Enlarge diagram')}: ${title}`}
         aria-haspopup="dialog"
         disabled={!mounted}
         onClick={open}
       >
-        {t('放大查看图表', 'Enlarge diagram')}
+        {/* Native images also support generated SVG blob URLs without an optimization proxy. */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          {...props}
+          alt={props.alt || ''}
+          className={`article-diagram-preview ${props.className || ''}`}
+        />
+        <span className="diagram-zoom-trigger" aria-hidden="true">
+          {t('放大查看图表', 'Enlarge diagram')}
+        </span>
       </button>
       {mounted &&
         createPortal(
@@ -139,7 +139,7 @@ export default function DiagramImage(props: ImgHTMLAttributes<HTMLImageElement>)
                 <a href={props.src} target="_blank" rel="noopener noreferrer">
                   {t('打开原图', 'Open original')}
                 </a>
-                <button type="button" autoFocus onClick={close}>
+                <button type="button" onClick={close}>
                   {t('关闭 ×', 'Close ×')}
                 </button>
               </div>
@@ -147,11 +147,15 @@ export default function DiagramImage(props: ImgHTMLAttributes<HTMLImageElement>)
             <div
               ref={stage}
               className="diagram-zoom-stage"
+              role="region"
+              // Named overflow region must remain keyboard-scrollable.
+              // https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/overflow#accessibility
+              // eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex
               tabIndex={0}
               aria-label={t('滚动查看放大的图表', 'Scroll enlarged diagram')}
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               {opened && (
+                // eslint-disable-next-line @next/next/no-img-element
                 <img
                   ref={picture}
                   src={props.src}

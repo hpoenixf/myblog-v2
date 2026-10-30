@@ -38,7 +38,7 @@ function MDXImage(props: ImgHTMLAttributes<HTMLImageElement>) {
   }
   // Retain historical photographs and non-diagram images unchanged.
   // eslint-disable-next-line @next/next/no-img-element
-  return <img {...props} />
+  return <img {...props} alt={props.alt || ''} />
 }
 
 export const components: MDXComponents = {
