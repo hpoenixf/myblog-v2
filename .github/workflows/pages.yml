@@ -64,6 +64,11 @@ jobs:
           fetch-depth: 0  # required by VitePress lastUpdated and git-dated RSS
       - name: Verify checked-out reader source
         run: node scripts/reader-release.mjs source reader-src
+      - name: Install measured CJK diagram fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends fonts-noto-cjk fontconfig
+          fc-match -f '%{family}\n' 'Noto Sans CJK SC:lang=zh-cn'
       - name: Build and mount ETF Agent reader
         run: |
           cd reader-src
