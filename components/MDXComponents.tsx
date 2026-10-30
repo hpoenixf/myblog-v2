@@ -2,6 +2,7 @@ import TOCInline from 'pliny/ui/TOCInline'
 import Pre from 'pliny/ui/Pre'
 import BlogNewsletterForm from 'pliny/ui/BlogNewsletterForm'
 import type { MDXComponents } from 'mdx/types'
+import type { ImageProps } from 'next/image'
 import Image from './Image'
 import CustomLink from './Link'
 import TableWrapper from './TableWrapper'
@@ -41,8 +42,27 @@ function MDXImage(props: ImgHTMLAttributes<HTMLImageElement>) {
   return <img {...props} alt={props.alt || ''} />
 }
 
+// remarkImgToJsx compiles Markdown images to the uppercase Image component.
+function MDXFrameworkImage(props: ImageProps) {
+  if (typeof props.src === 'string' && /\.svg(?:[?#]|$)/i.test(props.src)) {
+    return (
+      <DiagramImage
+        src={`${process.env.BASE_PATH || ''}${props.src}`}
+        alt={props.alt}
+        width={props.width}
+        height={props.height}
+        className={props.className}
+        style={props.style}
+        loading={props.loading}
+        title={props.title}
+      />
+    )
+  }
+  return <Image {...props} />
+}
+
 export const components: MDXComponents = {
-  Image,
+  Image: MDXFrameworkImage,
   img: MDXImage,
   TOCInline,
   a: CustomLink,
