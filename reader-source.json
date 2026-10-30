@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "ab7155d0a660596683e0e243859e928ddc34963a",
+  "commit": "a53cc1552cdbec38fdeec50051a525f244d5777f",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -510,11 +510,11 @@
     },
     {
       "path": "articles/agent-in-15-minutes.md",
-      "sha256": "51e01ee026729fdd3b40454006555982049ae0c03bbaf354cc0f2e8e51fcae0c"
+      "sha256": "7e3ec3722fcc250befc59368f6eb72fb6ce2c82daa395343ca7678170cfe3922"
     },
     {
       "path": "en/articles/agent-in-15-minutes.md",
-      "sha256": "7742dbe4f89f99acd8d0ca099a7694bc7acba3971db859baa5dfacb5d0613452"
+      "sha256": "602488beb1f255f9da519fd42a0bcac56b772d98102c30a3114033c4fc4e167d"
     }
   ]
 }
