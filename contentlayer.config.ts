@@ -100,6 +100,8 @@ export const Blog = defineDocumentType(() => ({
   contentType: 'mdx',
   fields: {
     title: { type: 'string', required: true },
+    // Existing blog posts are Chinese; set language: en for English editions.
+    language: { type: 'string', default: 'zh-CN' },
     date: { type: 'date', required: true },
     tags: { type: 'list', of: { type: 'string' }, default: [] },
     lastmod: { type: 'date' },
