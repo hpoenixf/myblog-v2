@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "a7999de9dad03419c1acaa697bb97b3e25d5d379",
+  "commit": "0837f3d8eb4d20736cde9bf9f896438750ddeeb6",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -194,27 +194,27 @@
     },
     {
       "path": "articles/agent-in-15-minutes.md",
-      "sha256": "dc6bf8aee7070e0149b77d803bf65c925f18ae614854b4044eb915c245eca5ce"
+      "sha256": "182c8ce0b52060b0e173c00502be87d2ec2166027cd7f60326333abd33929519"
     },
     {
       "path": "en/articles/agent-in-15-minutes.md",
-      "sha256": "9aa3e186b006151487b558905f46c22c9eae828255f8b4d7bcd3ed924da016b7"
+      "sha256": "569689a9fd86926e5858c333f6688334df9ace5de0fb363c045a8f806b68d995"
     },
     {
       "path": "articles/agent-ten-modules.md",
-      "sha256": "4b804bed66e0fb89a25e0e74de2c4d90064526c4f8ae885c53eb21e09621abca"
+      "sha256": "a307fd5a1a7d97c178f77804a1ad1de8825897661856879691f3eb1985ad6ec6"
     },
     {
       "path": "en/articles/agent-ten-modules.md",
-      "sha256": "4d04dd491d136f10883e810456f9c4b8c659923041bf600f24caa4c86948919a"
+      "sha256": "e590f68f93d13378728e3612dedbf58998ed810041abcff7d7c57266fe943a17"
     },
     {
       "path": "articles/open-etf-agent-v010-system-design.md",
-      "sha256": "9e21891a94c6b6c6cec79a036879ce4334458e01a7c222ad38206cb7ff8eea7e"
+      "sha256": "4ae5e9a1fee0953e9473ae73cc010d98b7ad0011e611e3af7f55f1d30e9ad460"
     },
     {
       "path": "en/articles/open-etf-agent-v010-system-design.md",
-      "sha256": "1e69010a114b6d0f0efe128eccb32c6971bdeea02574671a95e02c403f3e4566"
+      "sha256": "7f898cf9dd778167588f99f06c02751c2af61e1bb0ba0876e37029611eaeea20"
     },
     {
       "path": "articles/030-fintech-from-research-to-investment-advice.md",
