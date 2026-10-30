@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "08aa14ca39fb7497d66e3dda4b62a1d6d60310b7",
+  "commit": "36228a0b755b4d250dea231978f83b9e73445703",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -191,6 +191,38 @@
     {
       "path": "en/articles/financial-agent-system-panorama.md",
       "sha256": "e7ff410a3c3b4d0af495208e04b986b271f88be12da93f5e04a541fda3585c47"
+    },
+    {
+      "path": "articles/agent-in-15-minutes.md",
+      "sha256": "d607f73bc13559c381b690a98bd2ef3035f1120822892a91ead2ae1fa391a3e5"
+    },
+    {
+      "path": "en/articles/agent-in-15-minutes.md",
+      "sha256": "c75cd3b2b74622ff1ff2ed5978b15c499808ab707de51c81f10752d6c1e526f3"
+    },
+    {
+      "path": "articles/agent-ten-modules.md",
+      "sha256": "9a374cfbe1a2b1c0a96fceac73dd56cc8871cf83634771a836d19c7a9e043b40"
+    },
+    {
+      "path": "en/articles/agent-ten-modules.md",
+      "sha256": "78f81a6f1d39fbcd180bac897af11b6cfe873de31eeb350c43219cf59dbd274b"
+    },
+    {
+      "path": "articles/open-etf-agent-v010-system-design.md",
+      "sha256": "45bf8d3bf5dfb38e1cca60f46f445c100a68edf41021b2ced52d49842439d65c"
+    },
+    {
+      "path": "en/articles/open-etf-agent-v010-system-design.md",
+      "sha256": "ae5ebd6cae0c0bb889d7c86b506ec13662ef33f6a63cfc6b146280bb98eb2c8b"
+    },
+    {
+      "path": "articles/agent-loop-to-application.md",
+      "sha256": "c25791f13b927dd2861b1ccbdea96e266beeecef2cc7a6b25ed8313c6290232a"
+    },
+    {
+      "path": "en/articles/agent-loop-to-application.md",
+      "sha256": "c0fd35155e9e6fb8ddcbfd11ea7449bf96610c5af20919fce5aa2d9ee70850fb"
     }
   ]
 }
