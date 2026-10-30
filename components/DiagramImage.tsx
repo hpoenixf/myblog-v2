@@ -74,9 +74,9 @@ export default function DiagramImage(props: ImgHTMLAttributes<HTMLImageElement>)
   useEffect(() => {
     if (!opened || !stage.current) return
     fit()
-    const observer = new ResizeObserver(fit)
-    observer.observe(stage.current)
-    return () => observer.disconnect()
+    // Scrollbars change stage dimensions during zoom; only a viewport resize should reset fit.
+    window.addEventListener('resize', fit)
+    return () => window.removeEventListener('resize', fit)
   }, [opened, fit])
 
   return (
