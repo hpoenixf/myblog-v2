@@ -12,7 +12,7 @@ export default function WeChatFollow({ placement }: { placement: 'site' | 'artic
     <aside
       id="wechat-public-account"
       aria-labelledby="wechat-public-account-title"
-      className="not-prose my-6 flex scroll-mt-24 flex-col items-center gap-4 rounded-xl border border-gray-200 p-5 text-center sm:flex-row sm:text-left dark:border-gray-700"
+      className="not-prose my-6 flex scroll-mt-24 flex-col items-center gap-4 rounded-xl border border-gray-200 p-5 text-center dark:border-gray-700 sm:flex-row sm:text-left"
     >
       <a
         href="/static/images/wechat-public-account.jpg"
