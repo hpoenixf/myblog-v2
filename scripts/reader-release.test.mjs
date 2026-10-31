@@ -4,6 +4,8 @@ import assert from 'node:assert/strict'
 import {
   digest,
   validateRelease,
+  expectedCanonicalEditions,
+  assertCatalogCoverage,
   checkCanonical,
   verifyPublic,
   checkTopicHtml,
@@ -84,6 +86,47 @@ test('release requires immutable source, canonical domain, unique safe article p
     { files: [{ path: paths[0], sha256: 'bad' }] },
   ])
     assert.throws(() => validateRelease({ ...release, ...changed }))
+})
+
+test('canonical lock must cover every Chinese article and every accepted English edition', () => {
+  const collections = [{ id: 'modules', chapters: [{ items: [['example', 'Example'], ['second', 'Second']] }] }]
+  const acceptedEnglish = ['example', 'second']
+  const expected = [
+    'articles/example.md', 'articles/second.md',
+    'en/articles/example.md', 'en/articles/second.md',
+  ]
+  assert.deepEqual(expectedCanonicalEditions(collections, acceptedEnglish), [...expected].sort())
+  const complete = {
+    ...release,
+    files: expected.map((path) => ({ path, sha256: digest(path) })),
+  }
+  assert.equal(assertCatalogCoverage(complete, collections, acceptedEnglish), 4)
+  // A syntactically valid lock can still omit live canonical pages.
+  const omittedChinese = { ...complete, files: complete.files.filter((f) => f.path !== 'articles/second.md') }
+  const omittedEnglish = { ...complete, files: complete.files.filter((f) => f.path !== 'en/articles/second.md') }
+  assert.equal(validateRelease(omittedChinese), omittedChinese)
+  assert.throws(() => assertCatalogCoverage(omittedChinese, collections, acceptedEnglish), /Missing canonical article editions/)
+  assert.throws(() => assertCatalogCoverage(omittedEnglish, collections, acceptedEnglish), /Missing canonical article editions/)
+  assert.throws(
+    () => assertCatalogCoverage(
+      { ...complete, files: [...complete.files, { path: 'articles/old-redirect.md', sha256: digest('old') }] },
+      collections,
+      acceptedEnglish
+    ),
+    /noncanonical editions/
+  )
+  assert.throws(
+    () => expectedCanonicalEditions(collections, ['example', 'no-such-article']),
+    /no canonical article/
+  )
+  assert.throws(
+    () => expectedCanonicalEditions(collections, ['example', 'example']),
+    /Duplicate English article/
+  )
+  assert.throws(
+    () => expectedCanonicalEditions([{ chapters: [{ items: [['example'], ['example']] }] }], []),
+    /Duplicate canonical article/
+  )
 })
 
 test('canonical check rejects github.io and wrong article identity', () => {
