@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "9a42d62654af89f2910a99e7b09773d18fbb8b25",
+  "commit": "e69f6494b3ccc714c20a69365f9d39e95463e85d",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "path": "articles/031-fintech-data-time-and-reproducible-numbers.md",
-      "sha256": "0f3a0c6f77cf48c4009cb09060b33dc22043791c521f06e18302fb839c3f8c7f"
+      "sha256": "d559895e75671b3febef9e1699edc876423714b240821907aaf59fe68b8a4391"
     },
     {
       "path": "articles/adaptive-research-python-workbench.md",
@@ -146,7 +146,7 @@
     },
     {
       "path": "articles/financial-agent-python-result-consumption.md",
-      "sha256": "dfa97f257e93d97a8ddae451fe7aea9b570c368c4b051ae953a505102c33cc9a"
+      "sha256": "e6d6a9e680578e4a75607d7ae2cf9e6256c180b29c26b641c2cffb304a9d6fc2"
     },
     {
       "path": "articles/financial-agent-system-panorama.md",
@@ -218,7 +218,7 @@
     },
     {
       "path": "articles/030-fintech-from-research-to-investment-advice.md",
-      "sha256": "16146342fe0b333c1ab57003d6e9c0711efe58102cfc9ebf913ad6b31b531396"
+      "sha256": "188d5f888f1b66621d096eef1f01d5b6d3ad794635b2eb8f821cf8c4634b412b"
     },
     {
       "path": "articles/032-ai-development-from-bug-loop-to-task-convergence.md",
