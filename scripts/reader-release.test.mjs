@@ -89,42 +89,69 @@ test('release requires immutable source, canonical domain, unique safe article p
 })
 
 test('canonical lock must cover every Chinese article and every accepted English edition', () => {
-  const collections = [{ id: 'modules', chapters: [{ items: [['example', 'Example'], ['second', 'Second']] }] }]
-  const acceptedEnglish = ['example', 'second']
-  const expected = [
-    'articles/example.md', 'articles/second.md',
-    'en/articles/example.md', 'en/articles/second.md',
+  const collections = [
+    {
+      chapters: [
+        {
+          items: [
+            ['example', 'Example'],
+            ['second', 'Second'],
+          ],
+        },
+      ],
+    },
   ]
-  assert.deepEqual(expectedCanonicalEditions(collections, acceptedEnglish), [...expected].sort())
-  const complete = {
-    ...release,
-    files: expected.map((path) => ({ path, sha256: digest(path) })),
-  }
-  assert.equal(assertCatalogCoverage(complete, collections, acceptedEnglish), 4)
-  // A syntactically valid lock can still omit live canonical pages.
-  const omittedChinese = { ...complete, files: complete.files.filter((f) => f.path !== 'articles/second.md') }
-  const omittedEnglish = { ...complete, files: complete.files.filter((f) => f.path !== 'en/articles/second.md') }
+  const english = ['example', 'second']
+  const paths = [
+    'articles/example.md',
+    'articles/second.md',
+    'en/articles/example.md',
+    'en/articles/second.md',
+  ]
+  const expectedPaths = expectedCanonicalEditions(collections, english)
+  assert.deepEqual(expectedPaths, [...paths].sort())
+
+  const files = paths.map((path) => ({ path, sha256: digest(path) }))
+  const complete = { ...release, files }
+  assert.equal(assertCatalogCoverage(complete, collections, english), 4)
+
+  const omit = (path) => ({
+    ...complete,
+    files: files.filter((file) => file.path !== path),
+  })
+  const omittedChinese = omit('articles/second.md')
   assert.equal(validateRelease(omittedChinese), omittedChinese)
-  assert.throws(() => assertCatalogCoverage(omittedChinese, collections, acceptedEnglish), /Missing canonical article editions/)
-  assert.throws(() => assertCatalogCoverage(omittedEnglish, collections, acceptedEnglish), /Missing canonical article editions/)
+  for (const path of ['articles/second.md', 'en/articles/second.md']) {
+    assert.throws(
+      () => assertCatalogCoverage(omit(path), collections, english),
+      /Missing canonical article editions/
+    )
+  }
+
+  const oldPage = {
+    path: 'articles/old-redirect.md',
+    sha256: digest('old'),
+  }
+  const withOldPage = { ...complete, files: [...files, oldPage] }
   assert.throws(
-    () => assertCatalogCoverage(
-      { ...complete, files: [...complete.files, { path: 'articles/old-redirect.md', sha256: digest('old') }] },
-      collections,
-      acceptedEnglish
-    ),
+    () => assertCatalogCoverage(withOldPage, collections, english),
     /noncanonical editions/
   )
+
+  const unknownEnglish = ['example', 'no-such-article']
   assert.throws(
-    () => expectedCanonicalEditions(collections, ['example', 'no-such-article']),
+    () => expectedCanonicalEditions(collections, unknownEnglish),
     /no canonical article/
   )
+  const duplicateEnglish = ['example', 'example']
   assert.throws(
-    () => expectedCanonicalEditions(collections, ['example', 'example']),
+    () => expectedCanonicalEditions(collections, duplicateEnglish),
     /Duplicate English article/
   )
+  const duplicateItems = [['example'], ['example']]
+  const duplicateCatalog = [{ chapters: [{ items: duplicateItems }] }]
   assert.throws(
-    () => expectedCanonicalEditions([{ chapters: [{ items: [['example'], ['example']] }] }], []),
+    () => expectedCanonicalEditions(duplicateCatalog, []),
     /Duplicate canonical article/
   )
 })
