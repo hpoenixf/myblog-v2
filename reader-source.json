@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "be00c0d567407e256bd92d701a7614cfb1186799",
+  "commit": "43ef4154d08b55f80b40d41b92b1065e0ded2a94",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "path": "articles/019-agent-answer-publication.md",
-      "sha256": "b211720ebb483d64be2bdb0191f45c6882265222071ea93597b2616bd392adfa"
+      "sha256": "c92cd2f1a2013217321f2e8a0056da7bc7a428511bd856f982d3fafc9b4ea5f9"
     },
     {
       "path": "articles/020-agent-extension-host-smartphone.md",
@@ -146,7 +146,7 @@
     },
     {
       "path": "articles/agent-model-capability-presentation-tool-surface.md",
-      "sha256": "be924be332ec2f9c6774c1723839fdce6a6da0b8fcd8fd84ce73c572f8bc6b7c"
+      "sha256": "60cf724bb91ccc6b5b3902df8ad859182705051032a6a6d5cca44ccac6c4ea0c"
     },
     {
       "path": "articles/agent-model-runtime-mcp-skill-boundaries.md",
@@ -274,7 +274,7 @@
     },
     {
       "path": "articles/financial-agent-trustworthy-evidence-chain.md",
-      "sha256": "df4c8d88182cb0755a9723f4e263e84fc9ea0e0559d8de57e177a515ee9b1150"
+      "sha256": "5b42285457a6be9b6b4fad572183056e15af0da7d57584623bcfd67d1ee7c20f"
     },
     {
       "path": "articles/honest-agent-evaluation.md",
@@ -346,7 +346,7 @@
     },
     {
       "path": "en/articles/019-agent-answer-publication.md",
-      "sha256": "7446863c840847c67afebe40a53b76cb945401e97a67c5978358a1404ba4867d"
+      "sha256": "026be93b11349675febba6e3b3b6efb8e5fe3d47ee7910019ff3d02eb9fb1088"
     },
     {
       "path": "en/articles/020-agent-extension-host-smartphone.md",
@@ -470,7 +470,7 @@
     },
     {
       "path": "en/articles/agent-model-capability-presentation-tool-surface.md",
-      "sha256": "194370715cf01d898cf874b65ad3aec3b165570005865a4bd7ba38336e9db246"
+      "sha256": "239f023caead78c9653bf9ac064852249965f087aee9c2fbda9eed77b52cc872"
     },
     {
       "path": "en/articles/agent-model-runtime-mcp-skill-boundaries.md",
