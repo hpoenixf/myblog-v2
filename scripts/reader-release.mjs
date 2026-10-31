@@ -92,6 +92,58 @@ export function validateRelease(release) {
   return release
 }
 
+// A clean deployment receipt is only site-complete when every canonical
+// Chinese article and every accepted full English edition is in its source lock.
+// Historical redirects and the Chinese-original fallback are not separate editions.
+export function expectedCanonicalEditions(collections, englishArticleSlugs) {
+  assert.ok(Array.isArray(collections), 'Canonical collections must be an array')
+  assert.ok(Array.isArray(englishArticleSlugs), 'Accepted English editions must be an array')
+
+  const canonical = collections.flatMap((collection) =>
+    collection.chapters.flatMap((chapter) => chapter.items.map(([slug]) => slug))
+  )
+  assert.ok(canonical.length, 'Canonical catalogue cannot be empty')
+  const canonicalSet = new Set(canonical)
+  assert.equal(canonicalSet.size, canonical.length, 'Duplicate canonical article slug')
+  const englishSet = new Set(englishArticleSlugs)
+  assert.equal(englishSet.size, englishArticleSlugs.length, 'Duplicate English article slug')
+
+  for (const slug of canonical) {
+    assert.match(slug, /^[a-z0-9][a-z0-9-]*$/, 'Invalid canonical article slug')
+  }
+  for (const slug of englishArticleSlugs) {
+    assert.ok(canonicalSet.has(slug), `English edition has no canonical article: ${slug}`)
+  }
+
+  return [
+    ...canonical.map((slug) => `articles/${slug}.md`),
+    ...englishArticleSlugs.map((slug) => `en/articles/${slug}.md`),
+  ].sort()
+}
+
+export function assertCatalogCoverage(release, collections, englishArticleSlugs) {
+  validateRelease(release)
+  const expected = expectedCanonicalEditions(collections, englishArticleSlugs)
+  const actual = new Set(release.files.map((file) => file.path))
+  const missing = expected.filter((path) => !actual.has(path))
+  const expectedSet = new Set(expected)
+  const unexpected = [...actual].filter((path) => !expectedSet.has(path)).sort()
+
+  assert.deepEqual(missing, [], 'Missing canonical article editions in reader source lock')
+  assert.deepEqual(unexpected, [], 'Reader source lock contains noncanonical editions')
+  return expected.length
+}
+
+async function sourceCatalog(root) {
+  // Import from the checked-out, immutable reader tree, not the blog's own
+  // directory or a floating main branch.
+  const [book, translated] = await Promise.all([
+    import(pathToFileURL(resolve(root, 'book.mjs')).href),
+    import(pathToFileURL(resolve(root, 'book.en.mjs')).href),
+  ])
+  return { collections: book.collections, englishArticleSlugs: translated.englishArticleSlugs }
+}
+
 export async function loadRelease(path = 'reader-source.json') {
   return validateRelease(JSON.parse(await readFile(path, 'utf8')))
 }
@@ -106,12 +158,17 @@ export async function prepareRelease(root, paths) {
     assert.ok(bytes.equals(committed), `Uncommitted article: ${path}`)
     files.push({ path, sha256: digest(bytes) })
   }
-  return validateRelease({ schemaVersion: 1, repository, commit, baseUrl, files })
+  const release = validateRelease({ schemaVersion: 1, repository, commit, baseUrl, files })
+  const { collections, englishArticleSlugs } = await sourceCatalog(root)
+  assertCatalogCoverage(release, collections, englishArticleSlugs)
+  return release
 }
 
 export async function checkSource(root, release) {
   validateRelease(release)
   assert.equal(head(root), release.commit, 'Checked-out reader does not match the release pin')
+  const { collections, englishArticleSlugs } = await sourceCatalog(root)
+  assertCatalogCoverage(release, collections, englishArticleSlugs)
   for (const file of release.files) {
     assert.equal(
       digest(await readFile(resolve(root, file.path))),
