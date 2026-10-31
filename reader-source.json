@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "2a6a28730a144f457a2961d40fe6ccf465a884e7",
+  "commit": "8ae89cae6abfa547322f21c5df3c0e1297b01c4e",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "457e53edf2869d31829e3b81780cf1332d9e8b746f8b21fd5bc20ee22f370ff3"
+      "sha256": "eca042626e0175aaf88d5c423e553a623c43e6dbc6778d44e360274bef92302e"
     },
     {
       "path": "articles/019-agent-answer-publication.md",
@@ -54,7 +54,7 @@
     },
     {
       "path": "articles/031-fintech-data-time-and-reproducible-numbers.md",
-      "sha256": "d559895e75671b3febef9e1699edc876423714b240821907aaf59fe68b8a4391"
+      "sha256": "a7999d85629bf9955b3fe12902d179bee016ef800092cbe1fdd775d1a5d70463"
     },
     {
       "path": "articles/032-ai-development-from-bug-loop-to-task-convergence.md",
@@ -157,6 +157,10 @@
       "sha256": "126a8213386e71d0506cc88fbf09fbbdd9c0dca6086172ea9099732e4d20c119"
     },
     {
+      "path": "articles/agent-numeric-kernel-exact-units-rounding.md",
+      "sha256": "ea8433c135f9023cdad6cf3af6db57f727c2e6f69b3f326e0c35ec1471ea2cbf"
+    },
+    {
       "path": "articles/agent-personal-credits-shadow-accounting.md",
       "sha256": "864c4a67cd7e02e832a89baf77f34640798f43d654155c1c5e6382e187df6659"
     },
@@ -178,7 +182,11 @@
     },
     {
       "path": "articles/agent-report-cost-attribution.md",
-      "sha256": "2783c72f4e1ea07d2a4eea7483e7679ed41b963b502d968434d6244ff95f24d0"
+      "sha256": "03408075ce4667e76e49f2d468a8661c51db51721cee41f1d1f63a6cc72eadb7"
+    },
+    {
+      "path": "articles/agent-research-evidence-store-lifecycle.md",
+      "sha256": "e214b1ff0c8de716101dbfacff3b19073a827f43da5dd65e2ee44e7bfc962a35"
     },
     {
       "path": "articles/agent-runtime-constraint-governance-v2.md",
@@ -214,7 +222,7 @@
     },
     {
       "path": "articles/agent-tool-lifecycle-and-model-input.md",
-      "sha256": "7a7bcf8dc7b4b94fd1e2ab1a44de5fd6b9dc75d2365d552b3796b8e4bf3872f2"
+      "sha256": "fd0fe6da24278326852357108010d6eb12ecf628b2c099400aa382316688e207"
     },
     {
       "path": "articles/agent-trace-complete-observation-gaps.md",
@@ -334,7 +342,7 @@
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "9f94c1e7731108660137b07eb90d1d11ef00f7266f6e0e9f470e5df76c51dd02"
+      "sha256": "d6eb3a9534ece635a700ee5d469fd92eae9552ef8b5dc7e4c8795b059444f360"
     },
     {
       "path": "en/articles/019-agent-answer-publication.md",
@@ -378,7 +386,7 @@
     },
     {
       "path": "en/articles/031-fintech-data-time-and-reproducible-numbers.md",
-      "sha256": "b7bfc1d8d6da3cd233f3835d2d7cfacaf0ddec79f0b16c2b6277b256fbc965c8"
+      "sha256": "7236f2862566ee8e13f868506d2a1dd13e6295a5eb78b4f20670c98d2892457e"
     },
     {
       "path": "en/articles/032-ai-development-from-bug-loop-to-task-convergence.md",
@@ -473,6 +481,10 @@
       "sha256": "249b41bd2ca9920fee5874f2cee8656850cb017a117e3fea6223a6829292c480"
     },
     {
+      "path": "en/articles/agent-numeric-kernel-exact-units-rounding.md",
+      "sha256": "e5fdf20707bdd51f9c5fdf4e3d2de75ccca0b7f4d495add02dd6e82c954e11e7"
+    },
+    {
       "path": "en/articles/agent-personal-credits-shadow-accounting.md",
       "sha256": "4cc2e30c0d49ea197de5f2a3e96e96b39fd9ac1f5c88a183d8c6626eb56d8ab3"
     },
@@ -490,7 +502,11 @@
     },
     {
       "path": "en/articles/agent-report-cost-attribution.md",
-      "sha256": "9001e7be7a57660b68eb3197f199d8e6c6f0fa00a29319789826342d03d193ae"
+      "sha256": "2dcbcbe4f2f15363d10fef5a574b6e857c81f88eb42ccea5d7b871517be48e4f"
+    },
+    {
+      "path": "en/articles/agent-research-evidence-store-lifecycle.md",
+      "sha256": "2be1e47d02bfebd3e44ffacfa9644a9eaa8729e437d7df09a65f02cc4052fd1c"
     },
     {
       "path": "en/articles/agent-runtime-constraint-governance-v2.md",
@@ -526,7 +542,7 @@
     },
     {
       "path": "en/articles/agent-tool-lifecycle-and-model-input.md",
-      "sha256": "31bc0c4e4ab275093cd8818bf803df980edf037d1bbd4d73c859dcae71912915"
+      "sha256": "4baf67d48e087b01dab8ce68478089e6f6fb2b3f374e7352a2b68fbe16f8e289"
     },
     {
       "path": "en/articles/agent-trace-complete-observation-gaps.md",
