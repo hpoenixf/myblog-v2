@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "ba9f9b1279ebc0af23316f4ceef600d079d75ae7",
+  "commit": "50acd33b5742787e7932972216b3dd8dc1e1feb7",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "path": "articles/021-agent-web-research-from-search-to-deep-reading.md",
-      "sha256": "c6693315c8f23c91456c94393a608e6afb694bbecd9ec5d16646f9809a5751d9"
+      "sha256": "a4ff43e496a5a7ed1439792a6c0243b00089171697d6a9fdb93d6a730600c138"
     },
     {
       "path": "articles/022-agent-entry-from-intent-to-direct-research.md",
@@ -30,7 +30,7 @@
     },
     {
       "path": "articles/024-agent-pdf-from-text-to-evidence.md",
-      "sha256": "f8964feccf3381b6d4ade1ff1e31e545d80338369e47525814478c7e5ee4d33a"
+      "sha256": "8844ecb3faa7806d4ed42142ededf9b49b9a7a34017fd3d4579707c09d4b1e7f"
     },
     {
       "path": "articles/025-agent-langfuse-from-trace-to-trustworthy-observability.md",
@@ -218,7 +218,7 @@
     },
     {
       "path": "articles/agent-thinking-fast-slow-research-needs.md",
-      "sha256": "906319b0dc6bd08605abe340a6d12683918606607652d88e859989856aa4da4f"
+      "sha256": "fef3467a08194828956c4e925eebfb3dacd40cbe584047f3fe6c889df7b36c8f"
     },
     {
       "path": "articles/agent-tool-lifecycle-and-model-input.md",
@@ -354,7 +354,7 @@
     },
     {
       "path": "en/articles/021-agent-web-research-from-search-to-deep-reading.md",
-      "sha256": "3f39bd467588539df427b3f057a5fe3e142b50be0e9842a8fce3f9922ec33f8d"
+      "sha256": "e6c91fa72082cef736b3e20f9d0dd6424e6846847be09f96947c0445561441f4"
     },
     {
       "path": "en/articles/022-agent-entry-from-intent-to-direct-research.md",
@@ -362,7 +362,7 @@
     },
     {
       "path": "en/articles/024-agent-pdf-from-text-to-evidence.md",
-      "sha256": "dfc5757ca1431791ae8aecf7762b4888807fadd27d79b64fa0f0c2132a0d8d81"
+      "sha256": "b10a15b2659a8c834fe10eea1b4af69ca3568fe0595e5137f53b6cd952ff0035"
     },
     {
       "path": "en/articles/025-agent-langfuse-from-trace-to-trustworthy-observability.md",
@@ -538,7 +538,7 @@
     },
     {
       "path": "en/articles/agent-thinking-fast-slow-research-needs.md",
-      "sha256": "f79472db5a665ede1ba9963dfd210b33f4aeaeea900a27b2eec7aa8fa42448a3"
+      "sha256": "cedbae2c2ef44e1ea180cec25eca6bd06bdf7773773bc6c127aadeff5197ff31"
     },
     {
       "path": "en/articles/agent-tool-lifecycle-and-model-input.md",
