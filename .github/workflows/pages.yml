@@ -54,6 +54,8 @@ jobs:
           BASE_PATH: ${{ steps.configurepages.outputs.base_path }}
       - name: Verify tag export URLs and pagination
         run: node scripts/check-tag-export.mjs out
+      - name: Verify RSS and sitemap URL normalization
+        run: node scripts/check-rss-output.mjs out
       # hpoenixf.com is served by this Pages deployment, not by the article repo.
       # Include the independent VitePress site as a real subdirectory before upload.
       - name: Checkout ETF Agent reader
