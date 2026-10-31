@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "43ef4154d08b55f80b40d41b92b1065e0ded2a94",
+  "commit": "0ecefed1a97b7c3a5d7716a00ad815659ceb988e",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "path": "articles/025-agent-langfuse-from-trace-to-trustworthy-observability.md",
-      "sha256": "c74bd717f075bfebb1562231b54863f086eb811c8d5c5c64edba54570c1a43d8"
+      "sha256": "3fd9f988684bd4eecc9cba50ec60f7f98bd3d2c01c5c648c11a1019d62013b26"
     },
     {
       "path": "articles/026-agent-memory-forget-durable-effects.md",
@@ -47,6 +47,10 @@
     {
       "path": "articles/027-agent-context-document-history.md",
       "sha256": "89046bced7646e5e0ccd633ea4f7f50bc8c9a33fbdf65e5b525a4345b2388f46"
+    },
+    {
+      "path": "articles/027-rag-revocation-publish-replay.md",
+      "sha256": "8a5fcce9d6ef5c8d92c8ad2443319e1b3e9600bf41d2818f35f282c93415f2de"
     },
     {
       "path": "articles/030-fintech-from-research-to-investment-advice.md",
@@ -169,6 +173,10 @@
       "sha256": "ba93d68661d5e1e4edb47c58c04808b2979a26fc4452b237756e699045312396"
     },
     {
+      "path": "articles/agent-provider-admission-capacity-lease.md",
+      "sha256": "2a2875762796f8c05ee021be102e01b46d5f9294b34074c3c148ddb8c28a7981"
+    },
+    {
       "path": "articles/agent-provider-architecture-and-admission.md",
       "sha256": "cb62392b1454fb94f727e1f239b060f654a6782e28de5098d94cac9c97da47f3"
     },
@@ -202,7 +210,7 @@
     },
     {
       "path": "articles/agent-subagent-context-specialization.md",
-      "sha256": "d0d4d753b05874f213e2f896643140b84ca20b34d2e2a32810d7221e3959bd76"
+      "sha256": "17727031d12f75cfd919ede296fcc52ddf7f2747f6ff9bf26c2f08643c5f1175"
     },
     {
       "path": "articles/agent-subagent-contribution-evidence.md",
@@ -231,6 +239,10 @@
     {
       "path": "articles/agent-veto-authority-and-run-termination.md",
       "sha256": "786a4e39601a9a9c2ef96023d56ba199ac21e171a6215fc0cf74613d284173df"
+    },
+    {
+      "path": "articles/agent-weekly-review-staged-delivery.md",
+      "sha256": "c57c869929239b25dd885e2f2bb39f0809b52bdadb529bf8c140d140b6e3d70b"
     },
     {
       "path": "articles/agent-weekly-thesis-history-continuous-research.md",
@@ -366,7 +378,7 @@
     },
     {
       "path": "en/articles/025-agent-langfuse-from-trace-to-trustworthy-observability.md",
-      "sha256": "1f2af80e2f6c3c2f7df70dcec1f263e5de6a2b968240e8bf1a3987132d8cec26"
+      "sha256": "39e33ca8dc9efcf299cb583a2c353e0053e8f4ac8714b0a82d8b7022105c9d2c"
     },
     {
       "path": "en/articles/026-agent-memory-forget-durable-effects.md",
@@ -381,6 +393,10 @@
       "sha256": "c72574e6dababf5b48d78b173b77d424afa7e6344a8a47084cd52c06b016f153"
     },
     {
+      "path": "en/articles/027-rag-revocation-publish-replay.md",
+      "sha256": "6a7f3c3a91818c3eb267662c35ec8324f9beedbac3ad1a7c15ee84b8772376c5"
+    },
+    {
       "path": "en/articles/030-fintech-from-research-to-investment-advice.md",
       "sha256": "5b74277b165fb54ea1c11e2de6bd966b1fbf41103cb9bc0b74d2ad1723ce6d37"
     },
@@ -391,6 +407,10 @@
     {
       "path": "en/articles/032-ai-development-from-bug-loop-to-task-convergence.md",
       "sha256": "50d1cfb44d822e8e23c537edbbc0e2b9bdef085e8f8dd83d994fe2f51f68d9ae"
+    },
+    {
+      "path": "en/articles/adaptive-research-python-workbench.md",
+      "sha256": "8daaa0692d640312b470346f88fcf7a4a8514e90d7f7d88326c1d2392c26cf6e"
     },
     {
       "path": "en/articles/agent-article-code-evidence-contract.md",
@@ -457,6 +477,10 @@
       "sha256": "09641ec9afcce53010310703cf02ca9dc2e0eebe8d5ebd4e05845472eda45a7a"
     },
     {
+      "path": "en/articles/agent-html-evolution-challenges.md",
+      "sha256": "f6c4f6b473d3492ce2f40fc36a4eb6aad60bbaf44695526477a391d266a1ac8c"
+    },
+    {
       "path": "en/articles/agent-in-15-minutes.md",
       "sha256": "b32d6f101ef56d6ad47dc7cbe232647ae5a8a283b712e70a5adc4efb3b388f0c"
     },
@@ -493,12 +517,20 @@
       "sha256": "76ac33a72a7790995651093081a279ddda34501ba0544120b57abdec43c928d1"
     },
     {
+      "path": "en/articles/agent-provider-admission-capacity-lease.md",
+      "sha256": "48657ae8eea41e3e5955c0107a930392b2c519382c7c46eacd5d9d8be99e959b"
+    },
+    {
       "path": "en/articles/agent-provider-architecture-and-admission.md",
       "sha256": "d4469c51fe1d20e1fa3101e3a73f0c22186f4de8991af308fefa75ff303ae336"
     },
     {
       "path": "en/articles/agent-provider-failover-without-resetting-the-run.md",
       "sha256": "b50db3cc755fdf139528aa09f232e61c9a87650201ce220628a127c082b29855"
+    },
+    {
+      "path": "en/articles/agent-python-compute-workbench-evolution.md",
+      "sha256": "3b1a415ad6ec87ca8479e4cd37cd7f9efa57ac9775f14c5dd02a27279edbaf40"
     },
     {
       "path": "en/articles/agent-report-cost-attribution.md",
@@ -522,7 +554,7 @@
     },
     {
       "path": "en/articles/agent-subagent-context-specialization.md",
-      "sha256": "b3caf0a13ad326cbc81c36db22be9805113356d50ed50897afa2e62cf5cc0528"
+      "sha256": "f152725ac29ee1b4cc9a38c8c212e6e278c6491facfb1df58eda17515e6eeb26"
     },
     {
       "path": "en/articles/agent-subagent-contribution-evidence.md",
@@ -551,6 +583,10 @@
     {
       "path": "en/articles/agent-veto-authority-and-run-termination.md",
       "sha256": "32093741981d5ce4cf71f5a90606b6c632a4b48d0c83034feecef70f7f0859ac"
+    },
+    {
+      "path": "en/articles/agent-weekly-review-staged-delivery.md",
+      "sha256": "d03430313e6929069c1eeda1702ff61c8cd883493a2570283e617688bd30a995"
     },
     {
       "path": "en/articles/agent-weekly-thesis-history-continuous-research.md",
