@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "290f82c17da0c9de93869496b86865eea5d98d25",
+  "commit": "2d37ecf0c6f7cc59ffa5e9c6371fcedc1fc94d57",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -86,11 +86,11 @@
     },
     {
       "path": "articles/agent-context-governance-actions.md",
-      "sha256": "0f8c7b53077e36355d627f99d3205c424306f8466d084f253d8e100f40b75dda"
+      "sha256": "b2d2ad32209924e42f2197efb649418dd381086f30c4930c84ab12e1a33b98d9"
     },
     {
       "path": "articles/agent-context-governance-principles.md",
-      "sha256": "5462b2569c1a91c77d5e81b2a3eedd7c5c3d597985c5a05d091f91b0928956f2"
+      "sha256": "4aebfe19b9552e91f8a4f4992ba3f9ac71aa6985cd1dcc5d2d3cf16c5b3ccfa0"
     },
     {
       "path": "articles/agent-control-events-durable-owner-adoption.md",
@@ -270,7 +270,7 @@
     },
     {
       "path": "articles/financial-agent-system-panorama.md",
-      "sha256": "0c3a3a552ba0b917afe58ee6b3a4ebcf0743d91ddd29767cee088eb616fdf1c2"
+      "sha256": "22212e2da8e4352959e62b6f1e39864570a536feea39da49c712ed0739987c29"
     },
     {
       "path": "articles/financial-agent-trustworthy-evidence-chain.md",
@@ -414,11 +414,11 @@
     },
     {
       "path": "en/articles/agent-context-governance-actions.md",
-      "sha256": "de6f1aca0212679b5aad3f015fa29470dea53880c37c7354e12c2b63fb266507"
+      "sha256": "a02ca3a8991b5658759668f39690e99f333f2f01c6457bd198ec344bf63171bd"
     },
     {
       "path": "en/articles/agent-context-governance-principles.md",
-      "sha256": "abf555a3506307ebd9fcb9ab83d464ee609aea247cbd9ed96397117f7c3e69d8"
+      "sha256": "04f9ca88f1c95f596f0bb76f3424638b6065ca50f947640d3f99545b4b037d88"
     },
     {
       "path": "en/articles/agent-control-events-durable-owner-adoption.md",
@@ -590,7 +590,7 @@
     },
     {
       "path": "en/articles/financial-agent-system-panorama.md",
-      "sha256": "7e368d82ffe18fa8c06a68fbb23a7980c63335a6ed59709ddeb6fb1fc0871e42"
+      "sha256": "1bfd21d96b015902242f0da65e40402af0b578f4a305f8a359a4edb539f79b9e"
     },
     {
       "path": "en/articles/honest-agent-evaluation.md",
