@@ -9,7 +9,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const siteUrl = siteMetadata.siteUrl.replace(/\/+$/, '')
 
   const blogRoutes = allBlogs
-    .filter((post) => !post.draft && isUnmergedPost(post))
+    .filter(
+      (post) =>
+        !post.draft &&
+        isUnmergedPost(post) &&
+        (!post.canonicalUrl || post.canonicalUrl === `${siteUrl}/${post.path}`)
+    )
     .map((post) => ({
       url: `${siteUrl}/${post.path}`,
       lastModified: post.lastmod || post.date,
