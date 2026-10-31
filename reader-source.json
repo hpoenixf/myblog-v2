@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "7a8b89b112474d9229e30c52c2a40184b3f7889f",
+  "commit": "815f6a8d07a2b5fd4dece4129d0d5c47a76edb4f",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -83,6 +83,14 @@
     {
       "path": "articles/agent-content-trust-prompt-injection.md",
       "sha256": "9eae7774eba95dbea0525ce56a4e6041d2d3cfe0fc7b9baaf0bfa4401fdf838e"
+    },
+    {
+      "path": "articles/agent-context-governance-actions.md",
+      "sha256": "0f8c7b53077e36355d627f99d3205c424306f8466d084f253d8e100f40b75dda"
+    },
+    {
+      "path": "articles/agent-context-governance-principles.md",
+      "sha256": "5462b2569c1a91c77d5e81b2a3eedd7c5c3d597985c5a05d091f91b0928956f2"
     },
     {
       "path": "articles/agent-control-events-durable-owner-adoption.md",
@@ -395,6 +403,14 @@
     {
       "path": "en/articles/agent-content-trust-prompt-injection.md",
       "sha256": "ba32491585645a1d33ea045fff121d05cd8076b938f5a2a6291581345981f4fd"
+    },
+    {
+      "path": "en/articles/agent-context-governance-actions.md",
+      "sha256": "de6f1aca0212679b5aad3f015fa29470dea53880c37c7354e12c2b63fb266507"
+    },
+    {
+      "path": "en/articles/agent-context-governance-principles.md",
+      "sha256": "abf555a3506307ebd9fcb9ab83d464ee609aea247cbd9ed96397117f7c3e69d8"
     },
     {
       "path": "en/articles/agent-control-events-durable-owner-adoption.md",
