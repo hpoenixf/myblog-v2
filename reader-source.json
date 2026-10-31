@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "8ae89cae6abfa547322f21c5df3c0e1297b01c4e",
+  "commit": "290f82c17da0c9de93869496b86865eea5d98d25",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -142,7 +142,7 @@
     },
     {
       "path": "articles/agent-main-run-context-compaction.md",
-      "sha256": "519805154812714785476c0d396f36f21c50354bb2c83f67b9e02e64acb162c0"
+      "sha256": "782492287200c725aec2789d1b3145059333f56332171f63f3efa753f6e6f451"
     },
     {
       "path": "articles/agent-model-capability-presentation-tool-surface.md",
@@ -202,7 +202,7 @@
     },
     {
       "path": "articles/agent-subagent-context-specialization.md",
-      "sha256": "b304890021c1924c1bb348103761a50cd721a311b40b8ba90cd6d0456ac1ce75"
+      "sha256": "d0d4d753b05874f213e2f896643140b84ca20b34d2e2a32810d7221e3959bd76"
     },
     {
       "path": "articles/agent-subagent-contribution-evidence.md",
@@ -306,7 +306,7 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "314f47e76119d36eab80e5a07c0b21cfb68631d663c79af1eb23af74ad46b523"
+      "sha256": "fbb1d7522371cf03fbbebaf8142fed660a802403c5796ec73d603bc353fa7c1e"
     },
     {
       "path": "articles/open-etf-agent-v010-system-design.md",
@@ -322,7 +322,7 @@
     },
     {
       "path": "articles/runtime-model-protocol-boundary-agent-article-v2.md",
-      "sha256": "28a0caf929115eba34905fe92a56ebafcbbc053aa546c0d9df3a6d2b8355612e"
+      "sha256": "d9921408f3feae03910c4aa11958aeede82c21ac64db402b455c70528ef0fceb"
     },
     {
       "path": "articles/test-lifecycle-refactoring-retirement-and-spec.md",
@@ -466,7 +466,7 @@
     },
     {
       "path": "en/articles/agent-main-run-context-compaction.md",
-      "sha256": "d4e14df7706b8378489149d5922218ff7e36bf983d8062c745659fd3f643d5a9"
+      "sha256": "42a50355088ffee4c4ae5fe7121efce5fd9d051e3edd8f6e1a9b1628f296de65"
     },
     {
       "path": "en/articles/agent-model-capability-presentation-tool-surface.md",
@@ -522,7 +522,7 @@
     },
     {
       "path": "en/articles/agent-subagent-context-specialization.md",
-      "sha256": "653a1958781cf8cdadf773467ccde841858f4e5bf34256ac4e40afb7d0f13bde"
+      "sha256": "b3caf0a13ad326cbc81c36db22be9805113356d50ed50897afa2e62cf5cc0528"
     },
     {
       "path": "en/articles/agent-subagent-contribution-evidence.md",
@@ -622,7 +622,7 @@
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "19c2ca02fbeeb52b53c0f0b90d067b5d90a22fd7370632bd4cd32ede2b5caa56"
+      "sha256": "6ed85f8cc70abe53dc0cfedb27bf0396d5ce88cfcba68a90d6c13c6d5ff87b90"
     },
     {
       "path": "en/articles/open-etf-agent-v010-system-design.md",
@@ -638,7 +638,7 @@
     },
     {
       "path": "en/articles/runtime-model-protocol-boundary-agent-article-v2.md",
-      "sha256": "7e414a0dffbb31a5c02fc459ab8326fb9f2cf3cf96383d4ca0732d647fd8d2bf"
+      "sha256": "07ddc934fdafebfa5e6be77e437e5a3163fc1e86c91b76dd9d1337be92eee9fc"
     },
     {
       "path": "en/articles/test-lifecycle-refactoring-retirement-and-spec.md",
