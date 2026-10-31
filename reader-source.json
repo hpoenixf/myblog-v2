@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "50acd33b5742787e7932972216b3dd8dc1e1feb7",
+  "commit": "be00c0d567407e256bd92d701a7614cfb1186799",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "path": "articles/020-agent-extension-host-smartphone.md",
-      "sha256": "796318fe3fddca621ce3db058f64dc474fd08ed9e6847dbf380bd5ba35eae49a"
+      "sha256": "9014cc6b46055e673347437b6dbd4e538c8d418b6140fb23b7053d30ae465411"
     },
     {
       "path": "articles/021-agent-web-research-from-search-to-deep-reading.md",
@@ -102,7 +102,7 @@
     },
     {
       "path": "articles/agent-custom-expert-from-prompt-to-recovery.md",
-      "sha256": "0e1479575fa60de5b05a3fded1e7d7c8a2de6eb07c7c10a34623addf77c5b2fc"
+      "sha256": "6dbb882901c3b2fc9756aa2496499e913f7370c2681690c6be0d30535373f437"
     },
     {
       "path": "articles/agent-differentiated-evolution-contracts.md",
@@ -350,7 +350,7 @@
     },
     {
       "path": "en/articles/020-agent-extension-host-smartphone.md",
-      "sha256": "55c67b998ed2cc295f2b8cd7802e3403dfb6f3b27dcaf26f7ef5463791c3d37c"
+      "sha256": "01d0c67ea28d09f6f48115c3fcbb776145608810fc547d91c8c79a89d6fc0470"
     },
     {
       "path": "en/articles/021-agent-web-research-from-search-to-deep-reading.md",
@@ -430,7 +430,7 @@
     },
     {
       "path": "en/articles/agent-custom-expert-from-prompt-to-recovery.md",
-      "sha256": "48fce080bc8531cc88cfc57d3e01400c5c022c7e3c9c7fd5006b738a1cdbaa46"
+      "sha256": "c2b0592650a984727e9a87c5611004570445c236f646fe55301ac980d5a60c14"
     },
     {
       "path": "en/articles/agent-differentiated-evolution-contracts.md",
