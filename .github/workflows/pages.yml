@@ -4,6 +4,8 @@ name: GitHub Pages
 on:
   push:
     branches: [main, candidate/blog-curation-20261029]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
