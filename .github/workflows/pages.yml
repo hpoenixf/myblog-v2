@@ -90,8 +90,10 @@ jobs:
           test -s out/eff-agent-article/en/feed.xml
           test -s out/eff-agent-article/generated/mermaid/manifest.json
           find out/eff-agent-article/generated/mermaid -maxdepth 1 -name '*.svg' | grep -q .
-          grep -q 'generated/mermaid/' out/eff-agent-article/articles/honest-agent-evaluation.html
-          grep -q 'generated/mermaid/' out/eff-agent-article/en/articles/honest-agent-evaluation.html
+          grep -q 'assets/four-axes\.' out/eff-agent-article/articles/honest-agent-evaluation.html
+          test -s out/eff-agent-article/visuals/panorama-evaluation/four-axes.svg
+          grep -q 'assets/four-axes\.' out/eff-agent-article/en/articles/honest-agent-evaluation.html
+          test -s out/eff-agent-article/visuals/en/panorama-evaluation/four-axes.svg
           grep -q 'github.com/hpoenixf/open-etf-agent' out/eff-agent-article/index.html
           grep -q 'github.com/hpoenixf/open-etf-agent' out/eff-agent-article/en/index.html
           test -s out/eff-agent-article/articles/022-agent-entry-from-intent-to-direct-research.html
