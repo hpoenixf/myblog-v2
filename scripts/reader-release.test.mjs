@@ -28,7 +28,7 @@ const homepages = [
   { path: 'en/index.md', htmlPath: 'en/index.html', url: baseUrl + 'en/' },
 ]
 const homepageHtml = (page) =>
-  `<html><head><link rel="canonical" href="${page.url}"></head><body>Home for ${page.path}<a href="/eff-agent-article/en/open-etf-agent">English</a><a href="/eff-agent-article/open-etf-agent?lang=zh">中文</a></body></html>`
+  `<html><head><link rel="canonical" href="${page.url}"></head><body>Home for ${page.path}<a href="/eff-agent-article/${page.path.startsWith('en/') ? 'en/' : ''}open-etf-agent">Topic</a><a href="/eff-agent-article/about">About</a></body></html>`
 const topics = ['open-etf-agent.md', 'en/open-etf-agent.md']
 const topicHtml = (path) =>
   html(path).replace(
@@ -325,5 +325,15 @@ test('topic gates reject data attributes and inert markup', () => {
       () => checkTopicHtml(wrap(topic.match(/<link\b[^>]*>/g).join('')), topics[0]),
       /canonical/
     )
+  }
+})
+
+test('homepage discovery requires its own language topic and the About tab', () => {
+  for (const page of homepages) {
+    const good = homepageHtml(page)
+    checkTopicEntry(good, page.path)
+    assert.throws(() => checkTopicEntry(good.replace('/eff-agent-article/about', '/about'), page.path), /topic entry/)
+    const own = '/eff-agent-article/' + (page.path.startsWith('en/') ? 'en/' : '') + 'open-etf-agent'
+    assert.throws(() => checkTopicEntry(good.replace(own, '/eff-agent-article/wrong'), page.path), /topic entry/)
   }
 })

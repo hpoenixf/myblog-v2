@@ -87,8 +87,10 @@ jobs:
           test -s out/eff-agent-article/index.html
           test -s out/eff-agent-article/en/index.html
           # The reviewed homepage must be SSR-rendered in both languages, not just present as client code.
-          grep -q 'home-overview' out/eff-agent-article/index.html
-          grep -q 'home-overview' out/eff-agent-article/en/index.html
+          grep -q 'recent-articles' out/eff-agent-article/index.html
+          grep -q 'recent-articles' out/eff-agent-article/en/index.html
+          test -s out/eff-agent-article/about.html
+          grep -q 'wechat-public-account.jpg' out/eff-agent-article/about.html
           test -s out/eff-agent-article/sitemap.xml
           test -s out/eff-agent-article/feed.xml
           test -s out/eff-agent-article/en/feed.xml

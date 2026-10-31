@@ -60,8 +60,8 @@ export function checkTopicHtml(html, path) {
 export function checkTopicEntry(html, path) {
   const anchors = activeElements(html, 'a')
   for (const target of [
-    '/eff-agent-article/en/open-etf-agent',
-    '/eff-agent-article/open-etf-agent?lang=zh',
+    '/eff-agent-article/' + (path.startsWith('en/') ? 'en/' : '') + 'open-etf-agent',
+    '/eff-agent-article/about',
   ]) {
     assert.ok(
       anchors.some((anchor) => anchor.href === target),
