@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "9fc5471bbeb671d7749a294137bf68540e248897",
+  "commit": "050084985b556f9abca6496c727cedf24b139b1a",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -197,6 +197,10 @@
       "sha256": "e214b1ff0c8de716101dbfacff3b19073a827f43da5dd65e2ee44e7bfc962a35"
     },
     {
+      "path": "articles/agent-research-workspace-goal-continuity.md",
+      "sha256": "a4112411c32dc648efe463905cebff54a9344ad46b0753b9a54c0b155b65b98e"
+    },
+    {
       "path": "articles/agent-runtime-constraint-governance-v2.md",
       "sha256": "b79a0db33cc9463dad9f5c7e53da3ebc7f3dc5f77b5f5cfb125284c6a612a5c9"
     },
@@ -210,7 +214,7 @@
     },
     {
       "path": "articles/agent-subagent-context-specialization.md",
-      "sha256": "17727031d12f75cfd919ede296fcc52ddf7f2747f6ff9bf26c2f08643c5f1175"
+      "sha256": "6c03597fbbdc411518a07e9273c34be4cd8438fa4b1d87dac6e82e74046053e3"
     },
     {
       "path": "articles/agent-subagent-contribution-evidence.md",
@@ -250,7 +254,7 @@
     },
     {
       "path": "articles/ai-citations-do-not-prove-reliability.md",
-      "sha256": "3961b7e7378629b7909fef149715d57a5dbb6a8320b03920fd753f736770819c"
+      "sha256": "357901737e2a1e563217d9053a6b2e5dd2ee33be1d49223062e87fe80abb4dc2"
     },
     {
       "path": "articles/ai-coding-judgment-and-verification.md",
@@ -298,7 +302,7 @@
     },
     {
       "path": "articles/honest-agent-evaluation.md",
-      "sha256": "9875a9d85982a222a5dff7b555ccc068d61d0972c0d4a5df4c759028a2ed01dd"
+      "sha256": "170c79f7d586aaaffeabad3df9bf7e39111c8590abd3de16fd40e3b476e4d112"
     },
     {
       "path": "articles/investment-perspectives-and-thesis-falsification.md",
@@ -549,6 +553,10 @@
       "sha256": "2be1e47d02bfebd3e44ffacfa9644a9eaa8729e437d7df09a65f02cc4052fd1c"
     },
     {
+      "path": "en/articles/agent-research-workspace-goal-continuity.md",
+      "sha256": "b9159df8f3bc3be18f7ff78fe841592f2e3d82aeb47624bdb1c8c48a667cdac0"
+    },
+    {
       "path": "en/articles/agent-runtime-constraint-governance-v2.md",
       "sha256": "b0496666348b4b69b593f8eae47bea4a800e77be9bc74f8a106aaf2bed88f770"
     },
@@ -562,7 +570,7 @@
     },
     {
       "path": "en/articles/agent-subagent-context-specialization.md",
-      "sha256": "f152725ac29ee1b4cc9a38c8c212e6e278c6491facfb1df58eda17515e6eeb26"
+      "sha256": "2bc9b934c4a3406d06901d0b49d9d536b9c5cf68f930fb20e32f7b0b5df9f1e4"
     },
     {
       "path": "en/articles/agent-subagent-contribution-evidence.md",
@@ -602,7 +610,7 @@
     },
     {
       "path": "en/articles/ai-citations-do-not-prove-reliability.md",
-      "sha256": "a6f51676794b518ced0905a05fdee97fae08c36922e4e0fe675b2df3a944d4b8"
+      "sha256": "63e1f1db7b88ded21e045cac153a3c19a5bc60e756b18e85651b0a847a939f8f"
     },
     {
       "path": "en/articles/ai-coding-judgment-and-verification.md",
@@ -646,7 +654,7 @@
     },
     {
       "path": "en/articles/honest-agent-evaluation.md",
-      "sha256": "03adcc3b61375b93650bcf804184e02054c9f34e663c98b74608b391807ae58a"
+      "sha256": "d992feee6c06e50e0664de7b9e788522e257118c681aea40e80227f88c6bf0e2"
     },
     {
       "path": "en/articles/investment-perspectives-and-thesis-falsification.md",
