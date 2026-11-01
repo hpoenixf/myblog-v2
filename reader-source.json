@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "1bb2901510b4fcb6c70afa63eb7e4d6aebd24573",
+  "commit": "cae66cfbee8cb5731027abc451620441afd29c77",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -287,6 +287,10 @@
     {
       "path": "articles/financial-agent-trustworthy-evidence-chain.md",
       "sha256": "5b42285457a6be9b6b4fad572183056e15af0da7d57584623bcfd67d1ee7c20f"
+    },
+    {
+      "path": "articles/financial-business-agent-trusted-handoff.md",
+      "sha256": "ed92284a8b26cb657e8b8a0e8b384446853b96bc17c8bbe4e8590ec9a7046569"
     },
     {
       "path": "articles/honest-agent-evaluation.md",
@@ -627,6 +631,10 @@
     {
       "path": "en/articles/financial-agent-system-panorama.md",
       "sha256": "7328ebfe8a4f6ef32ba60ec3bff2effda0e6b2b8e466bcddca7fbdfdee0f45fe"
+    },
+    {
+      "path": "en/articles/financial-business-agent-trusted-handoff.md",
+      "sha256": "c4934e3c40414649c85254375b9ba14c14323fca02d444590a08a98324f169be"
     },
     {
       "path": "en/articles/honest-agent-evaluation.md",
