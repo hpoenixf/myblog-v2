@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "050084985b556f9abca6496c727cedf24b139b1a",
+  "commit": "11d78c4c7655d607a98a5cae5a6470cf437b3556",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "eca042626e0175aaf88d5c423e553a623c43e6dbc6778d44e360274bef92302e"
+      "sha256": "bc6962dc7c02b2285e3a2118b4672d48631318339cf4944711787757cf749259"
     },
     {
       "path": "articles/019-agent-answer-publication.md",
@@ -62,11 +62,15 @@
     },
     {
       "path": "articles/032-ai-development-from-bug-loop-to-task-convergence.md",
-      "sha256": "5f11e97b8d3266253bb20b75043021eb9fe85c38ac3d611b08a2ed7617ff65af"
+      "sha256": "a04881c6949d8f2d7a77d35945a9a77be70679f7f4d5989e71dc6ee8ac3bd1eb"
     },
     {
       "path": "articles/adaptive-research-python-workbench.md",
       "sha256": "cebed23c6a97b9b97cf2ff10e2ef3cc100e42e5482ab46099147fa7d49428ef6"
+    },
+    {
+      "path": "articles/agent-action-reminder-coordination.md",
+      "sha256": "a9e2b983277bd70db26f405acf0ac76084f8cc01ea5be9dfd0f62a391a101ecf"
     },
     {
       "path": "articles/agent-article-code-evidence-contract.md",
@@ -366,7 +370,7 @@
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "d6eb3a9534ece635a700ee5d469fd92eae9552ef8b5dc7e4c8795b059444f360"
+      "sha256": "544fa731fd389da29ae6ba25ed0111f2f0b21e85c774481a7a3e44062d81f5ae"
     },
     {
       "path": "en/articles/019-agent-answer-publication.md",
@@ -418,11 +422,15 @@
     },
     {
       "path": "en/articles/032-ai-development-from-bug-loop-to-task-convergence.md",
-      "sha256": "50d1cfb44d822e8e23c537edbbc0e2b9bdef085e8f8dd83d994fe2f51f68d9ae"
+      "sha256": "ec3d2151d31b7dfe0589fd6542fedcbf4c183e90a853cf83d6e795db0a7ad3eb"
     },
     {
       "path": "en/articles/adaptive-research-python-workbench.md",
       "sha256": "8daaa0692d640312b470346f88fcf7a4a8514e90d7f7d88326c1d2392c26cf6e"
+    },
+    {
+      "path": "en/articles/agent-action-reminder-coordination.md",
+      "sha256": "a882e9c229dda074dc95b0f45b735a9db28ff395b886fd1e984645dd5a9eb490"
     },
     {
       "path": "en/articles/agent-article-code-evidence-contract.md",
