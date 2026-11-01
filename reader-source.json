@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "11d78c4c7655d607a98a5cae5a6470cf437b3556",
+  "commit": "27e4a425c641182a13eb40952f256654870d3ba1",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -254,7 +254,7 @@
     },
     {
       "path": "articles/agent-weekly-thesis-history-continuous-research.md",
-      "sha256": "e6509805c575660b51cb97b56cece35874e0dc6d0a9902d6d98a14614cf451ef"
+      "sha256": "04ceeb3fa70830332970c12efadb091199bf3f3b5493b0c53cc5929bf668c876"
     },
     {
       "path": "articles/ai-citations-do-not-prove-reliability.md",
@@ -270,7 +270,7 @@
     },
     {
       "path": "articles/code-cheaper-systems-harder-to-evolve.md",
-      "sha256": "490ee6e1cf630ad98b88fdbcb0ab8d8c7f7a7fbbe16ad6b915d09704ed1e8285"
+      "sha256": "88042e6384868e68367834f7993da7c4220f7ad23d9dd31457fa3918dada7bc4"
     },
     {
       "path": "articles/deepseek-superagent-continuous-research.md",
@@ -614,7 +614,7 @@
     },
     {
       "path": "en/articles/agent-weekly-thesis-history-continuous-research.md",
-      "sha256": "fa0e45292158f213a1e65528e43b3105d97acfafd80fff090daaea481d9f106d"
+      "sha256": "b9d489a9284bec28f4f448e3981cb39366c40e1de9cdb147d01eaf4cc6218770"
     },
     {
       "path": "en/articles/ai-citations-do-not-prove-reliability.md",
@@ -630,7 +630,7 @@
     },
     {
       "path": "en/articles/code-cheaper-systems-harder-to-evolve.md",
-      "sha256": "9b8ea3618e57bf216b22ea208c5afa9b56753e910b4d055f72fb20d0fd878e2f"
+      "sha256": "2d86dd5670e5f50dde28530db3003248981d0007210adea176c94ea410efc093"
     },
     {
       "path": "en/articles/deepseek-superagent-continuous-research.md",
