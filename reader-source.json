@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "cae66cfbee8cb5731027abc451620441afd29c77",
+  "commit": "04366acbbaeabc703a8b55997bee68a5ab6707cf",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -263,6 +263,10 @@
     {
       "path": "articles/code-cheaper-systems-harder-to-evolve.md",
       "sha256": "490ee6e1cf630ad98b88fdbcb0ab8d8c7f7a7fbbe16ad6b915d09704ed1e8285"
+    },
+    {
+      "path": "articles/deepseek-superagent-continuous-research.md",
+      "sha256": "ed69a6f2c2c217099d73d3bca75e634eec8697d8e4073a052fe861c82394a20c"
     },
     {
       "path": "articles/docs-code-tests-evolve-together.md",
@@ -611,6 +615,10 @@
     {
       "path": "en/articles/code-cheaper-systems-harder-to-evolve.md",
       "sha256": "9b8ea3618e57bf216b22ea208c5afa9b56753e910b4d055f72fb20d0fd878e2f"
+    },
+    {
+      "path": "en/articles/deepseek-superagent-continuous-research.md",
+      "sha256": "89a7312b94bf952db7dc3720f5edb9b01c09044fa185c603fc514f90b38c4cdc"
     },
     {
       "path": "en/articles/docs-code-tests-evolve-together.md",
