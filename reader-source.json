@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "27e4a425c641182a13eb40952f256654870d3ba1",
+  "commit": "223b9cd7a5b95fbb0b7ea61e6f909fea06c51ff3",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "path": "articles/025-agent-langfuse-from-trace-to-trustworthy-observability.md",
-      "sha256": "793329cdaf52ee0e8e55cb34093f156b40c4b6d0c50f79f60b112f6ec302ae15"
+      "sha256": "c3c46cec3646d904ef81097e835acf7c5ca25a124cdeda1bdf85453eeece5f64"
     },
     {
       "path": "articles/026-agent-memory-forget-durable-effects.md",
@@ -70,7 +70,7 @@
     },
     {
       "path": "articles/agent-action-reminder-coordination.md",
-      "sha256": "a9e2b983277bd70db26f405acf0ac76084f8cc01ea5be9dfd0f62a391a101ecf"
+      "sha256": "57b2563d4b4330fc6c0947a47701356e4dee0100d12cc9084eeb006c8aaa03fa"
     },
     {
       "path": "articles/agent-article-code-evidence-contract.md",
@@ -78,7 +78,7 @@
     },
     {
       "path": "articles/agent-asynchronous-research-time-bound-delivery.md",
-      "sha256": "548d789a9b2e04f694aae4c284d0dcc330818341303876a3e896bce2b25d16ff"
+      "sha256": "d14965f2d3e97cef7f9ddb281723dcae9a9fed5d618890fcfa8aff0999281cb2"
     },
     {
       "path": "articles/agent-autonomous-scheduled-research.md",
@@ -86,7 +86,7 @@
     },
     {
       "path": "articles/agent-background-research-collaborative-experience.md",
-      "sha256": "38f00cfb2eb3b21392df743f2bc1c9d0f900decca56c0e9c7371219275aa7cb1"
+      "sha256": "9c7d8dfd0d88f11c8edb85f7d7b63bfe6085b0401a6ab12b06ad5715d40b1868"
     },
     {
       "path": "articles/agent-content-trust-prompt-injection.md",
@@ -254,7 +254,7 @@
     },
     {
       "path": "articles/agent-weekly-thesis-history-continuous-research.md",
-      "sha256": "04ceeb3fa70830332970c12efadb091199bf3f3b5493b0c53cc5929bf668c876"
+      "sha256": "37dd79ac904492213d118128f58ab4b46369216f9f47152095a76e9c90058880"
     },
     {
       "path": "articles/ai-citations-do-not-prove-reliability.md",
@@ -274,7 +274,7 @@
     },
     {
       "path": "articles/deepseek-superagent-continuous-research.md",
-      "sha256": "ed69a6f2c2c217099d73d3bca75e634eec8697d8e4073a052fe861c82394a20c"
+      "sha256": "4ab86f21ceb874f8e28abab2773495c2c24dd01572db0a14d3f7148f80871ba5"
     },
     {
       "path": "articles/docs-code-tests-evolve-together.md",
@@ -394,7 +394,7 @@
     },
     {
       "path": "en/articles/025-agent-langfuse-from-trace-to-trustworthy-observability.md",
-      "sha256": "813cf8372ea5bb0ca004869fc8e09b58a4808049ba8526fb9f122a080d620f07"
+      "sha256": "11059190b4e628eec8e4d1433e4f68241f120b5e89ac09486f12f8c1a4725b35"
     },
     {
       "path": "en/articles/026-agent-memory-forget-durable-effects.md",
@@ -430,7 +430,7 @@
     },
     {
       "path": "en/articles/agent-action-reminder-coordination.md",
-      "sha256": "a882e9c229dda074dc95b0f45b735a9db28ff395b886fd1e984645dd5a9eb490"
+      "sha256": "0ca7f0fb49ccef91e5960dcb2003bc445c98c94f7932b251adbca64f4e8622f1"
     },
     {
       "path": "en/articles/agent-article-code-evidence-contract.md",
@@ -438,7 +438,7 @@
     },
     {
       "path": "en/articles/agent-asynchronous-research-time-bound-delivery.md",
-      "sha256": "e99acff07a1b571b7bfbf96e85342873f0acf5f8f0b208938aea3b04e01930f8"
+      "sha256": "5399c7f26bcca5ea4b1c61b5194b9a8b81e1554bedca64e18ae852a712c88c27"
     },
     {
       "path": "en/articles/agent-autonomous-scheduled-research.md",
@@ -446,7 +446,7 @@
     },
     {
       "path": "en/articles/agent-background-research-collaborative-experience.md",
-      "sha256": "714695859b4bb24904f9cc7a41ae9ab4c97b8c46467862cd85a5cda3272a1e0d"
+      "sha256": "6d4b23ae3218606d7634cb25535f9232373e50f26924e390073abef18ef46b6f"
     },
     {
       "path": "en/articles/agent-content-trust-prompt-injection.md",
@@ -614,7 +614,7 @@
     },
     {
       "path": "en/articles/agent-weekly-thesis-history-continuous-research.md",
-      "sha256": "b9d489a9284bec28f4f448e3981cb39366c40e1de9cdb147d01eaf4cc6218770"
+      "sha256": "9f3288c65db3cd874e078d6b861a931697ee4d07ee48fdcd23a314797aad0788"
     },
     {
       "path": "en/articles/ai-citations-do-not-prove-reliability.md",
@@ -634,7 +634,7 @@
     },
     {
       "path": "en/articles/deepseek-superagent-continuous-research.md",
-      "sha256": "89a7312b94bf952db7dc3720f5edb9b01c09044fa185c603fc514f90b38c4cdc"
+      "sha256": "1ea0c26252f1f63557c618184be0c252671752b597d3bd7b816cb9acda608309"
     },
     {
       "path": "en/articles/docs-code-tests-evolve-together.md",
