@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "fb4cd7f48c7e36b6416a5d513ea0660e7db1f064",
+  "commit": "21bae3501370d49e54218113cd4d95381af31334",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -359,6 +359,10 @@
     {
       "path": "articles/portfolio-mcp-readonly-investment-data.md",
       "sha256": "028797ca1d9e6a9c3575fbc337b2efc034335c1a752c068a408f60e4c1af7d9c"
+    },
+    {
+      "path": "articles/rag-end-to-end-system-panorama.md",
+      "sha256": "b03ce4f49638fce7e7e07bac17d988de28d30f14b47f1c47c9172d979e39ef7b"
     },
     {
       "path": "articles/rag-retrieval-evaluation-evidence.md",
@@ -735,6 +739,10 @@
     {
       "path": "en/articles/portfolio-mcp-readonly-investment-data.md",
       "sha256": "ecfcb2be4af74ab9d5002f5de85019fabe9427a0cc33ac90d464ca106828db37"
+    },
+    {
+      "path": "en/articles/rag-end-to-end-system-panorama.md",
+      "sha256": "c97b056bf60601bed03a34971e68a3ee1dcf57760968e88dd4adbbca6689c5a4"
     },
     {
       "path": "en/articles/rag-retrieval-evaluation-evidence.md",
