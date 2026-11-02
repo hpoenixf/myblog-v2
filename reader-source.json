@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "223b9cd7a5b95fbb0b7ea61e6f909fea06c51ff3",
+  "commit": "6810ba853e2a099ea94eee7f054d0e7b3a7e7081",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "bc6962dc7c02b2285e3a2118b4672d48631318339cf4944711787757cf749259"
+      "sha256": "44a755ef98805737659657f6b567a31134db08fe0f5dd53d493216d8ef7be5a0"
     },
     {
       "path": "articles/019-agent-answer-publication.md",
@@ -26,7 +26,7 @@
     },
     {
       "path": "articles/022-agent-entry-from-intent-to-direct-research.md",
-      "sha256": "1a897d45d01b04c3e7ecc465591fc6c05c231e4968a734f28d162c73c226dafb"
+      "sha256": "d8d47707cc3f37c4bbb4f0abf32a826a63800b7ba9dc3c4bdeedfc3a695ef8e3"
     },
     {
       "path": "articles/024-agent-pdf-from-text-to-evidence.md",
@@ -78,7 +78,7 @@
     },
     {
       "path": "articles/agent-asynchronous-research-time-bound-delivery.md",
-      "sha256": "d14965f2d3e97cef7f9ddb281723dcae9a9fed5d618890fcfa8aff0999281cb2"
+      "sha256": "660ebf30e29a8e42afebb70394389b546a9775dbf8322d0cd889391017d2bbed"
     },
     {
       "path": "articles/agent-autonomous-scheduled-research.md",
@@ -86,7 +86,7 @@
     },
     {
       "path": "articles/agent-background-research-collaborative-experience.md",
-      "sha256": "9c7d8dfd0d88f11c8edb85f7d7b63bfe6085b0401a6ab12b06ad5715d40b1868"
+      "sha256": "f51af89f414f9bbb34eb5b6a0a2d3733a8bbc2ffc0c600380876f6954e29fe23"
     },
     {
       "path": "articles/agent-content-trust-prompt-injection.md",
@@ -195,6 +195,10 @@
     {
       "path": "articles/agent-report-cost-attribution.md",
       "sha256": "03408075ce4667e76e49f2d468a8661c51db51721cee41f1d1f63a6cc72eadb7"
+    },
+    {
+      "path": "articles/agent-research-assets-identity-version-lifecycle.md",
+      "sha256": "33e54eba543452ec95016c8016d92f5ffd7fa679b024b70d9d2b5d735c570f42"
     },
     {
       "path": "articles/agent-research-evidence-store-lifecycle.md",
@@ -370,7 +374,7 @@
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "544fa731fd389da29ae6ba25ed0111f2f0b21e85c774481a7a3e44062d81f5ae"
+      "sha256": "dc42171d5dd944dac16f6556b795e7c7ccb473ab9bff1658d66876cd5d28e84e"
     },
     {
       "path": "en/articles/019-agent-answer-publication.md",
@@ -386,7 +390,7 @@
     },
     {
       "path": "en/articles/022-agent-entry-from-intent-to-direct-research.md",
-      "sha256": "3343e59a57258f818e9ff190b459b80ae25019e5d718d9019812a734cb498bf6"
+      "sha256": "a01dbc59b98d85c7d5698de4f3ec176f2a85c5587fd4a5a0db25a20ad7ad1029"
     },
     {
       "path": "en/articles/024-agent-pdf-from-text-to-evidence.md",
@@ -438,7 +442,7 @@
     },
     {
       "path": "en/articles/agent-asynchronous-research-time-bound-delivery.md",
-      "sha256": "5399c7f26bcca5ea4b1c61b5194b9a8b81e1554bedca64e18ae852a712c88c27"
+      "sha256": "2070aadfa3c36368e456422dd4f966d00f90e0905c84851b1f1104bf3be3b9a5"
     },
     {
       "path": "en/articles/agent-autonomous-scheduled-research.md",
@@ -446,7 +450,7 @@
     },
     {
       "path": "en/articles/agent-background-research-collaborative-experience.md",
-      "sha256": "6d4b23ae3218606d7634cb25535f9232373e50f26924e390073abef18ef46b6f"
+      "sha256": "e07067968bcb23fd883f6a0013b346e27f501be0b237d85e3f927a0aa029d8f1"
     },
     {
       "path": "en/articles/agent-content-trust-prompt-injection.md",
@@ -555,6 +559,10 @@
     {
       "path": "en/articles/agent-report-cost-attribution.md",
       "sha256": "2dcbcbe4f2f15363d10fef5a574b6e857c81f88eb42ccea5d7b871517be48e4f"
+    },
+    {
+      "path": "en/articles/agent-research-assets-identity-version-lifecycle.md",
+      "sha256": "ef517a470a7699aecb8375bcd7cf43bb539b0b48beca4d7e97598608d6e91f04"
     },
     {
       "path": "en/articles/agent-research-evidence-store-lifecycle.md",
