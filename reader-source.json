@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "28033808c3fc85d2d33d9a873123930c9a829d12",
+  "commit": "2a6c7dd31e892d3c257500b0979989d96fd942ff",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "path": "articles/027-rag-revocation-publish-replay.md",
-      "sha256": "4aa68048aed588a8e27467668a6ccee9a52224a894bffb815d052939de9487a5"
+      "sha256": "69cd93c4ea7461aa2b4d3c1009d55d7af7b0d5999159139b44385488e5642bc1"
     },
     {
       "path": "articles/030-fintech-from-research-to-investment-advice.md",
@@ -90,7 +90,7 @@
     },
     {
       "path": "articles/agent-autonomous-scheduled-research.md",
-      "sha256": "062775bc04f4929a5dbeaa4feabcc6701964fbd47d067a168eeb66749565094e"
+      "sha256": "b5f82b2333659f63569039ac231a3f08d2f812f91305a9d61267a288f85b66d7"
     },
     {
       "path": "articles/agent-background-research-collaborative-experience.md",
@@ -210,7 +210,7 @@
     },
     {
       "path": "articles/agent-provider-admission-capacity-lease.md",
-      "sha256": "4b226eec0fbb2b4b66c08e21a0029b79a8939775d081be5ed1d009162dc8421b"
+      "sha256": "ea7cd91a0ecd008f012bfb8384de16e57dc10db600f3a124f96dadd0d23ef663"
     },
     {
       "path": "articles/agent-provider-architecture-and-admission.md",
@@ -374,7 +374,7 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "c495be3f0a67e9e0fc49e2047f8eec165b8c8b44e243427178ca96e926838a44"
+      "sha256": "3899fb4af4840abbccd23aa6f15a9de72156032be66c2952071bbee5cf835208"
     },
     {
       "path": "articles/open-etf-agent-v010-system-design.md",
@@ -454,7 +454,7 @@
     },
     {
       "path": "en/articles/027-rag-revocation-publish-replay.md",
-      "sha256": "b0f1a65dc7789990130328a024e797bc2470c0b099b3ed86e385664b4d46b5e1"
+      "sha256": "0f0a166ef10ac2bf7c4a2a95dc550d50f6af287d77c80111a515d96220bb805a"
     },
     {
       "path": "en/articles/030-fintech-from-research-to-investment-advice.md",
@@ -486,7 +486,7 @@
     },
     {
       "path": "en/articles/agent-autonomous-scheduled-research.md",
-      "sha256": "5eec38bd2f918f74f931c1f42b58f9c608db0835b81ced76dc50c80f2673ded7"
+      "sha256": "0d7c304e4ef5dc5bd61970bf39015efef7f787e95fd811186873a2b9f29a80e1"
     },
     {
       "path": "en/articles/agent-background-research-collaborative-experience.md",
@@ -602,7 +602,7 @@
     },
     {
       "path": "en/articles/agent-provider-admission-capacity-lease.md",
-      "sha256": "c76b341cb4fd4c2d43c43cb56d8b6dbd2242f27a8a57316b19ac3cd4dc0e85f3"
+      "sha256": "8eceb3a9f587d7d2e84af07689051e38d46ddec8097e41a7ca6f2611a646aca3"
     },
     {
       "path": "en/articles/agent-provider-architecture-and-admission.md",
@@ -758,7 +758,7 @@
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "b2d7db4eb20bccff921efbe2564f61934ae30fac176e971a8ecfc1246229b219"
+      "sha256": "b3023dcfd650f22e8f8b7d5a55049eef6350625dc729d7d19426e0aac7cd5f7e"
     },
     {
       "path": "en/articles/open-etf-agent-v010-system-design.md",
