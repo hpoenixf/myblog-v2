@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "0535d430bf64f4cd045412436d4c86fb75dbba42",
+  "commit": "1a483326925923fb3ff55a51d6383fbccf580f48",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "path": "articles/025-agent-langfuse-from-trace-to-trustworthy-observability.md",
-      "sha256": "3cad23e970739507262a81c35f2ffd4585b7f33d07ed28f4edbedbc31ac97314"
+      "sha256": "69e6f041fc1dacf0ff6d91d4ee69585973f347ee16756599aeb5039eeafd6fa5"
     },
     {
       "path": "articles/026-agent-memory-forget-durable-effects.md",
@@ -126,7 +126,7 @@
     },
     {
       "path": "articles/agent-deterministic-fund-allocation.md",
-      "sha256": "db3784e286f7f85b619d61630e39e3c7f126149b0d1d2c1a2beda37de39aaa7a"
+      "sha256": "a696e13fcdaf5e0271e5d85853866810d6c947df57b5e576438721010ef35fe1"
     },
     {
       "path": "articles/agent-differentiated-evolution-contracts.md",
@@ -146,7 +146,7 @@
     },
     {
       "path": "articles/agent-failure-is-a-boundary-problem.md",
-      "sha256": "e5c4daf4dea7013e572453d3d5db675204faa1ba39ecd1dfd947a6f8f73bad15"
+      "sha256": "3d76564fee3c66e14bcde4dd09e18517be5bce2b2563e2b69d29c772b2f4c048"
     },
     {
       "path": "articles/agent-feedback-facts-not-automatic-learning.md",
@@ -213,12 +213,8 @@
       "sha256": "4862e00c2e4741f1bd0962b2f60fb0552376f48156a509ac83bd520542163598"
     },
     {
-      "path": "articles/agent-reliability-mechanisms-without-blocking-progress.md",
-      "sha256": "4fb389a85582f79f453f0ace23a1fcfd2e04b2189d33222f4ee9ff304e1db9bd"
-    },
-    {
       "path": "articles/agent-report-cost-attribution.md",
-      "sha256": "9b9fda49c66c5eed0daf8b74c8de8c9b7925eb52f7954511416a8e86ec686f09"
+      "sha256": "9c7dd25d45d149fea5265c0653235dc28017bbd174ef8d2c8356bb0013c0e149"
     },
     {
       "path": "articles/agent-research-assets-identity-version-lifecycle.md",
@@ -226,7 +222,7 @@
     },
     {
       "path": "articles/agent-research-evidence-store-lifecycle.md",
-      "sha256": "10cd29093287e4a4c2f2147f2c7eaab46fc2ce2da2b0cc1beac24900b55e351b"
+      "sha256": "054b40434816481926e3fd3a5c8e8397b7fec3faa54e44ad5538829ad11d20b9"
     },
     {
       "path": "articles/agent-research-workspace-goal-continuity.md",
@@ -238,7 +234,7 @@
     },
     {
       "path": "articles/agent-runtime-refactor-one-day-blocked.md",
-      "sha256": "bc4aaddd9f84f8441bb2a24ba289028abc6478e5cfcb4b7abece04cf28337577"
+      "sha256": "251d52d9c8e2866a672e306a0cc3eca094314774dd9974db83be36cd86ac032a"
     },
     {
       "path": "articles/agent-skill-from-markdown-to-callable-research.md",
@@ -246,7 +242,7 @@
     },
     {
       "path": "articles/agent-stream-tool-call-null-continuation.md",
-      "sha256": "180e8e735d747e1293c60f2c9f0f13f8c4e6e0993d887ed62008b20b1b643239"
+      "sha256": "ebdcebd8d82c447a40c881e2f4802a2213294e46de936b5272f0d08400981758"
     },
     {
       "path": "articles/agent-subagent-context-specialization.md",
@@ -254,7 +250,7 @@
     },
     {
       "path": "articles/agent-subagent-contribution-evidence.md",
-      "sha256": "b1f0e234ef49ccb0fd2401d569264f2d7827dd91eaed84bda876daf82bbbf48d"
+      "sha256": "5187da6ac0f9e3b34e29fd3cc9e020a6f65e6ad4d9dacf2521b360e5809f5b72"
     },
     {
       "path": "articles/agent-temporal-semantics-market-calendar.md",
@@ -273,12 +269,8 @@
       "sha256": "d16cfe505bda6e80ad9c949d1d273f921b80f4fb450e45f2e22066e647290d40"
     },
     {
-      "path": "articles/agent-trace-complete-observation-gaps.md",
-      "sha256": "007ae86aae0303b5165eb15388cb483fce1d6c4681e6f7851c5f845c541fdfe6"
-    },
-    {
       "path": "articles/agent-veto-authority-and-run-termination.md",
-      "sha256": "f94492c3f9a4f025a8157177dbeccaecebcd81258a2d37a4a26f1f6372b8686c"
+      "sha256": "f9726206a21600b99440c5b4881ca70c9f49c1f8dd8fcbbd7cff8dd46a412917"
     },
     {
       "path": "articles/agent-weekly-review-staged-delivery.md",
@@ -302,7 +294,7 @@
     },
     {
       "path": "articles/code-cheaper-systems-harder-to-evolve.md",
-      "sha256": "c1c368c30e7248a9a7235a21e35ef174388eb0cd8572c308f2dfeeedc99dc878"
+      "sha256": "f1474e7ef784d47a18368998e6e6b56b32088a10f1addae03c22e6e26c053190"
     },
     {
       "path": "articles/deepseek-superagent-continuous-research.md",
@@ -310,7 +302,7 @@
     },
     {
       "path": "articles/docs-code-tests-evolve-together.md",
-      "sha256": "0dc57ddd3a357d4227c49a67b39cef5e29407470d0ad5b5de67784f91317eb37"
+      "sha256": "4857835ba39b756eb0c0abb48088b883e52e62e7d751c39e397307d7037217ab"
     },
     {
       "path": "articles/etf-agent-framework-comparison-panorama.md",
@@ -342,11 +334,11 @@
     },
     {
       "path": "articles/honest-agent-evaluation.md",
-      "sha256": "100d93a340db9c9a88291284565e80ed3be26f14c5023395b4d08aa859adc3c9"
+      "sha256": "a0d3ade882b448dfab674849b24ed5507dd2482350cd54553f64432f4608dd10"
     },
     {
       "path": "articles/investment-perspectives-and-thesis-falsification.md",
-      "sha256": "18198dd167e763b4aff7f8453fcb268e5eb9e8b397d24fa0c9ce660c513d9942"
+      "sha256": "1aa61d8107707abc4cc06851c4bc1be0527d8045b4c44daa19863608e1b759d0"
     },
     {
       "path": "articles/local-improvement-is-not-system-progress.md",
@@ -359,10 +351,6 @@
     {
       "path": "articles/mcp-market-responsibility-retrospective.md",
       "sha256": "41831ca1a67ced132fe50e3ddba2bf63ac72657b2477e26b5781288f42f247ca"
-    },
-    {
-      "path": "articles/multi-layer-agent-collaboration-outlook.md",
-      "sha256": "7fada83099b76b7bdd1c8d5059ab1a1af394f13c0d62a06dff01ee0f43eb6ab6"
     },
     {
       "path": "articles/one-report-nine-architecture-judgments.md",
@@ -391,10 +379,6 @@
     {
       "path": "articles/runtime-model-protocol-boundary-agent-article-v2.md",
       "sha256": "a88ec64c40d98a2c42bfc7c13b4cc4cc8f1015cd20dd7cc43ef56a7e80624851"
-    },
-    {
-      "path": "articles/test-lifecycle-refactoring-retirement-and-spec.md",
-      "sha256": "b81b1a80af3742ffe0eaa2145ff9ca4d4d6f63992232a07bad5882ce806f69fe"
     },
     {
       "path": "articles/tool-results-outside-model-context.md",
@@ -438,7 +422,7 @@
     },
     {
       "path": "en/articles/025-agent-langfuse-from-trace-to-trustworthy-observability.md",
-      "sha256": "8caf88a5c2ea7192ddc4fbcef033ea12a994c471a67815d6dd6c5a1b9fc8dbc1"
+      "sha256": "ed7ff00c40d60404796479c927693bb8c7e5da9dd33f2aa928eb561fd0756d34"
     },
     {
       "path": "en/articles/026-agent-memory-forget-durable-effects.md",
@@ -530,7 +514,7 @@
     },
     {
       "path": "en/articles/agent-deterministic-fund-allocation.md",
-      "sha256": "7ac9c7f4f898f7c9de6e1e05b09cddbe690093da79219d642a851896d08472b2"
+      "sha256": "15ea2d4b4c6c48e49329fbd8830347fe7813f20c52b0dc848a58faf1e2190e24"
     },
     {
       "path": "en/articles/agent-differentiated-evolution-contracts.md",
@@ -550,7 +534,7 @@
     },
     {
       "path": "en/articles/agent-failure-is-a-boundary-problem.md",
-      "sha256": "81fe32345f19c87c9f0e64b8d84e8b8e17e410e8d965b3c1f4c09f9a790ebac0"
+      "sha256": "43f00fb2dab4acbe1704d8aa3e0810ac27019e55dda4b0f2a81c658e004dab9c"
     },
     {
       "path": "en/articles/agent-feedback-facts-not-automatic-learning.md",
@@ -617,12 +601,8 @@
       "sha256": "db545dbfc0a2e54539eb258dba98364c2bda0cd20cc0aa4fa802dafa12b6bbcc"
     },
     {
-      "path": "en/articles/agent-reliability-mechanisms-without-blocking-progress.md",
-      "sha256": "6ebf5796340a87e688d5ecc428976b95dab471b91001dd54076fa8e25e96c476"
-    },
-    {
       "path": "en/articles/agent-report-cost-attribution.md",
-      "sha256": "ccc3931c858c65aee2650192668e03ffc83b1ef9e8b7ba750545aa655fa61cf9"
+      "sha256": "827abe1bbf1338a9135a0088175b2aa2e7bc0e4a8d7598f9e2ca0d9b0fdcfeb3"
     },
     {
       "path": "en/articles/agent-research-assets-identity-version-lifecycle.md",
@@ -630,7 +610,7 @@
     },
     {
       "path": "en/articles/agent-research-evidence-store-lifecycle.md",
-      "sha256": "b4251b2927a1aa22a4e269a65b977f05ab4c4c2fcce21d7d873d0fbb3c9b2eec"
+      "sha256": "7ae0dda13583df51a6c283f8d9c17cce1306d691f81bcf12945e242e2e983155"
     },
     {
       "path": "en/articles/agent-research-workspace-goal-continuity.md",
@@ -642,7 +622,7 @@
     },
     {
       "path": "en/articles/agent-runtime-refactor-one-day-blocked.md",
-      "sha256": "94f34da69935b0791d901146b4ec66a604a9a764baa631c7cd0dbd6060d12074"
+      "sha256": "f613c5b2e44260b8cbbf0c0cb4351ebca857e9cd70196b40024d740c12676334"
     },
     {
       "path": "en/articles/agent-skill-from-markdown-to-callable-research.md",
@@ -650,7 +630,7 @@
     },
     {
       "path": "en/articles/agent-stream-tool-call-null-continuation.md",
-      "sha256": "769ba95577d3de45cdf51fe2dc038e234221c9acd3eaa96331b1c5619a3400f7"
+      "sha256": "cd5f1669f2459755a1e901d02141feb80e6182b1480223b893438c5a046613f3"
     },
     {
       "path": "en/articles/agent-subagent-context-specialization.md",
@@ -658,7 +638,7 @@
     },
     {
       "path": "en/articles/agent-subagent-contribution-evidence.md",
-      "sha256": "69e214d3c9674e91925493066b3462d42f2398778d680272a48c68145beb5775"
+      "sha256": "8fc4d373f48c1ecdd7b4348741948a7aa100f4ff835c20fc4610b6620b5d16dd"
     },
     {
       "path": "en/articles/agent-temporal-semantics-market-calendar.md",
@@ -677,12 +657,8 @@
       "sha256": "b51417779a76651da84d9a71bb6a1c7cd1d7c8cfd22c3baf87913324cb83a245"
     },
     {
-      "path": "en/articles/agent-trace-complete-observation-gaps.md",
-      "sha256": "6ee7109978aeccbf4bf1ddb290df8bc9550c7ef8956e3a0528529d3b53e7b9b8"
-    },
-    {
       "path": "en/articles/agent-veto-authority-and-run-termination.md",
-      "sha256": "e6e28e2e3e8c9a7ac287e73b08e6ea093affa21fa92e7cf76a895addd7506999"
+      "sha256": "b9c18fb94fec479b0212275f27932c272e1d243c36eaad5fe61cc0cbdbd47720"
     },
     {
       "path": "en/articles/agent-weekly-review-staged-delivery.md",
@@ -706,7 +682,7 @@
     },
     {
       "path": "en/articles/code-cheaper-systems-harder-to-evolve.md",
-      "sha256": "e4a6696d2c34a372af8f20f23252de8247cfb73def737ebbb1b5c3762f8cdaf2"
+      "sha256": "fd11323eb99ae3a6341d27b9fb6f403861aa65f89c927503f99404ffe35ffd34"
     },
     {
       "path": "en/articles/deepseek-superagent-continuous-research.md",
@@ -714,7 +690,7 @@
     },
     {
       "path": "en/articles/docs-code-tests-evolve-together.md",
-      "sha256": "d349bdd560b0fcab4a9a4fba86bae67ea0f7331c06780ac306f8c62dea528d40"
+      "sha256": "00b662c756b8bdaaf19b4f9ccd23498d12e4dd0fb29bc376f98dbae28f1727a4"
     },
     {
       "path": "en/articles/etf-agent-framework-comparison-panorama.md",
@@ -742,11 +718,11 @@
     },
     {
       "path": "en/articles/honest-agent-evaluation.md",
-      "sha256": "5244c9088e060bbba1522cd9d10aa209728e266e8c26334bbc8f04a03c281aa9"
+      "sha256": "986070857621c64980bd9d48e1631cf7b1258f3461bcec4eab039dc24dbeefc5"
     },
     {
       "path": "en/articles/investment-perspectives-and-thesis-falsification.md",
-      "sha256": "c9465f8fbe031e0d285b39809e5cb07305e284450cff700eabcfb11e7cb78e68"
+      "sha256": "6a2705f6f954253068eebeac4a61274a13ea827e23b9b8138582a55fab2a4619"
     },
     {
       "path": "en/articles/local-improvement-is-not-system-progress.md",
@@ -759,10 +735,6 @@
     {
       "path": "en/articles/mcp-market-responsibility-retrospective.md",
       "sha256": "3abc3dd67cee437bb71f5de642032b36ba1669d7da2ba1110ab33599a667003a"
-    },
-    {
-      "path": "en/articles/multi-layer-agent-collaboration-outlook.md",
-      "sha256": "ea2501c87d6a0eda86431533c10f647a6b0c3dfcfd606c3e0ce973d77e7cfb7b"
     },
     {
       "path": "en/articles/one-report-nine-architecture-judgments.md",
@@ -791,10 +763,6 @@
     {
       "path": "en/articles/runtime-model-protocol-boundary-agent-article-v2.md",
       "sha256": "eb7311ad4043bb88e09cbb60273ead66c063b9ba8f00a0fd30ffbe6fda56910d"
-    },
-    {
-      "path": "en/articles/test-lifecycle-refactoring-retirement-and-spec.md",
-      "sha256": "1893c8aa7fb590147314e0e2247c96d536b05ca6996352a6a16b1804f8b1d0c5"
     },
     {
       "path": "en/articles/tool-results-outside-model-context.md",
