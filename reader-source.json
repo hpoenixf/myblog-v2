@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "6810ba853e2a099ea94eee7f054d0e7b3a7e7081",
+  "commit": "b3fbae374efa6acc6d6069b4090d1ade82c9fef1",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -215,6 +215,10 @@
     {
       "path": "articles/agent-runtime-refactor-one-day-blocked.md",
       "sha256": "86eca6a9ba1350fc8d953e37cdb03d69ea7d0a9a32bf550091b0290097c10680"
+    },
+    {
+      "path": "articles/agent-skill-from-markdown-to-callable-research.md",
+      "sha256": "3dde6214d059710b1855b886f4bdbac5813f83f72d22862738ff19c1e683e428"
     },
     {
       "path": "articles/agent-stream-tool-call-null-continuation.md",
@@ -579,6 +583,10 @@
     {
       "path": "en/articles/agent-runtime-refactor-one-day-blocked.md",
       "sha256": "2d136cac1a5946be8a0cd0ba35d1b4263ed5b4486b9695dcd1dcebc0e2efabdf"
+    },
+    {
+      "path": "en/articles/agent-skill-from-markdown-to-callable-research.md",
+      "sha256": "2f8288ffd9a5da253eb08d31728f99222628709e3b54dc4c4f55e2dc7765717e"
     },
     {
       "path": "en/articles/agent-stream-tool-call-null-continuation.md",
