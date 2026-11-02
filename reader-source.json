@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "d9a21cbc630e6b82f102ada9a597e62a42b2b5ac",
+  "commit": "7ede3f60eb18e3c7dbe6f529fe32af2d0d883716",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "407a5538f893f3bd8301263a9781d636b011a34e7a21ac3fb1caec240a5571de"
+      "sha256": "55f6bb8b9b77ea89cd8b20eed55e94f7380571f9e197ed0897e3d1ad2a3a1e0d"
     },
     {
       "path": "articles/019-agent-answer-publication.md",
@@ -143,6 +143,10 @@
     {
       "path": "articles/agent-in-15-minutes.md",
       "sha256": "c2c2bb18f78dc8969caa200bd07dda2d94c11262e416fd83074ca6729aeaac5a"
+    },
+    {
+      "path": "articles/agent-knowledge-retrieval-end-to-end.md",
+      "sha256": "4c154e8e053014e37b81d12ad9e9e0f40f333a23076c29bf19ee55e89f7f8a3c"
     },
     {
       "path": "articles/agent-long-horizon-research-panorama.md",
@@ -386,7 +390,7 @@
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "65a7165fae21286011e74aa8fb2b3f7659218d016c504b5c0d7cd332116cfd32"
+      "sha256": "cdd13acebd8a3d5b179276fc12623277bed4a85ec4d55490479a38cc1908bdd4"
     },
     {
       "path": "en/articles/019-agent-answer-publication.md",
@@ -519,6 +523,10 @@
     {
       "path": "en/articles/agent-in-15-minutes.md",
       "sha256": "013f16bfffbf11574a3d71300e4306f9a2f5f757a135e5f982871206e9c5e281"
+    },
+    {
+      "path": "en/articles/agent-knowledge-retrieval-end-to-end.md",
+      "sha256": "8fb174035b15983cb50f0db6ad716f07e4ee60cb413d495c6a5c8f70bc4714d3"
     },
     {
       "path": "en/articles/agent-long-horizon-research-panorama.md",
