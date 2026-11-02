@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "b3fbae374efa6acc6d6069b4090d1ade82c9fef1",
+  "commit": "4a9c1f96a6df199f18616e7cc76932460153cd66",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "44a755ef98805737659657f6b567a31134db08fe0f5dd53d493216d8ef7be5a0"
+      "sha256": "5a349258bfec7b0af11600838771293d02b684a5a45ef833932af6b526e3dd0f"
     },
     {
       "path": "articles/019-agent-answer-publication.md",
@@ -378,7 +378,7 @@
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "dc42171d5dd944dac16f6556b795e7c7ccb473ab9bff1658d66876cd5d28e84e"
+      "sha256": "755ba03e20bb2ff8ed564d9b47d4fe585ceb6204b8b846dfdfc245f5a346600f"
     },
     {
       "path": "en/articles/019-agent-answer-publication.md",
