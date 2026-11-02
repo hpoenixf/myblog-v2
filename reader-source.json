@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "1a483326925923fb3ff55a51d6383fbccf580f48",
+  "commit": "28033808c3fc85d2d33d9a873123930c9a829d12",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -69,12 +69,20 @@
       "sha256": "5397c04f60ac77dfa34f9a1f6f13bca6e5a9594a23e21eaf7eb43e405162a718"
     },
     {
+      "path": "articles/agent-account-identity-private-scope.md",
+      "sha256": "ca55adadd7613ba0ebaee5026af6d762da6705471cd3daecda743b89a1cc030f"
+    },
+    {
       "path": "articles/agent-action-reminder-coordination.md",
       "sha256": "c4f7961aeae6500b74ababa137c12391ed86ebaef0534425222ed3339a32c90e"
     },
     {
       "path": "articles/agent-article-code-evidence-contract.md",
       "sha256": "41a9aae552af152a46cbc03e57ed0e019feb5efce0aedd4dfba7168f39bef3c1"
+    },
+    {
+      "path": "articles/agent-artifact-version-access-sharing.md",
+      "sha256": "a837c58cbd87bc0385af76747220a84e4de5a7608b15a429a27acaadfc281890"
     },
     {
       "path": "articles/agent-asynchronous-research-time-bound-delivery.md",
@@ -193,6 +201,10 @@
       "sha256": "35c10a4d094c522ec6befd74bf9be742cb765ac4c6c2b05a98e46e177510372a"
     },
     {
+      "path": "articles/agent-personalized-daily-research-cache.md",
+      "sha256": "ee7eb2f66b6ac760a4ff83f7cca132f48bde1204e8d6b2300b6e2852e8b17612"
+    },
+    {
       "path": "articles/agent-progressive-answer-coherence.md",
       "sha256": "7772fa7361f2f9227e9408b9f60ef5c7819fdb68391c5876c5782c7228a241e4"
     },
@@ -219,6 +231,10 @@
     {
       "path": "articles/agent-research-assets-identity-version-lifecycle.md",
       "sha256": "4a88e65750c36f2de8e84ba1e781b282b73e5c03462d6226c52271dbde116585"
+    },
+    {
+      "path": "articles/agent-research-decisions-evidence-synthesis.md",
+      "sha256": "3327d5aa0ce5981a6d3597ca665a18a061b71aaa37e7ac9bf579dc05af03b201"
     },
     {
       "path": "articles/agent-research-evidence-store-lifecycle.md",
