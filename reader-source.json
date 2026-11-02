@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "20e0472ef823726bea692c853b75b114d6b7ef40",
+  "commit": "9757920d16b9acc35b589b2c84ccbd4ed4e46cc3",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "55f6bb8b9b77ea89cd8b20eed55e94f7380571f9e197ed0897e3d1ad2a3a1e0d"
+      "sha256": "d197e60cc820c8abbe328fb241ad1cbd216e98b5adeb0e560bf25b9e28e1ecf7"
     },
     {
       "path": "articles/019-agent-answer-publication.md",
@@ -87,6 +87,14 @@
     {
       "path": "articles/agent-background-research-collaborative-experience.md",
       "sha256": "58c11815e7bfa76f7f5e6634a79e0b4af811bf671b41c5bef3636f93ac8fd2a5"
+    },
+    {
+      "path": "articles/agent-client-interaction-and-reading.md",
+      "sha256": "557e8514150c87cb4998a9d7d54844cc0321303d0bc178c8fb78fa59e2ad58a4"
+    },
+    {
+      "path": "articles/agent-client-interaction-panorama.md",
+      "sha256": "c32ce1ae338099b1c66969dde473a10da709c24081c97ba2b29722d23a74076d"
     },
     {
       "path": "articles/agent-content-trust-prompt-injection.md",
@@ -394,7 +402,7 @@
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "cdd13acebd8a3d5b179276fc12623277bed4a85ec4d55490479a38cc1908bdd4"
+      "sha256": "018a66d0c996e7c2356664e11a547ed7cd857ce01860952ad6a537d9a06c39c2"
     },
     {
       "path": "en/articles/019-agent-answer-publication.md",
@@ -471,6 +479,14 @@
     {
       "path": "en/articles/agent-background-research-collaborative-experience.md",
       "sha256": "18d957d9590474628ef951ba1675c8ee9a18c992bc3ac14601d99d82ecce9163"
+    },
+    {
+      "path": "en/articles/agent-client-interaction-and-reading.md",
+      "sha256": "26c32a4cdaabf5f63dcaf5a29acdabfbd21b2f1644edd5bd17ebe2390737303c"
+    },
+    {
+      "path": "en/articles/agent-client-interaction-panorama.md",
+      "sha256": "47a68e026dec028225a7dc12eadecf873dbebd6eaf2d0b5696c5cfe30add02a5"
     },
     {
       "path": "en/articles/agent-content-trust-prompt-injection.md",
