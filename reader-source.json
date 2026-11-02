@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "3ef86afb773290fc7c50f93b983f6153478c1df8",
+  "commit": "31b6fcb78c032a85b77b55ba66db007011d552e6",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -211,6 +211,10 @@
     {
       "path": "articles/agent-python-compute-workbench-evolution.md",
       "sha256": "4862e00c2e4741f1bd0962b2f60fb0552376f48156a509ac83bd520542163598"
+    },
+    {
+      "path": "articles/agent-reliability-mechanisms-without-blocking-progress.md",
+      "sha256": "4fb389a85582f79f453f0ace23a1fcfd2e04b2189d33222f4ee9ff304e1db9bd"
     },
     {
       "path": "articles/agent-report-cost-attribution.md",
@@ -611,6 +615,10 @@
     {
       "path": "en/articles/agent-python-compute-workbench-evolution.md",
       "sha256": "db545dbfc0a2e54539eb258dba98364c2bda0cd20cc0aa4fa802dafa12b6bbcc"
+    },
+    {
+      "path": "en/articles/agent-reliability-mechanisms-without-blocking-progress.md",
+      "sha256": "6ebf5796340a87e688d5ecc428976b95dab471b91001dd54076fa8e25e96c476"
     },
     {
       "path": "en/articles/agent-report-cost-attribution.md",
