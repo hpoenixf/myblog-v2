@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "9757920d16b9acc35b589b2c84ccbd4ed4e46cc3",
+  "commit": "148be6f71f546b2993108e9e44e4716378302094",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
       "path": "articles/011-model-understands-code-authorizes.md",
-      "sha256": "662d810f69449cb2753a40a6481105dc5a4219198f6d4ec2c7f25ed6a23d3ec8"
+      "sha256": "0473e5ed9566c0d4d7ee7cbce4205dcb4f9f7a6b8a54045d1a2ca0f4cc2ec18c"
     },
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "d197e60cc820c8abbe328fb241ad1cbd216e98b5adeb0e560bf25b9e28e1ecf7"
+      "sha256": "3eff8691ebbe163be1d47ff2add5ca059425547be6ef05999ad31a866a358650"
     },
     {
       "path": "articles/019-agent-answer-publication.md",
@@ -113,12 +113,20 @@
       "sha256": "5b2cdd8ca86ae347a4d66ea5da08ac5f8139a480fffc84f9ca7a90d9fa4e8537"
     },
     {
+      "path": "articles/agent-conversation-admission-task-continuation.md",
+      "sha256": "c5a262afb0cd43dd030484ccca28ce7b315ee9959c1383749a1b8cadee375fff"
+    },
+    {
       "path": "articles/agent-conversation-history-compaction-source-boundaries.md",
       "sha256": "93bf167e84ce722a1b8bbc52521e89b480eaca6982590476c892a63b126ecf1a"
     },
     {
       "path": "articles/agent-custom-expert-from-prompt-to-recovery.md",
       "sha256": "8cbe6543396ffd3b4fd1cda017dfb839dd1d1c80b97b74ff282960549940e7b8"
+    },
+    {
+      "path": "articles/agent-deterministic-fund-allocation.md",
+      "sha256": "7e9d5a8560dc38b7a092fb155e281c2ca00cefccdb893b6f6d8c3d6bec8dec19"
     },
     {
       "path": "articles/agent-differentiated-evolution-contracts.md",
@@ -398,11 +406,11 @@
     },
     {
       "path": "en/articles/011-model-understands-code-authorizes.md",
-      "sha256": "049a8a75b788b185dec39df9e531bc71c70c2a3f34698b7af5bce581e3d2d353"
+      "sha256": "2480b6d3924694c91134c1abfd375185572e1ef1e9972b48be6a934c5bdf90d7"
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "018a66d0c996e7c2356664e11a547ed7cd857ce01860952ad6a537d9a06c39c2"
+      "sha256": "e8e457af048c8f7fd1525ab2a1e058117898f8224047b719b83a905218c70cc9"
     },
     {
       "path": "en/articles/019-agent-answer-publication.md",
@@ -505,12 +513,20 @@
       "sha256": "0c980268c8c7397fa849943540abc963bd63e426ec4ca67ad2c3d8e70b8a3063"
     },
     {
+      "path": "en/articles/agent-conversation-admission-task-continuation.md",
+      "sha256": "518f24e79c73424c85f0c22372bcf06b26fd56ddb762c04c2bdaf90d5abe8251"
+    },
+    {
       "path": "en/articles/agent-conversation-history-compaction-source-boundaries.md",
       "sha256": "a03101a3062023dfab19e8c30dd6afcae3bcf7e8810fdb051e049ee9fc8d2f93"
     },
     {
       "path": "en/articles/agent-custom-expert-from-prompt-to-recovery.md",
       "sha256": "3907babe419b58ed6ed2227c93959f86c0373dcedfc7dd743f444f18c42a5ee1"
+    },
+    {
+      "path": "en/articles/agent-deterministic-fund-allocation.md",
+      "sha256": "c62d3703098d164b3ec7dddb81cc8efa85eedc7974fb5cf65d044611c3d7f9b3"
     },
     {
       "path": "en/articles/agent-differentiated-evolution-contracts.md",
