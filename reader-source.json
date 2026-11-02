@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "55fa9acaa674ef4e05c82da4c7c1c9abd7534d05",
+  "commit": "3ef86afb773290fc7c50f93b983f6153478c1df8",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -14,23 +14,23 @@
     },
     {
       "path": "articles/019-agent-answer-publication.md",
-      "sha256": "217e935308f57af72b76ce9a8cfe32348f64b316b3f4be72704155a933be984e"
+      "sha256": "48117ee2f39f65c18c10defbd6543fce5eed3e4bc34093a3883cd138836f572e"
     },
     {
       "path": "articles/020-agent-extension-host-smartphone.md",
-      "sha256": "4cdd6c0fe1993a5910a27010c822b6ee8abfb8ca07a0d7c3a63ca5b295d13161"
+      "sha256": "ef2204c653bb997c2fc6c33ea72a66264a80c4189c7dbc86f5b9a2e6258ace3a"
     },
     {
       "path": "articles/021-agent-web-research-from-search-to-deep-reading.md",
-      "sha256": "c17ba9cf28312f4a6972c0ee03727d4b3f73ef5cc8b0262756ca3816738c6d77"
+      "sha256": "300b64ad5d3535aa00c3524b8ec24acf3536af57d43aae79926a52332d471b6d"
     },
     {
       "path": "articles/022-agent-entry-from-intent-to-direct-research.md",
-      "sha256": "daf69ea222f5632080762dfbaf6004c5de23305bfa6fc41433e0868c8f7d242f"
+      "sha256": "a2855c6060b5a3af05a8529f5cb80741a04dbee97f5c9fb08f4bf3d247fd0364"
     },
     {
       "path": "articles/024-agent-pdf-from-text-to-evidence.md",
-      "sha256": "34cb1894bde482d4a6343a4d31de3d063ad1d7b466506f382bd93062bd5e16b9"
+      "sha256": "99f4a3bf34d95576d8752f7bcd7f0e1ef7229ccf85767ca5bf1dc44bca2bacb4"
     },
     {
       "path": "articles/025-agent-langfuse-from-trace-to-trustworthy-observability.md",
@@ -38,7 +38,7 @@
     },
     {
       "path": "articles/026-agent-memory-forget-durable-effects.md",
-      "sha256": "089bb33ac6696954b7965a6313ed0771532ac31f3018f333074b3910dc531055"
+      "sha256": "ebb5717b13466cacd1b81a836218e5b5a5e8d8911dc735483abd38905189edaf"
     },
     {
       "path": "articles/026-agent-spec-evidence-workflow.md",
@@ -50,23 +50,23 @@
     },
     {
       "path": "articles/027-rag-revocation-publish-replay.md",
-      "sha256": "714a2b06c7e7dc74173d0f341dd7e02eb5ac813cce51514609764c134e050e78"
+      "sha256": "4aa68048aed588a8e27467668a6ccee9a52224a894bffb815d052939de9487a5"
     },
     {
       "path": "articles/030-fintech-from-research-to-investment-advice.md",
-      "sha256": "a4c88d9cf34324159f5da4bdc3df6a94dfb4a3bd6931bc1538bf18d3a3f4c01d"
+      "sha256": "ecad67efb53e772fb33230b486d3fd00d2448efb8cc2b81c216e89a7a854f578"
     },
     {
       "path": "articles/031-fintech-data-time-and-reproducible-numbers.md",
-      "sha256": "83c8c6fe95292312d56bb8ddcfa83b41a4958f9ab1cd8f595806ea4c0e1ba811"
+      "sha256": "ebd8c792a8bf5259fc67138ac75736e0379e9600a0acf69def938b9a69935734"
     },
     {
       "path": "articles/032-ai-development-from-bug-loop-to-task-convergence.md",
-      "sha256": "8a316d885ee2d851130b949600b8bb27ee4079b9b9e9804120cb2aab085be7dc"
+      "sha256": "aa2c2b8eb65af54b1965518606d5bcbfba803aa786b1096c73e34ebb6e9c064d"
     },
     {
       "path": "articles/adaptive-research-python-workbench.md",
-      "sha256": "ae778a99bc6712973ccf376d0e2fbc94706e3cc6d1f75df441e68afe6dcabbec"
+      "sha256": "5397c04f60ac77dfa34f9a1f6f13bca6e5a9594a23e21eaf7eb43e405162a718"
     },
     {
       "path": "articles/agent-action-reminder-coordination.md",
@@ -82,7 +82,7 @@
     },
     {
       "path": "articles/agent-autonomous-scheduled-research.md",
-      "sha256": "e5e660c82935ac50edc8f38b4f87ba6465f0557f16c0561c71f0688170357f65"
+      "sha256": "6eda418709398c357a69e6aa3cff466eadb92dacfe8ee2efd49df41e53011e37"
     },
     {
       "path": "articles/agent-background-research-collaborative-experience.md",
@@ -98,7 +98,7 @@
     },
     {
       "path": "articles/agent-content-trust-prompt-injection.md",
-      "sha256": "aff299dbd9ed22e1ebd093c352a2b521e86f968b5a08a64af533bd30f62a07ac"
+      "sha256": "b9182cb860d0c98479d5416ca88735b3a047061f2847e255cf3386d4f55066cc"
     },
     {
       "path": "articles/agent-context-governance-actions.md",
@@ -110,7 +110,7 @@
     },
     {
       "path": "articles/agent-control-events-durable-owner-adoption.md",
-      "sha256": "5b2cdd8ca86ae347a4d66ea5da08ac5f8139a480fffc84f9ca7a90d9fa4e8537"
+      "sha256": "015f6190d62849c1795f5cc0e8d7b11c4d3a4d4dac33544b89f351c54de6a4c7"
     },
     {
       "path": "articles/agent-conversation-admission-task-continuation.md",
@@ -118,11 +118,11 @@
     },
     {
       "path": "articles/agent-conversation-history-compaction-source-boundaries.md",
-      "sha256": "93bf167e84ce722a1b8bbc52521e89b480eaca6982590476c892a63b126ecf1a"
+      "sha256": "71d8ef229142390f3d864203bc6833449a779fb9d5eb1145d2db7872c4b3f1f4"
     },
     {
       "path": "articles/agent-custom-expert-from-prompt-to-recovery.md",
-      "sha256": "8cbe6543396ffd3b4fd1cda017dfb839dd1d1c80b97b74ff282960549940e7b8"
+      "sha256": "282e6113f9bc8433c57f7833d95c9101d720e9b3eecc9419c9d1a52876982d44"
     },
     {
       "path": "articles/agent-deterministic-fund-allocation.md",
@@ -134,27 +134,27 @@
     },
     {
       "path": "articles/agent-disconnect-is-not-crash-recovery-contract.md",
-      "sha256": "254c3305523919c0b14bfee7ffda162ebd56c40377f7b20f4829ae03080543b7"
+      "sha256": "6d9391a812a9eb35d15c4581de2f336ef33c2252d2b85f6d1749be4424f730a7"
     },
     {
       "path": "articles/agent-durable-human-interaction-response-adoption.md",
-      "sha256": "b6352e6b86fe6e7347e0f2bdf34584754c9f7f1bb89de57596d5ab819b18eca5"
+      "sha256": "d512248994f72b9971d854c564b7c3834c68bda7d3ee98992acf456b3c43bab3"
     },
     {
       "path": "articles/agent-engineering-suite.md",
-      "sha256": "874cf3d924e3f027131ac365bd584e654e201d51d67eb334180fa68c7e562d83"
+      "sha256": "3963d4d0eb95e7dedc49c7e989138569b420b9520585d2e9cad5783c65b3cdcb"
     },
     {
       "path": "articles/agent-failure-is-a-boundary-problem.md",
-      "sha256": "08e790b5daaca84a485c3843dd2822007959c41599cf3e97450ea041f7bdbbd4"
+      "sha256": "e5c4daf4dea7013e572453d3d5db675204faa1ba39ecd1dfd947a6f8f73bad15"
     },
     {
       "path": "articles/agent-feedback-facts-not-automatic-learning.md",
-      "sha256": "1c61e575f973e542ffc0c22de10d4b6f2c7daf333fd2b2ab194b29e4cde00478"
+      "sha256": "75fb68fd26ebba5cb8a6a39db6a1b549a81a0525ef193d6861ab83b040731fd7"
     },
     {
       "path": "articles/agent-html-evolution-challenges.md",
-      "sha256": "e85f046215efbfe19a6dfbb3ad6f6dae66c600fb547584ae5d2646310a8411b0"
+      "sha256": "8ad644ae6f4ad639a53ac6fa4a36b6d346a479f998d615a91ab485e90155d89d"
     },
     {
       "path": "articles/agent-in-15-minutes.md",
@@ -170,19 +170,19 @@
     },
     {
       "path": "articles/agent-main-run-context-compaction.md",
-      "sha256": "feb9bb8d49fd5f45ebb1f3765fe05bebcc233e71cf2c7a52b60f55317cd69ad7"
+      "sha256": "cf43e8744066429e242cbd612f9e1ad98bd698f524114c94bb5f33935edeb9b1"
     },
     {
       "path": "articles/agent-model-capability-presentation-tool-surface.md",
-      "sha256": "7dac13e342bafbdd05164ed3383ba255e54d63e7021927bf2ee321a56f66a67e"
+      "sha256": "e1be0a4b5861daf639f3f368b417850f393081599cdf7686a1565af81e7a3c10"
     },
     {
       "path": "articles/agent-model-runtime-mcp-skill-boundaries.md",
-      "sha256": "6732f7e3db28079254543d8409412616e410fd04997d9e265f9acbf9cc178305"
+      "sha256": "b015d2d220f389c29301872ec02b5d9bdd3eb07f827e1ce079b4688cec37ac69"
     },
     {
       "path": "articles/agent-multi-ecosystem-hook-execution.md",
-      "sha256": "c8e6111de6673a6a49bd0acb853c666e69d0166d3c71f9fd139134dcd34534b2"
+      "sha256": "deab502580fad45afd7ccee927c19cb61df3fb1d7fb2708dc2f451170d6f42cd"
     },
     {
       "path": "articles/agent-numeric-kernel-exact-units-rounding.md",
@@ -190,31 +190,31 @@
     },
     {
       "path": "articles/agent-personal-credits-shadow-accounting.md",
-      "sha256": "a9c03b08d205a31a74cb9351aa743fe1a1ec2dd3dcb7519f07fe063189e5384c"
+      "sha256": "432ce2dfe9c97c00f49fcfcaa2a43e28954eed840eaa105b00121d88eaa8b741"
     },
     {
       "path": "articles/agent-progressive-answer-coherence.md",
-      "sha256": "cd9bdd8aaf7902fab8511cf928c40e2047826ad596a3fa6748a82965bbf2f36d"
+      "sha256": "7772fa7361f2f9227e9408b9f60ef5c7819fdb68391c5876c5782c7228a241e4"
     },
     {
       "path": "articles/agent-provider-admission-capacity-lease.md",
-      "sha256": "c063c7fa977d2e764fd4dc449986450cd79c6b61366339c9b455eadc4623fcbc"
+      "sha256": "a26bdd0088d9e4c798e7d36dd75947ca882e50b93214121f0524d55e6886a9e7"
     },
     {
       "path": "articles/agent-provider-architecture-and-admission.md",
-      "sha256": "17b20ecb8489ceb751f7783bc199829ff6a3d68a726f84a91c043256e833bc24"
+      "sha256": "e4a69ad95eb6cdd23a8b1ab0dfb64bf3b032ca92c9661bf85aedca0d3e56138b"
     },
     {
       "path": "articles/agent-provider-failover-without-resetting-the-run.md",
-      "sha256": "d57420d9771e91abaefa3fd8e33dd7332f07f167ed1812011a62ab073ae9f29d"
+      "sha256": "ddb375e40d3bcd7a9ec1c36a41914660650f5d8378795b7f612d7a827a9a5084"
     },
     {
       "path": "articles/agent-python-compute-workbench-evolution.md",
-      "sha256": "300bd286778da79b0689b5cffad908b46535115f4ee1d2b63f3852c7c724e5f9"
+      "sha256": "4862e00c2e4741f1bd0962b2f60fb0552376f48156a509ac83bd520542163598"
     },
     {
       "path": "articles/agent-report-cost-attribution.md",
-      "sha256": "ec721177440033b397678892fd28947eeba9f52056085b2a1307eb65f696ff73"
+      "sha256": "58ddf3483014e8a71aa69ece1eeefba17a473049a4f74a523a0b5f6d32f60678"
     },
     {
       "path": "articles/agent-research-assets-identity-version-lifecycle.md",
@@ -226,35 +226,35 @@
     },
     {
       "path": "articles/agent-research-workspace-goal-continuity.md",
-      "sha256": "e74715dcea40e5a2ccb0f634a16275a17aaec1675aacbb64c88f2b2546090182"
+      "sha256": "f0f2a426eb10a8a8319faf56a4746b1ecd64c0dc6f5b6b827a42b41e6fb90ab4"
     },
     {
       "path": "articles/agent-runtime-constraint-governance-v2.md",
-      "sha256": "4b7ec0d96aec4b9f3a7eb2f409c19e6e0bc41fcda252c3d80aca179a435d0539"
+      "sha256": "efacd2f35e8346a45c81cfae6ab4cba988486b12a2b7224f13d55266f61b2ab7"
     },
     {
       "path": "articles/agent-runtime-refactor-one-day-blocked.md",
-      "sha256": "4dd16e1901a471e20281e66918c2728311eb82ff8202d9cc34ed726073157764"
+      "sha256": "bc4aaddd9f84f8441bb2a24ba289028abc6478e5cfcb4b7abece04cf28337577"
     },
     {
       "path": "articles/agent-skill-from-markdown-to-callable-research.md",
-      "sha256": "21c64d0c3d664f040c6171d4935beef369a18ab65eabccf4c4b5331b71ababea"
+      "sha256": "b1500f8e52a1fd22e8b6212079e8523eaff5f8de8419c1a59bd620d1fa9e3da6"
     },
     {
       "path": "articles/agent-stream-tool-call-null-continuation.md",
-      "sha256": "d6503acad4bcc9ac077585a5d58f7adea657a057955b2946560fa93950519a25"
+      "sha256": "180e8e735d747e1293c60f2c9f0f13f8c4e6e0993d887ed62008b20b1b643239"
     },
     {
       "path": "articles/agent-subagent-context-specialization.md",
-      "sha256": "481e0a553d69ab7dfadd0486b82ffd7928ce54a658e9c42c92d0ea64c9898bad"
+      "sha256": "adb88dc857801b770fb0294696599f1774f5e3dcf2d7362d341a79cb79c5ec30"
     },
     {
       "path": "articles/agent-subagent-contribution-evidence.md",
-      "sha256": "4496d2a06bfd28756a731bff45e3e971bee64df5e167f064d3defde8e6323d48"
+      "sha256": "b1f0e234ef49ccb0fd2401d569264f2d7827dd91eaed84bda876daf82bbbf48d"
     },
     {
       "path": "articles/agent-temporal-semantics-market-calendar.md",
-      "sha256": "7b78a31ef2e9adeadbc5ea79c4e5f84e70608769ed51fd44c43995acb1240cfc"
+      "sha256": "eab46170a09bdf180f32ba9e7cb6db75677c3a556e44ab99a6fdc7b9c998a137"
     },
     {
       "path": "articles/agent-ten-modules.md",
@@ -266,19 +266,19 @@
     },
     {
       "path": "articles/agent-tool-lifecycle-and-model-input.md",
-      "sha256": "212cdb6c31b8c9539a8d0674942307d30567b66527043606fdd80777d9f7e3ef"
+      "sha256": "3cfbfc6d6b6abb9335130436a3bd71fabcad8ecd136098bd0bf9226e15c2e4dd"
     },
     {
       "path": "articles/agent-trace-complete-observation-gaps.md",
-      "sha256": "2ab15f240204593a7bdc2f3e8235d5de9760350475f159e5ec84bbf79e54c91f"
+      "sha256": "007ae86aae0303b5165eb15388cb483fce1d6c4681e6f7851c5f845c541fdfe6"
     },
     {
       "path": "articles/agent-veto-authority-and-run-termination.md",
-      "sha256": "a186a24ac14891118b2beed5e2ce5d1e1cba7edbda2590796965b02963c42393"
+      "sha256": "f94492c3f9a4f025a8157177dbeccaecebcd81258a2d37a4a26f1f6372b8686c"
     },
     {
       "path": "articles/agent-weekly-review-staged-delivery.md",
-      "sha256": "514eb6cf67dbf0d60c943b5090b8d5ce605a1f12dd35b42691bbf652983e5c2b"
+      "sha256": "15e26313dc88f0673f1b694ee3d35f517e806fb4221e861bd4358016836afa64"
     },
     {
       "path": "articles/agent-weekly-thesis-history-continuous-research.md",
@@ -286,15 +286,15 @@
     },
     {
       "path": "articles/ai-citations-do-not-prove-reliability.md",
-      "sha256": "c2f67f61269c09a2184ece737bbcbbc125659e4e8529788b95f757060cff9d52"
+      "sha256": "ecd6a965b25855bf430973723eeb9d6b8cd1542b262ba0113a19334c5f798799"
     },
     {
       "path": "articles/ai-coding-judgment-and-verification.md",
-      "sha256": "30921fc6fcc04ca8300bdca248213b0e9506bededf5f5648fbd02169b0f5fd28"
+      "sha256": "3ec7600c08aef4b7e6fec0203b38e8b63861c0ded6466c52e9c8a13a6997734e"
     },
     {
       "path": "articles/bounded-bull-bear-peer-dialogue.md",
-      "sha256": "812f92a10a1593c0e495552f1bd85e306f257477524e8bcec2e86963447d6340"
+      "sha256": "8049aabd0acf1c7882d825998c15166e0d20cf989e4187883aec6f05b9edec18"
     },
     {
       "path": "articles/code-cheaper-systems-harder-to-evolve.md",
@@ -318,11 +318,11 @@
     },
     {
       "path": "articles/etf-assistant-engineering-origins.md",
-      "sha256": "021e02e6fb4478a267216f2ba4965171101e7ff51885230cb0531209fd707bfa"
+      "sha256": "0bf52533b707b4c7a0bc61fd8ac2dbed49dac32f294ebc39840473438a202452"
     },
     {
       "path": "articles/financial-agent-python-result-consumption.md",
-      "sha256": "42e83efd1bc13afdb86b87436731049e899dcb82ce6f5817aa16582beadcaa11"
+      "sha256": "e00539cc238e5cfbb04e4be05119370075e5f1ae9d08e26f2b8d257204c41c6b"
     },
     {
       "path": "articles/financial-agent-system-panorama.md",
@@ -330,19 +330,19 @@
     },
     {
       "path": "articles/financial-agent-trustworthy-evidence-chain.md",
-      "sha256": "0180e9bc5968bfc8768659445778b6bba49da473ba2287d6c33c5295fcdd042c"
+      "sha256": "c0c18ad32e38eb7c27c4d839b431b8e7674021f2dba749ec8d0dc89fc6d25fe1"
     },
     {
       "path": "articles/financial-business-agent-trusted-handoff.md",
-      "sha256": "31e4b7881ca400297856b6ac0125adcb1d38037a0d891fdbae03fc9ae8cb4e86"
+      "sha256": "fffed191c3d19eb4379ee3a0bd9ecb3e6d10e89fcbbafae49d7ae727ab865355"
     },
     {
       "path": "articles/honest-agent-evaluation.md",
-      "sha256": "37690f7474d893a1a31992b6389bf795a7d8d0b447819747543caf885d970077"
+      "sha256": "100d93a340db9c9a88291284565e80ed3be26f14c5023395b4d08aa859adc3c9"
     },
     {
       "path": "articles/investment-perspectives-and-thesis-falsification.md",
-      "sha256": "abf6695e98cffdc4654bb0324c34ae2731a5e8d6d4d3725eef248a5a47cf4fce"
+      "sha256": "18198dd167e763b4aff7f8453fcb268e5eb9e8b397d24fa0c9ce660c513d9942"
     },
     {
       "path": "articles/local-improvement-is-not-system-progress.md",
@@ -350,11 +350,11 @@
     },
     {
       "path": "articles/mcp-host-from-discovery-to-consumption.md",
-      "sha256": "e66ca098f6716969d096ed085a7a2c536a891d1d1729d8fc3b79b2bb0ce82721"
+      "sha256": "d28fb1e27faec17b162f6ef4ba685182157ada429bdbb1c871abbd169fc667ad"
     },
     {
       "path": "articles/mcp-market-responsibility-retrospective.md",
-      "sha256": "bee00dc0cce59914b6f1a7d9a980dc1fbc6a714e4fad779977a838fe084afba8"
+      "sha256": "41831ca1a67ced132fe50e3ddba2bf63ac72657b2477e26b5781288f42f247ca"
     },
     {
       "path": "articles/multi-layer-agent-collaboration-outlook.md",
@@ -362,7 +362,7 @@
     },
     {
       "path": "articles/one-report-nine-architecture-judgments.md",
-      "sha256": "c7120f42222bed45d3f9e8e41f44eeedd5a74c9e5f56a8837cb97a442d0a9605"
+      "sha256": "5cc25ee3a475ee22e4e89856641cda1efc5f21c5f8c3883b9bf901448cb22940"
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
@@ -374,7 +374,7 @@
     },
     {
       "path": "articles/portfolio-mcp-readonly-investment-data.md",
-      "sha256": "028797ca1d9e6a9c3575fbc337b2efc034335c1a752c068a408f60e4c1af7d9c"
+      "sha256": "284817e75c5398cef38d80728ffcc9429567805a41e084a0a955bd4fe9eb55ee"
     },
     {
       "path": "articles/rag-end-to-end-system-panorama.md",
@@ -382,11 +382,11 @@
     },
     {
       "path": "articles/rag-retrieval-evaluation-evidence.md",
-      "sha256": "be50ee41aca51b009a884f199ed71b461cc6364feb0c75b5aca6c6e598185d03"
+      "sha256": "c2541f8d891e946953efa04275f842196e1241b95830dbd3c6c97c9d75a91274"
     },
     {
       "path": "articles/runtime-model-protocol-boundary-agent-article-v2.md",
-      "sha256": "9d6c53cd82e749c61ee7463078699a12e4fe5119e40e8226e33af364fea3ff37"
+      "sha256": "a88ec64c40d98a2c42bfc7c13b4cc4cc8f1015cd20dd7cc43ef56a7e80624851"
     },
     {
       "path": "articles/test-lifecycle-refactoring-retirement-and-spec.md",
@@ -394,11 +394,11 @@
     },
     {
       "path": "articles/tool-results-outside-model-context.md",
-      "sha256": "f31d2edc77b3145f51ba499a80e5147d7e8de0550cf0eaed187d79171e1d9b99"
+      "sha256": "236638a0cc194a03728c5db0ff18f5a4f366acc3aeb8366a78456c1ece9c1b44"
     },
     {
       "path": "articles/unavailable-is-correct.md",
-      "sha256": "c7254fefd67c5dac01f91b8d8969e9c7b87ab39cbf602167f3380d93453bc682"
+      "sha256": "241a373626794dee4ad6badcf6d59df9936c3161cffa9b876b97a5ac003f976a"
     },
     {
       "path": "articles/vertical-financial-agent-principles-panorama.md",
@@ -414,19 +414,19 @@
     },
     {
       "path": "en/articles/019-agent-answer-publication.md",
-      "sha256": "b8c943c5398bacf8f74cb16d0c5b4e1945a6b5177dc559b63332cbe2d1dd9254"
+      "sha256": "9e4f7681d65a9a840daaff0575e56059043dff439ac5919bdbfd763888aea25d"
     },
     {
       "path": "en/articles/020-agent-extension-host-smartphone.md",
-      "sha256": "bd20598d3cf6b52896ca90b6bdbe209f026c974486aa6116145a0dda044fae99"
+      "sha256": "e8db882ba1cb84da2e30f1490dac4204dfe4bc59ece3f50654d3092ea1e78f1b"
     },
     {
       "path": "en/articles/021-agent-web-research-from-search-to-deep-reading.md",
-      "sha256": "832f4055c7bbe26cdb47e4d07249ca1884062cf499e63d412daa8304f9df0dfb"
+      "sha256": "81f2aae1aaa804cdc96b462f5ac6fdefb70a56813a0da0f0afe35433681cc9b7"
     },
     {
       "path": "en/articles/022-agent-entry-from-intent-to-direct-research.md",
-      "sha256": "96dcbc1ec3bfa68e3b2bee9829559aad377f72c2996a1821d17264a1b8990dfa"
+      "sha256": "0ad1369cddaf43f63abb0482e5ccbe93a168d9bba763b87dd5f7328033f5c7a0"
     },
     {
       "path": "en/articles/024-agent-pdf-from-text-to-evidence.md",
@@ -466,7 +466,7 @@
     },
     {
       "path": "en/articles/adaptive-research-python-workbench.md",
-      "sha256": "e20e122155699c9130baa0f8e9992635d6a24ef84ff6ed99f71965782369ddf3"
+      "sha256": "3befdde9dd3e56d5b971835ad7fb088566ccf9fa8eff93a33b37b75d1fd72a8b"
     },
     {
       "path": "en/articles/agent-action-reminder-coordination.md",
@@ -498,7 +498,7 @@
     },
     {
       "path": "en/articles/agent-content-trust-prompt-injection.md",
-      "sha256": "b5d111a5f93b34a2e095046d16154c07ef5447dc6336d66d888ad37e3104a3f7"
+      "sha256": "41383f4926f4e0b9d6ad71b2f1e639ceff2f8ce0652fa03b4716dec5fcf979ea"
     },
     {
       "path": "en/articles/agent-context-governance-actions.md",
@@ -510,7 +510,7 @@
     },
     {
       "path": "en/articles/agent-control-events-durable-owner-adoption.md",
-      "sha256": "0c980268c8c7397fa849943540abc963bd63e426ec4ca67ad2c3d8e70b8a3063"
+      "sha256": "60cea1d5179a9f4752649d704e0ec41e26203b8abc5106d1966615f4412ece2b"
     },
     {
       "path": "en/articles/agent-conversation-admission-task-continuation.md",
@@ -518,11 +518,11 @@
     },
     {
       "path": "en/articles/agent-conversation-history-compaction-source-boundaries.md",
-      "sha256": "a03101a3062023dfab19e8c30dd6afcae3bcf7e8810fdb051e049ee9fc8d2f93"
+      "sha256": "d304e77b6a0115c7dfbc3d5663dda18c1f15c9703fae9cc000a018131c912ec2"
     },
     {
       "path": "en/articles/agent-custom-expert-from-prompt-to-recovery.md",
-      "sha256": "3907babe419b58ed6ed2227c93959f86c0373dcedfc7dd743f444f18c42a5ee1"
+      "sha256": "7aede44f040bb07761ea6ec5ff03c6357fb18f54b20a94b60598adb159080aca"
     },
     {
       "path": "en/articles/agent-deterministic-fund-allocation.md",
@@ -534,23 +534,23 @@
     },
     {
       "path": "en/articles/agent-disconnect-is-not-crash-recovery-contract.md",
-      "sha256": "b2d80bfa570c87a1b13314d20b70377d70c24bad4b6e61d576230f57d24dd1db"
+      "sha256": "fce05e67f894fe90b24d62e24ff1bf986709356522ac0b28f1a4941590a3beca"
     },
     {
       "path": "en/articles/agent-durable-human-interaction-response-adoption.md",
-      "sha256": "14bdb5dbd0f0c9ab11d890f1920b80bb96c5f043e7104b4a488989e64c830eda"
+      "sha256": "5c473f3c0524447109ee1b63b274bcd1f32d657c93973331064e7ee8165df244"
     },
     {
       "path": "en/articles/agent-engineering-suite.md",
-      "sha256": "1e7ceb4a76d02e9c945657706194d69df7a4b064fb79c78fe003adcc29805c69"
+      "sha256": "a6bd7b46865d5d3fc64fba40ff518f1c6d1cb3baca1fc3f3db1cf50f33d24869"
     },
     {
       "path": "en/articles/agent-failure-is-a-boundary-problem.md",
-      "sha256": "ef09243896c257a847c80b180a15a7eaa13b85f401488332ee89211749f916f6"
+      "sha256": "81fe32345f19c87c9f0e64b8d84e8b8e17e410e8d965b3c1f4c09f9a790ebac0"
     },
     {
       "path": "en/articles/agent-feedback-facts-not-automatic-learning.md",
-      "sha256": "64a98b0ce86166fa9506fd1251af74d247fcbcb3af6c7dcc3fab924bcc3ddd0b"
+      "sha256": "b4aed074890dcd280914ab9aeddbdd2e029d1b3a141526336b33f0b071b5bd8f"
     },
     {
       "path": "en/articles/agent-html-evolution-challenges.md",
@@ -574,15 +574,15 @@
     },
     {
       "path": "en/articles/agent-model-capability-presentation-tool-surface.md",
-      "sha256": "025ce892b60d4596796917bd923f2afad43213d76c5d053de90be0d2942542e2"
+      "sha256": "00774c91b06a678e2fca882cbe89d5fd13fcd372a227f5369de44d48e456fd7d"
     },
     {
       "path": "en/articles/agent-model-runtime-mcp-skill-boundaries.md",
-      "sha256": "3ba3ea338737b8bf1965a6802dc29e4dee0122cfc667558ceb02b020f212693f"
+      "sha256": "61e8938e95ede47f964090b17238fd3ecaa4a48af4a0428da4dffbd3136a1ef8"
     },
     {
       "path": "en/articles/agent-multi-ecosystem-hook-execution.md",
-      "sha256": "0f8a5b7c14bc4cc3ab4cd213fc29e2c69ae098a6e7f355100a1275c469629c84"
+      "sha256": "924978b504c41fa1807b46d052f59c280a2a6770b70621969344e6fc22604dd4"
     },
     {
       "path": "en/articles/agent-numeric-kernel-exact-units-rounding.md",
@@ -590,31 +590,31 @@
     },
     {
       "path": "en/articles/agent-personal-credits-shadow-accounting.md",
-      "sha256": "4714810d2e6f156f42b6765ddb98aadf6f11aeb440f53426db93c77940a2dc65"
+      "sha256": "f0e3cbe645d879a5ff6949defc781145eee0895aad41186f00596135a586ed3e"
     },
     {
       "path": "en/articles/agent-progressive-answer-coherence.md",
-      "sha256": "e9d31f081bc002e156154f14150604a9c84e30f97393bf9a25fb2a0fd078edbe"
+      "sha256": "a414369bf7e1195977cf5f60256e3dd2f29c910d39df595c7374e90c0d9db19c"
     },
     {
       "path": "en/articles/agent-provider-admission-capacity-lease.md",
-      "sha256": "c7a87e258bbf61c3e1acbf5d8ee586ec2116f941af287a165b73f4fbddf9c028"
+      "sha256": "7c900f3daf65c346c581b14a8ca7fa72ac8c9d3d8030ac680d4a4a5a33352cd9"
     },
     {
       "path": "en/articles/agent-provider-architecture-and-admission.md",
-      "sha256": "bd35f62a5e5037ebb05c94d92f0f809fcd97985f39cc3a31ec27dfe7b64eca82"
+      "sha256": "4dc863a923b9f5969b29c240891a5f9dc84dffb35b244750c77d9b3426f2f564"
     },
     {
       "path": "en/articles/agent-provider-failover-without-resetting-the-run.md",
-      "sha256": "fcf6fe69b584f2529652d3d99f19904e824888fa003896d45a8fcf8b57211c4c"
+      "sha256": "b796f4bb5d0575ab246c83cf18f93dc7dbfc8a271e0467268d59cec3dea37c70"
     },
     {
       "path": "en/articles/agent-python-compute-workbench-evolution.md",
-      "sha256": "f84baad0597ecf727700084efd27fba90b3ac607a35fa5f9a1860abaf7e36cf2"
+      "sha256": "db545dbfc0a2e54539eb258dba98364c2bda0cd20cc0aa4fa802dafa12b6bbcc"
     },
     {
       "path": "en/articles/agent-report-cost-attribution.md",
-      "sha256": "31abfd94e341cea54e6d0e475e7d09f6747d1faf7e4e82b07285900e6b725ea2"
+      "sha256": "b664f69af7da66791f616ea27f129bf6fc1aa8493b8fb6727fcb671add40179b"
     },
     {
       "path": "en/articles/agent-research-assets-identity-version-lifecycle.md",
@@ -626,35 +626,35 @@
     },
     {
       "path": "en/articles/agent-research-workspace-goal-continuity.md",
-      "sha256": "37c83406aa51f71e0c2fc6173c140f7e3cdbec72073d574c8923bbb2466f90e6"
+      "sha256": "96d8f792025619180a188b76ee8f10735d16597f1b2b2856dfee6b8ad1d754f4"
     },
     {
       "path": "en/articles/agent-runtime-constraint-governance-v2.md",
-      "sha256": "f5ed923547f9120586e1890e896c04b336a0dd4147c45f88a5699e4b07b5b386"
+      "sha256": "0096a6813163e4d4f3a0262f51b40e7989f72a350c679dd6b9c786812c013e56"
     },
     {
       "path": "en/articles/agent-runtime-refactor-one-day-blocked.md",
-      "sha256": "d98b40979b91941826dcb330ac861507210bfc932675a4c942727d7505cf4666"
+      "sha256": "94f34da69935b0791d901146b4ec66a604a9a764baa631c7cd0dbd6060d12074"
     },
     {
       "path": "en/articles/agent-skill-from-markdown-to-callable-research.md",
-      "sha256": "5eba77e89c5bfdc0d2c7718632621a9be403bfddf04aaaf88a710b9df8fb23f4"
+      "sha256": "e1bef2ae3316605cf9ac1991054670395f078a167b4babc29ab103c3274920a4"
     },
     {
       "path": "en/articles/agent-stream-tool-call-null-continuation.md",
-      "sha256": "2f6f241d3b0f2e6d2ee9e878ef425f07c1c9ad95fa58e852cd6c9375a71fad3a"
+      "sha256": "769ba95577d3de45cdf51fe2dc038e234221c9acd3eaa96331b1c5619a3400f7"
     },
     {
       "path": "en/articles/agent-subagent-context-specialization.md",
-      "sha256": "d7382996c7b0dd602485bfe254c32c3dea5f09f027ae322a14d5ae3275665128"
+      "sha256": "a0e3b5b51058c8e3c8a45541ffc0c95d58659f6204f2469f3295365eb90e02a6"
     },
     {
       "path": "en/articles/agent-subagent-contribution-evidence.md",
-      "sha256": "1d6fc5c2d02cc955c7bb546ba4cfb8181866e04d4a58c425d01c9949f840ea3d"
+      "sha256": "69e214d3c9674e91925493066b3462d42f2398778d680272a48c68145beb5775"
     },
     {
       "path": "en/articles/agent-temporal-semantics-market-calendar.md",
-      "sha256": "75d223a6884a0fe3e17952919c91eb1e889861dd4e531f75e7be13d2f9cdbda6"
+      "sha256": "8bffbe9d15bcf66f5240f2d974d5dc3a36c9cc6e240770be316cc46bcb1f2a44"
     },
     {
       "path": "en/articles/agent-ten-modules.md",
@@ -670,15 +670,15 @@
     },
     {
       "path": "en/articles/agent-trace-complete-observation-gaps.md",
-      "sha256": "c41eff517de8745aba95d9446084e921b90336a406aaa175428a55acdab09d65"
+      "sha256": "6ee7109978aeccbf4bf1ddb290df8bc9550c7ef8956e3a0528529d3b53e7b9b8"
     },
     {
       "path": "en/articles/agent-veto-authority-and-run-termination.md",
-      "sha256": "966505278c2f28523fce68271a3fec1b7bee2cac9b27f621009fda32301026bb"
+      "sha256": "e6e28e2e3e8c9a7ac287e73b08e6ea093affa21fa92e7cf76a895addd7506999"
     },
     {
       "path": "en/articles/agent-weekly-review-staged-delivery.md",
-      "sha256": "580b865ec05f87243430c3ea8f7c5c0f2edd31d8b36b01a77a7961c5a3e24d7a"
+      "sha256": "993149c931602d09d0b6c400f1cee610da0c9db18a21ecc63cdf4cc670e3fb29"
     },
     {
       "path": "en/articles/agent-weekly-thesis-history-continuous-research.md",
@@ -686,15 +686,15 @@
     },
     {
       "path": "en/articles/ai-citations-do-not-prove-reliability.md",
-      "sha256": "8e3d5fdf9b70a09d07936a89674903d25875d65cee9e46c284034492b0d60e42"
+      "sha256": "3aa4f10e8b00b36c13a5cbf51ce002a4723b5d435c6d9087982e3f1fbb028284"
     },
     {
       "path": "en/articles/ai-coding-judgment-and-verification.md",
-      "sha256": "f8d13b8f4277f0ab6c5480c51ecc4b699c9ed222be3c9ef8cf2ed84a62b44035"
+      "sha256": "bdee84a05e32bd8408721fda27a66c01b0eb0d7807807dbc2f9a5068c959b5a7"
     },
     {
       "path": "en/articles/bounded-bull-bear-peer-dialogue.md",
-      "sha256": "a269a63c38add6b1f423439bdac3be8504657186006fe05e0f929585b7fe1427"
+      "sha256": "59443c0083e9b056be0b2ddfe8119fe0562bc0c06a1a4b72be30e89d9936d2ca"
     },
     {
       "path": "en/articles/code-cheaper-systems-harder-to-evolve.md",
@@ -730,7 +730,7 @@
     },
     {
       "path": "en/articles/financial-business-agent-trusted-handoff.md",
-      "sha256": "2594905f84064823ff51c4a9fbe1783e0bea0a8890c20dedd212cc7c393edd14"
+      "sha256": "f981b522d558fc1f3f66d3562e5b6e4c6a82d0d22585a653ceccec56d2414075"
     },
     {
       "path": "en/articles/honest-agent-evaluation.md",
@@ -738,7 +738,7 @@
     },
     {
       "path": "en/articles/investment-perspectives-and-thesis-falsification.md",
-      "sha256": "08b6d80c883992bd191c0632d7b7a64b36960bca0ad18104ccb7f15880ee8a4d"
+      "sha256": "c9465f8fbe031e0d285b39809e5cb07305e284450cff700eabcfb11e7cb78e68"
     },
     {
       "path": "en/articles/local-improvement-is-not-system-progress.md",
@@ -746,11 +746,11 @@
     },
     {
       "path": "en/articles/mcp-host-from-discovery-to-consumption.md",
-      "sha256": "39fea1ddbdf85792e9971a09054efe3c6a8e0fccd79ce05f9a26bedb88826a3b"
+      "sha256": "4e2210f58894a693f644fde867c042cd598549030b0ba0ee077551dedd0b5202"
     },
     {
       "path": "en/articles/mcp-market-responsibility-retrospective.md",
-      "sha256": "a9633855db0985653e54540b66bc2a76cd8d9add73164069bccbf15f42a04736"
+      "sha256": "3abc3dd67cee437bb71f5de642032b36ba1669d7da2ba1110ab33599a667003a"
     },
     {
       "path": "en/articles/multi-layer-agent-collaboration-outlook.md",
@@ -758,7 +758,7 @@
     },
     {
       "path": "en/articles/one-report-nine-architecture-judgments.md",
-      "sha256": "bd414ee1de054f3afd0f282cbc712da8ae5105a2fa0be8b82144886d5568551c"
+      "sha256": "37555f608f94dae8040fbf4446e94908a5dd0e4a6dc6d3c614198d8cc7ffae08"
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
@@ -770,7 +770,7 @@
     },
     {
       "path": "en/articles/portfolio-mcp-readonly-investment-data.md",
-      "sha256": "ecfcb2be4af74ab9d5002f5de85019fabe9427a0cc33ac90d464ca106828db37"
+      "sha256": "011157dde00747eb794328e62fd7379184b46470e3378f82e8f36099c3a2fe7a"
     },
     {
       "path": "en/articles/rag-end-to-end-system-panorama.md",
@@ -782,7 +782,7 @@
     },
     {
       "path": "en/articles/runtime-model-protocol-boundary-agent-article-v2.md",
-      "sha256": "2ae1f51845d532a13401e0915ba055cd40ba0c8f48f4e3ee21803b11c29df08c"
+      "sha256": "eb7311ad4043bb88e09cbb60273ead66c063b9ba8f00a0fd30ffbe6fda56910d"
     },
     {
       "path": "en/articles/test-lifecycle-refactoring-retirement-and-spec.md",
@@ -794,7 +794,7 @@
     },
     {
       "path": "en/articles/unavailable-is-correct.md",
-      "sha256": "323ac184abe55bc81bad6bbcd6f09aa76bc5a83ac127bcdc77fc5cf84904c190"
+      "sha256": "f3d6c0328561dcadec4deac448b4bf6d6a41ff4145141c5108a63b02ece84ac8"
     },
     {
       "path": "en/articles/vertical-financial-agent-principles-panorama.md",
