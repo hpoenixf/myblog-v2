@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "b3eeef9fa8e54ad2ba5686186acc1dbc2a2effa3",
+  "commit": "275edaa95bbc75d47d2f542e951d1e696191c72c",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -182,7 +182,7 @@
     },
     {
       "path": "articles/agent-main-run-context-compaction.md",
-      "sha256": "89e32419c487e55c5a5929200c56cc2c89f917fb9f3dd7d28e0fee24569dd153"
+      "sha256": "fbb6d3a4bcacb062d5fb082a791c7d3c7878f3006df4a2754b965882ccd30ff2"
     },
     {
       "path": "articles/agent-model-capability-presentation-tool-surface.md",
@@ -290,7 +290,7 @@
     },
     {
       "path": "articles/agent-veto-authority-and-run-termination.md",
-      "sha256": "f9726206a21600b99440c5b4881ca70c9f49c1f8dd8fcbbd7cff8dd46a412917"
+      "sha256": "15f73eac953ea214780a8b31dfde53ed8c5b3e35934767af6fb596569bbda68a"
     },
     {
       "path": "articles/agent-vs-backend-development-panorama.md",
@@ -382,11 +382,11 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "c5b2dd99cb6291a0df848685d778a680b8f8596371a062c1229122170b4f4822"
+      "sha256": "f2e72c13377ee67e65f17cd442bd2c6da7fbbfabc1ff0ab9eece3ddfcf081a4d"
     },
     {
       "path": "articles/open-etf-agent-v010-system-design.md",
-      "sha256": "70ed02b0f63addce31844d12838efd7cd1ccbb45707ef3412b42058546873e6c"
+      "sha256": "d8219400890c542023be32f8bc61296e310006539e3c6e8461d84cb1ade6810a"
     },
     {
       "path": "articles/portfolio-mcp-readonly-investment-data.md",
@@ -594,7 +594,7 @@
     },
     {
       "path": "en/articles/agent-main-run-context-compaction.md",
-      "sha256": "ce5905ac4bbddb55532c0d4a8be6bfeb957614d3141c94ce2ffd2a82a8df27a4"
+      "sha256": "2835eae02663e54f124324e961e0adefa225769954bc713e7ad39925e51141a4"
     },
     {
       "path": "en/articles/agent-model-capability-presentation-tool-surface.md",
@@ -702,7 +702,7 @@
     },
     {
       "path": "en/articles/agent-veto-authority-and-run-termination.md",
-      "sha256": "b9c18fb94fec479b0212275f27932c272e1d243c36eaad5fe61cc0cbdbd47720"
+      "sha256": "3ec502eafbf206d0a8574735d094084700c13abe053785c38540c5a805a49eaf"
     },
     {
       "path": "en/articles/agent-vs-backend-development-panorama.md",
@@ -790,11 +790,11 @@
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "044ff4dad38c516c7d15a60f1158da7a8ad909eed2881b2ffb07dd13bff8e0a2"
+      "sha256": "457f897d12ae3effd4b62763364222cdbed001c473758e35590fb421694c5477"
     },
     {
       "path": "en/articles/open-etf-agent-v010-system-design.md",
-      "sha256": "7aefeebcb5e7f84f0d52d3b5203ec02cdfdf586dd3ba706e9e53a5390951a856"
+      "sha256": "6c7749220d21b67cedba1c630ed3cb54ef61178557af3ba6e8d3d96e9c162b17"
     },
     {
       "path": "en/articles/portfolio-mcp-readonly-investment-data.md",
