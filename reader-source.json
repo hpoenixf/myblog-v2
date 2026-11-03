@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "72455aac0c07066cbafb1d5249d75dd1f84f46db",
+  "commit": "3ad793efbcc5a105bec6b7ce578d18ac8450f27b",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -294,7 +294,7 @@
     },
     {
       "path": "articles/agent-vs-backend-development-panorama.md",
-      "sha256": "c8c8adad001beed19374f5cc3a4265df8bb9ee4cbfacfd0d0b64848f086afcf8"
+      "sha256": "78b9a5c7e254ecda373cf1f7f10237ab1cfc54d7e97ae3108a4e659150c3da11"
     },
     {
       "path": "articles/agent-weekly-review-staged-delivery.md",
@@ -706,7 +706,7 @@
     },
     {
       "path": "en/articles/agent-vs-backend-development-panorama.md",
-      "sha256": "8a78ec8b3a6a50dd1cd3e7accae8a8bde4ac98374fa1a2a4bf8e048e228ea94c"
+      "sha256": "7826ae02cff7327059a8304eb8d4828ed31f54939f48a1c4469370e9971a2bc5"
     },
     {
       "path": "en/articles/agent-weekly-review-staged-delivery.md",
