@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "9a8595a3cdb8d0b578b0bfec36ce43716673bf69",
+  "commit": "c61fe670cc88b77196ebbf040810a976b3e2d63c",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -90,7 +90,7 @@
     },
     {
       "path": "articles/agent-autonomous-scheduled-research.md",
-      "sha256": "b5f82b2333659f63569039ac231a3f08d2f812f91305a9d61267a288f85b66d7"
+      "sha256": "ab78143a75261eccc3d288e7c8e4b66130e700890fdb3587be843c5ffdf22a6f"
     },
     {
       "path": "articles/agent-background-research-collaborative-experience.md",
@@ -210,7 +210,7 @@
     },
     {
       "path": "articles/agent-provider-admission-capacity-lease.md",
-      "sha256": "ea7cd91a0ecd008f012bfb8384de16e57dc10db600f3a124f96dadd0d23ef663"
+      "sha256": "a3d355ddb5a1ce6035491393b0c44473caf4c4bbd0e2b60d0821b00fe259ed0d"
     },
     {
       "path": "articles/agent-provider-architecture-and-admission.md",
@@ -254,7 +254,7 @@
     },
     {
       "path": "articles/agent-skill-from-markdown-to-callable-research.md",
-      "sha256": "b1500f8e52a1fd22e8b6212079e8523eaff5f8de8419c1a59bd620d1fa9e3da6"
+      "sha256": "e8b91cb5344a615ce3516e9bfc89502a95f2f802c4937a2596f75a449bc5b831"
     },
     {
       "path": "articles/agent-stream-tool-call-null-continuation.md",
@@ -374,7 +374,7 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "3899fb4af4840abbccd23aa6f15a9de72156032be66c2952071bbee5cf835208"
+      "sha256": "119220001b06570c1dbe6aa782a7892d5c0b5fa6ea0a7fd6b8fb0ed0b6381919"
     },
     {
       "path": "articles/open-etf-agent-v010-system-design.md",
@@ -473,6 +473,10 @@
       "sha256": "3befdde9dd3e56d5b971835ad7fb088566ccf9fa8eff93a33b37b75d1fd72a8b"
     },
     {
+      "path": "en/articles/agent-account-identity-private-scope.md",
+      "sha256": "9988532912cde1390c8760bc3cc166eacbb0b5992190af1fd353144796ac604f"
+    },
+    {
       "path": "en/articles/agent-action-reminder-coordination.md",
       "sha256": "f547ee3c16f0aa39a056dbcd2095ca940e46bff97f29a2ade49c6ae02b4cef40"
     },
@@ -481,12 +485,16 @@
       "sha256": "22faf328cbbab46dbde35b22f8b4c4ffabf4702f8625d84361244a90f90f5da8"
     },
     {
+      "path": "en/articles/agent-artifact-version-access-sharing.md",
+      "sha256": "81771884f179d6af3a2b5ed76877224ffba1972b37ff3530a7ae48bd5ea28a5c"
+    },
+    {
       "path": "en/articles/agent-asynchronous-research-time-bound-delivery.md",
       "sha256": "a46194267d157469c57ac106edc5619652d76510c0d115e8115ced91c5fca43e"
     },
     {
       "path": "en/articles/agent-autonomous-scheduled-research.md",
-      "sha256": "0d7c304e4ef5dc5bd61970bf39015efef7f787e95fd811186873a2b9f29a80e1"
+      "sha256": "0f2c438f91f6578f2e2cb8a0c43b440d4d55bb4505e242791e4e0bbe7186fcc5"
     },
     {
       "path": "en/articles/agent-background-research-collaborative-experience.md",
@@ -597,12 +605,16 @@
       "sha256": "6db30295398d65c9f4a6935aea48ca452afa7d796b744e526b800548f29ff9c4"
     },
     {
+      "path": "en/articles/agent-personalized-daily-research-cache.md",
+      "sha256": "d3501b237d177808dfb00a6d9830b0dd4059b1676d26430d76aa11974aaa572f"
+    },
+    {
       "path": "en/articles/agent-progressive-answer-coherence.md",
       "sha256": "a414369bf7e1195977cf5f60256e3dd2f29c910d39df595c7374e90c0d9db19c"
     },
     {
       "path": "en/articles/agent-provider-admission-capacity-lease.md",
-      "sha256": "8eceb3a9f587d7d2e84af07689051e38d46ddec8097e41a7ca6f2611a646aca3"
+      "sha256": "45e77cb2426b76d28abc677d957e05a10639b8132f1f46d6c3c9b335c522486d"
     },
     {
       "path": "en/articles/agent-provider-architecture-and-admission.md",
@@ -625,6 +637,10 @@
       "sha256": "f3b3707042e9d6d84eb62da98edc68339e71a4298842a598b71e34cd1bd96393"
     },
     {
+      "path": "en/articles/agent-research-decisions-evidence-synthesis.md",
+      "sha256": "032bba697ec0459f71d3111c7e4b52c84f96dc1b8e7a067b950d94bf195cb8b1"
+    },
+    {
       "path": "en/articles/agent-research-evidence-store-lifecycle.md",
       "sha256": "7ae0dda13583df51a6c283f8d9c17cce1306d691f81bcf12945e242e2e983155"
     },
@@ -642,7 +658,7 @@
     },
     {
       "path": "en/articles/agent-skill-from-markdown-to-callable-research.md",
-      "sha256": "e1bef2ae3316605cf9ac1991054670395f078a167b4babc29ab103c3274920a4"
+      "sha256": "3c64d9f993eee7053cd64573b38559768537400aa9c3a6ee42eba35bbc7bbc6e"
     },
     {
       "path": "en/articles/agent-stream-tool-call-null-continuation.md",
@@ -758,7 +774,7 @@
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "b3023dcfd650f22e8f8b7d5a55049eef6350625dc729d7d19426e0aac7cd5f7e"
+      "sha256": "06fcbfbeacb307d93cd62b5177418f645037ac1e120b870f992d948f5738c4da"
     },
     {
       "path": "en/articles/open-etf-agent-v010-system-design.md",
