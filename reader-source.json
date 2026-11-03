@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "07bac1a65b2dea75d26e8665379d2ae1992c8e03",
+  "commit": "dddd143d0cdcc4797c223a9a0450a0c47bae5069",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -178,7 +178,7 @@
     },
     {
       "path": "articles/agent-main-run-context-compaction.md",
-      "sha256": "f0b6ae747eaff9cd579eadc90e03e980e876add27f2c9502974d79c7a3d483a1"
+      "sha256": "89e32419c487e55c5a5929200c56cc2c89f917fb9f3dd7d28e0fee24569dd153"
     },
     {
       "path": "articles/agent-model-capability-presentation-tool-surface.md",
@@ -374,11 +374,11 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "119220001b06570c1dbe6aa782a7892d5c0b5fa6ea0a7fd6b8fb0ed0b6381919"
+      "sha256": "c5b2dd99cb6291a0df848685d778a680b8f8596371a062c1229122170b4f4822"
     },
     {
       "path": "articles/open-etf-agent-v010-system-design.md",
-      "sha256": "afe7fc5386386d5506218baf3ba5cd1f4598b66957de6544bef9c64fcb310b99"
+      "sha256": "70ed02b0f63addce31844d12838efd7cd1ccbb45707ef3412b42058546873e6c"
     },
     {
       "path": "articles/portfolio-mcp-readonly-investment-data.md",
@@ -582,7 +582,7 @@
     },
     {
       "path": "en/articles/agent-main-run-context-compaction.md",
-      "sha256": "c96cdd9e9e54da402a436e884895f4fcc25bd4c5cf1b59d6b242d7d798f0949a"
+      "sha256": "ce5905ac4bbddb55532c0d4a8be6bfeb957614d3141c94ce2ffd2a82a8df27a4"
     },
     {
       "path": "en/articles/agent-model-capability-presentation-tool-surface.md",
@@ -774,11 +774,11 @@
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "06fcbfbeacb307d93cd62b5177418f645037ac1e120b870f992d948f5738c4da"
+      "sha256": "044ff4dad38c516c7d15a60f1158da7a8ad909eed2881b2ffb07dd13bff8e0a2"
     },
     {
       "path": "en/articles/open-etf-agent-v010-system-design.md",
-      "sha256": "2f2e4249cfc40599dab2790bf2bf617164518b521ee5b4f1038657288da6eb0a"
+      "sha256": "7aefeebcb5e7f84f0d52d3b5203ec02cdfdf586dd3ba706e9e53a5390951a856"
     },
     {
       "path": "en/articles/portfolio-mcp-readonly-investment-data.md",
