@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "dddd143d0cdcc4797c223a9a0450a0c47bae5069",
+  "commit": "916f66daf8ce6291e75cca75f1dff0dd15b245b5",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "abda9955555c0cdc342523f2496bfb1717a6a65b6c60f07da4ef3ad04a5f14b3"
+      "sha256": "682f21a405ae09cd07b68116be5a5eb78e21fc73b3a2cb29b905e5ac5fe0f205"
     },
     {
       "path": "articles/019-agent-answer-publication.md",
@@ -87,6 +87,10 @@
     {
       "path": "articles/agent-asynchronous-research-time-bound-delivery.md",
       "sha256": "a270bc82ba3d38abb86079ea286dce732a34183627cf132f737295845747f1c6"
+    },
+    {
+      "path": "articles/agent-atomic-portfolio-report-production.md",
+      "sha256": "8c65b3c2e932cda65b2d968779ccb7026f501a8ae465f07b360e027a4cccd4c7"
     },
     {
       "path": "articles/agent-autonomous-scheduled-research.md",
@@ -414,7 +418,7 @@
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "74aae9241590ed89e29aeafa6fa726ad488d9a7ebe9cc9537000084a75174866"
+      "sha256": "54ece5bba9fd1c16074ae8311ae4dbd57076539ae9cb570e72645f162adccbb2"
     },
     {
       "path": "en/articles/019-agent-answer-publication.md",
@@ -491,6 +495,10 @@
     {
       "path": "en/articles/agent-asynchronous-research-time-bound-delivery.md",
       "sha256": "a46194267d157469c57ac106edc5619652d76510c0d115e8115ced91c5fca43e"
+    },
+    {
+      "path": "en/articles/agent-atomic-portfolio-report-production.md",
+      "sha256": "cea0f5aaa053353ae2872cbad1be0287d632b4372894d4fc21e6525d01939a5d"
     },
     {
       "path": "en/articles/agent-autonomous-scheduled-research.md",
