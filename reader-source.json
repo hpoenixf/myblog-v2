@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "2a6c7dd31e892d3c257500b0979989d96fd942ff",
+  "commit": "9a8595a3cdb8d0b578b0bfec36ce43716673bf69",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -262,7 +262,7 @@
     },
     {
       "path": "articles/agent-subagent-context-specialization.md",
-      "sha256": "adb88dc857801b770fb0294696599f1774f5e3dcf2d7362d341a79cb79c5ec30"
+      "sha256": "6a28ed5f89ff30805cfa477d7d7ef974288cd09f98f444174f811bab121a279a"
     },
     {
       "path": "articles/agent-subagent-contribution-evidence.md",
@@ -298,7 +298,7 @@
     },
     {
       "path": "articles/ai-citations-do-not-prove-reliability.md",
-      "sha256": "ecd6a965b25855bf430973723eeb9d6b8cd1542b262ba0113a19334c5f798799"
+      "sha256": "28801b594e6af5c9c5e2c80587894afbe9b7a36c7cb1df29a98aff7ada202cad"
     },
     {
       "path": "articles/ai-coding-judgment-and-verification.md",
@@ -322,7 +322,7 @@
     },
     {
       "path": "articles/etf-agent-framework-comparison-panorama.md",
-      "sha256": "8a1602ab275f5c8c00defa78b3869796225498bbc0f2408b9ef2a9c27e2009ef"
+      "sha256": "5509c183f2b14aacabde4b7118e64baf3e714e099c02073cb6bb05ce1040d653"
     },
     {
       "path": "articles/etf-agent-model-harness-research-loop.md",
@@ -370,7 +370,7 @@
     },
     {
       "path": "articles/one-report-nine-architecture-judgments.md",
-      "sha256": "5cc25ee3a475ee22e4e89856641cda1efc5f21c5f8c3883b9bf901448cb22940"
+      "sha256": "2966cac4b3cab05abf543e382ed8b3f8c49bec211a2e1b316c82390c6dd4bd1a"
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
@@ -386,7 +386,7 @@
     },
     {
       "path": "articles/rag-end-to-end-system-panorama.md",
-      "sha256": "daa8ea6ef989581210d82ec050b40a7448eef54f03927ee11459e212136d35e0"
+      "sha256": "4dde398f647b4d1eb1a4618fd8413cf41ff2e13c753ac9aafaa6a2bb17258744"
     },
     {
       "path": "articles/rag-retrieval-evaluation-evidence.md",
@@ -406,7 +406,7 @@
     },
     {
       "path": "articles/vertical-financial-agent-principles-panorama.md",
-      "sha256": "be9b4fdc98d9c32cf54bd9be8be8a5fe7fff8e431fe470247bf84dd56b045e05"
+      "sha256": "6902d2421c5bd9141c6821d92786947acd29b3d8d85aa641aa7e60d4c6f71f56"
     },
     {
       "path": "en/articles/011-model-understands-code-authorizes.md",
@@ -650,7 +650,7 @@
     },
     {
       "path": "en/articles/agent-subagent-context-specialization.md",
-      "sha256": "a0e3b5b51058c8e3c8a45541ffc0c95d58659f6204f2469f3295365eb90e02a6"
+      "sha256": "aa93309b3929f72e72b5091e97606f91a7a0fc13001abb7b3ef5b0c00f77dddb"
     },
     {
       "path": "en/articles/agent-subagent-contribution-evidence.md",
@@ -686,7 +686,7 @@
     },
     {
       "path": "en/articles/ai-citations-do-not-prove-reliability.md",
-      "sha256": "3aa4f10e8b00b36c13a5cbf51ce002a4723b5d435c6d9087982e3f1fbb028284"
+      "sha256": "de2f071a72bcdf31e51ae16434702476d7cf1918f7ea1ac519e5c719f3686098"
     },
     {
       "path": "en/articles/ai-coding-judgment-and-verification.md",
@@ -710,7 +710,7 @@
     },
     {
       "path": "en/articles/etf-agent-framework-comparison-panorama.md",
-      "sha256": "09cbdce754a8babe34df627abbaf14837bf392dbff5693b45d5e2943c5d54773"
+      "sha256": "8b90c7fa5dc2312724c79946f049a9a6c410b73b7b9f89d0f284896c9f08bea0"
     },
     {
       "path": "en/articles/etf-agent-model-harness-research-loop.md",
@@ -754,7 +754,7 @@
     },
     {
       "path": "en/articles/one-report-nine-architecture-judgments.md",
-      "sha256": "37555f608f94dae8040fbf4446e94908a5dd0e4a6dc6d3c614198d8cc7ffae08"
+      "sha256": "90d3f1ef8a065d52b3869014cb4f6bf656bbefe7c588041c8d1a1e1287074e96"
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
@@ -770,7 +770,7 @@
     },
     {
       "path": "en/articles/rag-end-to-end-system-panorama.md",
-      "sha256": "c3c44e8b1e179fb45e3587a52e0bdb73c472b7e66387017e164bb84416ea58c9"
+      "sha256": "3b3eca74453649417fd9ec787d8c469fb936965f265c8c19c5eb90a477ee34a2"
     },
     {
       "path": "en/articles/rag-retrieval-evaluation-evidence.md",
@@ -790,7 +790,7 @@
     },
     {
       "path": "en/articles/vertical-financial-agent-principles-panorama.md",
-      "sha256": "b69dadb69e7f5ae5ac5ac35eff11f8e73373d5f518694131ea6cab3cf31c3a55"
+      "sha256": "9c3b944f2bca167b93b102e7293506406fff3727abd3793d415ee18c0a34721c"
     }
   ]
 }
