@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "041f6abda2f5e93da32c7882e692761b52c6096b",
+  "commit": "04ad2edb045823ad789e837a77f8acad94ee1c83",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -287,6 +287,10 @@
     {
       "path": "articles/agent-tool-lifecycle-and-model-input.md",
       "sha256": "d16cfe505bda6e80ad9c949d1d273f921b80f4fb450e45f2e22066e647290d40"
+    },
+    {
+      "path": "articles/agent-trust-from-claims-to-commitments.md",
+      "sha256": "5f33137a9f1afed68c4615a9c8f2df34a0c033beb1cfe7c41ef459c9b23e4599"
     },
     {
       "path": "articles/agent-veto-authority-and-run-termination.md",
@@ -699,6 +703,10 @@
     {
       "path": "en/articles/agent-tool-lifecycle-and-model-input.md",
       "sha256": "b51417779a76651da84d9a71bb6a1c7cd1d7c8cfd22c3baf87913324cb83a245"
+    },
+    {
+      "path": "en/articles/agent-trust-from-claims-to-commitments.md",
+      "sha256": "b071e3e559db0a20b9cbb3dc85f894ce6d183652f82d1d883eb63fd7b369a4d6"
     },
     {
       "path": "en/articles/agent-veto-authority-and-run-termination.md",
