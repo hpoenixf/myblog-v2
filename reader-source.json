@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "33e5eae14b8307a619e27f50e7f1363ce9b024f4",
+  "commit": "7ecf4ce088c5b71bfaa665e4783a1a933d7e0ee8",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -385,12 +385,16 @@
       "sha256": "2966cac4b3cab05abf543e382ed8b3f8c49bec211a2e1b316c82390c6dd4bd1a"
     },
     {
+      "path": "articles/open-etf-agent-research-project-workshop.md",
+      "sha256": "8ce6a74f2f2b1e22f0aad33dc62d2b9649d1f93a1842b5db6594f117f52b64c9"
+    },
+    {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
       "sha256": "1f44b08b4f11c9d01b71cd0df649e391c8eeb107729552ad1a11a08b269ce86f"
     },
     {
       "path": "articles/open-etf-agent-v010-system-design.md",
-      "sha256": "d8219400890c542023be32f8bc61296e310006539e3c6e8461d84cb1ade6810a"
+      "sha256": "7a13ec46630ceaa250cf478e77d8d73727946ce781085c00debe20c3d8fa08dc"
     },
     {
       "path": "articles/portfolio-mcp-readonly-investment-data.md",
@@ -797,12 +801,16 @@
       "sha256": "90d3f1ef8a065d52b3869014cb4f6bf656bbefe7c588041c8d1a1e1287074e96"
     },
     {
+      "path": "en/articles/open-etf-agent-research-project-workshop.md",
+      "sha256": "5644e354709e490ed331a69458d2ef5f8e72dc81c411bcdbef5eadd589f00721"
+    },
+    {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
       "sha256": "78165b785ab75f728c3575d33f66acbe7e14ac130bd8f32291b9df8c93098b62"
     },
     {
       "path": "en/articles/open-etf-agent-v010-system-design.md",
-      "sha256": "6c7749220d21b67cedba1c630ed3cb54ef61178557af3ba6e8d3d96e9c162b17"
+      "sha256": "4747b8486619d3fd1e56cedf03997f382ad440539fd24450570c8027c95811d9"
     },
     {
       "path": "en/articles/portfolio-mcp-readonly-investment-data.md",
