@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "b2bd8294b99360bf52b537ae251605ad965e1da7",
+  "commit": "a629e450e9e3a505089b54d68a14eaecf3b9a2fb",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "path": "articles/026-agent-spec-evidence-workflow.md",
-      "sha256": "c3ff24d14e6fee71312ee09978c17dab83b129c2b7178cac2bb5fb9ad2b16ffb"
+      "sha256": "375ebab52e079b316659dd0ed71d540c7b26c7750356bbe566488ca016d3492d"
     },
     {
       "path": "articles/027-agent-context-document-history.md",
@@ -174,7 +174,7 @@
     },
     {
       "path": "articles/agent-in-15-minutes.md",
-      "sha256": "c2c2bb18f78dc8969caa200bd07dda2d94c11262e416fd83074ca6729aeaac5a"
+      "sha256": "e8c66a6b087de6f511e22169db576e477ab341ee94ebd24c0a50167f2cda545e"
     },
     {
       "path": "articles/agent-knowledge-retrieval-end-to-end.md",
@@ -238,7 +238,7 @@
     },
     {
       "path": "articles/agent-research-assets-identity-version-lifecycle.md",
-      "sha256": "4a88e65750c36f2de8e84ba1e781b282b73e5c03462d6226c52271dbde116585"
+      "sha256": "ca36721ba5bb42af7242f4e2ed9d104a2339a9950068e88265c57c3524c70d7a"
     },
     {
       "path": "articles/agent-research-decisions-evidence-synthesis.md",
@@ -250,7 +250,7 @@
     },
     {
       "path": "articles/agent-research-workspace-goal-continuity.md",
-      "sha256": "f0f2a426eb10a8a8319faf56a4746b1ecd64c0dc6f5b6b827a42b41e6fb90ab4"
+      "sha256": "a26c08511de13af2159eec71a9d4898c0627ca9ddfd14f94ff5d1d7253e7f87e"
     },
     {
       "path": "articles/agent-runtime-constraint-governance-v2.md",
@@ -282,7 +282,7 @@
     },
     {
       "path": "articles/agent-ten-modules.md",
-      "sha256": "0ba6851e21e985a06ddcd5c3ce908e06b1060c89107a98a7ae490d2089cd0592"
+      "sha256": "fd874005d76a696071742b4a84f7dcf71164121258c88603ab153b84afae905a"
     },
     {
       "path": "articles/agent-thinking-fast-slow-research-needs.md",
@@ -310,7 +310,7 @@
     },
     {
       "path": "articles/agent-weekly-thesis-history-continuous-research.md",
-      "sha256": "11e4cd5d099bc7f5c1ec0eccd3d93ba7d6512f9647df40f4eb936ee34c7df26b"
+      "sha256": "3db9dc0852b3d54120501f4ab6a20139fdda6d15181671e3a6b2ded8db2b74c8"
     },
     {
       "path": "articles/ai-citations-do-not-prove-reliability.md",
@@ -366,7 +366,7 @@
     },
     {
       "path": "articles/honest-agent-evaluation.md",
-      "sha256": "a0d3ade882b448dfab674849b24ed5507dd2482350cd54553f64432f4608dd10"
+      "sha256": "23ff5a697d5b00326c25133bb7ded9ba4a9e23efc6a355ec5cc5aa9e321ea240"
     },
     {
       "path": "articles/investment-perspectives-and-thesis-falsification.md",
@@ -394,11 +394,11 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "1f44b08b4f11c9d01b71cd0df649e391c8eeb107729552ad1a11a08b269ce86f"
+      "sha256": "901d18c644efeacb398110fed4b36a4efa0072d14837b81cde7e3ced27ff70a5"
     },
     {
       "path": "articles/open-etf-agent-v010-system-design.md",
-      "sha256": "7a13ec46630ceaa250cf478e77d8d73727946ce781085c00debe20c3d8fa08dc"
+      "sha256": "2e4616f7210bc6ff701cb8c2acbc140c8fba69c1f54d00d0e79ab5d7d53165f6"
     },
     {
       "path": "articles/portfolio-mcp-readonly-investment-data.md",
@@ -410,7 +410,7 @@
     },
     {
       "path": "articles/rag-retrieval-evaluation-evidence.md",
-      "sha256": "c2541f8d891e946953efa04275f842196e1241b95830dbd3c6c97c9d75a91274"
+      "sha256": "86ad36c2bf0f70c78ea3a77859c5c408a411a290e741904d4ac12b4010c87bd9"
     },
     {
       "path": "articles/runtime-model-protocol-boundary-agent-article-v2.md",
@@ -466,7 +466,7 @@
     },
     {
       "path": "en/articles/026-agent-spec-evidence-workflow.md",
-      "sha256": "e609e861e9ceaa99f0d6cf0e56dac668a8e31bd0cec25c3f40e874131b89b479"
+      "sha256": "bf91be965884650dd025bdf0b0c529ba118765f184a0cab01a26a80b57a8018e"
     },
     {
       "path": "en/articles/027-agent-context-document-history.md",
@@ -598,7 +598,7 @@
     },
     {
       "path": "en/articles/agent-in-15-minutes.md",
-      "sha256": "013f16bfffbf11574a3d71300e4306f9a2f5f757a135e5f982871206e9c5e281"
+      "sha256": "967e4f60adc35669bdda08a65d565118937a0ed259154fd2ec16e8f154722e8d"
     },
     {
       "path": "en/articles/agent-knowledge-retrieval-end-to-end.md",
@@ -662,7 +662,7 @@
     },
     {
       "path": "en/articles/agent-research-assets-identity-version-lifecycle.md",
-      "sha256": "f3b3707042e9d6d84eb62da98edc68339e71a4298842a598b71e34cd1bd96393"
+      "sha256": "6b21ac14642cde885cdc5d10cda824e37f193ed2bf6e33a4055db8cad8cba8c9"
     },
     {
       "path": "en/articles/agent-research-decisions-evidence-synthesis.md",
@@ -674,7 +674,7 @@
     },
     {
       "path": "en/articles/agent-research-workspace-goal-continuity.md",
-      "sha256": "96d8f792025619180a188b76ee8f10735d16597f1b2b2856dfee6b8ad1d754f4"
+      "sha256": "1a7133d43259ffb208d75493aff3bfa529124dff5d2b1f905eec554cb5d1ffd4"
     },
     {
       "path": "en/articles/agent-runtime-constraint-governance-v2.md",
@@ -706,7 +706,7 @@
     },
     {
       "path": "en/articles/agent-ten-modules.md",
-      "sha256": "c15ceda2ff33c171b4948932d5090f0878c83b1dccb5ebaaca64e99cc99ba144"
+      "sha256": "ede6ee9097758e88e86b04f2c2ffbf54d9fdea5e4fd45445ff18956d58e579e2"
     },
     {
       "path": "en/articles/agent-thinking-fast-slow-research-needs.md",
@@ -734,7 +734,7 @@
     },
     {
       "path": "en/articles/agent-weekly-thesis-history-continuous-research.md",
-      "sha256": "98c9d06f8386d34f460cd6fdca2833a4210f172ffd9004c74544147d0878c5e1"
+      "sha256": "529345effc4147d3798d2a91a457e5dba64f9bc6a785507cc813c4ba701e2b3b"
     },
     {
       "path": "en/articles/ai-citations-do-not-prove-reliability.md",
@@ -786,7 +786,7 @@
     },
     {
       "path": "en/articles/honest-agent-evaluation.md",
-      "sha256": "986070857621c64980bd9d48e1631cf7b1258f3461bcec4eab039dc24dbeefc5"
+      "sha256": "edb1e05177af438708fe029f2f6704c7ecd240fc2e9ecf89d8cff74f77a5e4ba"
     },
     {
       "path": "en/articles/investment-perspectives-and-thesis-falsification.md",
@@ -814,11 +814,11 @@
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "78165b785ab75f728c3575d33f66acbe7e14ac130bd8f32291b9df8c93098b62"
+      "sha256": "134e6b325925aef042da0145ddd75b9f903d809d4a97a403d0ffded0035fba08"
     },
     {
       "path": "en/articles/open-etf-agent-v010-system-design.md",
-      "sha256": "4747b8486619d3fd1e56cedf03997f382ad440539fd24450570c8027c95811d9"
+      "sha256": "8d55cad649c59d57de3aad7c8d28d3b969acd4c8f055ce73b4677b4b61d2aec3"
     },
     {
       "path": "en/articles/portfolio-mcp-readonly-investment-data.md",
@@ -830,7 +830,7 @@
     },
     {
       "path": "en/articles/rag-retrieval-evaluation-evidence.md",
-      "sha256": "544f7a71ac4c9926fa12d86fe94e320b5acad8336c8f250dbf49003c77a7a172"
+      "sha256": "2e9db98ca1894805cbba000b0d930f2e525a3fd5816e4a87f99dd1171bb7e325"
     },
     {
       "path": "en/articles/runtime-model-protocol-boundary-agent-article-v2.md",
