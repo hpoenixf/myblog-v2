@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "60b52eaa4c3fcd85e026ae67141b64347358fdaa",
+  "commit": "213875b320caea37223ccbd8c40a0762a6ce0676",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -165,6 +165,10 @@
       "sha256": "5b5d80295a3c0898ba71326cee7de43fa75a00e59085edfdedba3b740d925f83"
     },
     {
+      "path": "articles/agent-fragility-and-antifragility.md",
+      "sha256": "ebde6ca4b990b3bbc396fbd040d5435f84741b53c71d021e77571a1030b2ef85"
+    },
+    {
       "path": "articles/agent-html-evolution-challenges.md",
       "sha256": "8ad644ae6f4ad639a53ac6fa4a36b6d346a479f998d615a91ab485e90155d89d"
     },
@@ -298,7 +302,7 @@
     },
     {
       "path": "articles/agent-vs-backend-development-panorama.md",
-      "sha256": "7fe74d4c965be9f01449af126211e438492d024fe582fa4e00b096790c6f3982"
+      "sha256": "0410be6a22cb80a413b4e8dff99775a2ba2d1c0f525b3a36a17663e3b4abd494"
     },
     {
       "path": "articles/agent-weekly-review-staged-delivery.md",
@@ -585,6 +589,10 @@
       "sha256": "681ff6e3dd995e4cd44ff6e1372b0af8968ddbf6215472f3da8932a792d38926"
     },
     {
+      "path": "en/articles/agent-fragility-and-antifragility.md",
+      "sha256": "54b80877f4ca5ed6222005cdc0dc2f5eb0f8210a37986341c664542d73e20c1e"
+    },
+    {
       "path": "en/articles/agent-html-evolution-challenges.md",
       "sha256": "8e04d5da21423d22b4e123fc91c4a05a4ec336bd4a8261628cdc59dfc4f99418"
     },
@@ -718,7 +726,7 @@
     },
     {
       "path": "en/articles/agent-vs-backend-development-panorama.md",
-      "sha256": "05eaff3e28bfb05c6feee29c888fa6f2ad2b690f18922e82a6affdf6f10ebf57"
+      "sha256": "5e79b5e221a526d46bb3ed24fbfb11c6bead1b9d45fbaab2039ca1ac896fe8d3"
     },
     {
       "path": "en/articles/agent-weekly-review-staged-delivery.md",
