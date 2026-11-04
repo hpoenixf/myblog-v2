@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "04ad2edb045823ad789e837a77f8acad94ee1c83",
+  "commit": "fca1a363fd9a16455bef322c2bd13727848a4d4d",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -150,7 +150,7 @@
     },
     {
       "path": "articles/agent-durable-human-interaction-response-adoption.md",
-      "sha256": "80616a6be5a10fbbf60ecd8352f76c797ea3a4f743f958b736c1e2fdad731165"
+      "sha256": "7ca594ca25bcbd51b3a1a8af07e5f594feb6aa2f7bcae394576fd1c61e82cb45"
     },
     {
       "path": "articles/agent-engineering-suite.md",
@@ -566,7 +566,7 @@
     },
     {
       "path": "en/articles/agent-durable-human-interaction-response-adoption.md",
-      "sha256": "0b055213d3a806ebb24875cbd54c91956492ec0b64684af43099c44ddb33076c"
+      "sha256": "292d1bafd388975fee9811a257feeb099c9ee3925abc97bed802b803eb20870a"
     },
     {
       "path": "en/articles/agent-engineering-suite.md",
