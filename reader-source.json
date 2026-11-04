@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "fca1a363fd9a16455bef322c2bd13727848a4d4d",
+  "commit": "33e5eae14b8307a619e27f50e7f1363ce9b024f4",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -386,7 +386,7 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "f2e72c13377ee67e65f17cd442bd2c6da7fbbfabc1ff0ab9eece3ddfcf081a4d"
+      "sha256": "1f44b08b4f11c9d01b71cd0df649e391c8eeb107729552ad1a11a08b269ce86f"
     },
     {
       "path": "articles/open-etf-agent-v010-system-design.md",
@@ -798,7 +798,7 @@
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "457f897d12ae3effd4b62763364222cdbed001c473758e35590fb421694c5477"
+      "sha256": "78165b785ab75f728c3575d33f66acbe7e14ac130bd8f32291b9df8c93098b62"
     },
     {
       "path": "en/articles/open-etf-agent-v010-system-design.md",
