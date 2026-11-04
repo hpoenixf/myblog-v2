@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "2a3a98c6028cd8d31d8dc08fd4fd457a34ef2aaf",
+  "commit": "9ea3659c742137ebae1c3ec20571ed630d99d296",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -211,6 +211,14 @@
     {
       "path": "en/articles/agent-runtime-constraint-governance-v2.md",
       "sha256": "0096a6813163e4d4f3a0262f51b40e7989f72a350c679dd6b9c786812c013e56"
+    },
+    {
+      "path": "articles/agent-checkpoint-ownership-and-recovery.md",
+      "sha256": "5c36543dc9f5aeb5994157c4a4b861b50cf7d69ce45907ab3c268100d057ccda"
+    },
+    {
+      "path": "en/articles/agent-checkpoint-ownership-and-recovery.md",
+      "sha256": "f41007739075cd9e83849318e2542f0c154975ff6ce7a484aab85a070112df2b"
     },
     {
       "path": "articles/agent-action-reminder-coordination.md",
