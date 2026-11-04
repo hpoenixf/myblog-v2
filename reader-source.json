@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "7ecf4ce088c5b71bfaa665e4783a1a933d7e0ee8",
+  "commit": "60b52eaa4c3fcd85e026ae67141b64347358fdaa",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -386,7 +386,7 @@
     },
     {
       "path": "articles/open-etf-agent-research-project-workshop.md",
-      "sha256": "8ce6a74f2f2b1e22f0aad33dc62d2b9649d1f93a1842b5db6594f117f52b64c9"
+      "sha256": "0e6730c3b450deef55a53d0559f7fc34f0e7e855a445f4b518363c1b275ee376"
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
@@ -802,7 +802,7 @@
     },
     {
       "path": "en/articles/open-etf-agent-research-project-workshop.md",
-      "sha256": "5644e354709e490ed331a69458d2ef5f8e72dc81c411bcdbef5eadd589f00721"
+      "sha256": "38f469b2120d2ff65d6cd13f554de39ca839fa0eba3ef4c2b130f04c88d97503"
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
