@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "9ea3659c742137ebae1c3ec20571ed630d99d296",
+  "commit": "e2d40d8bbc479440a05f467a36088fbfc3117bb5",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -214,11 +214,11 @@
     },
     {
       "path": "articles/agent-checkpoint-ownership-and-recovery.md",
-      "sha256": "5c36543dc9f5aeb5994157c4a4b861b50cf7d69ce45907ab3c268100d057ccda"
+      "sha256": "dff25b80888b9871bb060681b330ff9671c304d4557a68640fb9c9e707ef1d9e"
     },
     {
       "path": "en/articles/agent-checkpoint-ownership-and-recovery.md",
-      "sha256": "f41007739075cd9e83849318e2542f0c154975ff6ce7a484aab85a070112df2b"
+      "sha256": "976f154512973d692acdfcad8fb39b770fa51f53c0bc9a24da4c98d54a1086ac"
     },
     {
       "path": "articles/agent-action-reminder-coordination.md",
