@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "b509d1baa61b8e2c31b61e46c5374b49d03f8785",
+  "commit": "631fb387fe89ba1bea0539bb23dba4351049b18d",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -62,11 +62,11 @@
     },
     {
       "path": "articles/agent-main-run-context-compaction.md",
-      "sha256": "08dbdb2e34a07ced490a5eea4f684d50fe30e24f18af12aaa8d362d872ba3afd"
+      "sha256": "445d1140a37a7296ef062dd6c57eff913a94a59f99d403b2f66eba41f992db47"
     },
     {
       "path": "en/articles/agent-main-run-context-compaction.md",
-      "sha256": "ebd91bbd8e4a187c6c4b2933504ed44b62f70b5a3788040e18964c188012bce3"
+      "sha256": "fe4f7fa8bd3e5afb43794803a937db2380c488ec2f82a9304ace7054127fc907"
     },
     {
       "path": "articles/agent-conversation-history-compaction-source-boundaries.md",
@@ -674,11 +674,11 @@
     },
     {
       "path": "articles/ai-citations-do-not-prove-reliability.md",
-      "sha256": "28801b594e6af5c9c5e2c80587894afbe9b7a36c7cb1df29a98aff7ada202cad"
+      "sha256": "1d9a3b958cdcdd8c19dcdc29ea7c006cf5baf3c07f2e3a0a24f659fad8b38055"
     },
     {
       "path": "en/articles/ai-citations-do-not-prove-reliability.md",
-      "sha256": "de2f071a72bcdf31e51ae16434702476d7cf1918f7ea1ac519e5c719f3686098"
+      "sha256": "6148aa1f98de17216f672ce96098eab0c7238ea2334c44639d6bca3827a09622"
     },
     {
       "path": "articles/code-cheaper-systems-harder-to-evolve.md",
@@ -714,11 +714,11 @@
     },
     {
       "path": "articles/025-agent-langfuse-from-trace-to-trustworthy-observability.md",
-      "sha256": "0e015cc3e15d1879a50d3f8ae2b09c4e4bacf9bbb60f2ba70f4429f128c1e91e"
+      "sha256": "97d08961239503415bbd4a6f0cfa0a807195f392d52af65debe7665e062e5047"
     },
     {
       "path": "en/articles/025-agent-langfuse-from-trace-to-trustworthy-observability.md",
-      "sha256": "ef19bf275695d77bcf2e24cac48d64e6db50b8ecca1114cf54ce37642f2b9587"
+      "sha256": "22bc3500435da48bf8fa505a7f88a19e35c72166e1ddfd65a9e967822d538e0a"
     },
     {
       "path": "articles/agent-report-cost-attribution.md",
@@ -786,11 +786,11 @@
     },
     {
       "path": "articles/honest-agent-evaluation.md",
-      "sha256": "ebf0747089ea29aae29732ef50e4ea3c0f679eef9ace261740e65c8d12746542"
+      "sha256": "4deae14544e54a44113ecfd08d2d626b7aa9b16a47970f28ff4dc30f291de2cf"
     },
     {
       "path": "en/articles/honest-agent-evaluation.md",
-      "sha256": "2440e278ec189861c8a5554bee531eb5cc83c5481ccb08c9bb505d79a0bff41c"
+      "sha256": "65a8b173551dc94209e23017eef174122b9170631c0ddbd1771833c176d260cd"
     },
     {
       "path": "articles/agent-subagent-contribution-evidence.md",
