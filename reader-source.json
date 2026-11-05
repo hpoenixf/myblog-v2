@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "f420395631733a76cfbd16a9357f00195afdcf14",
+  "commit": "af264e629d5f5684b6a616d48bbac4228b771aaa",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -54,19 +54,19 @@
     },
     {
       "path": "articles/tool-results-outside-model-context.md",
-      "sha256": "c04441c85eaa84664a9e90ca9559073a6472b68893829958088def47a1416a16"
+      "sha256": "5acc8865e657581b8242000e49498b67bfca6a80f01a1a4a35b45e961c9db08a"
     },
     {
       "path": "en/articles/tool-results-outside-model-context.md",
-      "sha256": "08793d97d5f2b5a6e194126b3e2861c14cab9f186a1e4635f31d15264779f6fa"
+      "sha256": "cd239e8b13a258bd57f16b90576d9f9040ee9646fc7fe01aa26b9da93c9ff97e"
     },
     {
       "path": "articles/agent-main-run-context-compaction.md",
-      "sha256": "fbb6d3a4bcacb062d5fb082a791c7d3c7878f3006df4a2754b965882ccd30ff2"
+      "sha256": "08dbdb2e34a07ced490a5eea4f684d50fe30e24f18af12aaa8d362d872ba3afd"
     },
     {
       "path": "en/articles/agent-main-run-context-compaction.md",
-      "sha256": "2835eae02663e54f124324e961e0adefa225769954bc713e7ad39925e51141a4"
+      "sha256": "ebd91bbd8e4a187c6c4b2933504ed44b62f70b5a3788040e18964c188012bce3"
     },
     {
       "path": "articles/agent-conversation-history-compaction-source-boundaries.md",
@@ -118,11 +118,11 @@
     },
     {
       "path": "articles/agent-durable-human-interaction-response-adoption.md",
-      "sha256": "7ca594ca25bcbd51b3a1a8af07e5f594feb6aa2f7bcae394576fd1c61e82cb45"
+      "sha256": "f05f4e5e7af1b2ad2debdf128159bcd09f26972a411517f4f52bf32994c33ca0"
     },
     {
       "path": "en/articles/agent-durable-human-interaction-response-adoption.md",
-      "sha256": "292d1bafd388975fee9811a257feeb099c9ee3925abc97bed802b803eb20870a"
+      "sha256": "4e3715e49787857e9234a1acc08d368dcdf052f121ca673ca87ea471be6474ac"
     },
     {
       "path": "articles/agent-custom-expert-from-prompt-to-recovery.md",
@@ -214,11 +214,11 @@
     },
     {
       "path": "articles/agent-checkpoint-ownership-and-recovery.md",
-      "sha256": "a49a5f99671463556647cb4a30ffd5c96d37689d904b2b1aa6fb07e130510b41"
+      "sha256": "b79304c3527a9ea0b8077e626376f674141b90508358d2c6454b89137cb508d1"
     },
     {
       "path": "en/articles/agent-checkpoint-ownership-and-recovery.md",
-      "sha256": "e22c87aeb8264706b1b014a493c43940cbbfea23c5c0055a2816bf6e7f809d6e"
+      "sha256": "4865017661fc5dab4a7eab8df3dbfb4b6565fcf9ddcdad46d0a6ab18dd99e33f"
     },
     {
       "path": "articles/agent-action-reminder-coordination.md",
@@ -382,11 +382,11 @@
     },
     {
       "path": "articles/agent-client-interaction-and-reading.md",
-      "sha256": "a173d26b60d740b9a257f766c0e7707d02b1936372ab76ce71caf52ad0334036"
+      "sha256": "baabe899d2fed30a3d4ad0acf48e7bbe36bfe910c836f9783aa48111029ebc02"
     },
     {
       "path": "en/articles/agent-client-interaction-and-reading.md",
-      "sha256": "0b0a6101ef4fb07a8018182c29e84a2bf7d7807d80cf209b532a41d18ca3be5c"
+      "sha256": "990288c5cf239202a4f2e06c0a5d34c8dc86cca60eb21515d84905b8531f2086"
     },
     {
       "path": "articles/agent-progressive-answer-coherence.md",
@@ -398,11 +398,11 @@
     },
     {
       "path": "articles/agent-client-interaction-panorama.md",
-      "sha256": "c32ce1ae338099b1c66969dde473a10da709c24081c97ba2b29722d23a74076d"
+      "sha256": "b55a3a56947eda448d096bcca54ba6b9de52074b4c4283fd3360bc6a04bbd8a5"
     },
     {
       "path": "en/articles/agent-client-interaction-panorama.md",
-      "sha256": "47a68e026dec028225a7dc12eadecf873dbebd6eaf2d0b5696c5cfe30add02a5"
+      "sha256": "0d4acfe285fac2a33f76c1d773e27fd0bb0f8447f47fdbcec8f11ec9147b7835"
     },
     {
       "path": "articles/agent-long-horizon-research-panorama.md",
@@ -714,11 +714,11 @@
     },
     {
       "path": "articles/025-agent-langfuse-from-trace-to-trustworthy-observability.md",
-      "sha256": "69e6f041fc1dacf0ff6d91d4ee69585973f347ee16756599aeb5039eeafd6fa5"
+      "sha256": "0e015cc3e15d1879a50d3f8ae2b09c4e4bacf9bbb60f2ba70f4429f128c1e91e"
     },
     {
       "path": "en/articles/025-agent-langfuse-from-trace-to-trustworthy-observability.md",
-      "sha256": "ed7ff00c40d60404796479c927693bb8c7e5da9dd33f2aa928eb561fd0756d34"
+      "sha256": "ef19bf275695d77bcf2e24cac48d64e6db50b8ecca1114cf54ce37642f2b9587"
     },
     {
       "path": "articles/agent-report-cost-attribution.md",
@@ -786,11 +786,11 @@
     },
     {
       "path": "articles/honest-agent-evaluation.md",
-      "sha256": "23ff5a697d5b00326c25133bb7ded9ba4a9e23efc6a355ec5cc5aa9e321ea240"
+      "sha256": "ebf0747089ea29aae29732ef50e4ea3c0f679eef9ace261740e65c8d12746542"
     },
     {
       "path": "en/articles/honest-agent-evaluation.md",
-      "sha256": "edb1e05177af438708fe029f2f6704c7ecd240fc2e9ecf89d8cff74f77a5e4ba"
+      "sha256": "2440e278ec189861c8a5554bee531eb5cc83c5481ccb08c9bb505d79a0bff41c"
     },
     {
       "path": "articles/agent-subagent-contribution-evidence.md",
@@ -847,6 +847,14 @@
     {
       "path": "en/articles/ai-coding-judgment-and-verification.md",
       "sha256": "bdee84a05e32bd8408721fda27a66c01b0eb0d7807807dbc2f9a5068c959b5a7"
+    },
+    {
+      "path": "articles/financial-agent-research-claim-boundaries.md",
+      "sha256": "394a297bc7350344e5551c65cd9996af3a05177ad6d7d5f8ffb5ae2327ee3957"
+    },
+    {
+      "path": "en/articles/financial-agent-research-claim-boundaries.md",
+      "sha256": "512b797defc37a07de77ea24e9c2ec99f7be05c6169c2649ab391b5e80e55182"
     }
   ]
 }
