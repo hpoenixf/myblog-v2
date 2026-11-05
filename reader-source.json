@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "631fb387fe89ba1bea0539bb23dba4351049b18d",
+  "commit": "2e3260c3d9f25a5f2a5a6287c50d6561b43d7640",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -62,11 +62,11 @@
     },
     {
       "path": "articles/agent-main-run-context-compaction.md",
-      "sha256": "445d1140a37a7296ef062dd6c57eff913a94a59f99d403b2f66eba41f992db47"
+      "sha256": "b769fb23e8c419f2792596c1bbf8df10a18f6c847d869216f70b47f7ebf3c226"
     },
     {
       "path": "en/articles/agent-main-run-context-compaction.md",
-      "sha256": "fe4f7fa8bd3e5afb43794803a937db2380c488ec2f82a9304ace7054127fc907"
+      "sha256": "80f7c406e95f1f55359ded4c0d4364b2931f9e60f246f3596115f380c4db7866"
     },
     {
       "path": "articles/agent-conversation-history-compaction-source-boundaries.md",
