@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "e1f401ecb01b1859e0340bee199abd0178b23672",
+  "commit": "16547101a8a42f01a62695a7a4e32ecfcace0d05",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -310,11 +310,11 @@
     },
     {
       "path": "articles/agent-knowledge-retrieval-end-to-end.md",
-      "sha256": "ada0b5d803e0f88b6c17826f01eb29ec522d4e89c0ca90e03e2b6d1dbe9e8f12"
+      "sha256": "abb33f8e64c9ac9ceefc71abf733fa29a7303739fa2077103e1e48a295fbacf7"
     },
     {
       "path": "en/articles/agent-knowledge-retrieval-end-to-end.md",
-      "sha256": "0fd27cde42b52f56d3918b10a8c8cbb54e056ccf9479411a1ab69dcc728bcfa5"
+      "sha256": "76630d2e3841a8df5030b24930d45ba3591a5fe40ce69f71d0123c7bd2fc4319"
     },
     {
       "path": "articles/027-rag-revocation-publish-replay.md",
@@ -550,11 +550,11 @@
     },
     {
       "path": "articles/financial-agent-python-result-consumption.md",
-      "sha256": "e134e672bb750ec06e16aa1c825821a16ef65fadc45574cdde1dc56e9393042f"
+      "sha256": "c003b1c7404f3bb4589fa7d7859adb960ed1e7edef701beccf16c3cc9971d1e7"
     },
     {
       "path": "en/articles/financial-agent-python-result-consumption.md",
-      "sha256": "801b05e01d39cfe55a8dfcbb2fe542854e82baa0bab17ddd3bef879f315581d1"
+      "sha256": "e8559a6a9477c41217fb9bde42a0e4c6e1aa27eb808eecbd0bf4c7e82abd7aaa"
     },
     {
       "path": "articles/agent-in-15-minutes.md",
@@ -630,11 +630,11 @@
     },
     {
       "path": "articles/agent-trust-from-claims-to-commitments.md",
-      "sha256": "5f33137a9f1afed68c4615a9c8f2df34a0c033beb1cfe7c41ef459c9b23e4599"
+      "sha256": "0c052c03cd07b73a996209c18ffde38dc315dad7d491931ef82720f39dd42a66"
     },
     {
       "path": "en/articles/agent-trust-from-claims-to-commitments.md",
-      "sha256": "b071e3e559db0a20b9cbb3dc85f894ce6d183652f82d1d883eb63fd7b369a4d6"
+      "sha256": "861986d3b5c4f3e9bc9eb110889a70283ffc00780a59468f4f815bfc6fd55cbc"
     },
     {
       "path": "articles/agent-fragility-and-antifragility.md",
@@ -662,7 +662,11 @@
     },
     {
       "path": "articles/financial-agent-trustworthy-evidence-chain.md",
-      "sha256": "c0c18ad32e38eb7c27c4d839b431b8e7674021f2dba749ec8d0dc89fc6d25fe1"
+      "sha256": "08d0af97faaaac0dcd5bdbaf42e238847357ae53796a650bc0f7a7222147e10d"
+    },
+    {
+      "path": "en/articles/financial-agent-trustworthy-evidence-chain.md",
+      "sha256": "213c8806f09ef2a76ddca42bf4a52be668c5fc0902b534b4090e129a62963b4d"
     },
     {
       "path": "articles/agent-thinking-fast-slow-research-needs.md",
@@ -810,11 +814,11 @@
     },
     {
       "path": "articles/rag-retrieval-evaluation-evidence.md",
-      "sha256": "86ad36c2bf0f70c78ea3a77859c5c408a411a290e741904d4ac12b4010c87bd9"
+      "sha256": "aa6a1141d751dc16d4c36e5e8780f6b18c2c341539f550e572bde9065c10ca1c"
     },
     {
       "path": "en/articles/rag-retrieval-evaluation-evidence.md",
-      "sha256": "2e9db98ca1894805cbba000b0d930f2e525a3fd5816e4a87f99dd1171bb7e325"
+      "sha256": "8ad8e684bc80e7f32c6a2039f99a37f992ef26fd2dc5b666da92c51f3151bd9c"
     },
     {
       "path": "articles/agent-runtime-refactor-one-day-blocked.md",
