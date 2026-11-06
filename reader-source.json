@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "000d2b6f18d736ee77a5c11a962c203bac5e9307",
+  "commit": "e1f401ecb01b1859e0340bee199abd0178b23672",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -406,11 +406,11 @@
     },
     {
       "path": "articles/agent-long-horizon-research-panorama.md",
-      "sha256": "411c81460734de22de8f31b6f41b474bd9ef12e70e52fc673d2066e9665f8f69"
+      "sha256": "b074b7f6ed60742b2496195cee483e152acad12ef0379c84bb904d2ac621de68"
     },
     {
       "path": "en/articles/agent-long-horizon-research-panorama.md",
-      "sha256": "d1a01c747159203479d7c229e0a7c81adde34d8984f63e42cb163cd9abb5c737"
+      "sha256": "52fd8b9256d95b4fa4109b5a121b1d9e7369dd739af3e408309b3122ccee8817"
     },
     {
       "path": "articles/agent-background-research-collaborative-experience.md",
