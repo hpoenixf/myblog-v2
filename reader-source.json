@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "16547101a8a42f01a62695a7a4e32ecfcace0d05",
+  "commit": "35167feffbaae74a19189aee9a5fa824bd003bec",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -582,11 +582,11 @@
     },
     {
       "path": "articles/open-etf-agent-research-project-workshop.md",
-      "sha256": "187c67b215c589ce956da849f2f0fb30515933c7ef5ab9c787e50310e74c1e7e"
+      "sha256": "d37b0cc6d83c0be00b60a26aae2de4a6991f01329a3d00d7ce28aba9f3b5eeac"
     },
     {
       "path": "en/articles/open-etf-agent-research-project-workshop.md",
-      "sha256": "fd3f8889f653874dd5f9ff5ec8bd8746e31d070f9f017db3e5ab8eb0bd1ca344"
+      "sha256": "4dc74f37a74d6172c70a115478b64b22ae68f8585a539cdc0346ba1ee8d47830"
     },
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
@@ -782,11 +782,11 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "3488bcaba327410b683a10a6ad63f341fa03dc7e3443e9690c97754247ed2fcd"
+      "sha256": "4105484490858bf4c5652f6ffe5109898fed68e8c7f0184e9adb6545f37c72d2"
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "ce4734ce85a2713041596effda0575301d0939b5bf6f32ea29884c391b424685"
+      "sha256": "c28b4b9fee143b7bfd6ab151f7f32385c59f144c4463550633755f054c28179b"
     },
     {
       "path": "articles/honest-agent-evaluation.md",
