@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "35167feffbaae74a19189aee9a5fa824bd003bec",
+  "commit": "06edebf7129bdfc48555ff711cd44abdf4876f88",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -859,6 +859,14 @@
     {
       "path": "en/articles/financial-agent-research-claim-boundaries.md",
       "sha256": "512b797defc37a07de77ea24e9c2ec99f7be05c6169c2649ab391b5e80e55182"
+    },
+    {
+      "path": "articles/chat-copilot-agent-runtime-evolution.md",
+      "sha256": "9ca75a55cd5991476c1f952b8fa3540464a29ee5ba6791a14020405bfa781662"
+    },
+    {
+      "path": "en/articles/chat-copilot-agent-runtime-evolution.md",
+      "sha256": "84bbfeabc2e5fee8967492ef55b41e6cf5df923114edde3c2d4d172beec2ab72"
     }
   ]
 }
