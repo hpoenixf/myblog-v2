@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "06edebf7129bdfc48555ff711cd44abdf4876f88",
+  "commit": "7158080789e6cb78d2db5b389885406c24b934e5",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -867,6 +867,14 @@
     {
       "path": "en/articles/chat-copilot-agent-runtime-evolution.md",
       "sha256": "84bbfeabc2e5fee8967492ef55b41e6cf5df923114edde3c2d4d172beec2ab72"
+    },
+    {
+      "path": "articles/ai-coding-quality-panorama.md",
+      "sha256": "2c6975cb97cd5adf1fc6852dfbbbe05b4a82baa36c442fd72a74e90c5df63469"
+    },
+    {
+      "path": "en/articles/ai-coding-quality-panorama.md",
+      "sha256": "de5bd82beadba867716efc2575c45ead849c3f98cd806d90a23405dd77a80ba9"
     }
   ]
 }
