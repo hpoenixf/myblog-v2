@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "7158080789e6cb78d2db5b389885406c24b934e5",
+  "commit": "f828f7c387fcfdf421857194d7dd8d916ce837ba",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -875,6 +875,14 @@
     {
       "path": "en/articles/ai-coding-quality-panorama.md",
       "sha256": "de5bd82beadba867716efc2575c45ead849c3f98cd806d90a23405dd77a80ba9"
+    },
+    {
+      "path": "articles/etf-agent-vs-langgraph.md",
+      "sha256": "dd3302563c0a9cb80779cc473bbacf625c21bb4bca816f47a27beafa59774137"
+    },
+    {
+      "path": "en/articles/etf-agent-vs-langgraph.md",
+      "sha256": "edd7c9db2563e42e083440c809c6aaa4fed66cabffb781302cc66a5aa7a1cf9a"
     }
   ]
 }
