@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "320bb36dc45a9725c27e84280f6118a09fa4c0ab",
+  "commit": "8c3e24f6ebf27c4414f7298c9cbc1d098d777469",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -166,11 +166,11 @@
     },
     {
       "path": "articles/agent-subagent-context-specialization.md",
-      "sha256": "6a28ed5f89ff30805cfa477d7d7ef974288cd09f98f444174f811bab121a279a"
+      "sha256": "6d46fa0de58ba2e61fc9270dba923a03c6a7351d4e1fb9cc2e83963fdeb56707"
     },
     {
       "path": "en/articles/agent-subagent-context-specialization.md",
-      "sha256": "aa93309b3929f72e72b5091e97606f91a7a0fc13001abb7b3ef5b0c00f77dddb"
+      "sha256": "97ad6b7a0c5843bc30ced34095ef889c83cb9dd7dd4bb49c63a2e481a82a0269"
     },
     {
       "path": "articles/agent-provider-architecture-and-admission.md",
@@ -182,11 +182,11 @@
     },
     {
       "path": "articles/agent-provider-admission-capacity-lease.md",
-      "sha256": "a3d355ddb5a1ce6035491393b0c44473caf4c4bbd0e2b60d0821b00fe259ed0d"
+      "sha256": "a844393aeddac73a92dbf102b991a4bff07f14aefb2b9452de214e20a4da3da8"
     },
     {
       "path": "en/articles/agent-provider-admission-capacity-lease.md",
-      "sha256": "45e77cb2426b76d28abc677d957e05a10639b8132f1f46d6c3c9b335c522486d"
+      "sha256": "65f0f406dfdb8ab4b29583ce46dda28ba0175b8a738c1b7620efb81fa1ec529e"
     },
     {
       "path": "articles/agent-model-capability-presentation-tool-surface.md",
@@ -310,11 +310,11 @@
     },
     {
       "path": "articles/agent-knowledge-retrieval-end-to-end.md",
-      "sha256": "abb33f8e64c9ac9ceefc71abf733fa29a7303739fa2077103e1e48a295fbacf7"
+      "sha256": "1bcf120f96fa6ab08701706769de6f0ad2b644d4a250856eb62ef2e0e76faa51"
     },
     {
       "path": "en/articles/agent-knowledge-retrieval-end-to-end.md",
-      "sha256": "76630d2e3841a8df5030b24930d45ba3591a5fe40ce69f71d0123c7bd2fc4319"
+      "sha256": "ce47f0383312c60d4e262eb47c5fb28d256e63a582e3979587cec6700d04eb08"
     },
     {
       "path": "articles/027-rag-revocation-publish-replay.md",
@@ -883,6 +883,14 @@
     {
       "path": "en/articles/etf-agent-vs-langgraph.md",
       "sha256": "d7f1c7f217a1804712d7d12f30bc3127d766b5a793089f817669f6dea3a2c3bf"
+    },
+    {
+      "path": "articles/agent-evaluation-set-for-iteration.md",
+      "sha256": "d87f305556dfcecaf3422c2de6946d2faebaa7b62e3c197f7b9288cce4a59eac"
+    },
+    {
+      "path": "en/articles/agent-evaluation-set-for-iteration.md",
+      "sha256": "ad934f795c9f557f1d052bc6f26138dec1396d890b5ef403a246cbb1d1b79e59"
     }
   ]
 }
