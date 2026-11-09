@@ -12,6 +12,38 @@ github: https://github.com/hpoenixf
 
 我关注三个相互关联的问题：**怎样让金融数据与计算结果可信、怎样让 Agent 完成从研究到交付的完整任务、怎样用 AI 辅助研发并持续控制系统复杂度。**
 
+### 正在做的公开项目
+
+我把 Agent 工程实践拆成两条相互对应的线：一条提供可运行的实现，一条解释设计取舍。
+
+- **[Open ETF Agent](https://github.com/hpoenixf/open-etf-agent)**：面向开发者的研究 Agent 工程练习，从离线合成文档示例开始，逐步理解工具调用、子代理协作、结果交付与过程观测。可以对照文章运行代码、检查证据；它不是实时基金投研或交易服务。[阅读模块导览](https://hpoenixf.com/eff-agent-article/open-etf-agent)。
+- **[ETF Agent Engineering Notes](https://hpoenixf.com/eff-agent-article/)**：围绕 Agent 模块机制、架构设计与研发方法的中英文工程笔记。把实现、验证入口和失败边界放在一起，方便读者顺着问题深入，而不只看结论。[文章源码](https://github.com/hpoenixf/eff-agent-article)。
+
+<div className="not-prose my-4 flex flex-col gap-3">
+  <div className="flex flex-wrap items-center gap-2">
+    <span className="text-sm">Open ETF Agent</span>
+    <a href="https://github.com/hpoenixf/open-etf-agent/stargazers" aria-label="Open ETF Agent 的 GitHub Stars">
+      <img src="https://img.shields.io/github/stars/hpoenixf/open-etf-agent?style=flat" alt="Open ETF Agent GitHub Stars" height="20" loading="lazy" referrerPolicy="no-referrer" />
+    </a>
+    <a href="https://github.com/hpoenixf/open-etf-agent/commits/main/" aria-label="Open ETF Agent 的 main 提交记录">
+      <img src="https://img.shields.io/github/last-commit/hpoenixf/open-etf-agent/main?display_timestamp=committer&label=main%20updated" alt="Open ETF Agent main 最近提交" height="20" loading="lazy" referrerPolicy="no-referrer" />
+    </a>
+    <a className="text-sm underline" href="https://github.com/hpoenixf/open-etf-agent/commits/main/">提交记录</a>
+  </div>
+  <div className="flex flex-wrap items-center gap-2">
+    <span className="text-sm">Engineering Notes</span>
+    <a href="https://github.com/hpoenixf/eff-agent-article/stargazers" aria-label="Engineering Notes 的 GitHub Stars">
+      <img src="https://img.shields.io/github/stars/hpoenixf/eff-agent-article?style=flat" alt="Engineering Notes GitHub Stars" height="20" loading="lazy" referrerPolicy="no-referrer" />
+    </a>
+    <a href="https://github.com/hpoenixf/eff-agent-article/commits/main/" aria-label="Engineering Notes 的 main 提交记录">
+      <img src="https://img.shields.io/github/last-commit/hpoenixf/eff-agent-article/main?display_timestamp=committer&label=main%20updated" alt="Engineering Notes main 最近提交" height="20" loading="lazy" referrerPolicy="no-referrer" />
+    </a>
+    <a className="text-sm underline" href="https://github.com/hpoenixf/eff-agent-article/commits/main/">提交记录</a>
+  </div>
+</div>
+
+仅展示这两个公开仓库；徽章由 Shields.io 动态读取，可能有缓存延迟，以链接中的 GitHub 记录为准。
+
 ### 联系与交流
 
 欢迎交流金融科技、AI Agent 架构与研发工程实践。
@@ -21,12 +53,13 @@ github: https://github.com/hpoenixf
 
 ### 公开工程文章
 
-- **金融科技与投研：** [金融科技 × Agent 主题阅读](https://hpoenixf.github.io/eff-agent-article/fintech)。
-- **Agent 应用开发：** [从问题到交付的六层系统](https://hpoenixf.github.io/eff-agent-article/articles/017-prompt-to-answer-six-layer-panorama)、[Subagent 协作](https://hpoenixf.github.io/eff-agent-article/articles/agent-subagent-context-specialization)、[Python 工作台](https://hpoenixf.github.io/eff-agent-article/articles/agent-python-compute-workbench-evolution)。
-- **Agent 架构与系统思维：** [Model、Runtime、MCP、Skill 的分工](https://hpoenixf.github.io/eff-agent-article/articles/agent-model-runtime-mcp-skill-boundaries)、[模型会理解，代码才授权](https://hpoenixf.github.io/eff-agent-article/articles/011-model-understands-code-authorizes)、[否决权与 Run 终结权](https://hpoenixf.github.io/eff-agent-article/articles/agent-veto-authority-and-run-termination)。
+- **金融科技与投研：** [金融科技 × Agent 主题阅读](https://hpoenixf.com/eff-agent-article/fintech)。
+- **Agent 应用开发：** [从问题到交付的六层系统](https://hpoenixf.com/eff-agent-article/articles/017-prompt-to-answer-six-layer-panorama)、[Subagent 协作](https://hpoenixf.com/eff-agent-article/articles/agent-subagent-context-specialization)、[Python 工作台](https://hpoenixf.com/eff-agent-article/articles/agent-python-compute-workbench-evolution)。
+- **Agent 架构与系统思维：** [Model、Runtime、MCP、Skill 的分工](https://hpoenixf.com/eff-agent-article/articles/agent-model-runtime-mcp-skill-boundaries)、[模型会理解，代码才授权](https://hpoenixf.com/eff-agent-article/articles/011-model-understands-code-authorizes)、[否决权与 Run 终结权](https://hpoenixf.com/eff-agent-article/articles/agent-veto-authority-and-run-termination)。
 - **AI 辅助研发：** [Spec、Evidence 与研发关闭](/blog/026-agent-spec-evidence-workflow)、[按需加载的工程文档与 History](/blog/027-agent-context-document-history)。
-- **前端工程与交互：** [Relay 归一化机制的隐蔽问题](/blog/relay-id-issue)、[组件库与体验一致性](/blog/design-quality-assurance)，以及 [Agent 渐进式回答与修订](https://hpoenixf.github.io/eff-agent-article/articles/agent-progressive-answer-coherence)。
+- **前端工程与交互：** [Relay 归一化机制的隐蔽问题](/blog/relay-id-issue)、[组件库与体验一致性](/blog/design-quality-assurance)，以及 [Agent 渐进式回答与修订](https://hpoenixf.com/eff-agent-article/articles/agent-progressive-answer-coherence)。
 
-完整文章与架构图整理在 [ETF Agent Engineering Notes](https://hpoenixf.github.io/eff-agent-article/)，分为模块机制、架构设计与系统思考、AI Agent 研发工程实践三个入口。
+完整文章与架构图整理在 [ETF Agent Engineering Notes](https://hpoenixf.com/eff-agent-article/)，分为模块机制、架构设计与系统思考、AI Agent 研发工程实践三个入口。
 
 这些文章记录特定时点的工程判断、局部验证和失败经验。公开文集不是完整 Agent 应用的源码或在线 Demo，未公开的生产指标与端到端能力不能仅凭文章认证。
+
