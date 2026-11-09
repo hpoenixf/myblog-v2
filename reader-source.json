@@ -6,11 +6,11 @@
   "files": [
     {
       "path": "articles/agent-autonomous-scheduled-research.md",
-      "sha256": "ab78143a75261eccc3d288e7c8e4b66130e700890fdb3587be843c5ffdf22a6f"
+      "sha256": "393928f3ef6a3771c75d9e2ddad3c54676bfe1ccca394be9c70eec6c3a8b2569"
     },
     {
       "path": "en/articles/agent-autonomous-scheduled-research.md",
-      "sha256": "0f2c438f91f6578f2e2cb8a0c43b440d4d55bb4505e242791e4e0bbe7186fcc5"
+      "sha256": "257b3cf242b13d2b890511d06921947824e4d381c0d3281aafc42cf9fc307045"
     },
     {
       "path": "articles/agent-personalized-daily-research-cache.md",
@@ -350,11 +350,11 @@
     },
     {
       "path": "articles/019-agent-answer-publication.md",
-      "sha256": "48117ee2f39f65c18c10defbd6543fce5eed3e4bc34093a3883cd138836f572e"
+      "sha256": "55cde1aaa0a7cbdf46f2fe7fd531c359a1bf8dcad4c74cb493b4866397d9782e"
     },
     {
       "path": "en/articles/019-agent-answer-publication.md",
-      "sha256": "9e4f7681d65a9a840daaff0575e56059043dff439ac5919bdbfd763888aea25d"
+      "sha256": "22f4cfbd243723e5b45b1bb0b7bbb017dee581430b21c8c56dedf8020977c051"
     },
     {
       "path": "articles/agent-artifact-version-access-sharing.md",
