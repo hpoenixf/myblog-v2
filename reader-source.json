@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "20a03c97cd31b01c874795b4994476888dcb8f16",
+  "commit": "fbc84a656fdb3417c0a2dfab02eea231a9843471",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -558,19 +558,19 @@
     },
     {
       "path": "articles/agent-in-15-minutes.md",
-      "sha256": "cee2ed7c194078b180a1b1c089186464834ff10ae64d6946be61ec5986dde9ea"
+      "sha256": "433afb190e22ea3cedd1715670da0d15f248dac68258177ab45a6904ab959a96"
     },
     {
       "path": "en/articles/agent-in-15-minutes.md",
-      "sha256": "1e4fda6afb4aa23eded5d2e89b30e924610697cb3fd1db2711ffab604cbdba71"
+      "sha256": "b4f8fb457e373b99b95c3e68f47cfd165919888486cc5704ecfbae2d79cd29e2"
     },
     {
       "path": "articles/agent-ten-modules.md",
-      "sha256": "d112197343efff96411722614cc2e2fdc87b1d6f942b94c930fda5b8d03aa97a"
+      "sha256": "92f6aa5fa016e05e0ee29d4b565b9f43feafa90a6c65e7a74d947b42a51009b8"
     },
     {
       "path": "en/articles/agent-ten-modules.md",
-      "sha256": "dc0c1db56c277fae74ce3311acc310b28ce2f5634fd567175719a921bd2406af"
+      "sha256": "9e8f4102248c94822fe7ac868822ba167726b72a380b9dcf9389ae6a87d414b5"
     },
     {
       "path": "articles/open-etf-agent-v010-system-design.md",
@@ -932,6 +932,30 @@
       "path": "en/articles/multi-layer-agent-collaboration-outlook.md",
       "sha256": "69ca8cf1eb1ccc3eddeefefc66ff2438d06c32868e095dd9a098454e1b0e144d",
       "canonicalPath": "en/articles/agent-subagent-context-specialization.md"
+    },
+    {
+      "path": "articles/conversation-context-memory-checkpoints.md",
+      "sha256": "bfdaa90532986f8dc0a7c2785799ad608eca9a2ecf9d46ac4139878463728353"
+    },
+    {
+      "path": "articles/prompt-context-rag-memory.md",
+      "sha256": "418fd651fdd70b96d23732d30824bf53d54c9ca6698811f29117fea3d8bcc74b"
+    },
+    {
+      "path": "articles/tools-function-calling-mcp-skill.md",
+      "sha256": "06bcfd1d6214579b13bf48d7c4779f3ccb720070e5b9fbd78b6b1070ff1468a5"
+    },
+    {
+      "path": "en/articles/conversation-context-memory-checkpoints.md",
+      "sha256": "ba4b9245cf6f2f7337c078635f74c5beb177823fd5308ae54c6ed1595a8b9676"
+    },
+    {
+      "path": "en/articles/prompt-context-rag-memory.md",
+      "sha256": "a2f624004036203d6a51553641ab418f5a554fdeb5a748c782efc7859b6bbaba"
+    },
+    {
+      "path": "en/articles/tools-function-calling-mcp-skill.md",
+      "sha256": "14d8968002b1da658ce3e339e59e23ac051a12f2dc6d3a5485bddc232796e654"
     }
   ]
 }
