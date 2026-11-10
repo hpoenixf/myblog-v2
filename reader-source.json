@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "f02ce5f3a441fd0ccbf0167ba6923dca84f89d25",
+  "commit": "04f901f6f60e650c5c69b42d1b767a89dae27da5",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -899,6 +899,14 @@
     {
       "path": "en/articles/agent-deep-research-resource-and-delivery.md",
       "sha256": "24718886a5d6ab535641515f11a8f1e617332fb70e0411d1c4ddac0e9b4d8704"
+    },
+    {
+      "path": "articles/agent-cleanup-result-ownership.md",
+      "sha256": "5fc689be6c01877fb48f55fba506675fb299c5a6a4486765ab728113e1c68212"
+    },
+    {
+      "path": "en/articles/agent-cleanup-result-ownership.md",
+      "sha256": "ca79e8b5fd49d6e1b6252fe2567e5a2ed25d3c6a8153840b46b4e7498376318a"
     }
   ]
 }
