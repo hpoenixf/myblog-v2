@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "8c3e24f6ebf27c4414f7298c9cbc1d098d777469",
+  "commit": "f02ce5f3a441fd0ccbf0167ba6923dca84f89d25",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -891,6 +891,14 @@
     {
       "path": "en/articles/agent-evaluation-set-for-iteration.md",
       "sha256": "ad934f795c9f557f1d052bc6f26138dec1396d890b5ef403a246cbb1d1b79e59"
+    },
+    {
+      "path": "articles/agent-deep-research-resource-and-delivery.md",
+      "sha256": "90f33bd2b6f7a886942cd3e817495da2a513a30307eb8a381ea66d0b96dec6a7"
+    },
+    {
+      "path": "en/articles/agent-deep-research-resource-and-delivery.md",
+      "sha256": "24718886a5d6ab535641515f11a8f1e617332fb70e0411d1c4ddac0e9b4d8704"
     }
   ]
 }
