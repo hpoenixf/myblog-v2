@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "fbc84a656fdb3417c0a2dfab02eea231a9843471",
+  "commit": "c38fff04926d0640aaa186229b38b8a69f213acc",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -935,27 +935,27 @@
     },
     {
       "path": "articles/conversation-context-memory-checkpoints.md",
-      "sha256": "bfdaa90532986f8dc0a7c2785799ad608eca9a2ecf9d46ac4139878463728353"
+      "sha256": "1e588c7b2522662ae43dd1dd1e18efbca32b956a1ae485485de05a8c0aec33ab"
     },
     {
       "path": "articles/prompt-context-rag-memory.md",
-      "sha256": "418fd651fdd70b96d23732d30824bf53d54c9ca6698811f29117fea3d8bcc74b"
+      "sha256": "ad43c2cad3429d44e1e025bb8f710de7f5786f4dbbb5273760d460d511c8e5dd"
     },
     {
       "path": "articles/tools-function-calling-mcp-skill.md",
-      "sha256": "06bcfd1d6214579b13bf48d7c4779f3ccb720070e5b9fbd78b6b1070ff1468a5"
+      "sha256": "830a26c1d04dddb5585855fbc1f28adcca13350d1ef235202f39a06ac05fafa4"
     },
     {
       "path": "en/articles/conversation-context-memory-checkpoints.md",
-      "sha256": "ba4b9245cf6f2f7337c078635f74c5beb177823fd5308ae54c6ed1595a8b9676"
+      "sha256": "922b7e4bd4d0e92b2663fa9349595c3f2cb1a388f7582c8c8a255aae2da4622c"
     },
     {
       "path": "en/articles/prompt-context-rag-memory.md",
-      "sha256": "a2f624004036203d6a51553641ab418f5a554fdeb5a748c782efc7859b6bbaba"
+      "sha256": "6f4fbe147dca5f54ec30e61109e1bf0627b41098f081d6d7505143873ba5c4f3"
     },
     {
       "path": "en/articles/tools-function-calling-mcp-skill.md",
-      "sha256": "14d8968002b1da658ce3e339e59e23ac051a12f2dc6d3a5485bddc232796e654"
+      "sha256": "6ca858c2952866c09e819591a33e873304c98e0d3fe7346208e163c14dc41f4f"
     }
   ]
 }
