@@ -354,33 +354,83 @@ const historical = {
   'second-v1': 'second',
 }
 const historicalEnglish = ['example-v2', 'second-v1']
-const fullCollections = [{ chapters: [{ items: [['example', 'Example'], ['second', 'Second']] }] }]
+const fullCollections = [
+  {
+    chapters: [
+      {
+        items: [
+          ['example', 'Example'],
+          ['second', 'Second'],
+        ],
+      },
+    ],
+  },
+]
 const fullEnglish = ['example', 'second']
-const historyPaths = () => expectedHistoricalEditions(fullCollections, fullEnglish, historical, historicalEnglish)
+const historyPaths = () =>
+  expectedHistoricalEditions(fullCollections, fullEnglish, historical, historicalEnglish)
 const fullRelease = () => ({
   ...release,
   files: [
-    ...expectedCanonicalEditions(fullCollections, fullEnglish).map(path => ({ path, sha256: digest(path) })),
-    ...[...historyPaths()].map(([path, canonicalPath]) => ({ path, canonicalPath, sha256: digest(path) })),
+    ...expectedCanonicalEditions(fullCollections, fullEnglish).map((path) => ({
+      path,
+      sha256: digest(path),
+    })),
+    ...[...historyPaths()].map(([path, canonicalPath]) => ({
+      path,
+      canonicalPath,
+      sha256: digest(path),
+    })),
   ],
 })
 
 test('registered historical full texts add editions without changing canonical counts', () => {
   assert.equal(expectedCanonicalEditions(fullCollections, fullEnglish).length, 4)
   assert.equal(historyPaths().size, 5)
-  assert.equal(assertCatalogCoverage(fullRelease(), fullCollections, fullEnglish, historical, historicalEnglish), 9)
+  assert.equal(
+    assertCatalogCoverage(
+      fullRelease(),
+      fullCollections,
+      fullEnglish,
+      historical,
+      historicalEnglish
+    ),
+    9
+  )
   for (const missing of [[...historyPaths().keys()][0], ...historyPaths().keys()]) {
     const partial = fullRelease()
-    partial.files = partial.files.filter(file => file.path !== missing)
-    assert.throws(() => assertCatalogCoverage(partial, fullCollections, fullEnglish, historical, historicalEnglish), /Missing/)
+    partial.files = partial.files.filter((file) => file.path !== missing)
+    assert.throws(
+      () =>
+        assertCatalogCoverage(partial, fullCollections, fullEnglish, historical, historicalEnglish),
+      /Missing/
+    )
   }
   const withoutAllHistory = fullRelease()
-  withoutAllHistory.files = withoutAllHistory.files.filter(file => !historyPaths().has(file.path))
-  assert.throws(() => assertCatalogCoverage(withoutAllHistory, fullCollections, fullEnglish, historical, historicalEnglish), /Missing/)
-  assert.equal(assertCatalogCoverage(withoutAllHistory, fullCollections, fullEnglish), 4, 'Old sources without history exports retain their original contract')
+  withoutAllHistory.files = withoutAllHistory.files.filter((file) => !historyPaths().has(file.path))
+  assert.throws(
+    () =>
+      assertCatalogCoverage(
+        withoutAllHistory,
+        fullCollections,
+        fullEnglish,
+        historical,
+        historicalEnglish
+      ),
+    /Missing/
+  )
+  assert.equal(
+    assertCatalogCoverage(withoutAllHistory, fullCollections, fullEnglish),
+    4,
+    'Old sources without history exports retain their original contract'
+  )
   const redirect = fullRelease()
   redirect.files.push({ path: 'articles/compatibility-pointer.md', sha256: digest('pointer') })
-  assert.throws(() => assertCatalogCoverage(redirect, fullCollections, fullEnglish, historical, historicalEnglish), /noncanonical/)
+  assert.throws(
+    () =>
+      assertCatalogCoverage(redirect, fullCollections, fullEnglish, historical, historicalEnglish),
+    /noncanonical/
+  )
 })
 
 test('historical whitelist rejects invented English editions, current overlap and invalid targets', () => {
@@ -391,8 +441,12 @@ test('historical whitelist rejects invented English editions, current overlap an
     [{ old: 'missing-current' }, []],
     [{ '../private': 'example' }, []],
     [{ old: 'https://other.example/article' }, []],
-  ]) assert.throws(() => expectedHistoricalEditions(fullCollections, fullEnglish, map, english))
-  assert.throws(() => expectedHistoricalEditions(fullCollections, ['example'], { old: 'second' }, ['old']), /no current English/)
+  ])
+    assert.throws(() => expectedHistoricalEditions(fullCollections, fullEnglish, map, english))
+  assert.throws(
+    () => expectedHistoricalEditions(fullCollections, ['example'], { old: 'second' }, ['old']),
+    /no current English/
+  )
 })
 
 test('canonicalPath is not an escape hatch for arbitrary, cross-language or missing targets', () => {
@@ -406,36 +460,93 @@ test('canonicalPath is not an escape hatch for arbitrary, cross-language or miss
     undefined,
   ]) {
     const changed = fullRelease()
-    const file = changed.files.find(file => file.path === 'articles/example-v1.md')
+    const file = changed.files.find((file) => file.path === 'articles/example-v1.md')
     file.canonicalPath = canonicalPath
-    assert.throws(() => assertCatalogCoverage(changed, fullCollections, fullEnglish, historical, historicalEnglish))
+    assert.throws(() =>
+      assertCatalogCoverage(changed, fullCollections, fullEnglish, historical, historicalEnglish)
+    )
   }
   const changedCurrent = fullRelease()
-  changedCurrent.files.find(file => file.path === 'articles/example.md').canonicalPath = 'articles/second.md'
-  assert.throws(() => assertCatalogCoverage(changedCurrent, fullCollections, fullEnglish, historical, historicalEnglish), /canonical|Canonical/)
-  assert.throws(() => checkCanonical(html('articles/example.md').replace('</head>', '<link rel="canonical" href="https://other.example"></head>'), 'articles/example.md'), /one canonical/)
+  changedCurrent.files.find((file) => file.path === 'articles/example.md').canonicalPath =
+    'articles/second.md'
+  assert.throws(
+    () =>
+      assertCatalogCoverage(
+        changedCurrent,
+        fullCollections,
+        fullEnglish,
+        historical,
+        historicalEnglish
+      ),
+    /canonical|Canonical/
+  )
+  assert.throws(
+    () =>
+      checkCanonical(
+        html('articles/example.md').replace(
+          '</head>',
+          '<link rel="canonical" href="https://other.example"></head>'
+        ),
+        'articles/example.md'
+      ),
+    /one canonical/
+  )
 })
 
 test('historical public URL, body hash and canonical target remain independent facts', async () => {
-  const oldPath = 'articles/example-v1.md', currentPath = paths[0]
-  const oldFile = { path: oldPath, sha256: digest('historical full body'), canonicalPath: currentPath }
+  const oldPath = 'articles/example-v1.md',
+    currentPath = paths[0]
+  const oldFile = {
+    path: oldPath,
+    sha256: digest('historical full body'),
+    canonicalPath: currentPath,
+  }
   const extended = { ...release, files: [...release.files, oldFile] }
   const oldBody = html(currentPath).replace('Public code', 'Historical full body')
   const record = receipt()
-  record.files.push({ path: oldPath, sourceSha256: oldFile.sha256, htmlPath: oldPath.replace(/\.md$/, '.html'), htmlSha256: digest(oldBody) })
+  record.files.push({
+    path: oldPath,
+    sourceSha256: oldFile.sha256,
+    htmlPath: oldPath.replace(/\.md$/, '.html'),
+    htmlSha256: digest(oldBody),
+  })
   const seen = []
-  const read = async url => {
+  const read = async (url) => {
     seen.push(url)
     if (url === baseUrl + oldPath.replace(/\.md$/, '')) return new Response(oldBody)
     return fetcher(record)(url)
   }
   const result = await verifyPublic(extended, { fetcher: read, blogCommit: 'b'.repeat(40) })
   assert.equal(result.files.length, 3)
-  assert.ok(seen.includes(baseUrl + oldPath.replace(/\.md$/, '')), 'The historical URL itself is fetched')
+  assert.ok(
+    seen.includes(baseUrl + oldPath.replace(/\.md$/, '')),
+    'The historical URL itself is fetched'
+  )
   const wrongBody = html(oldPath)
-  const wrongRecord = { ...record, files: record.files.map(file => file.path === oldPath ? { ...file, htmlSha256: digest(wrongBody) } : file) }
-  await assert.rejects(verifyPublic(extended, { fetcher: async url => url === baseUrl + oldPath.replace(/\.md$/, '') ? new Response(wrongBody) : fetcher(wrongRecord)(url) }), /Wrong canonical/)
-  await assert.rejects(verifyPublic(extended, { fetcher: async url => url === baseUrl + oldPath.replace(/\.md$/, '') ? new Response('stale historical body') : fetcher(record)(url) }), /Stale public body/)
+  const wrongRecord = {
+    ...record,
+    files: record.files.map((file) =>
+      file.path === oldPath ? { ...file, htmlSha256: digest(wrongBody) } : file
+    ),
+  }
+  await assert.rejects(
+    verifyPublic(extended, {
+      fetcher: async (url) =>
+        url === baseUrl + oldPath.replace(/\.md$/, '')
+          ? new Response(wrongBody)
+          : fetcher(wrongRecord)(url),
+    }),
+    /Wrong canonical/
+  )
+  await assert.rejects(
+    verifyPublic(extended, {
+      fetcher: async (url) =>
+        url === baseUrl + oldPath.replace(/\.md$/, '')
+          ? new Response('stale historical body')
+          : fetcher(record)(url),
+    }),
+    /Stale public body/
+  )
 })
 
 test('prepare and source verification bind historical membership and canonical to committed source', async () => {
@@ -445,25 +556,58 @@ test('prepare and source verification bind historical membership and canonical t
   const output = resolve('test-output/reader-release-contract')
   await mkdir(output, { recursive: true })
   const root = await mkdtemp(resolve(output, 'source-'))
-  const write = async (path, text) => { await mkdir(dirname(resolve(root, path)), { recursive: true }); await writeFile(resolve(root, path), text) }
-  const git = (...args) => execFileSync('git', ['-C', root, ...args], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim()
+  const write = async (path, text) => {
+    await mkdir(dirname(resolve(root, path)), { recursive: true })
+    await writeFile(resolve(root, path), text)
+  }
+  const git = (...args) =>
+    execFileSync('git', ['-C', root, ...args], {
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'pipe'],
+    }).trim()
   try {
-    await write('book.mjs', `export const collections = ${JSON.stringify(fullCollections)}; export const historicalEditions = ${JSON.stringify(historical)};`)
-    await write('book.en.mjs', `export const englishArticleSlugs = ${JSON.stringify(fullEnglish)}; export const historicalEnglishArticleSlugs = ${JSON.stringify(historicalEnglish)};`)
-    await write('seo-routes.mjs', `import { historicalEditions } from './book.mjs'; export const canonicalUrl = path => { const match = /^(en\\/)?articles\\/([^/]+)\\.md$/.exec(path); return ${JSON.stringify(baseUrl)} + (match[1] || '') + 'articles/' + (historicalEditions[match[2]] || match[2]); };`)
-    const paths = fullRelease().files.map(file => file.path)
-    for (const path of paths) await write(path, `# Synthetic full-text fixture\n\nBody for ${path}.\n`)
-    git('init', '-q'); git('add', '--all')
-    git('-c', 'user.name=Fixture', '-c', 'user.email=fixture@example.invalid', 'commit', '-qm', 'Synthetic committed source')
+    await write(
+      'book.mjs',
+      `export const collections = ${JSON.stringify(fullCollections)}; export const historicalEditions = ${JSON.stringify(historical)};`
+    )
+    await write(
+      'book.en.mjs',
+      `export const englishArticleSlugs = ${JSON.stringify(fullEnglish)}; export const historicalEnglishArticleSlugs = ${JSON.stringify(historicalEnglish)};`
+    )
+    await write(
+      'seo-routes.mjs',
+      `import { historicalEditions } from './book.mjs'; export const canonicalUrl = path => { const match = /^(en\\/)?articles\\/([^/]+)\\.md$/.exec(path); return ${JSON.stringify(baseUrl)} + (match[1] || '') + 'articles/' + (historicalEditions[match[2]] || match[2]); };`
+    )
+    const paths = fullRelease().files.map((file) => file.path)
+    for (const path of paths)
+      await write(path, `# Synthetic full-text fixture\n\nBody for ${path}.\n`)
+    git('init', '-q')
+    git('add', '--all')
+    git(
+      '-c',
+      'user.name=Fixture',
+      '-c',
+      'user.email=fixture@example.invalid',
+      'commit',
+      '-qm',
+      'Synthetic committed source'
+    )
     const prepared = await prepareRelease(root, paths)
     assert.equal(prepared.commit, git('rev-parse', 'HEAD'))
     assert.equal(prepared.files.length, 9)
-    assert.equal(prepared.files.filter(file => file.canonicalPath).length, 5)
+    assert.equal(prepared.files.filter((file) => file.canonicalPath).length, 5)
     await checkSource(root, prepared)
-    await assert.rejects(prepareRelease(root, paths.filter(path => !historyPaths().has(path))), /Missing/)
+    await assert.rejects(
+      prepareRelease(
+        root,
+        paths.filter((path) => !historyPaths().has(path))
+      ),
+      /Missing/
+    )
     await assert.rejects(checkSource(root, { ...prepared, commit: 'c'.repeat(40) }), /release pin/)
     const forged = structuredClone(prepared)
-    forged.files.find(file => file.path === 'articles/example-v1.md').canonicalPath = 'articles/second.md'
+    forged.files.find((file) => file.path === 'articles/example-v1.md').canonicalPath =
+      'articles/second.md'
     await assert.rejects(checkSource(root, forged), /Unexpected canonical/)
     // A transitive routing import must not mutate the registered histories before
     // coverage is checked. Reuse this fixture with the new committed dependency.
@@ -472,20 +616,41 @@ test('prepare and source verification bind historical membership and canonical t
     const originalSeo = await readFile(resolve(root, 'seo-routes.mjs'), 'utf8')
     await write('seo-routes.mjs', "import './language-routing.mjs';\n" + originalSeo)
     git('add', '--all')
-    git('-c', 'user.name=Fixture', '-c', 'user.email=fixture@example.invalid', 'commit', '-qm', 'Bind routing dependency')
+    git(
+      '-c',
+      'user.name=Fixture',
+      '-c',
+      'user.email=fixture@example.invalid',
+      'commit',
+      '-qm',
+      'Bind routing dependency'
+    )
     const withRouting = await prepareRelease(root, paths)
     await checkSource(root, withRouting)
-    await write('language-routing.mjs', "import { historicalEditions } from './book.mjs'; import { historicalEnglishArticleSlugs } from './book.en.mjs'; for (const slug of Object.keys(historicalEditions)) delete historicalEditions[slug]; historicalEnglishArticleSlugs.splice(0);")
-    await assert.rejects(checkSource(root, withRouting), /Uncommitted source catalogue: language-routing/)
+    await write(
+      'language-routing.mjs',
+      "import { historicalEditions } from './book.mjs'; import { historicalEnglishArticleSlugs } from './book.en.mjs'; for (const slug of Object.keys(historicalEditions)) delete historicalEditions[slug]; historicalEnglishArticleSlugs.splice(0);"
+    )
+    await assert.rejects(
+      checkSource(root, withRouting),
+      /Uncommitted source catalogue: language-routing/
+    )
     await write('language-routing.mjs', 'export const availableEnglishPages = [];')
     // Continue byte-binding tests against the newly committed fixture snapshot.
     prepared.commit = withRouting.commit
     await write('articles/example-v1.md', '# Changed historical body')
     await assert.rejects(checkSource(root, prepared), /Uncommitted article/)
     const forgedBytes = structuredClone(prepared)
-    forgedBytes.files.find(file => file.path === 'articles/example-v1.md').sha256 = digest('# Changed historical body')
+    forgedBytes.files.find((file) => file.path === 'articles/example-v1.md').sha256 = digest(
+      '# Changed historical body'
+    )
     await assert.rejects(checkSource(root, forgedBytes), /Uncommitted article/)
-    await write('book.mjs', `export const collections = ${JSON.stringify(fullCollections)}; export const historicalEditions = {};`)
+    await write(
+      'book.mjs',
+      `export const collections = ${JSON.stringify(fullCollections)}; export const historicalEditions = {};`
+    )
     await assert.rejects(checkSource(root, prepared), /Uncommitted source catalogue/)
-  } finally { await rm(root, { recursive: true, force: true }) }
+  } finally {
+    await rm(root, { recursive: true, force: true })
+  }
 })

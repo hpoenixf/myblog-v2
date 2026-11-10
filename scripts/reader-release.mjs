@@ -90,14 +90,21 @@ export function validateRelease(release) {
     paths.add(file.path)
     if (file.canonicalPath !== undefined) {
       assert.match(file.canonicalPath, articlePath, 'Unsafe canonical article path')
-      assert.equal(file.canonicalPath.startsWith('en/'), file.path.startsWith('en/'), 'Cross-language canonical target')
+      assert.equal(
+        file.canonicalPath.startsWith('en/'),
+        file.path.startsWith('en/'),
+        'Cross-language canonical target'
+      )
     }
   }
   for (const file of release.files) {
     if (file.canonicalPath !== undefined) {
       assert.ok(paths.has(file.canonicalPath), 'Canonical target is missing from the source lock')
       const target = release.files.find((entry) => entry.path === file.canonicalPath)
-      assert.ok(!target.canonicalPath || target.canonicalPath === target.path, 'Canonical target cannot be another historical edition')
+      assert.ok(
+        !target.canonicalPath || target.canonicalPath === target.path,
+        'Canonical target cannot be another historical edition'
+      )
     }
   }
   return release
@@ -134,22 +141,40 @@ export function expectedCanonicalEditions(collections, englishArticleSlugs) {
 
 // Historical full texts are registered by the same immutable source catalogue.
 // They do not increase the current-article count or admit compatibility redirects.
-export function expectedHistoricalEditions(collections, englishArticleSlugs, historicalEditions = {}, historicalEnglishArticleSlugs = []) {
+export function expectedHistoricalEditions(
+  collections,
+  englishArticleSlugs,
+  historicalEditions = {},
+  historicalEnglishArticleSlugs = []
+) {
   const canonical = new Set(expectedCanonicalEditions(collections, englishArticleSlugs))
-  assert.ok(historicalEditions && typeof historicalEditions === 'object' && !Array.isArray(historicalEditions), 'Invalid historical catalogue')
+  assert.ok(
+    historicalEditions &&
+      typeof historicalEditions === 'object' &&
+      !Array.isArray(historicalEditions),
+    'Invalid historical catalogue'
+  )
   assert.ok(Array.isArray(historicalEnglishArticleSlugs), 'Invalid historical English catalogue')
-  assert.equal(new Set(historicalEnglishArticleSlugs).size, historicalEnglishArticleSlugs.length, 'Duplicate historical English edition')
+  assert.equal(
+    new Set(historicalEnglishArticleSlugs).size,
+    historicalEnglishArticleSlugs.length,
+    'Duplicate historical English edition'
+  )
   const editions = new Map()
   for (const [slug, target] of Object.entries(historicalEditions)) {
     assert.match(slug, /^[a-z0-9][a-z0-9-]*$/, 'Invalid historical article slug')
     assert.match(target, /^[a-z0-9][a-z0-9-]*$/, 'Invalid historical canonical target')
-    const path = `articles/${slug}.md`, canonicalPath = `articles/${target}.md`
+    const path = `articles/${slug}.md`,
+      canonicalPath = `articles/${target}.md`
     assert.ok(!canonical.has(path), 'Historical edition duplicates a current article')
     assert.ok(canonical.has(canonicalPath), 'Historical target has no current article')
     editions.set(path, canonicalPath)
   }
   for (const slug of historicalEnglishArticleSlugs) {
-    assert.ok(Object.hasOwn(historicalEditions, slug), 'English historical edition has no registered full text')
+    assert.ok(
+      Object.hasOwn(historicalEditions, slug),
+      'English historical edition has no registered full text'
+    )
     const target = `en/articles/${historicalEditions[slug]}.md`
     assert.ok(canonical.has(target), 'Historical target has no current English edition')
     editions.set(`en/articles/${slug}.md`, target)
@@ -157,20 +182,43 @@ export function expectedHistoricalEditions(collections, englishArticleSlugs, his
   return editions
 }
 
-export function assertCatalogCoverage(release, collections, englishArticleSlugs, historicalEditions = {}, historicalEnglishArticleSlugs = []) {
+export function assertCatalogCoverage(
+  release,
+  collections,
+  englishArticleSlugs,
+  historicalEditions = {},
+  historicalEnglishArticleSlugs = []
+) {
   validateRelease(release)
   const canonical = expectedCanonicalEditions(collections, englishArticleSlugs)
-  const historical = expectedHistoricalEditions(collections, englishArticleSlugs, historicalEditions, historicalEnglishArticleSlugs)
+  const historical = expectedHistoricalEditions(
+    collections,
+    englishArticleSlugs,
+    historicalEditions,
+    historicalEnglishArticleSlugs
+  )
   const expected = [...canonical, ...historical.keys()]
   const actual = new Set(release.files.map((file) => file.path))
   const missing = expected.filter((path) => !actual.has(path))
   const expectedSet = new Set(expected)
   const unexpected = [...actual].filter((path) => !expectedSet.has(path)).sort()
 
-  assert.deepEqual(missing, [], 'Missing canonical article editions or registered historical full texts in reader source lock')
-  assert.deepEqual(unexpected, [], 'Reader source lock contains noncanonical editions outside registered historical full texts')
+  assert.deepEqual(
+    missing,
+    [],
+    'Missing canonical article editions or registered historical full texts in reader source lock'
+  )
+  assert.deepEqual(
+    unexpected,
+    [],
+    'Reader source lock contains noncanonical editions outside registered historical full texts'
+  )
   for (const file of release.files) {
-    assert.equal(file.canonicalPath ?? file.path, historical.get(file.path) ?? file.path, `Unexpected canonical target: ${file.path}`)
+    assert.equal(
+      file.canonicalPath ?? file.path,
+      historical.get(file.path) ?? file.path,
+      `Unexpected canonical target: ${file.path}`
+    )
   }
   return expected.length
 }
@@ -180,7 +228,9 @@ async function sourceCatalog(root) {
   // floating branch. Older source snapshots without histories retain their scope.
   const commit = head(root)
   const authorityPaths = ['book.mjs', 'book.en.mjs', 'seo-routes.mjs']
-  const committedSeo = execFileSync('git', ['-C', root, 'show', `${commit}:seo-routes.mjs`], { encoding: 'utf8' })
+  const committedSeo = execFileSync('git', ['-C', root, 'show', `${commit}:seo-routes.mjs`], {
+    encoding: 'utf8',
+  })
   // The current SEO module also executes this source-owned routing module.
   // Bind it before any import; older snapshots without that dependency still work.
   if (committedSeo.includes('./language-routing.mjs')) authorityPaths.push('language-routing.mjs')
@@ -195,7 +245,8 @@ async function sourceCatalog(root) {
     import(pathToFileURL(resolve(root, 'seo-routes.mjs')).href),
   ])
   return {
-    collections: book.collections, englishArticleSlugs: translated.englishArticleSlugs,
+    collections: book.collections,
+    englishArticleSlugs: translated.englishArticleSlugs,
     historicalEditions: book.historicalEditions ?? {},
     historicalEnglishArticleSlugs: translated.historicalEnglishArticleSlugs ?? [],
     canonicalUrl: seo.canonicalUrl,
@@ -203,7 +254,13 @@ async function sourceCatalog(root) {
 }
 
 function checkCoverage(release, source) {
-  return assertCatalogCoverage(release, source.collections, source.englishArticleSlugs, source.historicalEditions, source.historicalEnglishArticleSlugs)
+  return assertCatalogCoverage(
+    release,
+    source.collections,
+    source.englishArticleSlugs,
+    source.historicalEditions,
+    source.historicalEnglishArticleSlugs
+  )
 }
 
 function sourceCanonicalPath(source, path) {
@@ -228,7 +285,11 @@ export async function prepareRelease(root, paths) {
     const committed = execFileSync('git', ['-C', root, 'show', `${commit}:${path}`])
     assert.ok(bytes.equals(committed), `Uncommitted article: ${path}`)
     const canonicalPath = sourceCanonicalPath(source, path)
-    files.push({ path, sha256: digest(bytes), ...(canonicalPath === path ? {} : { canonicalPath }) })
+    files.push({
+      path,
+      sha256: digest(bytes),
+      ...(canonicalPath === path ? {} : { canonicalPath }),
+    })
   }
   const release = validateRelease({ schemaVersion: 1, repository, commit, baseUrl, files })
   checkCoverage(release, source)
@@ -241,7 +302,11 @@ export async function checkSource(root, release) {
   const source = await sourceCatalog(root)
   checkCoverage(release, source)
   for (const file of release.files) {
-    assert.equal(file.canonicalPath ?? file.path, sourceCanonicalPath(source, file.path), `Canonical target differs from fixed source: ${file.path}`)
+    assert.equal(
+      file.canonicalPath ?? file.path,
+      sourceCanonicalPath(source, file.path),
+      `Canonical target differs from fixed source: ${file.path}`
+    )
     const bytes = await readFile(resolve(root, file.path))
     const committed = execFileSync('git', ['-C', root, 'show', `${release.commit}:${file.path}`])
     assert.ok(bytes.equals(committed), `Uncommitted article: ${file.path}`)
@@ -251,8 +316,11 @@ export async function checkSource(root, release) {
 
 export function checkCanonical(html, path, canonicalPath = path) {
   const expected =
-    homepageFiles.find((entry) => entry.path === path)?.url ?? baseUrl + canonicalPath.replace(/\.md$/, '')
-  const links = activeElements(html, 'link').filter((link) => Array.isArray(link.rel) && link.rel.includes('canonical'))
+    homepageFiles.find((entry) => entry.path === path)?.url ??
+    baseUrl + canonicalPath.replace(/\.md$/, '')
+  const links = activeElements(html, 'link').filter(
+    (link) => Array.isArray(link.rel) && link.rel.includes('canonical')
+  )
   assert.equal(links.length, 1, `Expected one canonical: ${path}`)
   assert.equal(links[0].href, expected, `Wrong canonical: ${path}`)
 }
