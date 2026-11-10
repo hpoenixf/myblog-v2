@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "7cb8778a80035beb36d14e0e428ebfc13a02da32",
+  "commit": "4c2edaf65c214511e3af50594c12599687481207",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -318,11 +318,11 @@
     },
     {
       "path": "articles/027-rag-revocation-publish-replay.md",
-      "sha256": "69cd93c4ea7461aa2b4d3c1009d55d7af7b0d5999159139b44385488e5642bc1"
+      "sha256": "5acf81179332e171216b8f50042ac765747c931a3bd2f521a1ad2822c549c35b"
     },
     {
       "path": "en/articles/027-rag-revocation-publish-replay.md",
-      "sha256": "0f0a166ef10ac2bf7c4a2a95dc550d50f6af287d77c80111a515d96220bb805a"
+      "sha256": "041e082151aaad5f7d2c6367874b51b57b42fc00d005c0efba9022662d77d076"
     },
     {
       "path": "articles/mcp-host-from-discovery-to-consumption.md",
@@ -590,11 +590,11 @@
     },
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "682f21a405ae09cd07b68116be5a5eb78e21fc73b3a2cb29b905e5ac5fe0f205"
+      "sha256": "275a0f08f9224526d17de2b67a9a6f6318e142519a3e82bf2e3473d90ccf9b5f"
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "54ece5bba9fd1c16074ae8311ae4dbd57076539ae9cb570e72645f162adccbb2"
+      "sha256": "238a77c3b0ed53e89827a5c4c0a55ed94b0f6381492cbb545058f375f49f3084"
     },
     {
       "path": "articles/agent-context-governance-principles.md",
@@ -894,11 +894,11 @@
     },
     {
       "path": "articles/agent-deep-research-resource-and-delivery.md",
-      "sha256": "90f33bd2b6f7a886942cd3e817495da2a513a30307eb8a381ea66d0b96dec6a7"
+      "sha256": "c1e6331ec23d4323be711495c35c1d571c2f291d9c2ef5081f7f78159d4613e9"
     },
     {
       "path": "en/articles/agent-deep-research-resource-and-delivery.md",
-      "sha256": "24718886a5d6ab535641515f11a8f1e617332fb70e0411d1c4ddac0e9b4d8704"
+      "sha256": "bf26b47f81ded754e033cef6eba7e6f8550179dafa1a26744ceb2bb86bf47459"
     },
     {
       "path": "articles/agent-cleanup-result-ownership.md",
