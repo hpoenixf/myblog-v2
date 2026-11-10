@@ -88,6 +88,24 @@ export function validateRelease(release) {
     assert.match(file.sha256, hash, 'Every article requires its source SHA-256')
     assert.ok(!paths.has(file.path), 'Duplicate article edition')
     paths.add(file.path)
+    if (file.canonicalPath !== undefined) {
+      assert.match(file.canonicalPath, articlePath, 'Unsafe canonical article path')
+      assert.equal(
+        file.canonicalPath.startsWith('en/'),
+        file.path.startsWith('en/'),
+        'Cross-language canonical target'
+      )
+    }
+  }
+  for (const file of release.files) {
+    if (file.canonicalPath !== undefined) {
+      assert.ok(paths.has(file.canonicalPath), 'Canonical target is missing from the source lock')
+      const target = release.files.find((entry) => entry.path === file.canonicalPath)
+      assert.ok(
+        !target.canonicalPath || target.canonicalPath === target.path,
+        'Canonical target cannot be another historical edition'
+      )
+    }
   }
   return release
 }
@@ -121,27 +139,136 @@ export function expectedCanonicalEditions(collections, englishArticleSlugs) {
   ].sort()
 }
 
-export function assertCatalogCoverage(release, collections, englishArticleSlugs) {
+// Historical full texts are registered by the same immutable source catalogue.
+// They do not increase the current-article count or admit compatibility redirects.
+export function expectedHistoricalEditions(
+  collections,
+  englishArticleSlugs,
+  historicalEditions = {},
+  historicalEnglishArticleSlugs = []
+) {
+  const canonical = new Set(expectedCanonicalEditions(collections, englishArticleSlugs))
+  assert.ok(
+    historicalEditions &&
+      typeof historicalEditions === 'object' &&
+      !Array.isArray(historicalEditions),
+    'Invalid historical catalogue'
+  )
+  assert.ok(Array.isArray(historicalEnglishArticleSlugs), 'Invalid historical English catalogue')
+  assert.equal(
+    new Set(historicalEnglishArticleSlugs).size,
+    historicalEnglishArticleSlugs.length,
+    'Duplicate historical English edition'
+  )
+  const editions = new Map()
+  for (const [slug, target] of Object.entries(historicalEditions)) {
+    assert.match(slug, /^[a-z0-9][a-z0-9-]*$/, 'Invalid historical article slug')
+    assert.match(target, /^[a-z0-9][a-z0-9-]*$/, 'Invalid historical canonical target')
+    const path = `articles/${slug}.md`,
+      canonicalPath = `articles/${target}.md`
+    assert.ok(!canonical.has(path), 'Historical edition duplicates a current article')
+    assert.ok(canonical.has(canonicalPath), 'Historical target has no current article')
+    editions.set(path, canonicalPath)
+  }
+  for (const slug of historicalEnglishArticleSlugs) {
+    assert.ok(
+      Object.hasOwn(historicalEditions, slug),
+      'English historical edition has no registered full text'
+    )
+    const target = `en/articles/${historicalEditions[slug]}.md`
+    assert.ok(canonical.has(target), 'Historical target has no current English edition')
+    editions.set(`en/articles/${slug}.md`, target)
+  }
+  return editions
+}
+
+export function assertCatalogCoverage(
+  release,
+  collections,
+  englishArticleSlugs,
+  historicalEditions = {},
+  historicalEnglishArticleSlugs = []
+) {
   validateRelease(release)
-  const expected = expectedCanonicalEditions(collections, englishArticleSlugs)
+  const canonical = expectedCanonicalEditions(collections, englishArticleSlugs)
+  const historical = expectedHistoricalEditions(
+    collections,
+    englishArticleSlugs,
+    historicalEditions,
+    historicalEnglishArticleSlugs
+  )
+  const expected = [...canonical, ...historical.keys()]
   const actual = new Set(release.files.map((file) => file.path))
   const missing = expected.filter((path) => !actual.has(path))
   const expectedSet = new Set(expected)
   const unexpected = [...actual].filter((path) => !expectedSet.has(path)).sort()
 
-  assert.deepEqual(missing, [], 'Missing canonical article editions in reader source lock')
-  assert.deepEqual(unexpected, [], 'Reader source lock contains noncanonical editions')
+  assert.deepEqual(
+    missing,
+    [],
+    'Missing canonical article editions or registered historical full texts in reader source lock'
+  )
+  assert.deepEqual(
+    unexpected,
+    [],
+    'Reader source lock contains noncanonical editions outside registered historical full texts'
+  )
+  for (const file of release.files) {
+    assert.equal(
+      file.canonicalPath ?? file.path,
+      historical.get(file.path) ?? file.path,
+      `Unexpected canonical target: ${file.path}`
+    )
+  }
   return expected.length
 }
 
 async function sourceCatalog(root) {
-  // Import from the checked-out, immutable reader tree, not the blog's own
-  // directory or a floating main branch.
-  const [book, translated] = await Promise.all([
+  // Read authority only from this exact committed source, never the blog or a
+  // floating branch. Older source snapshots without histories retain their scope.
+  const commit = head(root)
+  const authorityPaths = ['book.mjs', 'book.en.mjs', 'seo-routes.mjs']
+  const committedSeo = execFileSync('git', ['-C', root, 'show', `${commit}:seo-routes.mjs`], {
+    encoding: 'utf8',
+  })
+  // The current SEO module also executes this source-owned routing module.
+  // Bind it before any import; older snapshots without that dependency still work.
+  if (committedSeo.includes('./language-routing.mjs')) authorityPaths.push('language-routing.mjs')
+  for (const path of authorityPaths) {
+    const actual = await readFile(resolve(root, path))
+    const committed = execFileSync('git', ['-C', root, 'show', `${commit}:${path}`])
+    assert.ok(actual.equals(committed), `Uncommitted source catalogue: ${path}`)
+  }
+  const [book, translated, seo] = await Promise.all([
     import(pathToFileURL(resolve(root, 'book.mjs')).href),
     import(pathToFileURL(resolve(root, 'book.en.mjs')).href),
+    import(pathToFileURL(resolve(root, 'seo-routes.mjs')).href),
   ])
-  return { collections: book.collections, englishArticleSlugs: translated.englishArticleSlugs }
+  return {
+    collections: book.collections,
+    englishArticleSlugs: translated.englishArticleSlugs,
+    historicalEditions: book.historicalEditions ?? {},
+    historicalEnglishArticleSlugs: translated.historicalEnglishArticleSlugs ?? [],
+    canonicalUrl: seo.canonicalUrl,
+  }
+}
+
+function checkCoverage(release, source) {
+  return assertCatalogCoverage(
+    release,
+    source.collections,
+    source.englishArticleSlugs,
+    source.historicalEditions,
+    source.historicalEnglishArticleSlugs
+  )
+}
+
+function sourceCanonicalPath(source, path) {
+  const url = source.canonicalUrl(path)
+  assert.ok(url.startsWith(baseUrl), 'Source canonical must stay on the canonical reader domain')
+  const target = url.slice(baseUrl.length) + '.md'
+  assert.match(target, articlePath, 'Unsafe source canonical path')
+  return target
 }
 
 export async function loadRelease(path = 'reader-source.json') {
@@ -150,44 +277,52 @@ export async function loadRelease(path = 'reader-source.json') {
 
 export async function prepareRelease(root, paths) {
   const commit = head(root)
+  const source = await sourceCatalog(root)
   const files = []
   for (const path of paths) {
     assert.match(path, articlePath, 'Unsafe or unsupported article path')
     const bytes = await readFile(resolve(root, path))
     const committed = execFileSync('git', ['-C', root, 'show', `${commit}:${path}`])
     assert.ok(bytes.equals(committed), `Uncommitted article: ${path}`)
-    files.push({ path, sha256: digest(bytes) })
+    const canonicalPath = sourceCanonicalPath(source, path)
+    files.push({
+      path,
+      sha256: digest(bytes),
+      ...(canonicalPath === path ? {} : { canonicalPath }),
+    })
   }
   const release = validateRelease({ schemaVersion: 1, repository, commit, baseUrl, files })
-  const { collections, englishArticleSlugs } = await sourceCatalog(root)
-  assertCatalogCoverage(release, collections, englishArticleSlugs)
+  checkCoverage(release, source)
   return release
 }
 
 export async function checkSource(root, release) {
   validateRelease(release)
   assert.equal(head(root), release.commit, 'Checked-out reader does not match the release pin')
-  const { collections, englishArticleSlugs } = await sourceCatalog(root)
-  assertCatalogCoverage(release, collections, englishArticleSlugs)
+  const source = await sourceCatalog(root)
+  checkCoverage(release, source)
   for (const file of release.files) {
     assert.equal(
-      digest(await readFile(resolve(root, file.path))),
-      file.sha256,
-      `Stale source: ${file.path}`
+      file.canonicalPath ?? file.path,
+      sourceCanonicalPath(source, file.path),
+      `Canonical target differs from fixed source: ${file.path}`
     )
+    const bytes = await readFile(resolve(root, file.path))
+    const committed = execFileSync('git', ['-C', root, 'show', `${release.commit}:${file.path}`])
+    assert.ok(bytes.equals(committed), `Uncommitted article: ${file.path}`)
+    assert.equal(digest(bytes), file.sha256, `Stale source: ${file.path}`)
   }
 }
 
-export function checkCanonical(html, path) {
+export function checkCanonical(html, path, canonicalPath = path) {
   const expected =
-    homepageFiles.find((entry) => entry.path === path)?.url ?? baseUrl + path.replace(/\.md$/, '')
-  const links = html.match(/<link\b[^>]*>/g) ?? []
-  assert.ok(
-    links.some(
-      (link) => /\brel=["']canonical["']/.test(link) && link.includes(`href="${expected}"`)
-    ),
-    `Wrong canonical: ${path}`
+    homepageFiles.find((entry) => entry.path === path)?.url ??
+    baseUrl + canonicalPath.replace(/\.md$/, '')
+  const links = activeElements(html, 'link').filter(
+    (link) => Array.isArray(link.rel) && link.rel.includes('canonical')
   )
+  assert.equal(links.length, 1, `Expected one canonical: ${path}`)
+  assert.equal(links[0].href, expected, `Wrong canonical: ${path}`)
 }
 
 export async function stampRelease(root, output, release, blogCommit) {
@@ -197,7 +332,7 @@ export async function stampRelease(root, output, release, blogCommit) {
   for (const file of release.files) {
     const htmlPath = file.path.replace(/\.md$/, '.html')
     const bytes = await readFile(resolve(output, htmlPath))
-    checkCanonical(bytes.toString('utf8'), file.path)
+    checkCanonical(bytes.toString('utf8'), file.path, file.canonicalPath)
     files.push({ path: file.path, sourceSha256: file.sha256, htmlPath, htmlSha256: digest(bytes) })
   }
   // Pages are part of the release too; green article checks alone did not
@@ -293,7 +428,7 @@ export async function verifyPublic(
         // Verify the clean URL readers actually use, not just the receipt or a cache-busted URL.
         const bytes = await get(baseUrl + source.path.replace(/\.md$/, ''))
         assert.equal(digest(bytes), file.htmlSha256, `Stale public body: ${source.path}`)
-        checkCanonical(bytes.toString('utf8'), source.path)
+        checkCanonical(bytes.toString('utf8'), source.path, source.canonicalPath)
       }
       assert.equal(receipt.homepages?.length, homepageFiles.length, 'Missing homepage receipts')
       for (const homepage of homepageFiles) {
