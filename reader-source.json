@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "2947ac384434c1b8e5c3150f183bb6bec2d25f41",
+  "commit": "25ecac5993383b174af77a1634dda6706ca9b70c",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -782,11 +782,11 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "74a3aa8dca49670f71c1d764ecc70cec007a3afd14f03af120e1b904ca836fd5"
+      "sha256": "919a03ca65f6fac19f354a18b3b89285f73a3738378edde86219379ced0f9f24"
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "65c3cda624713f114fd6f6fcbd490838c8b59df5d1f82e3834f2c103a20cbe99"
+      "sha256": "c64f2a68586fd62a3e1d66a7b640f9ae6f4be021ccb987b0be114e5ef195ca64"
     },
     {
       "path": "articles/honest-agent-evaluation.md",
