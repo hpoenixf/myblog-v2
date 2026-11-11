@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "c38fff04926d0640aaa186229b38b8a69f213acc",
+  "commit": "29173b2039bb26cc6c58fffbe583d418215baf56",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -126,11 +126,11 @@
     },
     {
       "path": "articles/agent-custom-expert-from-prompt-to-recovery.md",
-      "sha256": "afa5776be669bc5219b3dd94121c1e34900e6743049812dfda7e5604a658b11f"
+      "sha256": "7b61e800c15b44941725618978888290539fd823414000fc9533dda7b1eb1854"
     },
     {
       "path": "en/articles/agent-custom-expert-from-prompt-to-recovery.md",
-      "sha256": "318150e41344ffcfbc0a69185d3b26930a62c8f7260124dedaad31e53e7ff8fd"
+      "sha256": "9d990496535b76fe8983c962e9ed38aa648fc21bb4f592dcf343cc443a6765b3"
     },
     {
       "path": "articles/agent-personal-credits-shadow-accounting.md",
@@ -782,11 +782,11 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "ecbab4b30462db1335b3cc7cabde397da1da671fc104f27e255a367e763438e9"
+      "sha256": "74a3aa8dca49670f71c1d764ecc70cec007a3afd14f03af120e1b904ca836fd5"
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "746cffa77c3a269c0db6d6ad5cea0189b039427d77e5b01684f2930128f7c48f"
+      "sha256": "65c3cda624713f114fd6f6fcbd490838c8b59df5d1f82e3834f2c103a20cbe99"
     },
     {
       "path": "articles/honest-agent-evaluation.md",
