@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "f2cdb8a2d4ec87aa55430686c7d144c65170687a",
+  "commit": "2947ac384434c1b8e5c3150f183bb6bec2d25f41",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -558,43 +558,43 @@
     },
     {
       "path": "articles/agent-in-15-minutes.md",
-      "sha256": "433afb190e22ea3cedd1715670da0d15f248dac68258177ab45a6904ab959a96"
+      "sha256": "ad28c2fd1c92cf859e9e7a08f4313b4162d25e47596ca7f3467a41aed409e65b"
     },
     {
       "path": "en/articles/agent-in-15-minutes.md",
-      "sha256": "b4f8fb457e373b99b95c3e68f47cfd165919888486cc5704ecfbae2d79cd29e2"
+      "sha256": "0250d78ecda6b3201bd3633311170880a8bcb28adce5b69c1a73dd5edb4b14be"
     },
     {
       "path": "articles/agent-ten-modules.md",
-      "sha256": "92f6aa5fa016e05e0ee29d4b565b9f43feafa90a6c65e7a74d947b42a51009b8"
+      "sha256": "f6f5f8345ccfd31b0da852b11e4eeb6ab2ae3b130ccf7ce11da2c7f7c43ed7f7"
     },
     {
       "path": "en/articles/agent-ten-modules.md",
-      "sha256": "9e8f4102248c94822fe7ac868822ba167726b72a380b9dcf9389ae6a87d414b5"
+      "sha256": "8a782f37bf9c80778fbd313994438e5e51ff3ca099bf766e627f21942aec559e"
     },
     {
       "path": "articles/open-etf-agent-v010-system-design.md",
-      "sha256": "125fd34ac840db9513205777bd6db0cde6e3c0d3da3faea8409166c823d3e451"
+      "sha256": "a4051542b8ffc46e524b06625161773e98dcf3e59b1cf4caffe2d814dc0bd30b"
     },
     {
       "path": "en/articles/open-etf-agent-v010-system-design.md",
-      "sha256": "17974f580bd640092df9e7045c0a7b87e10f8e2bfb379dd02fba029caff43575"
+      "sha256": "cfa145bd496f5163ff19ba58e837a6e925af9003790868ccbe1943f92e13a6cd"
     },
     {
       "path": "articles/open-etf-agent-research-project-workshop.md",
-      "sha256": "de0c5f40de41e5fb84370f1ecfa7d76374ae0535870ad9a628e575621b4d6042"
+      "sha256": "3f0ae4c1f8f2f4e927339010725562dac5e5ec20c1870b49c753ccf9fb3446c7"
     },
     {
       "path": "en/articles/open-etf-agent-research-project-workshop.md",
-      "sha256": "3ddf92bad7923956a95d0e836d558e5a1945f8e9288d993769d3d595db7a6169"
+      "sha256": "7e24846054b8de26104f39d5d8c61efdb91e3fdfe9262ad2f79d6d40f86fd0d3"
     },
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "c0a6d9568522e12ff4609ae6258227e9a8199fc754caae4b85234d90e7376887"
+      "sha256": "a64a73a743f3a1f14b4040bdcf8b04a6464d4fea530f8ac1b212f486d3d4621e"
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "5f3caf3921a0c8eed62f0ab8ac98bcb4a45bd3b3f43d5cb5d81e67716e654af2"
+      "sha256": "6ab857e6e21875f12971b634841e4c0977cfe8c20cd326e0570fe48d9d8e08b6"
     },
     {
       "path": "articles/agent-context-governance-principles.md",
@@ -935,27 +935,27 @@
     },
     {
       "path": "articles/conversation-context-memory-checkpoints.md",
-      "sha256": "1e588c7b2522662ae43dd1dd1e18efbca32b956a1ae485485de05a8c0aec33ab"
+      "sha256": "331a1511d679111aeed759a843eb42fab5947d08813fa9e273a36aa78e9090c8"
     },
     {
       "path": "articles/prompt-context-rag-memory.md",
-      "sha256": "ad43c2cad3429d44e1e025bb8f710de7f5786f4dbbb5273760d460d511c8e5dd"
+      "sha256": "89252be60aee2a4f4a92b72e59728e2a2ebd570f46eea73d7d5aca3e745955a5"
     },
     {
       "path": "articles/tools-function-calling-mcp-skill.md",
-      "sha256": "830a26c1d04dddb5585855fbc1f28adcca13350d1ef235202f39a06ac05fafa4"
+      "sha256": "f18e181b0372dfe46714dd20c97dc0eff35872317c88cf3232878724c77058d5"
     },
     {
       "path": "en/articles/conversation-context-memory-checkpoints.md",
-      "sha256": "922b7e4bd4d0e92b2663fa9349595c3f2cb1a388f7582c8c8a255aae2da4622c"
+      "sha256": "f1255df2cf9f6078c29c2fd6ab995738b1e0d9bb488ad2fe52aa63b80bc7540e"
     },
     {
       "path": "en/articles/prompt-context-rag-memory.md",
-      "sha256": "6f4fbe147dca5f54ec30e61109e1bf0627b41098f081d6d7505143873ba5c4f3"
+      "sha256": "68756effdd22a25d46a3b3eb7ae27fe61e2f78cd58cf4d454dbe33b26577586e"
     },
     {
       "path": "en/articles/tools-function-calling-mcp-skill.md",
-      "sha256": "6ca858c2952866c09e819591a33e873304c98e0d3fe7346208e163c14dc41f4f"
+      "sha256": "d9476618c7d7d576c102a1e235fdae34feacb3a7cbfd73e779f65ea7a07a3f0b"
     },
     {
       "path": "articles/agent-evaluation-effective-identity-reuse.md",
@@ -967,27 +967,27 @@
     },
     {
       "path": "articles/open-etf-agent-report-review-workshop.md",
-      "sha256": "4f3412038aeb73e5b147f4794bd788d7a4fe117b418cc81e18d4676aafa65f99"
+      "sha256": "db97e062a1349a7f4c28cc16ea31e22e6b2a67bd4faec7b92799cb28ed4fb79d"
     },
     {
       "path": "articles/agent-expert-subagent-review-judge.md",
-      "sha256": "053fe318571055825b7b0317fb7603e3fcdeabb5d6aabb935d5338be94d626bc"
+      "sha256": "01e7ad1759edbd3e510c0bb007dcc3bd904606c481304978bede9097c5b7dc6f"
     },
     {
       "path": "articles/agent-task-session-run-worker-schedule.md",
-      "sha256": "87eb9e705231817349025c3f2a168fa1d97374dedc9ba9e03daf7836477a9130"
+      "sha256": "3ef8b790837c982ecb69153cad5e56bea6ee083f3b31424b52da4540b41c68f0"
     },
     {
       "path": "en/articles/open-etf-agent-report-review-workshop.md",
-      "sha256": "d33309ba015ff766600f54d8c9a0c6c83514fde538060172a49c2e261e80f356"
+      "sha256": "202d0f90bfb2e87add7f08fb7f2ffdb393adaa615ce8eecba8313750aa0437d1"
     },
     {
       "path": "en/articles/agent-expert-subagent-review-judge.md",
-      "sha256": "d0951f139055b4a2513c8edfe365a648b702f08aacd517e4178fef71bd3dfa60"
+      "sha256": "a23fac71dc9f86dde0b0d8a450eb67181ca80f3970c056940d7054305c7e8028"
     },
     {
       "path": "en/articles/agent-task-session-run-worker-schedule.md",
-      "sha256": "048370f9d8a0c89a159161ff00503bdcedd785560ec2f70589ea5e0d989f4310"
+      "sha256": "ded26489b030d8ba37613be052e809f8952a73a1e0c7fe894a7f2fae71a6e13b"
     }
   ]
 }
