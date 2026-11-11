@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "29173b2039bb26cc6c58fffbe583d418215baf56",
+  "commit": "060f20d5388896e8b1fa5a5539cee97a2ff75641",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -214,11 +214,11 @@
     },
     {
       "path": "articles/agent-checkpoint-ownership-and-recovery.md",
-      "sha256": "8538f768e6921eafac5284869a99fe18983c8b1640991081db08fae680736943"
+      "sha256": "883cd749d33635edd4ee4c7dc6352514978f3a919d98057108bf38f07f424e94"
     },
     {
       "path": "en/articles/agent-checkpoint-ownership-and-recovery.md",
-      "sha256": "babe0013b96346472eb3fa948a1c8c784309034e3ae6e17f904108f6214981be"
+      "sha256": "a1b180f1d7f27d7f734a644ca1171c211b72dc4f009ec723eee8d0439642e0ff"
     },
     {
       "path": "articles/agent-action-reminder-coordination.md",
@@ -790,11 +790,11 @@
     },
     {
       "path": "articles/honest-agent-evaluation.md",
-      "sha256": "775b33dabaee051a9f9ea56f70c8d5901b49ce549d0705480a8c5b7a93a7a6c9"
+      "sha256": "218ce49bddda333b1edd1948561f92169e602496dbf42d58b0fe3c95259ed173"
     },
     {
       "path": "en/articles/honest-agent-evaluation.md",
-      "sha256": "fc8d55c2c94b4123b1264d683eee357799540a1aa5f60704b3436360d3b6b1af"
+      "sha256": "801728634b63ca731f588d60a79bc2003f3cae10ac7002dab11dd0edb148dfc0"
     },
     {
       "path": "articles/agent-subagent-contribution-evidence.md",
@@ -814,11 +814,11 @@
     },
     {
       "path": "articles/rag-retrieval-evaluation-evidence.md",
-      "sha256": "f55b989711409a8c770ddd224f73e5cbe7852d578906192bc7e9a6053a3f79d3"
+      "sha256": "462d9c6adbe355777f5683a07ae311a977b103d09e718cfb2b71356248840649"
     },
     {
       "path": "en/articles/rag-retrieval-evaluation-evidence.md",
-      "sha256": "22411a80e6b0f93d86521455f1259a68c22fea1e64defaabfc180a6be867f297"
+      "sha256": "91138c4eedd8dcba38e447c439283ed5778b455af17a0f378e2cb7ed29db4654"
     },
     {
       "path": "articles/agent-runtime-refactor-one-day-blocked.md",
@@ -956,6 +956,14 @@
     {
       "path": "en/articles/tools-function-calling-mcp-skill.md",
       "sha256": "6ca858c2952866c09e819591a33e873304c98e0d3fe7346208e163c14dc41f4f"
+    },
+    {
+      "path": "articles/agent-evaluation-effective-identity-reuse.md",
+      "sha256": "a7b9373f3ffbadf78d3bf34b388d4d031ff2ddfaf1ce2cabc6216139f9aa1d11"
+    },
+    {
+      "path": "en/articles/agent-evaluation-effective-identity-reuse.md",
+      "sha256": "c5a2dbb1a93135f3cebd0bb23e4fe0ff19caaf5b86bfa6ef8b7f817724d6a6e1"
     }
   ]
 }
