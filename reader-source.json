@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "060f20d5388896e8b1fa5a5539cee97a2ff75641",
+  "commit": "f2cdb8a2d4ec87aa55430686c7d144c65170687a",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -582,11 +582,11 @@
     },
     {
       "path": "articles/open-etf-agent-research-project-workshop.md",
-      "sha256": "c298b5a4ca206e269f81a4ef7fe3efe6f72c5810584585aa5ce07fd267fd78dc"
+      "sha256": "de0c5f40de41e5fb84370f1ecfa7d76374ae0535870ad9a628e575621b4d6042"
     },
     {
       "path": "en/articles/open-etf-agent-research-project-workshop.md",
-      "sha256": "e086d075d5ace2e7903b9bcd68dd9fa6584c54a8087b977138dd2b39124cfb71"
+      "sha256": "3ddf92bad7923956a95d0e836d558e5a1945f8e9288d993769d3d595db7a6169"
     },
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
@@ -964,6 +964,30 @@
     {
       "path": "en/articles/agent-evaluation-effective-identity-reuse.md",
       "sha256": "c5a2dbb1a93135f3cebd0bb23e4fe0ff19caaf5b86bfa6ef8b7f817724d6a6e1"
+    },
+    {
+      "path": "articles/open-etf-agent-report-review-workshop.md",
+      "sha256": "4f3412038aeb73e5b147f4794bd788d7a4fe117b418cc81e18d4676aafa65f99"
+    },
+    {
+      "path": "articles/agent-expert-subagent-review-judge.md",
+      "sha256": "053fe318571055825b7b0317fb7603e3fcdeabb5d6aabb935d5338be94d626bc"
+    },
+    {
+      "path": "articles/agent-task-session-run-worker-schedule.md",
+      "sha256": "87eb9e705231817349025c3f2a168fa1d97374dedc9ba9e03daf7836477a9130"
+    },
+    {
+      "path": "en/articles/open-etf-agent-report-review-workshop.md",
+      "sha256": "d33309ba015ff766600f54d8c9a0c6c83514fde538060172a49c2e261e80f356"
+    },
+    {
+      "path": "en/articles/agent-expert-subagent-review-judge.md",
+      "sha256": "d0951f139055b4a2513c8edfe365a648b702f08aacd517e4178fef71bd3dfa60"
+    },
+    {
+      "path": "en/articles/agent-task-session-run-worker-schedule.md",
+      "sha256": "048370f9d8a0c89a159161ff00503bdcedd785560ec2f70589ea5e0d989f4310"
     }
   ]
 }
