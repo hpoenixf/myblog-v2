@@ -80,7 +80,8 @@ jobs:
           PUPPETEER_SKIP_DOWNLOAD=1 npm install --no-audit --no-fund
           npm run check:catalog
           npm run docs:build
-          cp -R visuals .vitepress/dist/visuals
+          mkdir -p .vitepress/dist/visuals
+          cp -R visuals/. .vitepress/dist/visuals/
           cd ..
           mkdir -p out/eff-agent-article
           cp -R reader-src/.vitepress/dist/. out/eff-agent-article/
