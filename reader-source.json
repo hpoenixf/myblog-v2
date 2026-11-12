@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "06932f748e02ebaae181c093d18d342decc9cbdd",
+  "commit": "d1c66a4a9060f9476118bfd3e1d038b0fc955df0",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -406,11 +406,11 @@
     },
     {
       "path": "articles/agent-long-horizon-research-panorama.md",
-      "sha256": "2ee3c084140a55a96bb961ec396ba1f0c14033d1d077e1bae02bc3c6ac26a7cc"
+      "sha256": "75e21a40116c4712ceec500be8f382c830c50cecae6aa2d67ffb901b23d0808f"
     },
     {
       "path": "en/articles/agent-long-horizon-research-panorama.md",
-      "sha256": "16d3132cda9b82630879d45a2a46a7ce975a39b2e50b5c7524fb90d140de26d2"
+      "sha256": "545f605de8d0ccc6651ebc8b513ca107e56481aebf19d1e3d0ed41c802d1637d"
     },
     {
       "path": "articles/agent-background-research-collaborative-experience.md",
@@ -975,7 +975,7 @@
     },
     {
       "path": "articles/agent-task-session-run-worker-schedule.md",
-      "sha256": "0440d0c1607a734b10aea0fa64a2f1fd920f810f5cfdefe2a0b3316c2b6b1fb5"
+      "sha256": "dfe78c4d7eeb759bfde14bdd9e22e1bcfb358aa2d0bb0ebbd3d8c4c09a92bc1b"
     },
     {
       "path": "en/articles/open-etf-agent-report-review-workshop.md",
@@ -987,7 +987,7 @@
     },
     {
       "path": "en/articles/agent-task-session-run-worker-schedule.md",
-      "sha256": "58010d79defbed63f2d1f24552ebf5f2b7cc24824f5ae105c21e9277911319d5"
+      "sha256": "d705e5b5f74de465fd987a6362fa9a0e54ea531c074e4bee694ce608f4bdf7c2"
     },
     {
       "path": "articles/agent-spec-driven-development-panorama.md",
@@ -996,6 +996,14 @@
     {
       "path": "en/articles/agent-spec-driven-development-panorama.md",
       "sha256": "75072d335c2226383a1d4560ae293005f4b3ee425008836ef50118aa050b7bd1"
+    },
+    {
+      "path": "articles/agent-half-hour-research-engineering-practice.md",
+      "sha256": "36a01eb61072206f51ab55223aa4538eb974e5567d94a866c3c93a2ea58c8cba"
+    },
+    {
+      "path": "en/articles/agent-half-hour-research-engineering-practice.md",
+      "sha256": "c4ef9b2d7850d0b63eaf1bb04c711c1325e7009e7bf5a56a62523e8bf4519e52"
     }
   ]
 }
