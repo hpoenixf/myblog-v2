@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "12a54f87ea5bbd7ee971c7e49dd95f3942798761",
+  "commit": "25b2128872e5d767326abbe79480e853829239b1",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -999,11 +999,11 @@
     },
     {
       "path": "articles/agent-half-hour-research-engineering-practice.md",
-      "sha256": "36a01eb61072206f51ab55223aa4538eb974e5567d94a866c3c93a2ea58c8cba"
+      "sha256": "25a76fe26df895acc3c6ffb0574409f2d3418856290f8ae45c1b2e18799c34aa"
     },
     {
       "path": "en/articles/agent-half-hour-research-engineering-practice.md",
-      "sha256": "c4ef9b2d7850d0b63eaf1bb04c711c1325e7009e7bf5a56a62523e8bf4519e52"
+      "sha256": "c685cf5cd04feebf383cbae89c7590c9af976caa74fe9b7f29d6dab2d0d1ea62"
     },
     {
       "path": "articles/agent-three-host-lifecycle-architecture.md",
