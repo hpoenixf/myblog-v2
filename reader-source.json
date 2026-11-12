@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "d1c66a4a9060f9476118bfd3e1d038b0fc955df0",
+  "commit": "75916debf634279af4a6521569a38eb93dfff142",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -991,11 +991,11 @@
     },
     {
       "path": "articles/agent-spec-driven-development-panorama.md",
-      "sha256": "1ca0d9e6d40f83a10de43ba518f975672de7391adac815f68de38fcb316eae5c"
+      "sha256": "a1acf34d89825c8a4cf87dabb7e532ad6b56f36bf2fd21d1c61d6dc050a52885"
     },
     {
       "path": "en/articles/agent-spec-driven-development-panorama.md",
-      "sha256": "75072d335c2226383a1d4560ae293005f4b3ee425008836ef50118aa050b7bd1"
+      "sha256": "20d8b6271ace14cbed0e8738fa6388e918b98c8a9af7c39c36d0ee4b6d2581ca"
     },
     {
       "path": "articles/agent-half-hour-research-engineering-practice.md",
