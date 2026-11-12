@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "979158142c7ba645541a5d0798d411fc4d709f4a",
+  "commit": "06932f748e02ebaae181c093d18d342decc9cbdd",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -758,11 +758,11 @@
     },
     {
       "path": "articles/026-agent-spec-evidence-workflow.md",
-      "sha256": "b28b64c6915fabec429996df18c99772fe846f1b733f44b2e474c70f95b1008b"
+      "sha256": "e86c3620d1bb79456da0ac443c024c4ec54578510e8c845319602fc6a6102a1f"
     },
     {
       "path": "en/articles/026-agent-spec-evidence-workflow.md",
-      "sha256": "2dd61a48679eafddb16877af15b8d60c1c7de80174109a2d5bd199a8e9fcfa2d"
+      "sha256": "a686795886eb5edfdaf791eb187cee8919273ddbc2efd40e9557da2d43a3b35f"
     },
     {
       "path": "articles/agent-weekly-review-staged-delivery.md",
@@ -988,6 +988,14 @@
     {
       "path": "en/articles/agent-task-session-run-worker-schedule.md",
       "sha256": "58010d79defbed63f2d1f24552ebf5f2b7cc24824f5ae105c21e9277911319d5"
+    },
+    {
+      "path": "articles/agent-spec-driven-development-panorama.md",
+      "sha256": "1ca0d9e6d40f83a10de43ba518f975672de7391adac815f68de38fcb316eae5c"
+    },
+    {
+      "path": "en/articles/agent-spec-driven-development-panorama.md",
+      "sha256": "75072d335c2226383a1d4560ae293005f4b3ee425008836ef50118aa050b7bd1"
     }
   ]
 }
