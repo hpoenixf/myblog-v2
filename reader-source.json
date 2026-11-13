@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "0d5feadcf62131b2aa7784b486fa6efea03311d3",
+  "commit": "249f0b866f9446f33b57f186fbc6d35b5d82c119",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -166,11 +166,11 @@
     },
     {
       "path": "articles/agent-subagent-context-specialization.md",
-      "sha256": "be425846eaf0e3878d641879a4eff3c5c1ed0d6da46a308a9748a791c0529030"
+      "sha256": "cc7d2159b0a388ef436e4a1bf125ae022d4359a9405713aecb71a89e31da49e6"
     },
     {
       "path": "en/articles/agent-subagent-context-specialization.md",
-      "sha256": "f93b2e7f50d51e49be2831250c869987bfec685b365d629020b2cfc31be841df"
+      "sha256": "39ad58dec3e324ea8b54e052e26228214cfc06fe659aa2659451e41ce061339a"
     },
     {
       "path": "articles/agent-provider-architecture-and-admission.md",
@@ -782,11 +782,11 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "4e952fd3f4850838d2237aab19fe74e5186495d813653672df23018f849d023e"
+      "sha256": "c0af8e5f6217879814459e87a46a2affdab7e4864954be6f036addaa28adeae8"
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "7c175ab296680d533d8b6cfeb6c39047bd7e6df4ba151f727d58f9d79b73ad25"
+      "sha256": "b26d2677ad756bf84a22eee062649333e2e51ded002b2f21389c12c53b69f52c"
     },
     {
       "path": "articles/honest-agent-evaluation.md",
