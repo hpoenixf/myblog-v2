@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "1f92862826be6beac68ef9fc758171d3b52f54d8",
+  "commit": "80ada870acde056ec2c252c21b001d3ea1b44a3f",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -86,11 +86,11 @@
     },
     {
       "path": "articles/agent-research-assets-identity-version-lifecycle.md",
-      "sha256": "3cff5ddd8039e060be14fc58b1a6c0ec0bdaf8cd38bcb6424802283693b696f2"
+      "sha256": "4acd14853db3798d0787f740556a155e352b5e92e0e755a4e43fe5a293780215"
     },
     {
       "path": "en/articles/agent-research-assets-identity-version-lifecycle.md",
-      "sha256": "3958676a32a093699e0f7f8d0f5da8d3e0664375538dc96f379d2f611b47faa8"
+      "sha256": "99d3970fe485d5bd8b723f8e945303c0bbda16796cbff03f46b6bd64c83fb120"
     },
     {
       "path": "articles/026-agent-memory-forget-durable-effects.md",
@@ -782,11 +782,11 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "c0af8e5f6217879814459e87a46a2affdab7e4864954be6f036addaa28adeae8"
+      "sha256": "c5cfc08e313f2a8b077fb4719f57e4c44f1061bb77f8248c1ab5380e9396097e"
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "b26d2677ad756bf84a22eee062649333e2e51ded002b2f21389c12c53b69f52c"
+      "sha256": "da7ee2c70f309e1b6bc7e83d7a77b134756f96ddaacd2c3cba703285f71ec63b"
     },
     {
       "path": "articles/honest-agent-evaluation.md",
