@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "a3bb66372dac9b9a32558bbcbee3aebcfb9cf00d",
+  "commit": "1f92862826be6beac68ef9fc758171d3b52f54d8",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -214,11 +214,11 @@
     },
     {
       "path": "articles/agent-checkpoint-ownership-and-recovery.md",
-      "sha256": "883cd749d33635edd4ee4c7dc6352514978f3a919d98057108bf38f07f424e94"
+      "sha256": "3db5ddc8d7985170518787a4aa7032637839d24c7cd3f6890b79bc0e877d3dc3"
     },
     {
       "path": "en/articles/agent-checkpoint-ownership-and-recovery.md",
-      "sha256": "a1b180f1d7f27d7f734a644ca1171c211b72dc4f009ec723eee8d0439642e0ff"
+      "sha256": "d061c86575c11a0048f6cd10421505b616188d0796a41aa63368121b75700b89"
     },
     {
       "path": "articles/agent-action-reminder-coordination.md",
@@ -886,11 +886,11 @@
     },
     {
       "path": "articles/agent-evaluation-set-for-iteration.md",
-      "sha256": "33bdc582aa0c21135c578be90b80c162260ed317323f6c84f4b55b4e1e3d3b5c"
+      "sha256": "fd4a0006ea7d824c60a1c1797eb3703999556b07a9165a40f4556c27cb455a27"
     },
     {
       "path": "en/articles/agent-evaluation-set-for-iteration.md",
-      "sha256": "bbaaf9903b20244b44e87f17cc627e08b3ed1b8eef24fec3f725f376fe012529"
+      "sha256": "156a54846643cd14af33826b84f63a55e54d739cdc2739d2faec7a9bea6cfc42"
     },
     {
       "path": "articles/agent-deep-research-resource-and-delivery.md",
@@ -939,7 +939,7 @@
     },
     {
       "path": "articles/prompt-context-rag-memory.md",
-      "sha256": "89252be60aee2a4f4a92b72e59728e2a2ebd570f46eea73d7d5aca3e745955a5"
+      "sha256": "8d11a6d013d32e95ee039ec126968f0a639a77945ebb87f3e3a74289e20d97bc"
     },
     {
       "path": "articles/tools-function-calling-mcp-skill.md",
@@ -951,7 +951,7 @@
     },
     {
       "path": "en/articles/prompt-context-rag-memory.md",
-      "sha256": "68756effdd22a25d46a3b3eb7ae27fe61e2f78cd58cf4d454dbe33b26577586e"
+      "sha256": "16c4455456a189eca866227c14534ba8d894179d1425c3caf85d0206ba48c68f"
     },
     {
       "path": "en/articles/tools-function-calling-mcp-skill.md",
@@ -1015,11 +1015,19 @@
     },
     {
       "path": "articles/agent-multi-agent-value-evaluation.md",
-      "sha256": "097e677d523b30b5e2376489e542e575994d52cf2ddb5b4547cb10082406c2a2"
+      "sha256": "e01460704e81f55d6ab0cb39dcd0d525df747a91230ec14118533e75cf2b3764"
     },
     {
       "path": "en/articles/agent-multi-agent-value-evaluation.md",
-      "sha256": "5b60b18ad1a58d470b3af67250d84166a20dd3cfac48365c887b36fa323f51bf"
+      "sha256": "642bc3c7e91a5c290d0233a46d67f0a8584ec4528cd7a718ca0724d74733cd61"
+    },
+    {
+      "path": "articles/agent-document-navigation-after-empty-search.md",
+      "sha256": "4503ef173b9bfd5ef1ccf0f32d45c319075b95947355d5edd9d1f8e428995616"
+    },
+    {
+      "path": "en/articles/agent-document-navigation-after-empty-search.md",
+      "sha256": "dacfa215e6b28fd5f3f6b37d5b1aa5455213ee0e6b38aabf50ec7fa3c9def2f1"
     }
   ]
 }
