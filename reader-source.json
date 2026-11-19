@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "6b72c2cfa476e8d96334e1fcc5cb562c1fd254f8",
+  "commit": "1123d5167b926c0f50e8e198b7d8c53803b9e80f",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -967,7 +967,7 @@
     },
     {
       "path": "articles/open-etf-agent-report-review-workshop.md",
-      "sha256": "db97e062a1349a7f4c28cc16ea31e22e6b2a67bd4faec7b92799cb28ed4fb79d"
+      "sha256": "d53a734ed610d5f871872cfb0339bc426bb5dd4a34c6682c5dbc371a80a56d51"
     },
     {
       "path": "articles/agent-expert-subagent-review-judge.md",
@@ -979,7 +979,7 @@
     },
     {
       "path": "en/articles/open-etf-agent-report-review-workshop.md",
-      "sha256": "202d0f90bfb2e87add7f08fb7f2ffdb393adaa615ce8eecba8313750aa0437d1"
+      "sha256": "edb2b82d82e440261ff07bb90c8c14e914d0d38cef58b846ba1e6c3b975713ea"
     },
     {
       "path": "en/articles/agent-expert-subagent-review-judge.md",
@@ -1028,6 +1028,14 @@
     {
       "path": "en/articles/agent-document-navigation-after-empty-search.md",
       "sha256": "dacfa215e6b28fd5f3f6b37d5b1aa5455213ee0e6b38aabf50ec7fa3c9def2f1"
+    },
+    {
+      "path": "articles/open-etf-agent-material-version-workshop.md",
+      "sha256": "2231c64406cd45c3d75c69e0e198de42a917df0db4633345c16c2987940f2689"
+    },
+    {
+      "path": "en/articles/open-etf-agent-material-version-workshop.md",
+      "sha256": "680ad7256916af2933811bb8576faebf624b4bc1afcb95e1d881da85b1157043"
     }
   ]
 }
