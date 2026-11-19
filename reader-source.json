@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "43be7ca0b4e97a77eacf86fe6c2a535bad0b3a89",
+  "commit": "9f231d3b1faf3d6e9a7a72256ddab6ccda375c11",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -1015,11 +1015,11 @@
     },
     {
       "path": "articles/agent-multi-agent-value-evaluation.md",
-      "sha256": "e01460704e81f55d6ab0cb39dcd0d525df747a91230ec14118533e75cf2b3764"
+      "sha256": "f6f4309dfacd37cfc84785de7447e69bc15626a4bd849976eb2e366c7b441e9e"
     },
     {
       "path": "en/articles/agent-multi-agent-value-evaluation.md",
-      "sha256": "642bc3c7e91a5c290d0233a46d67f0a8584ec4528cd7a718ca0724d74733cd61"
+      "sha256": "02f32ba549908ca74f54499ca12a59c39615a888b1d414f70798b833e49b3cbc"
     },
     {
       "path": "articles/agent-document-navigation-after-empty-search.md",
