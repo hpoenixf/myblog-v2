@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "9dca9b59d4bc10c69dbcd8708c6f2859001a9f6d",
+  "commit": "c7f1f99a8f165ab426a9987a751f020ec896774b",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -590,11 +590,11 @@
     },
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "a64a73a743f3a1f14b4040bdcf8b04a6464d4fea530f8ac1b212f486d3d4621e"
+      "sha256": "459358bb3a319453f733a6086146b8eb2c6e169dced628f1effb8ebb95db8a7e"
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "6ab857e6e21875f12971b634841e4c0977cfe8c20cd326e0570fe48d9d8e08b6"
+      "sha256": "55acb659d2f994f2de34635fb110428383d42586845b13fa6e2cac6bd29fcc21"
     },
     {
       "path": "articles/agent-context-governance-principles.md",
@@ -1031,11 +1031,11 @@
     },
     {
       "path": "articles/open-etf-agent-material-version-workshop.md",
-      "sha256": "2231c64406cd45c3d75c69e0e198de42a917df0db4633345c16c2987940f2689"
+      "sha256": "02400af53f1fc9118ad416fff6fcc15862870d36f2a93c840403db9b031c7708"
     },
     {
       "path": "en/articles/open-etf-agent-material-version-workshop.md",
-      "sha256": "680ad7256916af2933811bb8576faebf624b4bc1afcb95e1d881da85b1157043"
+      "sha256": "63906c0245480a0ea69b7b23b4af3fe0bc3aa87e3208d313d2c273ac341446e1"
     },
     {
       "path": "articles/open-etf-agent-wind-fund-workshop.md",
@@ -1044,6 +1044,14 @@
     {
       "path": "en/articles/open-etf-agent-wind-fund-workshop.md",
       "sha256": "fb2176371677375019dd818668297769ccd03e7b80613335b3dee290868c43dd"
+    },
+    {
+      "path": "articles/open-etf-agent-evidence-and-history-workshop.md",
+      "sha256": "05c23eb452b49694fb8ce0f4d2d2e111d8b241e5dcaba3941f15e6b6fad1ecc2"
+    },
+    {
+      "path": "en/articles/open-etf-agent-evidence-and-history-workshop.md",
+      "sha256": "f6e2e5bd34daa9aad0ab8ac7ca8d6d9534b84fd6ebc5f192f01182929d1bba86"
     }
   ]
 }
