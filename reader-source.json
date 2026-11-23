@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "e9e33242b10a548e236b98311a21ee00ec215ac9",
+  "commit": "cda4cc530641bd20e08ac2b172f614c620b33a36",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -1068,6 +1068,14 @@
     {
       "path": "en/articles/open-etf-agent-staged-deployment.md",
       "sha256": "0852dd112e87d6d8a7e5e34fbc1b34b47bfeba25e45f5cf351a2d2504a174abe"
+    },
+    {
+      "path": "articles/financial-agent-from-talk-to-research.md",
+      "sha256": "1e3bc5a5028993a0b52ede1c2d2387cf8d9d93f40196f0e0f6678240f1223b5e"
+    },
+    {
+      "path": "en/articles/financial-agent-from-talk-to-research.md",
+      "sha256": "2d77e1220fe5760aacdd76e130ee0ce681e8b4cfcfe12431a5698ab68342418c"
     }
   ]
 }
