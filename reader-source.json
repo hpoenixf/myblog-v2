@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "fbaa444992b87f82847560746a3be619c1514230",
+  "commit": "e9e33242b10a548e236b98311a21ee00ec215ac9",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -590,11 +590,11 @@
     },
     {
       "path": "articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "459358bb3a319453f733a6086146b8eb2c6e169dced628f1effb8ebb95db8a7e"
+      "sha256": "60a690b1037e550606a83bad2be43d345ed395a9468f5fff3becc8c01034f6fc"
     },
     {
       "path": "en/articles/017-prompt-to-answer-six-layer-panorama-v3.md",
-      "sha256": "55acb659d2f994f2de34635fb110428383d42586845b13fa6e2cac6bd29fcc21"
+      "sha256": "e846d11a77c5582c83520cedd7a034362a3e5bad5c87c7215130df1a73b3f0f6"
     },
     {
       "path": "articles/agent-context-governance-principles.md",
@@ -1047,11 +1047,27 @@
     },
     {
       "path": "articles/open-etf-agent-evidence-and-history-workshop.md",
-      "sha256": "05c23eb452b49694fb8ce0f4d2d2e111d8b241e5dcaba3941f15e6b6fad1ecc2"
+      "sha256": "d923bc56964864f5fa5c8ec4612fecdc3be9eb6bee26d8bbe9f329f16b03553d"
     },
     {
       "path": "en/articles/open-etf-agent-evidence-and-history-workshop.md",
-      "sha256": "f6e2e5bd34daa9aad0ab8ac7ca8d6d9534b84fd6ebc5f192f01182929d1bba86"
+      "sha256": "3181b8f7a522adcdc56231b24f19d5492d4ccbe76c865ce301ca45f585833e75"
+    },
+    {
+      "path": "articles/open-etf-agent-research-workbench.md",
+      "sha256": "4b98c8b1a5d6a9123909499936858e013fa7e38adb4b3863af1e6c1f732c4439"
+    },
+    {
+      "path": "articles/open-etf-agent-staged-deployment.md",
+      "sha256": "363affe7e4742fcdd7b3ecdc1233a5922e3919c6b674a712352a05c92cbc0572"
+    },
+    {
+      "path": "en/articles/open-etf-agent-research-workbench.md",
+      "sha256": "8845a8dccbffd978bac54110cb31521245161b4523cbef9c4ef3dc09eea69625"
+    },
+    {
+      "path": "en/articles/open-etf-agent-staged-deployment.md",
+      "sha256": "0852dd112e87d6d8a7e5e34fbc1b34b47bfeba25e45f5cf351a2d2504a174abe"
     }
   ]
 }
