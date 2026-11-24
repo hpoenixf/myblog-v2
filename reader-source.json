@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "3ca602a0ddfcd255c552ad02a83a6d243ae0c5d6",
+  "commit": "8ed23b7c67c52b15b2696bcdb4580d6df12e11ab",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -230,11 +230,11 @@
     },
     {
       "path": "articles/021-agent-web-research-from-search-to-deep-reading.md",
-      "sha256": "a2c7d6eff56f77e94d3a388958f4a7f02ace2920001bb7baf38347352b2b5798"
+      "sha256": "cbe7b4c3296fc60e52f30ed77b12d090db5aa6c73ca28c800796bc2dbf3e1560"
     },
     {
       "path": "en/articles/021-agent-web-research-from-search-to-deep-reading.md",
-      "sha256": "6b53877ed52bd9d63ee85b7afbb485fd436ec74092da60c2343062fee3bba36e"
+      "sha256": "31b5f1d7958dd19288d13e6ec53b56dd4278627b4e3488911c24e26f91f80bea"
     },
     {
       "path": "articles/024-agent-pdf-from-text-to-evidence.md",
@@ -350,11 +350,11 @@
     },
     {
       "path": "articles/019-agent-answer-publication.md",
-      "sha256": "4be637db4e0fe19066be5180a366df83640be66f2c06ebff467235e3e65f0d0a"
+      "sha256": "a70fa3596a5f61f80933db8dd0b9d3c543517e3321ffd17a7159e185aa2bf8d0"
     },
     {
       "path": "en/articles/019-agent-answer-publication.md",
-      "sha256": "225bb8b489a4b44f66cb2019f0f173614217a35e5b24ba0eaeb77c9bf2ef4552"
+      "sha256": "7c7a2d3a8d76dc460c723b276492f41a1a379e4d19ceb2a68a326cc0239edce9"
     },
     {
       "path": "articles/agent-artifact-version-access-sharing.md",
@@ -782,11 +782,11 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "c5cfc08e313f2a8b077fb4719f57e4c44f1061bb77f8248c1ab5380e9396097e"
+      "sha256": "80fe3a4a48ee0428555226c15e02a1d900175f4008ee4bb8def21eeb4605cce1"
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "da7ee2c70f309e1b6bc7e83d7a77b134756f96ddaacd2c3cba703285f71ec63b"
+      "sha256": "925a111b570e8efbc8c69e594b23ae77d8fd55a0bb05d8ecf48baee9d0bda45c"
     },
     {
       "path": "articles/honest-agent-evaluation.md",
@@ -1055,7 +1055,7 @@
     },
     {
       "path": "articles/open-etf-agent-research-workbench.md",
-      "sha256": "4b98c8b1a5d6a9123909499936858e013fa7e38adb4b3863af1e6c1f732c4439"
+      "sha256": "c1ff8b75c1eb5f6647596a80491e584642128d10dc1ce31a9014105e2f7b10a3"
     },
     {
       "path": "articles/open-etf-agent-staged-deployment.md",
@@ -1063,7 +1063,7 @@
     },
     {
       "path": "en/articles/open-etf-agent-research-workbench.md",
-      "sha256": "8845a8dccbffd978bac54110cb31521245161b4523cbef9c4ef3dc09eea69625"
+      "sha256": "92e54c8bf5c3685583be214c8758e217f5229d9b41cb36b5cf49ae4e6dd49670"
     },
     {
       "path": "en/articles/open-etf-agent-staged-deployment.md",
@@ -1076,6 +1076,14 @@
     {
       "path": "en/articles/financial-agent-from-talk-to-research.md",
       "sha256": "2d77e1220fe5760aacdd76e130ee0ce681e8b4cfcfe12431a5698ab68342418c"
+    },
+    {
+      "path": "articles/open-etf-agent-verify-and-reopen-research.md",
+      "sha256": "d3cc39b6fd0239668b0174ac09c32821ce334a6977d617c5b72ad742eb6b30c3"
+    },
+    {
+      "path": "en/articles/open-etf-agent-verify-and-reopen-research.md",
+      "sha256": "f4d614f9f03c433019e62b9edeab85bd75c2d49b90ec7f76704c71239f35394a"
     }
   ]
 }
