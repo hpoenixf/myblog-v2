@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "08626a09761d1156c128a816310f16f8c7bb28b1",
+  "commit": "741ee234e9c8c4cf8492b3de6109d032d8a15150",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -262,11 +262,11 @@
     },
     {
       "path": "articles/agent-skill-from-markdown-to-callable-research.md",
-      "sha256": "65596c2a87573ee683285cfe95caeb0372d7ec41690af737d5ee0a3e8d13807b"
+      "sha256": "326503fec0df695f87b465cb7272382b3cd91293b8e077365f91ed67309951af"
     },
     {
       "path": "en/articles/agent-skill-from-markdown-to-callable-research.md",
-      "sha256": "dd0d5d7531d4916c62e3c022a80b9ee183377171646cba579a02936800a04b54"
+      "sha256": "053168b3ce533298dbe9d2113951a77e9ebfd086c4420274de801a6e76a793f6"
     },
     {
       "path": "articles/agent-numeric-kernel-exact-units-rounding.md",
@@ -542,11 +542,11 @@
     },
     {
       "path": "articles/031-fintech-data-time-and-reproducible-numbers.md",
-      "sha256": "f559e630358126c385e13a6d078dde427e59445e383b5cb93002a26c45c6d329"
+      "sha256": "1039b4f563c42c9d5453b4ba510a73a9fc2a18acea93119494ea10d5190c0df7"
     },
     {
       "path": "en/articles/031-fintech-data-time-and-reproducible-numbers.md",
-      "sha256": "0afabbe594ccd3612c952916381ddf28fea09fdb7000771a654045f054ed7312"
+      "sha256": "26a57100ed56a262ab3a4e052cb5abba88879bfb17209a9dddfde16556427c02"
     },
     {
       "path": "articles/financial-agent-python-result-consumption.md",
@@ -782,11 +782,11 @@
     },
     {
       "path": "articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "c61f9c5ff625aa81d10cb9fb7bfb32e4225505a52ef31dfb1ef75d2cc185da18"
+      "sha256": "f7b4922413f388c1740a49d63e2a98ff27d1ef97db53f28e94eaa93933c67199"
     },
     {
       "path": "en/articles/open-etf-agent-v01-first-readable-report.md",
-      "sha256": "7daa7c0aabf7c7c0a1add0d115040d24c1cb47147730d2108163559ff7ed8a80"
+      "sha256": "26efe5303e6258290663ba5dc1f947b1b03c59c74ee0fe864e555ac900cb8be4"
     },
     {
       "path": "articles/honest-agent-evaluation.md",
@@ -1059,7 +1059,7 @@
     },
     {
       "path": "articles/open-etf-agent-staged-deployment.md",
-      "sha256": "363affe7e4742fcdd7b3ecdc1233a5922e3919c6b674a712352a05c92cbc0572"
+      "sha256": "2d596a95002d0ebc9d29f443962b7fc4495ea1f23552aad4db6e17054f65f863"
     },
     {
       "path": "en/articles/open-etf-agent-research-workbench.md",
@@ -1067,7 +1067,7 @@
     },
     {
       "path": "en/articles/open-etf-agent-staged-deployment.md",
-      "sha256": "0852dd112e87d6d8a7e5e34fbc1b34b47bfeba25e45f5cf351a2d2504a174abe"
+      "sha256": "31b8313d04d28667f31a4d5df09719e6371d94eceee81444577721df11216d5c"
     },
     {
       "path": "articles/financial-agent-from-talk-to-research.md",
@@ -1079,11 +1079,11 @@
     },
     {
       "path": "articles/open-etf-agent-verify-and-reopen-research.md",
-      "sha256": "4144898446372b640590c21ed7c808e4c9163fde26b193fb8defa2a19278f568"
+      "sha256": "360f59c7b2402048cbedc4ce5a331d6dbafa39445b2b9a3910e9e754c0f4b723"
     },
     {
       "path": "en/articles/open-etf-agent-verify-and-reopen-research.md",
-      "sha256": "ef8401477e0952ab4c774bc013f99e050520332877cb0fc5581ecd8c0e3c6172"
+      "sha256": "d7d880c7c810b95e6e51878d49f9905323e02f43d5667ac204b3fa43223eab64"
     },
     {
       "path": "articles/open-etf-agent-prove-delivery.md",
@@ -1092,6 +1092,14 @@
     {
       "path": "en/articles/open-etf-agent-prove-delivery.md",
       "sha256": "031a47a7d8cadad4750c5c0d2a61ff3633d742b46160c1854bf9512179b25de0"
+    },
+    {
+      "path": "articles/open-etf-agent-four-offline-cli-workshops.md",
+      "sha256": "7f0a2bcbd30f205f0326835cdb6239dbbcff1e7c989ceed6027536ee264ee062"
+    },
+    {
+      "path": "en/articles/open-etf-agent-four-offline-cli-workshops.md",
+      "sha256": "7ee471d8fdbdea0029c66716f7dfe8d1f044b627a83b97b102e65911461bf3c2"
     }
   ]
 }
