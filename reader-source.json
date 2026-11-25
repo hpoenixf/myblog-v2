@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "ae81177cfbcd6bcc7d84dafb79ac8dc3daab0767",
+  "commit": "08626a09761d1156c128a816310f16f8c7bb28b1",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -1079,11 +1079,19 @@
     },
     {
       "path": "articles/open-etf-agent-verify-and-reopen-research.md",
-      "sha256": "d3cc39b6fd0239668b0174ac09c32821ce334a6977d617c5b72ad742eb6b30c3"
+      "sha256": "4144898446372b640590c21ed7c808e4c9163fde26b193fb8defa2a19278f568"
     },
     {
       "path": "en/articles/open-etf-agent-verify-and-reopen-research.md",
-      "sha256": "f4d614f9f03c433019e62b9edeab85bd75c2d49b90ec7f76704c71239f35394a"
+      "sha256": "ef8401477e0952ab4c774bc013f99e050520332877cb0fc5581ecd8c0e3c6172"
+    },
+    {
+      "path": "articles/open-etf-agent-prove-delivery.md",
+      "sha256": "ba197fc051a92f556004869d688fb065d025d4115732f12f4e0669bfada43980"
+    },
+    {
+      "path": "en/articles/open-etf-agent-prove-delivery.md",
+      "sha256": "031a47a7d8cadad4750c5c0d2a61ff3633d742b46160c1854bf9512179b25de0"
     }
   ]
 }
