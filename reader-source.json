@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "741ee234e9c8c4cf8492b3de6109d032d8a15150",
+  "commit": "d9e391c6ff29a8d43b107beaee9382fbc3ce979d",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -1100,6 +1100,14 @@
     {
       "path": "en/articles/open-etf-agent-four-offline-cli-workshops.md",
       "sha256": "7ee471d8fdbdea0029c66716f7dfe8d1f044b627a83b97b102e65911461bf3c2"
+    },
+    {
+      "path": "articles/agent-code-mode-read-only-tool-orchestration.md",
+      "sha256": "0cb8e940a349be6f83fb2246bc37c2870e98abdb665e58be75ae4d72c4e04df1"
+    },
+    {
+      "path": "en/articles/agent-code-mode-read-only-tool-orchestration.md",
+      "sha256": "bd3ed3f26b636dfa9ef099ee6ffa636a38089eab6fa29c485b8b6bff62e6f808"
     }
   ]
 }
