@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "hpoenixf/eff-agent-article",
-  "commit": "d9e391c6ff29a8d43b107beaee9382fbc3ce979d",
+  "commit": "b5e80e794ffa2d2784c10fd399916dc0685a75a8",
   "baseUrl": "https://hpoenixf.com/eff-agent-article/",
   "files": [
     {
@@ -1103,11 +1103,11 @@
     },
     {
       "path": "articles/agent-code-mode-read-only-tool-orchestration.md",
-      "sha256": "0cb8e940a349be6f83fb2246bc37c2870e98abdb665e58be75ae4d72c4e04df1"
+      "sha256": "37a2fc501b3062b61c3f92ecfce7486940eecbbdfddcc6b8cdb7301f38ac5743"
     },
     {
       "path": "en/articles/agent-code-mode-read-only-tool-orchestration.md",
-      "sha256": "bd3ed3f26b636dfa9ef099ee6ffa636a38089eab6fa29c485b8b6bff62e6f808"
+      "sha256": "c2ffb4bdaef3c2d6bea741a4151cea2d493bf3f9da37aacd88e64ba81dd08c19"
     }
   ]
 }
